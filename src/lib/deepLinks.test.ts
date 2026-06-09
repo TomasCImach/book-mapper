@@ -2,6 +2,15 @@ import { describe, expect, it } from 'vitest'
 import { resolveDeepLinkSelection } from './deepLinks'
 
 describe('deep link selection', () => {
+  it('opens book overview pages at the completed route', () => {
+    expect(
+      resolveDeepLinkSelection('/books/around-the-world-in-eighty-days/', ''),
+    ).toEqual({
+      bookId: 'around-the-world-in-eighty-days',
+      chapter: 37,
+    })
+  })
+
   it('opens book route pages at the completed route', () => {
     expect(
       resolveDeepLinkSelection(

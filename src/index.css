@@ -26,12 +26,13 @@ body {
   min-height: 100svh;
 }
 
-body.seo-static-page {
-  background: #f4efe3;
-  color: #1c1a17;
+html.interactive-app-mounted,
+html.interactive-app-mounted body {
+  height: 100%;
+  overflow: hidden;
 }
 
-body.seo-static-page #app-root:empty {
+html.interactive-app-mounted .seo-document {
   display: none;
 }
 

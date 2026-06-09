@@ -1,21 +1,9 @@
 import { availableBooks, bookModels, getBookModel } from '../data/journey'
+import { classifyPageRoute } from './pageRoutes'
 
 export type DeepLinkSelection = {
   bookId: string
   chapter?: number
-}
-
-function cleanPath(pathname: string) {
-  return pathname
-    .split('/')
-    .map((part) => decodeURIComponent(part.trim()))
-    .filter(Boolean)
-}
-
-function parseChapterSlug(slug: string | undefined) {
-  const match = slug?.match(/^chapter-(\d+)$/)
-
-  return match ? Number(match[1]) : undefined
 }
 
 function getLastChapter(bookId: string) {
@@ -54,20 +42,31 @@ export function resolveDeepLinkSelection(
     }
   }
 
-  const parts = cleanPath(pathname)
+  const route = classifyPageRoute(pathname)
 
-  if (parts[0] === 'books' && parts[1] && bookModels[parts[1]]) {
-    const bookId = parts[1]
-    const chapter = parseChapterSlug(parts[2])
-
+  if (route.kind === 'book' && bookModels[route.bookId]) {
     return {
-      bookId,
-      chapter: chapter ?? (parts[2] === 'route' ? getLastChapter(bookId) : undefined),
+      bookId: route.bookId,
+      chapter: getLastChapter(route.bookId),
     }
   }
 
-  if (parts[0] === 'locations' && parts[1]) {
-    return resolveLocationSelection(parts[1])
+  if (route.kind === 'book-route' && bookModels[route.bookId]) {
+    return {
+      bookId: route.bookId,
+      chapter: getLastChapter(route.bookId),
+    }
+  }
+
+  if (route.kind === 'chapter' && bookModels[route.bookId]) {
+    return {
+      bookId: route.bookId,
+      chapter: route.chapter,
+    }
+  }
+
+  if (route.kind === 'location') {
+    return resolveLocationSelection(route.locationId)
   }
 
   return null

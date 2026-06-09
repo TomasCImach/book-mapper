@@ -2,11 +2,11 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
+import { classifyPageRoute, isMapCapableRoute } from './lib/pageRoutes'
 
 const appRoot = document.getElementById('app-root')
-const params = new URLSearchParams(window.location.search)
 const shouldRenderInteractiveApp =
-  appRoot && (!appRoot.dataset.staticSeoPage || params.get('view') === 'map')
+  appRoot && isMapCapableRoute(classifyPageRoute(window.location.pathname))
 
 if (shouldRenderInteractiveApp) {
   createRoot(appRoot).render(

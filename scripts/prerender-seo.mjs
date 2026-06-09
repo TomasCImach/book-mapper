@@ -151,6 +151,7 @@ function booksIndexPage(activeModels) {
           <td>${model.routeSegments.length}</td>
           <td>${formatDistance(getCumulativeDistanceKm(model))}</td>
           <td>${escapeHtml(waypointName(model, first.from))} to ${escapeHtml(waypointName(model, last.to))}</td>
+          <td><a class="seo-action-secondary" href="${bookPath(book)}">Open map</a></td>
         </tr>`
     })
     .join('')
@@ -162,6 +163,10 @@ function booksIndexPage(activeModels) {
         <article class="seo-card">
           <h3><a href="${bookPath(book)}">${escapeHtml(book.title)}</a></h3>
           <p>${escapeHtml(book.author)}. Includes <a href="${routePath(book)}">complete route table</a> and ${book.chapters.length} chapter map pages.</p>
+          <div class="seo-actions">
+            <a class="seo-action" href="${bookPath(book)}">Open map</a>
+            <a class="seo-action-secondary" href="${routePath(book)}">Route table</a>
+          </div>
         </article>`
     })
     .join('')
@@ -197,6 +202,7 @@ function booksIndexPage(activeModels) {
               <th>Segments</th>
               <th>Mapped distance</th>
               <th>Route span</th>
+              <th>Map</th>
             </tr>
           </thead>
           <tbody>${rows}</tbody>
@@ -231,6 +237,9 @@ function authorsIndexPage(activeModels) {
         <article class="seo-card">
           <h3><a href="${authorPath(author)}">${escapeHtml(author)}</a></h3>
           <p>${authorModels.length} mapped book${authorModels.length === 1 ? '' : 's'}, ${formatDistance(mappedDistance)}, and ${authorModels.reduce((total, model) => total + model.routeSegments.length, 0)} route segments.</p>
+          <div class="seo-actions">
+            <a class="seo-action" href="${authorPath(author)}">View books</a>
+          </div>
         </article>`
     })
     .join('')
@@ -312,6 +321,7 @@ function locationsIndexPage(activeModels) {
           <td>${formatCoordinate(location.position.lon, 'lon')}</td>
           <td>${location.position.depthKm ? `${location.position.depthKm} km` : 'surface'}</td>
           <td>${books}</td>
+          <td><a class="seo-action-secondary" href="${locationPath(location.id)}">Open map</a></td>
         </tr>`
     })
     .join('')
@@ -322,6 +332,9 @@ function locationsIndexPage(activeModels) {
         <article class="seo-card">
           <h3><a href="${locationPath(location.id)}">${escapeHtml(location.name)}</a></h3>
           <p>${formatCoordinate(location.position.lat, 'lat')}, ${formatCoordinate(location.position.lon, 'lon')}. Appears in ${location.appearances.length} mapped waypoint record${location.appearances.length === 1 ? '' : 's'}.</p>
+          <div class="seo-actions">
+            <a class="seo-action" href="${locationPath(location.id)}">Open map</a>
+          </div>
         </article>`,
     )
     .join('')
@@ -356,6 +369,7 @@ function locationsIndexPage(activeModels) {
               <th>Longitude</th>
               <th>Depth</th>
               <th>Mapped books</th>
+              <th>Map</th>
             </tr>
           </thead>
           <tbody>${rows}</tbody>
@@ -613,12 +627,23 @@ function chapterPage(model, chapterNumber) {
 
 function authorPages(activeModels) {
   return getAuthorGroups(activeModels).map(({ author, authorModels }) => {
-    const items = authorModels
+    const cards = authorModels
       .map(
-        (model) =>
-          `<li><a href="${bookPath(model.book)}">${escapeHtml(model.book.title)}</a>: ${model.routeSegments.length} mapped segments, ${formatDistance(getCumulativeDistanceKm(model))}.</li>`,
+        (model) => `
+          <article class="seo-card">
+            <h3><a href="${bookPath(model.book)}">${escapeHtml(model.book.title)}</a></h3>
+            <p>${model.book.chapters.length} chapters, ${model.routeSegments.length} mapped segments, ${formatDistance(getCumulativeDistanceKm(model))}.</p>
+            <div class="seo-actions">
+              <a class="seo-action" href="${bookPath(model.book)}">Open map</a>
+              <a class="seo-action-secondary" href="${routePath(model.book)}">Route table</a>
+            </div>
+          </article>`,
       )
       .join('')
+    const mappedDistance = authorModels.reduce(
+      (total, model) => total + getCumulativeDistanceKm(model),
+      0,
+    )
 
     return {
       route: authorPath(author),
@@ -634,8 +659,14 @@ function authorPages(activeModels) {
         ])}
         <p class="seo-kicker">Author atlas</p>
         <h1>${escapeHtml(author)} maps and literary routes</h1>
-        <p>This author page collects every ${escapeHtml(author)} work currently mapped by Book Mapper. Each book links to a route overview, full path table, and chapter-by-chapter map notes.</p>
-        <ul>${items}</ul>`,
+        <p>Every mapped ${escapeHtml(author)} book is listed here with direct map and route-table actions.</p>
+        <div class="seo-summary-grid">
+          ${statCard('Mapped books', String(authorModels.length))}
+          ${statCard('Route segments', String(authorModels.reduce((total, model) => total + model.routeSegments.length, 0)))}
+          ${statCard('Chapter pages', String(authorModels.reduce((total, model) => total + model.book.chapters.length, 0)))}
+          ${statCard('Mapped distance', formatDistance(mappedDistance))}
+        </div>
+        <div class="seo-card-grid">${cards}</div>`,
       jsonLd: [
         {
           '@context': 'https://schema.org',
@@ -748,7 +779,8 @@ function writePage(page) {
 
 function renderHtml(page) {
   const canonical = `${siteUrl}${page.route}`
-  const isStaticSeoPage = page.route !== '/'
+  const isCatalogRoute = isCatalogPageRoute(page.route)
+  const bodyClass = isCatalogRoute ? 'seo-catalog-page' : 'seo-map-page'
   const jsonLd = page.jsonLd
     .map((item) => {
       const json = JSON.stringify(item).replace(/</g, '\\u003c')
@@ -774,16 +806,7 @@ function renderHtml(page) {
     </article>`
 
   return template
-    .replace(
-      '<body>',
-      isStaticSeoPage ? '<body class="seo-static-page">' : '<body>',
-    )
-    .replace(
-      '<div id="app-root"></div>',
-      isStaticSeoPage
-        ? '<div id="app-root" data-static-seo-page="true"></div>'
-        : '<div id="app-root"></div>',
-    )
+    .replace('<body>', `<body class="${bodyClass}">`)
     .replace(/<title>.*?<\/title>/s, `<title>${escapeHtml(page.title)}</title>`)
     .replace(
       /<meta\s+name="description"\s+content="[^"]*"\s*\/?>/i,
@@ -799,6 +822,15 @@ function outputFileForRoute(route) {
   }
 
   return path.join(distDir, route.replace(/^\/|\/$/g, ''), 'index.html')
+}
+
+function isCatalogPageRoute(route) {
+  return (
+    route === '/books/' ||
+    route === '/authors/' ||
+    route === '/locations/' ||
+    route.startsWith('/authors/')
+  )
 }
 
 function writeSitemap(activePages) {
