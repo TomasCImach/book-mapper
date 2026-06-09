@@ -20,6 +20,7 @@ import {
   formatSlope,
   getChapterRouteAnalysis,
 } from '../lib/routeAnalysis'
+import { getRouteAnalyticsProperties, trackEvent } from '../lib/analytics'
 import { useMapStore } from '../store/mapStore'
 
 type LocationAppearance = {
@@ -46,7 +47,10 @@ export function RouteContextPanel() {
         className="context-chip"
         aria-label="Open map context"
         aria-expanded={false}
-        onClick={() => setIsOpen(true)}
+        onClick={() => {
+          setIsOpen(true)
+          trackEvent('context_panel_opened', getRouteAnalyticsProperties(route))
+        }}
       >
         <Info size={16} strokeWidth={2.2} />
         <span>Context</span>
@@ -60,7 +64,10 @@ export function RouteContextPanel() {
         type="button"
         className="context-close"
         aria-label="Close map context"
-        onClick={() => setIsOpen(false)}
+        onClick={() => {
+          setIsOpen(false)
+          trackEvent('context_panel_closed', getRouteAnalyticsProperties(route))
+        }}
       >
         <X size={16} strokeWidth={2.2} />
       </button>
@@ -140,6 +147,13 @@ function ContextPanelBody({ route }: { route: PageRoute }) {
                 onClick={() => {
                   setSelectedBookId(model.book.id)
                   setSelectedChapter(waypoint.chapter)
+                  trackEvent('location_appearance_selected', {
+                    location_id: route.locationId,
+                    book_id: model.book.id,
+                    book_title: model.book.title,
+                    chapter_number: waypoint.chapter,
+                    location_name: waypoint.name,
+                  })
                 }}
               >
                 <span>{model.book.title}</span>
@@ -217,7 +231,14 @@ function ContextPanelBody({ route }: { route: PageRoute }) {
           <ContextFact label="Chapters" value={`${book.chapters[0].number}-${book.chapters.at(-1)?.number}`} />
           <ContextFact label="Segments" value={String(routeSegments.length)} />
         </div>
-        <a className="context-source" href={book.source.url} target="_blank" rel="noreferrer">
+        <a
+          className="context-source"
+          href={book.source.url}
+          target="_blank"
+          rel="noreferrer"
+          data-analytics-event="source_link_clicked"
+          data-analytics-location="context_panel"
+        >
           {book.source.label}
         </a>
       </>

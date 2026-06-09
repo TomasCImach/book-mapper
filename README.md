@@ -2,6 +2,16 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+## Analytics
+
+Mapped Fiction uses Google Tag Manager for GA4 tracking. Set the GTM container ID before production builds:
+
+```sh
+VITE_GTM_ID=GTM-XXXXXXX npm run build
+```
+
+See `docs/analytics-tracking-plan.md` for the event contract and GTM/GA4 setup notes.
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)

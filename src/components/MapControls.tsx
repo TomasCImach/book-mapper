@@ -1,5 +1,5 @@
 import { Pause, Play, RotateCcw, SkipBack, SkipForward } from 'lucide-react'
-import { useEffect, useMemo, type ReactNode } from 'react'
+import { useEffect, useMemo, useRef, type ReactNode } from 'react'
 import type { ChapterLocationFact } from '../data/chapterLocationFacts'
 import {
   availableBooks,
@@ -21,6 +21,7 @@ import {
   getChapterRouteAnalysis,
   type ChapterRouteAnalysis,
 } from '../lib/routeAnalysis'
+import { trackEvent } from '../lib/analytics'
 import { useMapStore } from '../store/mapStore'
 
 export function MapControls() {
@@ -37,6 +38,8 @@ export function MapControls() {
   const previousChapter = useMapStore((state) => state.previousChapter)
   const nextChapter = useMapStore((state) => state.nextChapter)
   const reset = useMapStore((state) => state.reset)
+  const chapterSliderStartRef = useRef(selectedChapter)
+  const lastTrackedChapterRef = useRef('')
   const bookModel = useMemo(() => getBookModel(selectedBookId), [selectedBookId])
   const {
     book,
@@ -82,6 +85,138 @@ export function MapControls() {
     return () => window.clearInterval(timer)
   }, [isPlaying])
 
+  function trackChapterSelection(
+    method: string,
+    previousChapterNumber: number,
+    nextChapterNumber: number,
+  ) {
+    if (previousChapterNumber === nextChapterNumber) {
+      return
+    }
+
+    const eventKey = `${book.id}:${method}:${previousChapterNumber}:${nextChapterNumber}`
+
+    if (lastTrackedChapterRef.current === eventKey) {
+      return
+    }
+
+    lastTrackedChapterRef.current = eventKey
+
+    trackEvent('chapter_selected', {
+      book_id: book.id,
+      book_title: book.title,
+      chapter_number: nextChapterNumber,
+      chapter_title: chapterByNumber[nextChapterNumber]?.title,
+      previous_chapter: previousChapterNumber,
+      method,
+    })
+  }
+
+  function trackSegmentSelection(segment: RouteSegment, method: string) {
+    trackEvent('route_segment_selected', {
+      book_id: book.id,
+      book_title: book.title,
+      segment_id: segment.id,
+      segment_title: segment.title,
+      chapter_start: segment.chapterStart,
+      chapter_end: segment.chapterEnd,
+      medium: segment.medium,
+      medium_label: mediumLabels[segment.medium],
+      distance_km: Math.round(getSegmentDistanceKm(segment, waypointById) * 100) / 100,
+      method,
+    })
+  }
+
+  function handleBookChange(bookId: string) {
+    const nextBook = availableBooks.find((availableBook) => availableBook.id === bookId)
+
+    trackEvent('book_selected', {
+      book_id: bookId,
+      book_title: nextBook?.title,
+      previous_book_id: book.id,
+      method: 'book_selector',
+    })
+
+    setSelectedBookId(bookId)
+  }
+
+  function handlePreviousChapter() {
+    const previousChapterNumber = selectedChapter
+
+    previousChapter()
+    trackChapterSelection(
+      'previous_button',
+      previousChapterNumber,
+      useMapStore.getState().selectedChapter,
+    )
+  }
+
+  function handleNextChapter() {
+    const previousChapterNumber = selectedChapter
+
+    nextChapter()
+    trackChapterSelection(
+      'next_button',
+      previousChapterNumber,
+      useMapStore.getState().selectedChapter,
+    )
+  }
+
+  function handlePlaybackToggle() {
+    const nextIsPlaying = !isPlaying
+
+    setIsPlaying(nextIsPlaying)
+    trackEvent(
+      nextIsPlaying ? 'chapter_playback_started' : 'chapter_playback_paused',
+      {
+        book_id: book.id,
+        book_title: book.title,
+        chapter_number: selectedChapter,
+      },
+    )
+  }
+
+  function handleChapterSliderStart() {
+    chapterSliderStartRef.current = useMapStore.getState().selectedChapter
+  }
+
+  function handleChapterSliderCommit(method: string) {
+    trackChapterSelection(
+      method,
+      chapterSliderStartRef.current,
+      useMapStore.getState().selectedChapter,
+    )
+  }
+
+  function handleDepthToggle() {
+    const nextDepthExaggerated = !depthExaggerated
+
+    toggleDepthExaggeration()
+    trackEvent('depth_mode_toggled', {
+      book_id: book.id,
+      book_title: book.title,
+      chapter_number: selectedChapter,
+      depth_exaggerated: nextDepthExaggerated,
+    })
+  }
+
+  function handleReset() {
+    const previousChapterNumber = selectedChapter
+    const previousDepthExaggerated = depthExaggerated
+
+    reset()
+
+    const state = useMapStore.getState()
+
+    trackEvent('map_reset', {
+      book_id: state.selectedBookId,
+      previous_chapter: previousChapterNumber,
+      chapter_number: state.selectedChapter,
+      previous_depth_exaggerated: previousDepthExaggerated,
+      depth_exaggerated: state.depthExaggerated,
+    })
+  }
+
   return (
     <aside className="map-ui" aria-label="Book map controls">
       <header className="app-header">
@@ -91,7 +226,13 @@ export function MapControls() {
             src="/mappedfiction-logo.svg"
             alt="Mapped Fiction"
           />
-          <a href={book.source.url} target="_blank">
+          <a
+            href={book.source.url}
+            target="_blank"
+            rel="noreferrer"
+            data-analytics-event="source_link_clicked"
+            data-analytics-location="app_header"
+          >
             {book.source.label}
           </a>
         </div>
@@ -101,12 +242,18 @@ export function MapControls() {
       <section className="book-selector" aria-label="Book selection">
         <div className="book-selector-heading">
           <label htmlFor="book-select">Book</label>
-          <a href="/books/">All books</a>
+          <a
+            href="/books/"
+            data-analytics-event="navigation_link_clicked"
+            data-analytics-location="book_selector"
+          >
+            All books
+          </a>
         </div>
         <select
           id="book-select"
           value={book.id}
-          onChange={(event) => setSelectedBookId(event.target.value)}
+          onChange={(event) => handleBookChange(event.target.value)}
         >
           {availableBooks.map((availableBook) => (
             <option key={availableBook.id} value={availableBook.id}>
@@ -123,12 +270,12 @@ export function MapControls() {
         </div>
 
         <div className="transport-controls">
-          <IconButton label="Previous chapter" onClick={previousChapter}>
+          <IconButton label="Previous chapter" onClick={handlePreviousChapter}>
             <SkipBack size={18} strokeWidth={2.1} />
           </IconButton>
           <IconButton
             label={isPlaying ? 'Pause chapter playback' : 'Play chapter playback'}
-            onClick={() => setIsPlaying(!isPlaying)}
+            onClick={handlePlaybackToggle}
             prominent
           >
             {isPlaying ? (
@@ -137,10 +284,10 @@ export function MapControls() {
               <Play size={18} strokeWidth={2.2} />
             )}
           </IconButton>
-          <IconButton label="Next chapter" onClick={nextChapter}>
+          <IconButton label="Next chapter" onClick={handleNextChapter}>
             <SkipForward size={18} strokeWidth={2.1} />
           </IconButton>
-          <IconButton label="Reset map" onClick={reset}>
+          <IconButton label="Reset map" onClick={handleReset}>
             <RotateCcw size={18} strokeWidth={2.1} />
           </IconButton>
         </div>
@@ -151,7 +298,13 @@ export function MapControls() {
           max={chapters[chapters.length - 1].number}
           value={selectedChapter}
           aria-label="Selected chapter"
+          onPointerDown={handleChapterSliderStart}
+          onFocus={handleChapterSliderStart}
+          onKeyDown={handleChapterSliderStart}
           onChange={(event) => setSelectedChapter(Number(event.target.value))}
+          onPointerUp={() => handleChapterSliderCommit('chapter_slider')}
+          onKeyUp={() => handleChapterSliderCommit('chapter_slider_keyboard')}
+          onBlur={() => handleChapterSliderCommit('chapter_slider_blur')}
         />
 
         <div className="stats-grid">
@@ -164,7 +317,7 @@ export function MapControls() {
           <input
             type="checkbox"
             checked={depthExaggerated}
-            onChange={toggleDepthExaggeration}
+            onChange={handleDepthToggle}
           />
           <span>Exaggerated depth</span>
         </label>
@@ -196,7 +349,10 @@ export function MapControls() {
               key={segment.id}
               type="button"
               className={segment.id === selectedSegment?.id ? 'segment-item active' : 'segment-item'}
-              onClick={() => setSelectedSegmentId(segment.id)}
+              onClick={() => {
+                setSelectedSegmentId(segment.id)
+                trackSegmentSelection(segment, 'segment_list')
+              }}
             >
               <span
                 className="medium-dot"
@@ -351,7 +507,13 @@ function SegmentDetails({
       <ul className="source-list">
         {segment.sourceRefs.map((ref) => (
           <li key={`${segment.id}-${ref.chapter}-${ref.label}`}>
-            <a href={ref.url} target="_blank">
+            <a
+              href={ref.url}
+              target="_blank"
+              rel="noreferrer"
+              data-analytics-event="source_link_clicked"
+              data-analytics-location="route_details_sources"
+            >
               Ch. {ref.chapter}: {ref.label}
             </a>
           </li>

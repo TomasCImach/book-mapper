@@ -21,9 +21,11 @@ import {
 } from '../data/journey'
 import {
   EARTH_RENDER_RADIUS,
+  getSegmentDistanceKm,
   getSegmentRenderPoints,
   positionToVector3,
 } from '../lib/geo'
+import { trackEvent } from '../lib/analytics'
 import { useMapStore } from '../store/mapStore'
 
 const DEPTH_SCALE_TRUE = 1
@@ -699,6 +701,23 @@ function RouteLayer({
     visibleSegments.find((segment) => segment.id === selectedSegmentId) ??
     visibleSegments[visibleSegments.length - 1]
 
+  function handleSegmentSelect(segment: RouteSegment) {
+    setSelectedSegmentId(segment.id)
+    trackEvent('route_segment_selected', {
+      book_id: bookModel.book.id,
+      book_title: bookModel.book.title,
+      segment_id: segment.id,
+      segment_title: segment.title,
+      chapter_start: segment.chapterStart,
+      chapter_end: segment.chapterEnd,
+      medium: segment.medium,
+      medium_label: bookModel.mediumLabels[segment.medium],
+      distance_km:
+        Math.round(getSegmentDistanceKm(segment, bookModel.waypointById) * 100) / 100,
+      method: 'map_tube',
+    })
+  }
+
   return (
     <group>
       {visibleSegments.map((segment) => (
@@ -709,7 +728,7 @@ function RouteLayer({
           depthScale={depthScale}
           featureScale={featureScale.route}
           mediumColors={bookModel.mediumColors}
-          onSelect={() => setSelectedSegmentId(segment.id)}
+          onSelect={() => handleSegmentSelect(segment)}
           waypointById={bookModel.waypointById}
         />
       ))}

@@ -2,26 +2,39 @@ import { useEffect } from 'react'
 import { BookMapScene } from './components/BookMapScene'
 import { MapControls } from './components/MapControls'
 import { RouteContextPanel } from './components/RouteContextPanel'
+import { getRouteAnalyticsProperties, trackEvent } from './lib/analytics'
 import { resolveDeepLinkSelection } from './lib/deepLinks'
+import { classifyPageRoute } from './lib/pageRoutes'
 import { useMapStore } from './store/mapStore'
 import './App.css'
+
+let initialMapViewTracked = false
 
 function App() {
   useEffect(() => {
     document.documentElement.classList.add('interactive-app-mounted')
 
+    const route = classifyPageRoute(window.location.pathname)
     const selection = resolveDeepLinkSelection()
 
-    if (!selection) {
-      return () => {
-        document.documentElement.classList.remove('interactive-app-mounted')
+    if (selection) {
+      useMapStore.getState().setSelectedBookId(selection.bookId)
+
+      if (typeof selection.chapter === 'number') {
+        useMapStore.getState().setSelectedChapter(selection.chapter)
       }
     }
 
-    useMapStore.getState().setSelectedBookId(selection.bookId)
+    if (!initialMapViewTracked) {
+      const state = useMapStore.getState()
+      initialMapViewTracked = true
 
-    if (typeof selection.chapter === 'number') {
-      useMapStore.getState().setSelectedChapter(selection.chapter)
+      trackEvent('map_viewed', {
+        ...getRouteAnalyticsProperties(route),
+        book_id: state.selectedBookId,
+        chapter_number: state.selectedChapter,
+        has_deep_link: Boolean(selection),
+      })
     }
 
     return () => {
