@@ -33,6 +33,7 @@ export function interpolateLatLon(a: Position, b: Position, t: number): Position
   const lon1 = toRadians(a.lon)
   const lat2 = toRadians(b.lat)
   const lon2 = toRadians(b.lon)
+  const depthKm = lerp(a.depthKm ?? 0, b.depthKm ?? 0, t)
 
   const delta = 2 * Math.asin(
     Math.sqrt(
@@ -42,7 +43,7 @@ export function interpolateLatLon(a: Position, b: Position, t: number): Position
   )
 
   if (delta === 0) {
-    return { ...a }
+    return { ...a, depthKm }
   }
 
   const factorA = Math.sin((1 - t) * delta) / Math.sin(delta)
@@ -58,7 +59,7 @@ export function interpolateLatLon(a: Position, b: Position, t: number): Position
   return {
     lat: toDegrees(Math.atan2(z, Math.sqrt(x * x + y * y))),
     lon: toDegrees(Math.atan2(y, x)),
-    depthKm: lerp(a.depthKm ?? 0, b.depthKm ?? 0, t),
+    depthKm,
   }
 }
 
@@ -67,18 +68,7 @@ export function lerp(a: number, b: number, t: number) {
 }
 
 export function interpolatePosition(a: Position, b: Position, t: number): Position {
-  const aDepth = a.depthKm ?? 0
-  const bDepth = b.depthKm ?? 0
-
-  if (aDepth === 0 && bDepth === 0) {
-    return interpolateLatLon(a, b, t)
-  }
-
-  return {
-    lat: lerp(a.lat, b.lat, t),
-    lon: lerp(a.lon, b.lon, t),
-    depthKm: lerp(aDepth, bDepth, t),
-  }
+  return interpolateLatLon(a, b, t)
 }
 
 export function positionToVector3(position: Position, depthScale: number) {

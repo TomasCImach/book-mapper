@@ -86,7 +86,7 @@ export function MapControls() {
     <aside className="map-ui" aria-label="Book map controls">
       <header className="app-header">
         <div>
-          <p className="eyebrow">Jules Verne route atlas</p>
+          <p className="eyebrow">Mapped Fiction route atlas</p>
           <h1>{book.title}</h1>
         </div>
         <a href={book.source.url} target="_blank">

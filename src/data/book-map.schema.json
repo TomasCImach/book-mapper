@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://book-mapper.local/schema/book-map.schema.json",
-  "title": "Book Mapper Book Data",
+  "$id": "https://www.mappedfiction.com/schema/book-map.schema.json",
+  "title": "Mapped Fiction Book Data",
   "type": "object",
   "required": [
     "schemaVersion",

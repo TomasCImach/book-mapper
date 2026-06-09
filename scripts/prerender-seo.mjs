@@ -6,7 +6,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const rootDir = path.resolve(__dirname, '..')
 const distDir = path.join(rootDir, 'dist')
 const bookDir = path.join(rootDir, 'src', 'data', 'books')
-const siteUrl = (process.env.SITE_URL ?? 'https://bookmapper.app').replace(/\/+$/, '')
+const siteUrl = (process.env.SITE_URL ?? 'https://www.mappedfiction.com').replace(/\/+$/, '')
 const today = new Date().toISOString().slice(0, 10)
 
 const bookFiles = [
@@ -98,14 +98,14 @@ function homePage(activeModels) {
 
   return {
     route: '/',
-    title: 'Book Mapper - Interactive 3D Literary Route Atlas',
+    title: 'Mapped Fiction - Interactive 3D Literary Route Atlas',
     description:
       'Explore public-domain books as interactive 3D route maps with chapter-by-chapter distances, travel media, coordinates, and source notes.',
     body: `
       ${breadcrumb([{ label: 'Home', href: '/' }])}
       <p class="seo-kicker">Interactive literary atlas</p>
-      <h1>Book Mapper turns classic novels into chapter-by-chapter 3D route maps.</h1>
-      <p>Book Mapper builds accurate, source-linked route maps from public-domain fiction. Each mapped book records the journey as a sequence of paths with start and end points, travel media, distances, chapter facts, confidence notes, and curve points for the 3D globe.</p>
+      <h1>Mapped Fiction turns classic novels into chapter-by-chapter 3D route maps.</h1>
+      <p>Mapped Fiction builds accurate, source-linked route maps from public-domain fiction. Each mapped book records the journey as a sequence of paths with start and end points, travel media, distances, chapter facts, confidence notes, and curve points for the 3D globe.</p>
       <div class="seo-summary-grid">
         ${statCard('Books mapped', String(activeModels.length))}
         ${statCard('Chapter pages', String(totalChapters))}
@@ -127,7 +127,7 @@ function homePage(activeModels) {
       {
         '@context': 'https://schema.org',
         '@type': 'WebSite',
-        name: 'Book Mapper',
+        name: 'Mapped Fiction',
         url: siteUrl,
         description:
           'Interactive 3D literary route maps built from chapter-level book data.',
@@ -173,9 +173,9 @@ function booksIndexPage(activeModels) {
 
   return {
     route: '/books/',
-    title: 'Mapped Books - 3D Literary Route Maps | Book Mapper',
+    title: 'Mapped Books - 3D Literary Route Maps | Mapped Fiction',
     description:
-      'Browse every classic book mapped in Book Mapper, with route tables, chapter maps, distances, transport media, and source notes.',
+      'Browse every classic book mapped in Mapped Fiction, with route tables, chapter maps, distances, transport media, and source notes.',
     body: `
       ${breadcrumb([
         { label: 'Home', href: '/' },
@@ -183,7 +183,7 @@ function booksIndexPage(activeModels) {
       ])}
       <p class="seo-kicker">Book catalog</p>
       <h1>Mapped books with 3D literary routes</h1>
-      <p>This catalog lists every book currently modeled in Book Mapper. Each book has a crawlable overview, complete route table, chapter-by-chapter pages, source references, and an interactive 3D map state.</p>
+      <p>This catalog lists every book currently modeled in Mapped Fiction. Each book has a crawlable overview, complete route table, chapter-by-chapter pages, source references, and an interactive 3D map state.</p>
       <div class="seo-summary-grid">
         ${statCard('Books', String(activeModels.length))}
         ${statCard('Chapter pages', String(activeModels.reduce((total, model) => total + model.book.chapters.length, 0)))}
@@ -261,7 +261,7 @@ function authorsIndexPage(activeModels) {
 
   return {
     route: '/authors/',
-    title: 'Authors with Mapped Literary Routes | Book Mapper',
+    title: 'Authors with Mapped Literary Routes | Mapped Fiction',
     description:
       'Browse authors with interactive 3D literary maps, mapped books, chapter routes, source notes, and route distances.',
     body: `
@@ -271,7 +271,7 @@ function authorsIndexPage(activeModels) {
       ])}
       <p class="seo-kicker">Author catalog</p>
       <h1>Authors with mapped literary routes</h1>
-      <p>This author index groups the books in Book Mapper by writer. Author pages collect every mapped work, then link into book overviews, full route tables, and chapter map pages.</p>
+      <p>This author index groups the books in Mapped Fiction by writer. Author pages collect every mapped work, then link into book overviews, full route tables, and chapter map pages.</p>
       <div class="seo-summary-grid">
         ${statCard('Authors', String(groups.length))}
         ${statCard('Books', String(activeModels.length))}
@@ -341,9 +341,9 @@ function locationsIndexPage(activeModels) {
 
   return {
     route: '/locations/',
-    title: 'Literary Map Locations and Coordinates | Book Mapper',
+    title: 'Literary Map Locations and Coordinates | Mapped Fiction',
     description:
-      'Browse mapped literary locations, coordinates, route appearances, source confidence, and connected book journeys in Book Mapper.',
+      'Browse mapped literary locations, coordinates, route appearances, source confidence, and connected book journeys in Mapped Fiction.',
     body: `
       ${breadcrumb([
         { label: 'Home', href: '/' },
@@ -351,7 +351,7 @@ function locationsIndexPage(activeModels) {
       ])}
       <p class="seo-kicker">Location catalog</p>
       <h1>Literary map locations and coordinates</h1>
-      <p>This location index lists every waypoint used by the Book Mapper atlas. Location detail pages show coordinates, book appearances, connected route segments, map confidence, and chapter links.</p>
+      <p>This location index lists every waypoint used by the Mapped Fiction atlas. Location detail pages show coordinates, book appearances, connected route segments, map confidence, and chapter links.</p>
       <div class="seo-summary-grid">
         ${statCard('Locations', String(locations.length))}
         ${statCard('Books', String(activeModels.length))}
@@ -417,7 +417,7 @@ function bookPage(model) {
 
   return {
     route: bookPath(book),
-    title: `${book.title} Map, Route, Chapters, and Distances | Book Mapper`,
+    title: `${book.title} Map, Route, Chapters, and Distances | Mapped Fiction`,
     description: truncate(
       `Explore the ${book.title} route map with ${book.chapters.length} chapters, ${model.routeSegments.length} travel segments, ${formatDistance(distance)} of mapped distance, and source-linked notes.`,
     ),
@@ -429,7 +429,7 @@ function bookPage(model) {
       ])}
       <p class="seo-kicker">${escapeHtml(book.author)} route map</p>
       <h1>${escapeHtml(book.title)} map, route, chapters, and distances</h1>
-      <p>This page collects the full Book Mapper route for <cite>${escapeHtml(book.title)}</cite>. The interactive map follows the journey from ${escapeHtml(waypointName(model, first.from))} to ${escapeHtml(waypointName(model, last.to))}, while the notes below make the route crawlable and easy to audit.</p>
+      <p>This page collects the full Mapped Fiction route for <cite>${escapeHtml(book.title)}</cite>. The interactive map follows the journey from ${escapeHtml(waypointName(model, first.from))} to ${escapeHtml(waypointName(model, last.to))}, while the notes below make the route crawlable and easy to audit.</p>
       <div class="seo-summary-grid">
         ${statCard('Chapters', `${firstChapter.number}-${lastChapter.number}`)}
         ${statCard('Route segments', String(model.routeSegments.length))}
@@ -486,7 +486,7 @@ function routePage(model) {
 
   return {
     route: routePath(book),
-    title: `${book.title} Complete Route Table | Book Mapper`,
+    title: `${book.title} Complete Route Table | Mapped Fiction`,
     description: truncate(
       `Complete ${book.title} route table with every mapped segment, distance, travel medium, confidence label, and source reference.`,
     ),
@@ -568,7 +568,7 @@ function chapterPage(model, chapterNumber) {
 
   return {
     route: chapterPath(book, chapterNumber),
-    title: `${book.title} Chapter ${chapterNumber} Map: ${chapter.title} | Book Mapper`,
+    title: `${book.title} Chapter ${chapterNumber} Map: ${chapter.title} | Mapped Fiction`,
     description: truncate(
       `${book.title} chapter ${chapterNumber} map notes for ${chapter.title}: ${fact?.anchor ?? 'route state'}, ${segments.length} mapped route segment${segments.length === 1 ? '' : 's'}.`,
     ),
@@ -647,7 +647,7 @@ function authorPages(activeModels) {
 
     return {
       route: authorPath(author),
-      title: `${author} Maps and Literary Routes | Book Mapper`,
+      title: `${author} Maps and Literary Routes | Mapped Fiction`,
       description: truncate(
         `Interactive 3D route maps for ${author}, including ${authorModels.map((model) => model.book.title).join(', ')}.`,
       ),
@@ -711,9 +711,9 @@ function locationPages(activeModels) {
 
     return {
       route: locationPath(location.id),
-      title: `${location.name} Literary Map Location | Book Mapper`,
+      title: `${location.name} Literary Map Location | Mapped Fiction`,
       description: truncate(
-        `${location.name} in Book Mapper: coordinates ${formatCoordinate(location.position.lat, 'lat')}, ${formatCoordinate(location.position.lon, 'lon')} and route appearances across mapped books.`,
+        `${location.name} in Mapped Fiction: coordinates ${formatCoordinate(location.position.lat, 'lat')}, ${formatCoordinate(location.position.lon, 'lon')} and route appearances across mapped books.`,
       ),
       body: `
         ${breadcrumb([
@@ -723,7 +723,7 @@ function locationPages(activeModels) {
         ])}
         <p class="seo-kicker">Literary map location</p>
         <h1>${escapeHtml(location.name)} literary map location</h1>
-        <p>${escapeHtml(location.name)} is a mapped waypoint in Book Mapper. The location is placed at ${formatCoordinate(location.position.lat, 'lat')}, ${formatCoordinate(location.position.lon, 'lon')}${location.position.depthKm ? ` with ${location.position.depthKm} km modeled depth` : ''}. Its map confidence is ${escapeHtml(location.confidence)}.</p>
+        <p>${escapeHtml(location.name)} is a mapped waypoint in Mapped Fiction. The location is placed at ${formatCoordinate(location.position.lat, 'lat')}, ${formatCoordinate(location.position.lon, 'lon')}${location.position.depthKm ? ` with ${location.position.depthKm} km modeled depth` : ''}. Its map confidence is ${escapeHtml(location.confidence)}.</p>
         <div class="seo-summary-grid">
           ${statCard('Latitude', formatCoordinate(location.position.lat, 'lat'))}
           ${statCard('Longitude', formatCoordinate(location.position.lon, 'lon'))}
@@ -909,7 +909,7 @@ function webPageJson(route, name, about) {
     about,
     isPartOf: {
       '@type': 'WebSite',
-      name: 'Book Mapper',
+      name: 'Mapped Fiction',
       url: siteUrl,
     },
   }

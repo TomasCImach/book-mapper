@@ -823,8 +823,32 @@
       ],
       "points": [
         {
-          "lat": -55.9833,
-          "lon": -67.2667
+          "lat": 20,
+          "lon": -50
+        },
+        {
+          "lat": 0,
+          "lon": -30
+        },
+        {
+          "lat": -25,
+          "lon": -25
+        },
+        {
+          "lat": -45,
+          "lon": -45
+        },
+        {
+          "lat": -55,
+          "lon": -55
+        },
+        {
+          "lat": -57,
+          "lon": -67
+        },
+        {
+          "lat": -50,
+          "lon": -80
         },
         {
           "lat": -23.436,
@@ -1413,6 +1437,23 @@
           "label": "cachalots and whales",
           "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap35"
         }
+      ],
+      "points": [
+        {
+          "lat": -10,
+          "lon": -27,
+          "depthKm": 0.08
+        },
+        {
+          "lat": -30,
+          "lon": -31,
+          "depthKm": 0.08
+        },
+        {
+          "lat": -45,
+          "lon": -38,
+          "depthKm": 0.08
+        }
       ]
     },
     {
@@ -1517,18 +1558,43 @@
       ],
       "points": [
         {
-          "lat": -55.9833,
-          "lon": -67.2667,
+          "lat": -68,
+          "lon": -45,
+          "depthKm": 0.08
+        },
+        {
+          "lat": -57,
+          "lon": -63,
           "depthKm": 0.06
         },
         {
-          "lat": -35,
-          "lon": -55,
+          "lat": -52,
+          "lon": -54,
           "depthKm": 0.05
         },
         {
-          "lat": 5,
-          "lon": -52,
+          "lat": -40,
+          "lon": -45,
+          "depthKm": 0.05
+        },
+        {
+          "lat": -25,
+          "lon": -35,
+          "depthKm": 0.05
+        },
+        {
+          "lat": -8,
+          "lon": -30,
+          "depthKm": 0.05
+        },
+        {
+          "lat": -2,
+          "lon": -42,
+          "depthKm": 0.05
+        },
+        {
+          "lat": 1,
+          "lon": -46,
           "depthKm": 0.05
         }
       ]

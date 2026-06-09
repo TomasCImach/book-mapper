@@ -13,11 +13,31 @@ import {
   validateJourneyData,
   waypoints,
 } from './journey'
-import { getCumulativeDistanceKm } from '../lib/geo'
+import {
+  getCumulativeDistanceKm,
+  getSegmentPositions,
+  sampleRoutePositions,
+} from '../lib/geo'
 import {
   analyzeSegment,
   validateChapterRouteAnalysis,
 } from '../lib/routeAnalysis'
+
+const southAmericaInteriorBoxes = [
+  { latMin: -54, latMax: -35, lonMin: -72, lonMax: -58 },
+  { latMin: -35, latMax: 5, lonMin: -70, lonMax: -50 },
+  { latMin: -25, latMax: -5, lonMin: -50, lonMax: -38 },
+]
+
+function isInsideSouthAmericaInterior(position: { lat: number; lon: number }) {
+  return southAmericaInteriorBoxes.some(
+    (box) =>
+      position.lat >= box.latMin &&
+      position.lat <= box.latMax &&
+      position.lon >= box.lonMin &&
+      position.lon <= box.lonMax,
+  )
+}
 
 describe('journey dataset', () => {
   it('has a complete 45 chapter spine', () => {
@@ -85,5 +105,39 @@ describe('journey dataset', () => {
     expect(vertical.slopeAngleDegrees).toBeGreaterThan(75)
     expect(wrongTurn.slopeAngleDegrees).toBeLessThan(1)
     expect(wrongTurn.slopeAngleDegrees).toBeGreaterThan(-1)
+  })
+
+  it('keeps Twenty Thousand Leagues sea routes offshore of South America', () => {
+    const model = bookModels['twenty-thousand-leagues-under-the-sea']
+    const segmentIds = [
+      'abraham-lincoln-search',
+      'abyss-to-whale-waters',
+      'ice-prison-to-amazon',
+    ]
+
+    const landHitsBySegment = Object.fromEntries(
+      segmentIds.map((segmentId) => {
+        const segment = model.routeSegments.find((routeSegment) => routeSegment.id === segmentId)!
+        const samples = sampleRoutePositions(
+          getSegmentPositions(segment, model.waypointById),
+          24,
+        )
+        const landHits = samples
+          .slice(1, -1)
+          .filter(isInsideSouthAmericaInterior)
+          .map((position) => ({
+            lat: Number(position.lat.toFixed(2)),
+            lon: Number(position.lon.toFixed(2)),
+          }))
+
+        return [segmentId, landHits]
+      }),
+    )
+
+    expect(landHitsBySegment).toEqual({
+      'abraham-lincoln-search': [],
+      'abyss-to-whale-waters': [],
+      'ice-prison-to-amazon': [],
+    })
   })
 })

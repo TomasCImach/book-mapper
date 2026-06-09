@@ -3,6 +3,7 @@ import {
   EARTH_RENDER_RADIUS,
   formatDistance,
   haversineDistanceKm,
+  interpolatePosition,
   positionToVector3,
 } from './geo'
 
@@ -29,6 +30,29 @@ describe('geo utilities', () => {
 
     expect(exaggerated.length()).toBeLessThan(trueScale.length())
     expect(trueScale.length()).toBeGreaterThan(5.9)
+  })
+
+  it('keeps submerged dateline routes on the short Pacific arc', () => {
+    const midpoint = interpolatePosition(
+      { lat: 35, lon: 178, depthKm: 0.05 },
+      { lat: 32.6667, lon: -157.8333, depthKm: 0.05 },
+      0.5,
+    )
+
+    expect(Math.abs(midpoint.lon)).toBeGreaterThan(165)
+    expect(midpoint.depthKm).toBeCloseTo(0.05)
+  })
+
+  it('interpolates depth for same-coordinate dives', () => {
+    const midpoint = interpolatePosition(
+      { lat: 64, lon: -23, depthKm: 0 },
+      { lat: 64, lon: -23, depthKm: 80 },
+      0.5,
+    )
+
+    expect(midpoint.lat).toBeCloseTo(64)
+    expect(midpoint.lon).toBeCloseTo(-23)
+    expect(midpoint.depthKm).toBeCloseTo(40)
   })
 
   it('formats route distances for dense UI labels', () => {
