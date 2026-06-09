@@ -129,6 +129,7 @@ function homePage(activeModels) {
         '@type': 'WebSite',
         name: 'Mapped Fiction',
         url: siteUrl,
+        logo: `${siteUrl}/mappedfiction-logo.svg`,
         description:
           'Interactive 3D literary route maps built from chapter-level book data.',
       },
@@ -801,6 +802,7 @@ function renderHtml(page) {
   const article = `
     <article class="seo-document">
       <div class="seo-shell">
+        <img class="seo-logo" src="/mappedfiction-logo.svg" alt="Mapped Fiction" />
         ${page.body}
       </div>
     </article>`
@@ -911,6 +913,7 @@ function webPageJson(route, name, about) {
       '@type': 'WebSite',
       name: 'Mapped Fiction',
       url: siteUrl,
+      logo: `${siteUrl}/mappedfiction-logo.svg`,
     },
   }
 }

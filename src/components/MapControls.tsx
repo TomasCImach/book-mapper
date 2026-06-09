@@ -85,18 +85,26 @@ export function MapControls() {
   return (
     <aside className="map-ui" aria-label="Book map controls">
       <header className="app-header">
-        <div>
-          <p className="eyebrow">Mapped Fiction route atlas</p>
-          <h1>{book.title}</h1>
+        <div className="brand-row">
+          <img
+            className="brand-logo"
+            src="/mappedfiction-logo.svg"
+            alt="Mapped Fiction"
+          />
+          <a href={book.source.url} target="_blank">
+            {book.source.label}
+          </a>
         </div>
-        <a href={book.source.url} target="_blank">
-          {book.source.label}
-        </a>
+        <h1>{book.title}</h1>
       </header>
 
-      <label className="book-selector">
-        <span>Book</span>
+      <section className="book-selector" aria-label="Book selection">
+        <div className="book-selector-heading">
+          <label htmlFor="book-select">Book</label>
+          <a href="/books/">All books</a>
+        </div>
         <select
+          id="book-select"
           value={book.id}
           onChange={(event) => setSelectedBookId(event.target.value)}
         >
@@ -106,7 +114,7 @@ export function MapControls() {
             </option>
           ))}
         </select>
-      </label>
+      </section>
 
       <section className="timeline-panel" aria-label="Chapter timeline">
         <div className="chapter-line">

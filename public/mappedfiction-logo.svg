@@ -1,6 +1,7 @@
-<svg width="512" height="512" viewBox="20 20 270 270" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Mapped Fiction icon</title>
-  <desc id="desc">An open book, globe, and chapter route path.</desc>
+<svg width="1180" height="320" viewBox="0 0 1180 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">MappedFiction logo</title>
+  <desc id="desc">A literary atlas logo combining an open book, a globe, and a chapter route path.</desc>
+
   <defs>
     <linearGradient id="globeFill" x1="70" y1="40" x2="235" y2="230" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#8FD7EA"/>
@@ -71,5 +72,13 @@
     <!-- Final map pin -->
     <path d="M223 73C209 73 198 84 198 98C198 116 223 142 223 142C223 142 248 116 248 98C248 84 237 73 223 73Z" fill="#D76C42" stroke="#102033" stroke-width="6" stroke-linejoin="round"/>
     <circle cx="223" cy="98" r="8" fill="#FFF6DF"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(326 0)">
+    <text x="0" y="154" font-family="Avenir Next, Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="76" font-weight="800" letter-spacing="-3.5" fill="#102033">Mapped</text>
+    <text x="292" y="154" font-family="Avenir Next, Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="76" font-weight="800" letter-spacing="-3.5" fill="#2A6FBB">Fiction</text>
+    <path d="M5 178H548" stroke="#102033" stroke-width="6" stroke-linecap="round" opacity="0.1"/>
+    <text x="2" y="218" font-family="Avenir Next, Inter, Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="25" font-weight="600" letter-spacing="2.8" fill="#667180">CHAPTER-BY-CHAPTER LITERARY ATLAS</text>
   </g>
 </svg>

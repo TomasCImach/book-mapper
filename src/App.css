@@ -66,10 +66,26 @@
 
 .app-header {
   padding: 15px 16px;
+  display: grid;
+  gap: 10px;
+}
+
+.brand-row {
   display: flex;
   align-items: start;
   justify-content: space-between;
+  min-width: 0;
   gap: 16px;
+}
+
+.brand-logo {
+  display: block;
+  width: min(218px, 100%);
+  height: auto;
+  padding: 6px 8px;
+  border-radius: 6px;
+  background: #fff6df;
+  box-sizing: border-box;
 }
 
 .book-selector {
@@ -78,11 +94,29 @@
   gap: 6px;
 }
 
-.book-selector span {
+.book-selector-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.book-selector-heading label {
   color: rgba(239, 230, 208, 0.66);
   font-size: 11px;
   line-height: 1;
   text-transform: uppercase;
+}
+
+.book-selector-heading a {
+  color: #68c6b5;
+  font-size: 12px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.book-selector-heading a:hover {
+  text-decoration: underline;
 }
 
 .book-selector select {
@@ -99,7 +133,7 @@
 }
 
 .app-header h1 {
-  margin: 4px 0 0;
+  margin: 0;
   font-size: 20px;
   line-height: 1.12;
   letter-spacing: 0;
@@ -627,6 +661,17 @@
   margin: 0 auto;
 }
 
+.seo-logo {
+  display: block;
+  width: min(300px, 100%);
+  height: auto;
+  margin: 0 0 28px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: #fff6df;
+  box-sizing: border-box;
+}
+
 .seo-document nav {
   display: flex;
   flex-wrap: wrap;
@@ -842,13 +887,16 @@
   }
 
   .app-header {
-    align-items: center;
     grid-column: 1 / -1;
     padding: 12px 14px;
   }
 
   .app-header h1 {
     font-size: 17px;
+  }
+
+  .brand-logo {
+    width: min(216px, 100%);
   }
 
   .timeline-panel,
@@ -930,6 +978,10 @@
 
   .app-header h1 {
     font-size: 16px;
+  }
+
+  .brand-logo {
+    width: min(205px, 100%);
   }
 
   .book-selector {
