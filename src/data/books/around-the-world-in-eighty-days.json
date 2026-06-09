@@ -1,0 +1,2589 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "around-the-world-in-eighty-days",
+  "title": "Around the World in Eighty Days",
+  "author": "Jules Verne",
+  "source": {
+    "label": "Project Gutenberg #103",
+    "url": "https://www.gutenberg.org/cache/epub/103/pg103-images.html"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "In Which Phileas Fogg and Passepartout Accept Each Other, the One as Master, the Other as Man"
+    },
+    {
+      "number": 2,
+      "title": "In Which Passepartout Is Convinced That He Has at Last Found His Ideal"
+    },
+    {
+      "number": 3,
+      "title": "In Which a Conversation Takes Place Which Seems Likely to Cost Phileas Fogg Dear"
+    },
+    {
+      "number": 4,
+      "title": "In Which Phileas Fogg Astounds Passepartout, His Servant"
+    },
+    {
+      "number": 5,
+      "title": "In Which a New Species of Funds, Unknown to the Moneyed Men, Appears on Change"
+    },
+    {
+      "number": 6,
+      "title": "In Which Fix, the Detective, Betrays a Very Natural Impatience"
+    },
+    {
+      "number": 7,
+      "title": "Which Once More Demonstrates the Uselessness of Passports as Aids to Detectives"
+    },
+    {
+      "number": 8,
+      "title": "In Which Passepartout Talks Rather More, Perhaps, Than Is Prudent"
+    },
+    {
+      "number": 9,
+      "title": "In Which the Red Sea and the Indian Ocean Prove Propitious to the Designs of Phileas Fogg"
+    },
+    {
+      "number": 10,
+      "title": "In Which Passepartout Is Only Too Glad to Get Off with the Loss of His Shoes"
+    },
+    {
+      "number": 11,
+      "title": "In Which Phileas Fogg Secures a Curious Means of Conveyance at a Fabulous Price"
+    },
+    {
+      "number": 12,
+      "title": "In Which Phileas Fogg and His Companions Venture Across the Indian Forests, and What Ensued"
+    },
+    {
+      "number": 13,
+      "title": "In Which Passepartout Receives a New Proof That Fortune Favors the Brave"
+    },
+    {
+      "number": 14,
+      "title": "In Which Phileas Fogg Descends the Whole Length of the Beautiful Valley of the Ganges Without Ever Thinking of Seeing It"
+    },
+    {
+      "number": 15,
+      "title": "In Which the Bag of Banknotes Disgorges Some Thousands of Pounds More"
+    },
+    {
+      "number": 16,
+      "title": "In Which Fix Does Not Seem to Understand in the Least What Is Said to Him"
+    },
+    {
+      "number": 17,
+      "title": "Showing What Happened on the Voyage from Singapore to Hong Kong"
+    },
+    {
+      "number": 18,
+      "title": "In Which Phileas Fogg, Passepartout, and Fix Go Each About His Business"
+    },
+    {
+      "number": 19,
+      "title": "In Which Passepartout Takes a Too Great Interest in His Master, and What Comes of It"
+    },
+    {
+      "number": 20,
+      "title": "In Which Fix Comes Face to Face with Phileas Fogg"
+    },
+    {
+      "number": 21,
+      "title": "In Which the Master of the Tankadere Runs Great Risk of Losing a Reward of Two Hundred Pounds"
+    },
+    {
+      "number": 22,
+      "title": "In Which Passepartout Finds Out That, Even at the Antipodes, It Is Convenient to Have Some Money in One's Pocket"
+    },
+    {
+      "number": 23,
+      "title": "In Which Passepartout's Nose Becomes Outrageously Long"
+    },
+    {
+      "number": 24,
+      "title": "During Which Mr. Fogg and Party Cross the Pacific Ocean"
+    },
+    {
+      "number": 25,
+      "title": "In Which a Slight Glimpse Is Had of San Francisco"
+    },
+    {
+      "number": 26,
+      "title": "In Which Phileas Fogg and Party Travel by the Pacific Railroad"
+    },
+    {
+      "number": 27,
+      "title": "In Which Passepartout Undergoes, at a Speed of Twenty Miles an Hour, a Course of Mormon History"
+    },
+    {
+      "number": 28,
+      "title": "In Which Passepartout Does Not Succeed in Making Anybody Listen to Reason"
+    },
+    {
+      "number": 29,
+      "title": "In Which Certain Incidents Are Narrated Which Are Only to Be Met with on American Railroads"
+    },
+    {
+      "number": 30,
+      "title": "In Which Phileas Fogg Simply Does His Duty"
+    },
+    {
+      "number": 31,
+      "title": "In Which Fix, the Detective, Considerably Furthers the Interests of Phileas Fogg"
+    },
+    {
+      "number": 32,
+      "title": "In Which Phileas Fogg Engages in a Direct Struggle with Bad Fortune"
+    },
+    {
+      "number": 33,
+      "title": "In Which Phileas Fogg Shows Himself Equal to the Occasion"
+    },
+    {
+      "number": 34,
+      "title": "In Which Phileas Fogg at Last Reaches London"
+    },
+    {
+      "number": 35,
+      "title": "In Which Phileas Fogg Does Not Have to Repeat His Orders to Passepartout Twice"
+    },
+    {
+      "number": 36,
+      "title": "In Which Phileas Fogg's Name Is Once More at a Premium on Change"
+    },
+    {
+      "number": 37,
+      "title": "In Which It Is Shown That Phileas Fogg Gained Nothing by His Tour Around the World, Unless It Were Happiness"
+    }
+  ],
+  "media": {
+    "carriage": {
+      "label": "Carriage",
+      "color": "#d39a4c"
+    },
+    "rail": {
+      "label": "Rail",
+      "color": "#6aa9e6"
+    },
+    "ferry": {
+      "label": "Ferry",
+      "color": "#e5c45c"
+    },
+    "steamer": {
+      "label": "Steamer",
+      "color": "#43c6ba"
+    },
+    "elephant": {
+      "label": "Elephant",
+      "color": "#90c95a"
+    },
+    "pilotBoat": {
+      "label": "Pilot boat",
+      "color": "#54b99f"
+    },
+    "sledge": {
+      "label": "Sledge",
+      "color": "#e9edf0"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "reform-club",
+      "name": "Reform Club",
+      "chapter": 1,
+      "position": {
+        "lat": 51.5064,
+        "lon": -0.1336
+      },
+      "confidence": "geocoded",
+      "notes": "Start and finish of the wager."
+    },
+    {
+      "id": "savile-row",
+      "name": "Savile Row",
+      "chapter": 2,
+      "position": {
+        "lat": 51.5114,
+        "lon": -0.1402
+      },
+      "confidence": "geocoded",
+      "notes": "Fogg's London house."
+    },
+    {
+      "id": "charing-cross",
+      "name": "Charing Cross",
+      "chapter": 4,
+      "position": {
+        "lat": 51.508,
+        "lon": -0.1247
+      },
+      "confidence": "geocoded",
+      "notes": "Departure station named in the London departure."
+    },
+    {
+      "id": "dover",
+      "name": "Dover",
+      "chapter": 4,
+      "position": {
+        "lat": 51.1279,
+        "lon": 1.3134
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "calais",
+      "name": "Calais",
+      "chapter": 4,
+      "position": {
+        "lat": 50.9513,
+        "lon": 1.8587
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "chapter": 4,
+      "position": {
+        "lat": 48.8566,
+        "lon": 2.3522
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "turin",
+      "name": "Turin",
+      "chapter": 4,
+      "position": {
+        "lat": 45.0703,
+        "lon": 7.6869
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "brindisi",
+      "name": "Brindisi",
+      "chapter": 4,
+      "position": {
+        "lat": 40.6327,
+        "lon": 17.9418
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "suez",
+      "name": "Suez",
+      "chapter": 6,
+      "position": {
+        "lat": 29.9668,
+        "lon": 32.5498
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "aden",
+      "name": "Aden",
+      "chapter": 9,
+      "position": {
+        "lat": 12.7855,
+        "lon": 45.0187
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "bombay",
+      "name": "Bombay",
+      "chapter": 10,
+      "position": {
+        "lat": 18.9388,
+        "lon": 72.8354
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "kholby",
+      "name": "Kholby",
+      "chapter": 11,
+      "position": {
+        "lat": 25.08,
+        "lon": 81.18
+      },
+      "confidence": "estimated",
+      "notes": "Textual hamlet where the railway is unfinished; coordinates place it about fifty miles from Allahabad."
+    },
+    {
+      "id": "pillaji-pagoda",
+      "name": "Pillaji pagoda",
+      "chapter": 12,
+      "position": {
+        "lat": 25.22,
+        "lon": 81.42
+      },
+      "confidence": "estimated",
+      "notes": "Rescue site in the Indian forest; position is inferred along the Kholby to Allahabad detour."
+    },
+    {
+      "id": "allahabad",
+      "name": "Allahabad",
+      "chapter": 14,
+      "position": {
+        "lat": 25.4358,
+        "lon": 81.8463
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "benares",
+      "name": "Benares",
+      "chapter": 14,
+      "position": {
+        "lat": 25.3176,
+        "lon": 82.9739
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "calcutta",
+      "name": "Calcutta",
+      "chapter": 14,
+      "position": {
+        "lat": 22.5726,
+        "lon": 88.3639
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "singapore",
+      "name": "Singapore",
+      "chapter": 17,
+      "position": {
+        "lat": 1.3521,
+        "lon": 103.8198
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "hong-kong",
+      "name": "Hong Kong",
+      "chapter": 18,
+      "position": {
+        "lat": 22.3193,
+        "lon": 114.1694
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "shanghai",
+      "name": "Shanghai",
+      "chapter": 21,
+      "position": {
+        "lat": 31.2304,
+        "lon": 121.4737
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "yokohama",
+      "name": "Yokohama",
+      "chapter": 23,
+      "position": {
+        "lat": 35.4437,
+        "lon": 139.638
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "san-francisco",
+      "name": "San Francisco",
+      "chapter": 25,
+      "position": {
+        "lat": 37.7749,
+        "lon": -122.4194
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "oakland",
+      "name": "Oakland",
+      "chapter": 26,
+      "position": {
+        "lat": 37.8044,
+        "lon": -122.2712
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "ogden",
+      "name": "Ogden",
+      "chapter": 27,
+      "position": {
+        "lat": 41.223,
+        "lon": -111.9738
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "fort-kearney",
+      "name": "Fort Kearney",
+      "chapter": 30,
+      "position": {
+        "lat": 40.6483,
+        "lon": -99.0056
+      },
+      "confidence": "geocoded",
+      "notes": "Mapped to modern Kearney, Nebraska, near the historical fort area."
+    },
+    {
+      "id": "omaha",
+      "name": "Omaha",
+      "chapter": 31,
+      "position": {
+        "lat": 41.2565,
+        "lon": -95.9345
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "chicago",
+      "name": "Chicago",
+      "chapter": 31,
+      "position": {
+        "lat": 41.8781,
+        "lon": -87.6298
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "jersey-city",
+      "name": "Jersey City",
+      "chapter": 32,
+      "position": {
+        "lat": 40.7178,
+        "lon": -74.0431
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "new-york-hudson",
+      "name": "New York",
+      "chapter": 33,
+      "position": {
+        "lat": 40.7128,
+        "lon": -74.006
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "chapter": 34,
+      "position": {
+        "lat": 51.8503,
+        "lon": -8.2943
+      },
+      "confidence": "geocoded",
+      "notes": "Now Cobh, Ireland."
+    },
+    {
+      "id": "dublin",
+      "name": "Dublin",
+      "chapter": 34,
+      "position": {
+        "lat": 53.3498,
+        "lon": -6.2603
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "liverpool",
+      "name": "Liverpool",
+      "chapter": 34,
+      "position": {
+        "lat": 53.4084,
+        "lon": -2.9916
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "london-terminus",
+      "name": "London terminus",
+      "chapter": 34,
+      "position": {
+        "lat": 51.508,
+        "lon": -0.1247
+      },
+      "confidence": "estimated",
+      "notes": "Mapped to Charing Cross as a representative London rail terminus for the final arrival."
+    }
+  ],
+  "paths": [
+    {
+      "id": "reform-club-to-charing-cross",
+      "title": "Reform Club departure",
+      "medium": "carriage",
+      "start": {
+        "waypointId": "reform-club"
+      },
+      "end": {
+        "waypointId": "charing-cross"
+      },
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "distanceKm": 1.1,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "Fogg and Passepartout leave the Reform Club/Savile Row area for the train out of London.",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "London departure",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap04"
+        }
+      ]
+    },
+    {
+      "id": "london-dover-rail",
+      "title": "London to Dover",
+      "medium": "rail",
+      "start": {
+        "waypointId": "charing-cross"
+      },
+      "end": {
+        "waypointId": "dover"
+      },
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "distanceSource": "geodesic",
+      "confidence": "geocoded",
+      "notes": "First British railway leg toward the Channel crossing.",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "train departure",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap04"
+        }
+      ]
+    },
+    {
+      "id": "dover-calais-ferry",
+      "title": "Channel crossing",
+      "medium": "ferry",
+      "start": {
+        "waypointId": "dover"
+      },
+      "end": {
+        "waypointId": "calais"
+      },
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "distanceSource": "geodesic",
+      "confidence": "geocoded",
+      "notes": "The itinerary reaches the Continent by steamboat before the Paris rail leg.",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "rail and steamboats",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap03"
+        }
+      ]
+    },
+    {
+      "id": "calais-paris-rail",
+      "title": "Calais to Paris",
+      "medium": "rail",
+      "start": {
+        "waypointId": "calais"
+      },
+      "end": {
+        "waypointId": "paris"
+      },
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "distanceSource": "geodesic",
+      "confidence": "geocoded",
+      "notes": "The memoranda record arrival in Paris the morning after leaving London.",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "Fogg's memoranda",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap07"
+        }
+      ]
+    },
+    {
+      "id": "paris-turin-rail",
+      "title": "Paris to Turin by Mont Cenis",
+      "medium": "rail",
+      "start": {
+        "waypointId": "paris"
+      },
+      "end": {
+        "waypointId": "turin"
+      },
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "distanceSource": "geodesic",
+      "confidence": "geocoded",
+      "notes": "The route table and memoranda explicitly route the train by Mont Cenis.",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "Mont Cenis itinerary",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap03"
+        }
+      ],
+      "points": [
+        {
+          "lat": 47.322,
+          "lon": 5.0415
+        },
+        {
+          "lat": 45.764,
+          "lon": 4.8357
+        },
+        {
+          "lat": 45.2006,
+          "lon": 6.6675
+        },
+        {
+          "lat": 45.241,
+          "lon": 6.9005
+        }
+      ]
+    },
+    {
+      "id": "turin-brindisi-rail",
+      "title": "Turin to Brindisi",
+      "medium": "rail",
+      "start": {
+        "waypointId": "turin"
+      },
+      "end": {
+        "waypointId": "brindisi"
+      },
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "distanceSource": "geodesic",
+      "confidence": "geocoded",
+      "notes": "Italian rail leg to the P. and O. steamer at Brindisi.",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "Turin and Brindisi times",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap07"
+        }
+      ],
+      "points": [
+        {
+          "lat": 44.4949,
+          "lon": 11.3426
+        },
+        {
+          "lat": 43.6158,
+          "lon": 13.5189
+        },
+        {
+          "lat": 41.1171,
+          "lon": 16.8719
+        }
+      ]
+    },
+    {
+      "id": "brindisi-suez-steamer",
+      "title": "Mongolia to Suez",
+      "medium": "steamer",
+      "start": {
+        "waypointId": "brindisi"
+      },
+      "end": {
+        "waypointId": "suez"
+      },
+      "chapterStart": 4,
+      "chapterEnd": 6,
+      "distanceSource": "geodesic",
+      "confidence": "geocoded",
+      "notes": "The Mongolia leaves Brindisi and reaches Suez within the planned seven-day London-to-Suez leg.",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "Mongolia at Suez",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap06"
+        }
+      ],
+      "points": [
+        {
+          "lat": 35.25,
+          "lon": 18.9
+        },
+        {
+          "lat": 34.0,
+          "lon": 25.3
+        },
+        {
+          "lat": 31.2653,
+          "lon": 32.3019
+        }
+      ]
+    },
+    {
+      "id": "suez-aden-steamer",
+      "title": "Suez to Aden",
+      "medium": "steamer",
+      "start": {
+        "waypointId": "suez"
+      },
+      "end": {
+        "waypointId": "aden"
+      },
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "distanceKm": 2108.2,
+      "distanceSource": "book",
+      "confidence": "book",
+      "notes": "The book gives this leg as exactly 1,310 miles.",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "Suez to Aden distance",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap09"
+        }
+      ],
+      "points": [
+        {
+          "lat": 23.8,
+          "lon": 36.7
+        },
+        {
+          "lat": 15.6,
+          "lon": 41.9
+        }
+      ]
+    },
+    {
+      "id": "aden-bombay-steamer",
+      "title": "Aden to Bombay",
+      "medium": "steamer",
+      "start": {
+        "waypointId": "aden"
+      },
+      "end": {
+        "waypointId": "bombay"
+      },
+      "chapterStart": 9,
+      "chapterEnd": 10,
+      "distanceSource": "geodesic",
+      "confidence": "geocoded",
+      "notes": "The Mongolia crosses the Arabian Sea and reaches Bombay two days ahead of the wager schedule.",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "Aden and Bombay",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap09"
+        }
+      ],
+      "points": [
+        {
+          "lat": 13.5,
+          "lon": 55.5
+        },
+        {
+          "lat": 16.7,
+          "lon": 65.5
+        }
+      ]
+    },
+    {
+      "id": "bombay-kholby-rail",
+      "title": "Indian railway to Kholby",
+      "medium": "rail",
+      "start": {
+        "waypointId": "bombay"
+      },
+      "end": {
+        "waypointId": "kholby"
+      },
+      "chapterStart": 10,
+      "chapterEnd": 11,
+      "distanceSource": "geodesic",
+      "confidence": "estimated",
+      "notes": "The Great Indian Peninsula Railway route is followed through Tannah, the Western Ghats, Burhampoor, and Bundelcund until the unfinished line at Kholby.",
+      "sourceRefs": [
+        {
+          "chapter": 10,
+          "label": "India rail route",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap10"
+        },
+        {
+          "chapter": 11,
+          "label": "railway ends at Kholby",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap11"
+        }
+      ],
+      "points": [
+        {
+          "lat": 19.2183,
+          "lon": 72.9781
+        },
+        {
+          "lat": 19.9975,
+          "lon": 73.7898
+        },
+        {
+          "lat": 21.3145,
+          "lon": 76.218
+        },
+        {
+          "lat": 23.3,
+          "lon": 79.9
+        }
+      ]
+    },
+    {
+      "id": "kholby-pillaji-elephant",
+      "title": "Elephant into the forest",
+      "medium": "elephant",
+      "start": {
+        "waypointId": "kholby"
+      },
+      "end": {
+        "waypointId": "pillaji-pagoda"
+      },
+      "chapterStart": 11,
+      "chapterEnd": 12,
+      "distanceKm": 28,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "Fogg buys Kiouni after learning that about fifty miles of railway remain unfinished; this first portion bends toward the rescue at Pillaji.",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "fifty miles to Allahabad",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap11"
+        },
+        {
+          "chapter": 12,
+          "label": "forest march",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap12"
+        }
+      ],
+      "points": [
+        {
+          "lat": 25.12,
+          "lon": 81.25
+        },
+        {
+          "lat": 25.26,
+          "lon": 81.34
+        }
+      ]
+    },
+    {
+      "id": "pillaji-allahabad-elephant",
+      "title": "Escape to Allahabad",
+      "medium": "elephant",
+      "start": {
+        "waypointId": "pillaji-pagoda"
+      },
+      "end": {
+        "waypointId": "allahabad"
+      },
+      "chapterStart": 13,
+      "chapterEnd": 14,
+      "distanceKm": 52.5,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "After Aouda's rescue, Kiouni carries the party to Allahabad where the railway resumes.",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "rescue escape",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap13"
+        },
+        {
+          "chapter": 14,
+          "label": "Allahabad reached",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap14"
+        }
+      ],
+      "points": [
+        {
+          "lat": 25.32,
+          "lon": 81.54
+        }
+      ]
+    },
+    {
+      "id": "allahabad-calcutta-rail",
+      "title": "Ganges valley rail",
+      "medium": "rail",
+      "start": {
+        "waypointId": "allahabad"
+      },
+      "end": {
+        "waypointId": "calcutta"
+      },
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "distanceSource": "geodesic",
+      "confidence": "geocoded",
+      "notes": "The resumed railway runs through Benares, Patna, Burdwan, Chandernagore, and into Calcutta.",
+      "sourceRefs": [
+        {
+          "chapter": 14,
+          "label": "Ganges valley rail",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap14"
+        }
+      ],
+      "points": [
+        {
+          "lat": 25.3176,
+          "lon": 82.9739
+        },
+        {
+          "lat": 25.5941,
+          "lon": 85.1376
+        },
+        {
+          "lat": 23.2324,
+          "lon": 87.8615
+        },
+        {
+          "lat": 22.8623,
+          "lon": 88.3679
+        }
+      ]
+    },
+    {
+      "id": "calcutta-singapore-steamer",
+      "title": "Rangoon to Singapore",
+      "medium": "steamer",
+      "start": {
+        "waypointId": "calcutta"
+      },
+      "end": {
+        "waypointId": "singapore"
+      },
+      "chapterStart": 15,
+      "chapterEnd": 17,
+      "distanceSource": "geodesic",
+      "confidence": "geocoded",
+      "notes": "The Rangoon leaves Calcutta for Hong Kong, coaling at Singapore on the way.",
+      "sourceRefs": [
+        {
+          "chapter": 16,
+          "label": "Rangoon voyage",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap16"
+        },
+        {
+          "chapter": 17,
+          "label": "Singapore stop",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap17"
+        }
+      ],
+      "points": [
+        {
+          "lat": 18.1,
+          "lon": 89.3
+        },
+        {
+          "lat": 11.6,
+          "lon": 93.2
+        },
+        {
+          "lat": 5.6,
+          "lon": 99.4
+        }
+      ]
+    },
+    {
+      "id": "singapore-hong-kong-steamer",
+      "title": "Singapore to Hong Kong",
+      "medium": "steamer",
+      "start": {
+        "waypointId": "singapore"
+      },
+      "end": {
+        "waypointId": "hong-kong"
+      },
+      "chapterStart": 17,
+      "chapterEnd": 18,
+      "distanceKm": 2092.1,
+      "distanceSource": "book",
+      "confidence": "book",
+      "notes": "The book gives Singapore to Hong Kong as 1,300 miles; a storm delays the Rangoon.",
+      "sourceRefs": [
+        {
+          "chapter": 17,
+          "label": "Singapore to Hong Kong distance",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap17"
+        }
+      ],
+      "points": [
+        {
+          "lat": 7.6,
+          "lon": 108.7
+        },
+        {
+          "lat": 15.3,
+          "lon": 113.5
+        }
+      ]
+    },
+    {
+      "id": "hong-kong-yokohama-carnatic",
+      "title": "Passepartout on the Carnatic",
+      "medium": "steamer",
+      "start": {
+        "waypointId": "hong-kong"
+      },
+      "end": {
+        "waypointId": "yokohama"
+      },
+      "chapterStart": 19,
+      "chapterEnd": 23,
+      "distanceKm": 2671.5,
+      "distanceSource": "book",
+      "confidence": "book",
+      "notes": "Passepartout sails without Fogg; the book gives Hong Kong to Yokohama as 1,660 miles.",
+      "sourceRefs": [
+        {
+          "chapter": 19,
+          "label": "Carnatic leaves",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap19"
+        },
+        {
+          "chapter": 20,
+          "label": "1,660 miles to Yokohama",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap20"
+        }
+      ],
+      "points": [
+        {
+          "lat": 25.0,
+          "lon": 121.5
+        },
+        {
+          "lat": 32.7503,
+          "lon": 129.8777
+        }
+      ]
+    },
+    {
+      "id": "hong-kong-shanghai-tankadere",
+      "title": "Tankadere pilot-boat run",
+      "medium": "pilotBoat",
+      "start": {
+        "waypointId": "hong-kong"
+      },
+      "end": {
+        "waypointId": "shanghai"
+      },
+      "chapterStart": 20,
+      "chapterEnd": 21,
+      "distanceKm": 1287.5,
+      "distanceSource": "book",
+      "confidence": "book",
+      "notes": "Fogg charters the Tankadere after missing the Carnatic; the pilot proposes Shanghai as only 800 miles away.",
+      "sourceRefs": [
+        {
+          "chapter": 20,
+          "label": "800 miles to Shanghai",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap20"
+        },
+        {
+          "chapter": 21,
+          "label": "Tankadere run",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap21"
+        }
+      ],
+      "points": [
+        {
+          "lat": 24.3,
+          "lon": 118.2
+        },
+        {
+          "lat": 27.4,
+          "lon": 121.3
+        }
+      ]
+    },
+    {
+      "id": "shanghai-yokohama-steamer",
+      "title": "American steamer to Yokohama",
+      "medium": "steamer",
+      "start": {
+        "waypointId": "shanghai"
+      },
+      "end": {
+        "waypointId": "yokohama"
+      },
+      "chapterStart": 21,
+      "chapterEnd": 23,
+      "distanceSource": "geodesic",
+      "confidence": "geocoded",
+      "notes": "The Tankadere signals the American steamer leaving Shanghai; Fogg transfers and reaches Yokohama.",
+      "sourceRefs": [
+        {
+          "chapter": 21,
+          "label": "Shanghai steamer signaled",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap21"
+        },
+        {
+          "chapter": 23,
+          "label": "Yokohama reunion",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap23"
+        }
+      ],
+      "points": [
+        {
+          "lat": 32.7503,
+          "lon": 129.8777
+        }
+      ]
+    },
+    {
+      "id": "yokohama-san-francisco-steamer",
+      "title": "Pacific crossing",
+      "medium": "steamer",
+      "start": {
+        "waypointId": "yokohama"
+      },
+      "end": {
+        "waypointId": "san-francisco"
+      },
+      "chapterStart": 24,
+      "chapterEnd": 25,
+      "distanceSource": "geodesic",
+      "confidence": "geocoded",
+      "notes": "The General Grant crosses the Pacific on the planned Yokohama to San Francisco leg.",
+      "sourceRefs": [
+        {
+          "chapter": 24,
+          "label": "Pacific crossing",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap24"
+        }
+      ],
+      "points": [
+        {
+          "lat": 38.0,
+          "lon": 160.0
+        },
+        {
+          "lat": 43.0,
+          "lon": 179.0
+        },
+        {
+          "lat": 46.0,
+          "lon": -155.0
+        },
+        {
+          "lat": 42.0,
+          "lon": -132.0
+        }
+      ]
+    },
+    {
+      "id": "san-francisco-oakland-ferry",
+      "title": "Bay ferry to Oakland",
+      "medium": "ferry",
+      "start": {
+        "waypointId": "san-francisco"
+      },
+      "end": {
+        "waypointId": "oakland"
+      },
+      "chapterStart": 25,
+      "chapterEnd": 26,
+      "distanceKm": 13,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "The party reaches the Oakland station for the transcontinental train.",
+      "sourceRefs": [
+        {
+          "chapter": 26,
+          "label": "Oakland station",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap26"
+        }
+      ]
+    },
+    {
+      "id": "oakland-ogden-rail",
+      "title": "Central Pacific Railroad",
+      "medium": "rail",
+      "start": {
+        "waypointId": "oakland"
+      },
+      "end": {
+        "waypointId": "ogden"
+      },
+      "chapterStart": 26,
+      "chapterEnd": 27,
+      "distanceSource": "geodesic",
+      "confidence": "geocoded",
+      "notes": "The Central Pacific route runs from Oakland/San Francisco through Sacramento, Nevada, and Utah to Ogden.",
+      "sourceRefs": [
+        {
+          "chapter": 26,
+          "label": "Pacific Railroad",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap26"
+        }
+      ],
+      "points": [
+        {
+          "lat": 38.5816,
+          "lon": -121.4944
+        },
+        {
+          "lat": 39.5296,
+          "lon": -119.8138
+        },
+        {
+          "lat": 40.8324,
+          "lon": -115.7631
+        }
+      ]
+    },
+    {
+      "id": "ogden-fort-kearney-rail",
+      "title": "Union Pacific to Fort Kearney",
+      "medium": "rail",
+      "start": {
+        "waypointId": "ogden"
+      },
+      "end": {
+        "waypointId": "fort-kearney"
+      },
+      "chapterStart": 27,
+      "chapterEnd": 30,
+      "distanceSource": "geodesic",
+      "confidence": "geocoded",
+      "notes": "The train continues by Salt Lake, Fort Bridger, Medicine Bow, and the Platte before the Sioux attack and rescue near Fort Kearney.",
+      "sourceRefs": [
+        {
+          "chapter": 27,
+          "label": "Ogden stop",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap27"
+        },
+        {
+          "chapter": 30,
+          "label": "Fort Kearney rescue",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap30"
+        }
+      ],
+      "points": [
+        {
+          "lat": 41.3169,
+          "lon": -110.3843
+        },
+        {
+          "lat": 41.8977,
+          "lon": -106.2025
+        },
+        {
+          "lat": 41.14,
+          "lon": -104.82
+        },
+        {
+          "lat": 41.136,
+          "lon": -100.77
+        }
+      ]
+    },
+    {
+      "id": "fort-kearney-omaha-sledge",
+      "title": "Sail-sledge shortcut",
+      "medium": "sledge",
+      "start": {
+        "waypointId": "fort-kearney"
+      },
+      "end": {
+        "waypointId": "omaha"
+      },
+      "chapterStart": 31,
+      "chapterEnd": 31,
+      "distanceKm": 321.9,
+      "distanceSource": "book",
+      "confidence": "book",
+      "notes": "Fix finds a sail-sledge; the book gives Fort Kearney to Omaha as at most 200 miles as the bird flies.",
+      "sourceRefs": [
+        {
+          "chapter": 31,
+          "label": "200-mile sledge run",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap31"
+        }
+      ],
+      "points": [
+        {
+          "lat": 40.92,
+          "lon": -97.55
+        }
+      ]
+    },
+    {
+      "id": "omaha-jersey-city-rail",
+      "title": "Omaha to New York rail",
+      "medium": "rail",
+      "start": {
+        "waypointId": "omaha"
+      },
+      "end": {
+        "waypointId": "jersey-city"
+      },
+      "chapterStart": 31,
+      "chapterEnd": 32,
+      "distanceSource": "geodesic",
+      "confidence": "geocoded",
+      "notes": "The route changes trains at Omaha and Chicago, then reaches the Hudson opposite New York after missing the China.",
+      "sourceRefs": [
+        {
+          "chapter": 31,
+          "label": "Omaha and Chicago trains",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap31"
+        },
+        {
+          "chapter": 32,
+          "label": "Hudson arrival",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap32"
+        }
+      ],
+      "points": [
+        {
+          "lat": 41.8781,
+          "lon": -87.6298
+        },
+        {
+          "lat": 41.4993,
+          "lon": -81.6944
+        },
+        {
+          "lat": 40.4406,
+          "lon": -79.9959
+        },
+        {
+          "lat": 40.2732,
+          "lon": -76.8867
+        }
+      ]
+    },
+    {
+      "id": "jersey-city-new-york-ferry",
+      "title": "Hudson ferry",
+      "medium": "ferry",
+      "start": {
+        "waypointId": "jersey-city"
+      },
+      "end": {
+        "waypointId": "new-york-hudson"
+      },
+      "chapterStart": 32,
+      "chapterEnd": 33,
+      "distanceKm": 2.8,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "The party crosses the Hudson by ferryboat to search for an Atlantic vessel.",
+      "sourceRefs": [
+        {
+          "chapter": 32,
+          "label": "Hudson ferryboat",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap32"
+        }
+      ]
+    },
+    {
+      "id": "new-york-queenstown-henrietta",
+      "title": "Henrietta across the Atlantic",
+      "medium": "steamer",
+      "start": {
+        "waypointId": "new-york-hudson"
+      },
+      "end": {
+        "waypointId": "queenstown"
+      },
+      "chapterStart": 33,
+      "chapterEnd": 34,
+      "distanceSource": "geodesic",
+      "confidence": "geocoded",
+      "notes": "Fogg takes command of the Henrietta after the Liverpool steamer is missed, then diverts to Queenstown for the faster mail route.",
+      "sourceRefs": [
+        {
+          "chapter": 33,
+          "label": "Henrietta hired",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap33"
+        },
+        {
+          "chapter": 34,
+          "label": "Queenstown mail route",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap34"
+        }
+      ],
+      "points": [
+        {
+          "lat": 40.4668,
+          "lon": -74.0096
+        },
+        {
+          "lat": 43.0,
+          "lon": -55.0
+        },
+        {
+          "lat": 47.6,
+          "lon": -33.0
+        }
+      ]
+    },
+    {
+      "id": "queenstown-dublin-rail",
+      "title": "Queenstown to Dublin mail train",
+      "medium": "rail",
+      "start": {
+        "waypointId": "queenstown"
+      },
+      "end": {
+        "waypointId": "dublin"
+      },
+      "chapterStart": 34,
+      "chapterEnd": 34,
+      "distanceSource": "geodesic",
+      "confidence": "geocoded",
+      "notes": "Queenstown mails are carried to Dublin by express trains held ready for the transatlantic steamers.",
+      "sourceRefs": [
+        {
+          "chapter": 34,
+          "label": "Queenstown to Dublin",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap34"
+        }
+      ],
+      "points": [
+        {
+          "lat": 52.6638,
+          "lon": -8.6267
+        }
+      ]
+    },
+    {
+      "id": "dublin-liverpool-steamer",
+      "title": "Dublin to Liverpool packet",
+      "medium": "steamer",
+      "start": {
+        "waypointId": "dublin"
+      },
+      "end": {
+        "waypointId": "liverpool"
+      },
+      "chapterStart": 34,
+      "chapterEnd": 34,
+      "distanceSource": "geodesic",
+      "confidence": "geocoded",
+      "notes": "The mails are sent from Dublin to Liverpool by rapid boats, saving time over waiting for the Henrietta.",
+      "sourceRefs": [
+        {
+          "chapter": 34,
+          "label": "Dublin to Liverpool",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap34"
+        }
+      ]
+    },
+    {
+      "id": "liverpool-london-special-rail",
+      "title": "Special train to London",
+      "medium": "rail",
+      "start": {
+        "waypointId": "liverpool"
+      },
+      "end": {
+        "waypointId": "london-terminus"
+      },
+      "chapterStart": 34,
+      "chapterEnd": 34,
+      "distanceSource": "geodesic",
+      "confidence": "geocoded",
+      "notes": "After Fix's mistaken arrest, Fogg orders a special train from Liverpool to London.",
+      "sourceRefs": [
+        {
+          "chapter": 34,
+          "label": "special train",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap34"
+        }
+      ],
+      "points": [
+        {
+          "lat": 53.4808,
+          "lon": -2.2426
+        },
+        {
+          "lat": 52.6369,
+          "lon": -1.1398
+        }
+      ]
+    },
+    {
+      "id": "london-terminus-savile-row",
+      "title": "Late arrival at Savile Row",
+      "medium": "carriage",
+      "start": {
+        "waypointId": "london-terminus"
+      },
+      "end": {
+        "waypointId": "savile-row"
+      },
+      "chapterStart": 34,
+      "chapterEnd": 35,
+      "distanceKm": 1.4,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "Fogg believes the wager lost and returns from the London terminus to his house.",
+      "sourceRefs": [
+        {
+          "chapter": 34,
+          "label": "London arrival",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap34"
+        },
+        {
+          "chapter": 35,
+          "label": "Savile Row",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap35"
+        }
+      ]
+    },
+    {
+      "id": "savile-row-reform-club",
+      "title": "Final dash to the Reform Club",
+      "medium": "carriage",
+      "start": {
+        "waypointId": "savile-row"
+      },
+      "end": {
+        "waypointId": "reform-club"
+      },
+      "chapterStart": 37,
+      "chapterEnd": 37,
+      "distanceKm": 0.8,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "Passepartout discovers the date error; Fogg reaches the Reform Club in time.",
+      "sourceRefs": [
+        {
+          "chapter": 37,
+          "label": "final Reform Club arrival",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap37"
+        }
+      ]
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 1,
+      "movement": "stationary",
+      "anchor": "Reform Club and Savile Row",
+      "locationFacts": [
+        "Phileas Fogg's world is fixed around the Reform Club and his London house.",
+        "Passepartout is hired before any wager route begins."
+      ],
+      "deltaFacts": [
+        "No mapped travel yet."
+      ],
+      "slopeFacts": [
+        "Surface level; no elevation or depth movement is modeled."
+      ],
+      "xyzEstimate": "No route segment is assigned to this introductory London chapter.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "London setup",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap01"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "movement": "stationary",
+      "anchor": "Savile Row",
+      "locationFacts": [
+        "Passepartout settles into Fogg's London household.",
+        "The chapter remains domestic and stationary."
+      ],
+      "deltaFacts": [
+        "No mapped displacement."
+      ],
+      "slopeFacts": [
+        "No travel slope."
+      ],
+      "xyzEstimate": "No path is constructed for the household setup.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "Savile Row routine",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap02"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "movement": "stationary",
+      "anchor": "Reform Club wager",
+      "locationFacts": [
+        "Fogg accepts the eighty-day wager in London.",
+        "The book gives the planned world itinerary: London, Suez, Bombay, Calcutta, Hong Kong, Yokohama, San Francisco, New York, and London."
+      ],
+      "deltaFacts": [
+        "The itinerary is planned but not yet traveled."
+      ],
+      "slopeFacts": [
+        "No physical movement is assigned to the planning table."
+      ],
+      "xyzEstimate": "The chapter supplies the spine for later route segments, but no movement has occurred.",
+      "segmentIds": [],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "itinerary table",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap03"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "movement": "surface",
+      "anchor": "London to Brindisi and Suez",
+      "locationFacts": [
+        "Fogg leaves London at 8:45 p.m.",
+        "The initial route follows rail and steamboats through Paris, Turin by Mont Cenis, and Brindisi."
+      ],
+      "deltaFacts": [
+        "The map begins the Europe-to-Suez transit."
+      ],
+      "slopeFacts": [
+        "Surface and sea-level transit; no vertical component."
+      ],
+      "xyzEstimate": "XYZ delta uses geocoded rail and steamer waypoints from London through Brindisi and Suez.",
+      "segmentIds": [
+        "reform-club-to-charing-cross",
+        "london-dover-rail",
+        "dover-calais-ferry",
+        "calais-paris-rail",
+        "paris-turin-rail",
+        "turin-brindisi-rail",
+        "brindisi-suez-steamer"
+      ],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "departure",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap04"
+        },
+        {
+          "chapter": 7,
+          "label": "memoranda",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap07"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "movement": "stationary",
+      "anchor": "London news while Fogg travels",
+      "locationFacts": [
+        "The public and markets react to Fogg's departure.",
+        "The narrative is in London while the mapped party is already in transit."
+      ],
+      "deltaFacts": [
+        "No new route segment starts in this chapter."
+      ],
+      "slopeFacts": [
+        "No modeled slope."
+      ],
+      "xyzEstimate": "The visible route remains the London-to-Suez transit already started.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "London reaction",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap05"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "movement": "sea",
+      "anchor": "Suez",
+      "locationFacts": [
+        "Fix waits at Suez for the Mongolia.",
+        "The steamer is described as running between Brindisi and Bombay via the Suez Canal."
+      ],
+      "deltaFacts": [
+        "Arrival at Suez completes the first planned leg."
+      ],
+      "slopeFacts": [
+        "Sea-level steamer route."
+      ],
+      "xyzEstimate": "XYZ delta is the Brindisi-to-Suez steamer segment already active from chapter 4.",
+      "segmentIds": [
+        "brindisi-suez-steamer"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "Suez arrival",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap06"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "movement": "stationary",
+      "anchor": "Suez passport office",
+      "locationFacts": [
+        "Fogg's passport is presented at Suez.",
+        "His notebook records London, Paris, Turin, Brindisi, and Suez timing."
+      ],
+      "deltaFacts": [
+        "No added route beyond the completed Suez arrival."
+      ],
+      "slopeFacts": [
+        "No vertical movement."
+      ],
+      "xyzEstimate": "The chapter is documentation of route timing rather than a new path.",
+      "segmentIds": [],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "passport and memoranda",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap07"
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "movement": "stationary",
+      "anchor": "Suez conversations",
+      "locationFacts": [
+        "Passepartout speaks with Fix at Suez.",
+        "The Mongolia prepares to continue toward Bombay."
+      ],
+      "deltaFacts": [
+        "The party is not moved to a new mapped waypoint in this chapter."
+      ],
+      "slopeFacts": [
+        "No modeled slope."
+      ],
+      "xyzEstimate": "No path starts here; the next active route starts with Suez to Aden.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Suez dialogue",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap08"
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "movement": "sea",
+      "anchor": "Suez to Bombay",
+      "locationFacts": [
+        "The Mongolia crosses the Red Sea and Indian Ocean.",
+        "The Suez-to-Aden distance is given exactly in the book."
+      ],
+      "deltaFacts": [
+        "The route advances from Suez through Aden toward Bombay."
+      ],
+      "slopeFacts": [
+        "Sea-level steamer transit."
+      ],
+      "xyzEstimate": "XYZ estimate uses the book distance for Suez to Aden and geocoded Aden-to-Bombay sea shaping.",
+      "segmentIds": [
+        "suez-aden-steamer",
+        "aden-bombay-steamer"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "Red Sea and Indian Ocean",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap09"
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "movement": "surface",
+      "anchor": "Bombay to the Indian railway",
+      "locationFacts": [
+        "The party lands at Bombay and boards the train for Calcutta.",
+        "Passepartout's temple incident costs him his shoes but not the train."
+      ],
+      "deltaFacts": [
+        "The route leaves Bombay on the Great Indian Peninsula Railway."
+      ],
+      "slopeFacts": [
+        "Surface rail route; no depth movement."
+      ],
+      "xyzEstimate": "XYZ delta follows the text's Indian railway route out of Bombay toward the unfinished gap.",
+      "segmentIds": [
+        "bombay-kholby-rail"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 10,
+          "label": "Bombay and rail route",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap10"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "movement": "surface",
+      "anchor": "Kholby railway gap",
+      "locationFacts": [
+        "The train stops at Kholby because the line is unfinished.",
+        "Fifty miles remain to Allahabad, so Fogg buys Kiouni the elephant."
+      ],
+      "deltaFacts": [
+        "Rail movement changes to an elephant detour."
+      ],
+      "slopeFacts": [
+        "Surface route through forest; no vertical component."
+      ],
+      "xyzEstimate": "Kholby is estimated near the text's fifty-mile gap southwest of Allahabad.",
+      "segmentIds": [
+        "bombay-kholby-rail",
+        "kholby-pillaji-elephant"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "Kholby and Kiouni",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap11"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "movement": "surface",
+      "anchor": "Indian forest and Pillaji",
+      "locationFacts": [
+        "Kiouni carries the party through forest.",
+        "The rescue target is encountered near Pillaji."
+      ],
+      "deltaFacts": [
+        "The detour bends away from a direct Kholby-to-Allahabad line."
+      ],
+      "slopeFacts": [
+        "Flat surface route in the model."
+      ],
+      "xyzEstimate": "The Pillaji waypoint is inferred to shape the rescue detour within the fifty-mile gap.",
+      "segmentIds": [
+        "kholby-pillaji-elephant"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "forest march and rescue",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap12"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "movement": "surface",
+      "anchor": "Escape from Pillaji",
+      "locationFacts": [
+        "Aouda is rescued.",
+        "The party escapes by elephant toward Allahabad."
+      ],
+      "deltaFacts": [
+        "The map resumes the eastward correction from Pillaji to Allahabad."
+      ],
+      "slopeFacts": [
+        "Surface route; no vertical movement."
+      ],
+      "xyzEstimate": "The segment is distance-constrained by the remaining portion of the fifty-mile Kholby-to-Allahabad gap.",
+      "segmentIds": [
+        "pillaji-allahabad-elephant"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "escape",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap13"
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "movement": "surface",
+      "anchor": "Allahabad to Calcutta",
+      "locationFacts": [
+        "The party reaches Allahabad and the railway resumes.",
+        "The train passes Benares and the Ganges valley before reaching Calcutta."
+      ],
+      "deltaFacts": [
+        "The Indian crossing completes at Calcutta."
+      ],
+      "slopeFacts": [
+        "Surface rail route."
+      ],
+      "xyzEstimate": "XYZ delta uses geocoded Allahabad, Benares, Patna, Chandernagore, and Calcutta shaping.",
+      "segmentIds": [
+        "pillaji-allahabad-elephant",
+        "allahabad-calcutta-rail"
+      ],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 14,
+          "label": "Ganges valley",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap14"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "movement": "sea",
+      "anchor": "Calcutta packet",
+      "locationFacts": [
+        "Court proceedings briefly delay Fogg and Passepartout at Calcutta.",
+        "They still catch the Hong Kong steamer."
+      ],
+      "deltaFacts": [
+        "The next sea leg starts from Calcutta."
+      ],
+      "slopeFacts": [
+        "Sea-level departure."
+      ],
+      "xyzEstimate": "Chapter movement is represented by the first part of the Calcutta-to-Singapore steamer path.",
+      "segmentIds": [
+        "calcutta-singapore-steamer"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 15,
+          "label": "Calcutta departure",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap15"
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "movement": "sea",
+      "anchor": "Rangoon in the Bay of Bengal",
+      "locationFacts": [
+        "The Rangoon carries Fogg, Aouda, and Fix from Calcutta toward Hong Kong.",
+        "The book gives the Calcutta-to-Hong Kong voyage as about 3,500 miles."
+      ],
+      "deltaFacts": [
+        "The map advances through the Bay of Bengal toward Singapore."
+      ],
+      "slopeFacts": [
+        "Sea-level transit."
+      ],
+      "xyzEstimate": "XYZ delta follows a geocoded sea curve from Calcutta to Singapore.",
+      "segmentIds": [
+        "calcutta-singapore-steamer"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 16,
+          "label": "Rangoon",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap16"
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "movement": "sea",
+      "anchor": "Singapore to Hong Kong",
+      "locationFacts": [
+        "The Rangoon calls at Singapore.",
+        "The book gives Singapore to Hong Kong as 1,300 miles."
+      ],
+      "deltaFacts": [
+        "A storm delays the steamer before Hong Kong."
+      ],
+      "slopeFacts": [
+        "Sea-level route."
+      ],
+      "xyzEstimate": "XYZ delta uses the book distance and South China Sea shaping.",
+      "segmentIds": [
+        "calcutta-singapore-steamer",
+        "singapore-hong-kong-steamer"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 17,
+          "label": "Singapore and Hong Kong",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap17"
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "movement": "sea",
+      "anchor": "Hong Kong",
+      "locationFacts": [
+        "The Rangoon reaches Hong Kong.",
+        "The Carnatic's delayed boiler repair keeps the Japan connection possible."
+      ],
+      "deltaFacts": [
+        "The main party arrives at Hong Kong."
+      ],
+      "slopeFacts": [
+        "Sea-level arrival."
+      ],
+      "xyzEstimate": "XYZ delta closes the Singapore-to-Hong Kong steamer leg.",
+      "segmentIds": [
+        "singapore-hong-kong-steamer"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 18,
+          "label": "Hong Kong arrival",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap18"
+        }
+      ]
+    },
+    {
+      "chapter": 19,
+      "movement": "sea",
+      "anchor": "Carnatic missed by the main party",
+      "locationFacts": [
+        "Fix prevents Passepartout from warning Fogg.",
+        "Passepartout boards the Carnatic, but Fogg and Aouda miss it."
+      ],
+      "deltaFacts": [
+        "The map branches: Passepartout goes toward Yokohama while Fogg remains in Hong Kong."
+      ],
+      "slopeFacts": [
+        "Sea-level branch route."
+      ],
+      "xyzEstimate": "XYZ delta includes only Passepartout's Hong Kong-to-Yokohama branch.",
+      "segmentIds": [
+        "hong-kong-yokohama-carnatic"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 19,
+          "label": "Carnatic departure",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap19"
+        }
+      ]
+    },
+    {
+      "chapter": 20,
+      "movement": "sea",
+      "anchor": "Tankadere charter",
+      "locationFacts": [
+        "Fogg charters John Bunsby's pilot-boat Tankadere.",
+        "The plan changes from Yokohama direct to catching the American steamer at Shanghai."
+      ],
+      "deltaFacts": [
+        "The main-party branch leaves Hong Kong for Shanghai."
+      ],
+      "slopeFacts": [
+        "Sea-level small-craft route."
+      ],
+      "xyzEstimate": "XYZ delta uses the book's 800-mile Hong Kong-to-Shanghai distance.",
+      "segmentIds": [
+        "hong-kong-shanghai-tankadere"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 20,
+          "label": "Tankadere charter",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap20"
+        }
+      ]
+    },
+    {
+      "chapter": 21,
+      "movement": "sea",
+      "anchor": "Shanghai signal",
+      "locationFacts": [
+        "The Tankadere endures bad weather and signals the outbound American steamer.",
+        "Fogg transfers before the steamer continues to Nagasaki and Yokohama."
+      ],
+      "deltaFacts": [
+        "The main-party branch rejoins the Japan route via Shanghai."
+      ],
+      "slopeFacts": [
+        "Sea-level route."
+      ],
+      "xyzEstimate": "XYZ delta combines the Tankadere branch and the Shanghai-to-Yokohama steamer.",
+      "segmentIds": [
+        "hong-kong-shanghai-tankadere",
+        "shanghai-yokohama-steamer"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 21,
+          "label": "Shanghai steamer",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap21"
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "movement": "sea",
+      "anchor": "Passepartout on the Carnatic",
+      "locationFacts": [
+        "Passepartout wakes aboard the Carnatic without Fogg or Aouda.",
+        "He reaches Yokohama ahead of his master."
+      ],
+      "deltaFacts": [
+        "Passepartout's branch continues to Japan."
+      ],
+      "slopeFacts": [
+        "Sea-level route."
+      ],
+      "xyzEstimate": "XYZ delta follows the separate Carnatic branch.",
+      "segmentIds": [
+        "hong-kong-yokohama-carnatic"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 22,
+          "label": "Carnatic to Yokohama",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap22"
+        }
+      ]
+    },
+    {
+      "chapter": 23,
+      "movement": "stationary",
+      "anchor": "Yokohama reunion",
+      "locationFacts": [
+        "Passepartout wanders Yokohama and joins a Japanese troupe.",
+        "Fogg finds him before boarding the San Francisco steamer."
+      ],
+      "deltaFacts": [
+        "The split branches reconnect at Yokohama."
+      ],
+      "slopeFacts": [
+        "No new overland displacement inside Yokohama is modeled."
+      ],
+      "xyzEstimate": "The relevant route is the conclusion of the Shanghai-to-Yokohama and Carnatic branches.",
+      "segmentIds": [
+        "hong-kong-yokohama-carnatic",
+        "shanghai-yokohama-steamer"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 23,
+          "label": "Yokohama reunion",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap23"
+        }
+      ]
+    },
+    {
+      "chapter": 24,
+      "movement": "sea",
+      "anchor": "Yokohama to San Francisco",
+      "locationFacts": [
+        "Fogg's party crosses the Pacific on the General Grant.",
+        "The route targets San Francisco for the American rail crossing."
+      ],
+      "deltaFacts": [
+        "The largest ocean arc of this book runs from Japan to California."
+      ],
+      "slopeFacts": [
+        "Sea-level route."
+      ],
+      "xyzEstimate": "XYZ delta uses a north Pacific geodesic-shaped curve from Yokohama to San Francisco.",
+      "segmentIds": [
+        "yokohama-san-francisco-steamer"
+      ],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 24,
+          "label": "Pacific Ocean",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap24"
+        }
+      ]
+    },
+    {
+      "chapter": 25,
+      "movement": "surface",
+      "anchor": "San Francisco",
+      "locationFacts": [
+        "The party lands at San Francisco.",
+        "A brief city episode precedes the Pacific Railroad."
+      ],
+      "deltaFacts": [
+        "The route changes from steamer to rail/ferry."
+      ],
+      "slopeFacts": [
+        "Surface arrival."
+      ],
+      "xyzEstimate": "XYZ delta closes the Pacific steamer arc and begins the bay transfer.",
+      "segmentIds": [
+        "yokohama-san-francisco-steamer",
+        "san-francisco-oakland-ferry"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 25,
+          "label": "San Francisco",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap25"
+        }
+      ]
+    },
+    {
+      "chapter": 26,
+      "movement": "surface",
+      "anchor": "Pacific Railroad",
+      "locationFacts": [
+        "The train leaves Oakland station.",
+        "The Central Pacific crosses California, Nevada, and Utah toward Ogden."
+      ],
+      "deltaFacts": [
+        "The American land crossing begins."
+      ],
+      "slopeFacts": [
+        "Surface rail route; altitude changes are not represented in this sea-level globe model."
+      ],
+      "xyzEstimate": "XYZ delta uses geocoded Central Pacific waypoints via Sacramento, Reno, Elko, and Ogden.",
+      "segmentIds": [
+        "san-francisco-oakland-ferry",
+        "oakland-ogden-rail"
+      ],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 26,
+          "label": "Pacific Railroad",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap26"
+        }
+      ]
+    },
+    {
+      "chapter": 27,
+      "movement": "surface",
+      "anchor": "Ogden and Mormon country",
+      "locationFacts": [
+        "The train reaches Ogden and continues east.",
+        "Passepartout attends a Mormon lecture while the train keeps moving."
+      ],
+      "deltaFacts": [
+        "The route transitions from Central Pacific to Union Pacific."
+      ],
+      "slopeFacts": [
+        "Surface rail route."
+      ],
+      "xyzEstimate": "XYZ delta continues over the Union Pacific route.",
+      "segmentIds": [
+        "oakland-ogden-rail",
+        "ogden-fort-kearney-rail"
+      ],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 27,
+          "label": "Ogden",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap27"
+        }
+      ]
+    },
+    {
+      "chapter": 28,
+      "movement": "surface",
+      "anchor": "Union Pacific bridge incident",
+      "locationFacts": [
+        "The train faces a damaged bridge.",
+        "The engineer drives the train across at speed."
+      ],
+      "deltaFacts": [
+        "The same rail segment continues east with an incident but no branch."
+      ],
+      "slopeFacts": [
+        "Surface rail route."
+      ],
+      "xyzEstimate": "The incident is mapped along the Ogden-to-Fort-Kearney rail line.",
+      "segmentIds": [
+        "ogden-fort-kearney-rail"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 28,
+          "label": "bridge incident",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap28"
+        }
+      ]
+    },
+    {
+      "chapter": 29,
+      "movement": "surface",
+      "anchor": "Sioux attack",
+      "locationFacts": [
+        "The train is attacked before Fort Kearney.",
+        "Passepartout uncouples the train from the engine during the fight."
+      ],
+      "deltaFacts": [
+        "The rail route is interrupted before the rescue."
+      ],
+      "slopeFacts": [
+        "Surface rail route."
+      ],
+      "xyzEstimate": "The attack is represented on the same Union Pacific segment before Fort Kearney.",
+      "segmentIds": [
+        "ogden-fort-kearney-rail"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 29,
+          "label": "Sioux attack",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap29"
+        }
+      ]
+    },
+    {
+      "chapter": 30,
+      "movement": "surface",
+      "anchor": "Fort Kearney rescue",
+      "locationFacts": [
+        "Fogg rescues Passepartout after the Sioux attack.",
+        "The delay threatens the New York steamer connection."
+      ],
+      "deltaFacts": [
+        "The rail segment reaches Fort Kearney but the schedule is broken."
+      ],
+      "slopeFacts": [
+        "Surface route."
+      ],
+      "xyzEstimate": "XYZ delta closes the Ogden-to-Fort-Kearney route.",
+      "segmentIds": [
+        "ogden-fort-kearney-rail"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 30,
+          "label": "rescue",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap30"
+        }
+      ]
+    },
+    {
+      "chapter": 31,
+      "movement": "surface",
+      "anchor": "Fort Kearney to Omaha and Chicago",
+      "locationFacts": [
+        "Fix arranges a sail-sledge to Omaha.",
+        "The party catches trains through Omaha and Chicago toward New York."
+      ],
+      "deltaFacts": [
+        "A snow-and-wind shortcut replaces the rail gap, then rail resumes east."
+      ],
+      "slopeFacts": [
+        "Surface sledge and rail route."
+      ],
+      "xyzEstimate": "XYZ delta uses the book's 200-mile sledge shortcut and geocoded rail via Chicago.",
+      "segmentIds": [
+        "fort-kearney-omaha-sledge",
+        "omaha-jersey-city-rail"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 31,
+          "label": "sledge and Omaha trains",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap31"
+        }
+      ]
+    },
+    {
+      "chapter": 32,
+      "movement": "surface",
+      "anchor": "Hudson and New York",
+      "locationFacts": [
+        "The train reaches the Hudson after the Liverpool steamer China has left.",
+        "Fogg searches New York harbor for another vessel."
+      ],
+      "deltaFacts": [
+        "The transcontinental rail route ends at Jersey City/New York."
+      ],
+      "slopeFacts": [
+        "Surface rail and ferry route."
+      ],
+      "xyzEstimate": "XYZ delta closes the Omaha-to-New-York rail segment and short Hudson ferry.",
+      "segmentIds": [
+        "omaha-jersey-city-rail",
+        "jersey-city-new-york-ferry"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 32,
+          "label": "New York missed steamer",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap32"
+        }
+      ]
+    },
+    {
+      "chapter": 33,
+      "movement": "sea",
+      "anchor": "Henrietta",
+      "locationFacts": [
+        "Fogg hires the Henrietta after missing the China.",
+        "The ship leaves New York, then Fogg effectively takes command for Liverpool."
+      ],
+      "deltaFacts": [
+        "The final Atlantic crossing starts late from New York."
+      ],
+      "slopeFacts": [
+        "Sea-level route."
+      ],
+      "xyzEstimate": "XYZ delta uses a North Atlantic curve toward Queenstown.",
+      "segmentIds": [
+        "jersey-city-new-york-ferry",
+        "new-york-queenstown-henrietta"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 33,
+          "label": "Henrietta",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap33"
+        }
+      ]
+    },
+    {
+      "chapter": 34,
+      "movement": "return",
+      "anchor": "Queenstown, Liverpool, London",
+      "locationFacts": [
+        "The Henrietta reaches Queenstown, where Fogg takes the mail route by Dublin and Liverpool.",
+        "Fix arrests Fogg at Liverpool, then releases him too late for the apparent deadline."
+      ],
+      "deltaFacts": [
+        "The route returns to London by steamer and rail."
+      ],
+      "slopeFacts": [
+        "Sea and surface return route."
+      ],
+      "xyzEstimate": "XYZ delta connects Queenstown, Dublin, Liverpool, and London with geocoded mail-route waypoints.",
+      "segmentIds": [
+        "new-york-queenstown-henrietta",
+        "queenstown-dublin-rail",
+        "dublin-liverpool-steamer",
+        "liverpool-london-special-rail",
+        "london-terminus-savile-row"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 34,
+          "label": "final return route",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap34"
+        }
+      ]
+    },
+    {
+      "chapter": 35,
+      "movement": "stationary",
+      "anchor": "Savile Row",
+      "locationFacts": [
+        "Fogg believes the wager lost and remains in London.",
+        "Aouda proposes marriage."
+      ],
+      "deltaFacts": [
+        "No long-distance movement; the route rests at Savile Row."
+      ],
+      "slopeFacts": [
+        "No movement slope."
+      ],
+      "xyzEstimate": "Only the small London arrival segment overlaps this chapter.",
+      "segmentIds": [
+        "london-terminus-savile-row"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 35,
+          "label": "Savile Row",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap35"
+        }
+      ]
+    },
+    {
+      "chapter": 36,
+      "movement": "stationary",
+      "anchor": "London suspense",
+      "locationFacts": [
+        "London society watches the wager deadline.",
+        "Fogg is presumed absent from the Reform Club."
+      ],
+      "deltaFacts": [
+        "No mapped travel in this suspense chapter."
+      ],
+      "slopeFacts": [
+        "No movement slope."
+      ],
+      "xyzEstimate": "No segment is assigned; the route remains in London.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 36,
+          "label": "London suspense",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap36"
+        }
+      ]
+    },
+    {
+      "chapter": 37,
+      "movement": "return",
+      "anchor": "Reform Club finish",
+      "locationFacts": [
+        "Passepartout discovers that traveling east gained a calendar day.",
+        "Fogg reaches the Reform Club before the deadline."
+      ],
+      "deltaFacts": [
+        "A final short London dash closes the route loop."
+      ],
+      "slopeFacts": [
+        "Surface city route."
+      ],
+      "xyzEstimate": "XYZ delta is a tiny London displacement from Savile Row back to the Reform Club.",
+      "segmentIds": [
+        "savile-row-reform-club"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 37,
+          "label": "time-zone reveal",
+          "url": "https://www.gutenberg.org/files/103/103-h/103-h.htm#chap37"
+        }
+      ]
+    }
+  ]
+}

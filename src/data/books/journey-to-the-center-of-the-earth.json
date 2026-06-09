@@ -1,0 +1,2868 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "journey-to-the-center-of-the-earth",
+  "title": "Journey Into the Interior of the Earth",
+  "author": "Jules Verne",
+  "source": {
+    "label": "Project Gutenberg #3748",
+    "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "The Professor and His Family"
+    },
+    {
+      "number": 2,
+      "title": "A Mystery to Be Solved at Any Price"
+    },
+    {
+      "number": 3,
+      "title": "The Runic Writing Exercises the Professor"
+    },
+    {
+      "number": 4,
+      "title": "The Enemy to Be Starved Into Submission"
+    },
+    {
+      "number": 5,
+      "title": "Famine, Then Victory, Followed by Dismay"
+    },
+    {
+      "number": 6,
+      "title": "Exciting Discussions About an Unparalleled Enterprise"
+    },
+    {
+      "number": 7,
+      "title": "A Woman's Courage"
+    },
+    {
+      "number": 8,
+      "title": "Serious Preparations for Vertical Descent"
+    },
+    {
+      "number": 9,
+      "title": "Iceland, But What Next?"
+    },
+    {
+      "number": 10,
+      "title": "Interesting Conversations With Icelandic Savants"
+    },
+    {
+      "number": 11,
+      "title": "A Guide Found to the Centre of the Earth"
+    },
+    {
+      "number": 12,
+      "title": "A Barren Land"
+    },
+    {
+      "number": 13,
+      "title": "Hospitality Under the Arctic Circle"
+    },
+    {
+      "number": 14,
+      "title": "But Arctics Can Be Inhospitable, Too"
+    },
+    {
+      "number": 15,
+      "title": "Snaefell at Last"
+    },
+    {
+      "number": 16,
+      "title": "Boldly Down the Crater"
+    },
+    {
+      "number": 17,
+      "title": "Vertical Descent"
+    },
+    {
+      "number": 18,
+      "title": "The Wonders of Terrestrial Depths"
+    },
+    {
+      "number": 19,
+      "title": "Geological Studies in Situ"
+    },
+    {
+      "number": 20,
+      "title": "The First Signs of Distress"
+    },
+    {
+      "number": 21,
+      "title": "Compassion Fuses the Professor's Heart"
+    },
+    {
+      "number": 22,
+      "title": "Total Failure of Water"
+    },
+    {
+      "number": 23,
+      "title": "Water Discovered"
+    },
+    {
+      "number": 24,
+      "title": "Well Said, Old Mole!"
+    },
+    {
+      "number": 25,
+      "title": "De Profundis"
+    },
+    {
+      "number": 26,
+      "title": "The Worst Peril of All"
+    },
+    {
+      "number": 27,
+      "title": "Lost in the Bowels of the Earth"
+    },
+    {
+      "number": 28,
+      "title": "The Rescue in the Whispering Gallery"
+    },
+    {
+      "number": 29,
+      "title": "Thalatta! Thalatta!"
+    },
+    {
+      "number": 30,
+      "title": "A New Mare Internum"
+    },
+    {
+      "number": 31,
+      "title": "Preparations for a Voyage of Discovery"
+    },
+    {
+      "number": 32,
+      "title": "Wonders of the Deep"
+    },
+    {
+      "number": 33,
+      "title": "A Battle of Monsters"
+    },
+    {
+      "number": 34,
+      "title": "The Great Geyser"
+    },
+    {
+      "number": 35,
+      "title": "An Electric Storm"
+    },
+    {
+      "number": 36,
+      "title": "Calm Philosophic Discussions"
+    },
+    {
+      "number": 37,
+      "title": "The Liedenbrock Museum of Geology"
+    },
+    {
+      "number": 38,
+      "title": "The Professor in His Chair Again"
+    },
+    {
+      "number": 39,
+      "title": "Forest Scenery Illuminated by Electricity"
+    },
+    {
+      "number": 40,
+      "title": "Preparations for Blasting a Passage"
+    },
+    {
+      "number": 41,
+      "title": "The Great Explosion and the Rush Down Below"
+    },
+    {
+      "number": 42,
+      "title": "Headlong Speed Upward Through Darkness"
+    },
+    {
+      "number": 43,
+      "title": "Shot Out of a Volcano at Last!"
+    },
+    {
+      "number": 44,
+      "title": "Sunny Lands in the Blue Mediterranean"
+    },
+    {
+      "number": 45,
+      "title": "All's Well That Ends Well"
+    }
+  ],
+  "media": {
+    "carriage": {
+      "label": "Carriage",
+      "color": "#d6ad5a"
+    },
+    "rail": {
+      "label": "Rail",
+      "color": "#8f7bf7"
+    },
+    "steamer": {
+      "label": "Steamer",
+      "color": "#4e9ed8"
+    },
+    "schooner": {
+      "label": "Schooner",
+      "color": "#68c6b5"
+    },
+    "horse": {
+      "label": "Horse",
+      "color": "#8f6a42"
+    },
+    "foot": {
+      "label": "Foot",
+      "color": "#9fcb71"
+    },
+    "boat": {
+      "label": "Boat",
+      "color": "#77b8e8"
+    },
+    "raft": {
+      "label": "Raft",
+      "color": "#d0894f"
+    },
+    "tunnel": {
+      "label": "Tunnel",
+      "color": "#ef6b4a"
+    },
+    "wrong-turn": {
+      "label": "Wrong turn",
+      "color": "#e85f88"
+    },
+    "eruption": {
+      "label": "Volcanic",
+      "color": "#ffcf5a"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "hamburg",
+      "name": "No. 19 Konigstrasse, Hamburg",
+      "chapter": 1,
+      "position": {
+        "lat": 53.5503,
+        "lon": 9.9937
+      },
+      "confidence": "geocoded",
+      "notes": "The domestic starting point in old Hamburg is given precisely by street, not by modern parcel."
+    },
+    {
+      "id": "altona",
+      "name": "Altona station",
+      "chapter": 8,
+      "position": {
+        "lat": 53.5528,
+        "lon": 9.9348
+      },
+      "confidence": "geocoded",
+      "notes": "The rail departure point for Kiel."
+    },
+    {
+      "id": "kiel",
+      "name": "Kiel",
+      "chapter": 8,
+      "position": {
+        "lat": 54.3233,
+        "lon": 10.1228
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "korsor",
+      "name": "Korsor",
+      "chapter": 8,
+      "position": {
+        "lat": 55.3291,
+        "lon": 11.1399
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "copenhagen",
+      "name": "Copenhagen",
+      "chapter": 8,
+      "position": {
+        "lat": 55.6761,
+        "lon": 12.5683
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "skagen",
+      "name": "Skagen",
+      "chapter": 9,
+      "position": {
+        "lat": 57.7209,
+        "lon": 10.5839
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "faroe",
+      "name": "Faroe waters",
+      "chapter": 9,
+      "position": {
+        "lat": 62.0079,
+        "lon": -6.7909
+      },
+      "confidence": "estimated",
+      "notes": "The book gives the North Atlantic progression; this waypoint shapes the sea route."
+    },
+    {
+      "id": "cape-portland",
+      "name": "Cape Portland approach",
+      "chapter": 9,
+      "position": {
+        "lat": 63.404,
+        "lon": -19.13
+      },
+      "confidence": "estimated",
+      "notes": "Cape Portland is treated as the south-Iceland approach named in the voyage."
+    },
+    {
+      "id": "reykjavik",
+      "name": "Reykjavik",
+      "chapter": 9,
+      "position": {
+        "lat": 64.1466,
+        "lon": -21.9426
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "gufunes",
+      "name": "Gufunes",
+      "chapter": 12,
+      "position": {
+        "lat": 64.1557,
+        "lon": -21.7939
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "hvalfjord",
+      "name": "Hvalfjord crossing",
+      "chapter": 12,
+      "position": {
+        "lat": 64.389,
+        "lon": -21.475
+      },
+      "confidence": "estimated",
+      "notes": "The exact ferry point is not fixed in the text; the app marks the fjord crossing itself."
+    },
+    {
+      "id": "gardar",
+      "name": "Gardar",
+      "chapter": 12,
+      "position": {
+        "lat": 64.308,
+        "lon": -21.95
+      },
+      "confidence": "estimated"
+    },
+    {
+      "id": "krosolbt",
+      "name": "Krosolbt",
+      "chapter": 13,
+      "position": {
+        "lat": 64.57,
+        "lon": -22.55
+      },
+      "confidence": "textual",
+      "notes": "A named stage in the translation. Position is inferred to preserve the coastal march."
+    },
+    {
+      "id": "budir",
+      "name": "Budir",
+      "chapter": 13,
+      "position": {
+        "lat": 64.8216,
+        "lon": -23.3853
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "stapi",
+      "name": "Stapi",
+      "chapter": 13,
+      "position": {
+        "lat": 64.7688,
+        "lon": -23.6215
+      },
+      "confidence": "geocoded",
+      "notes": "Modern Arnarstapi, the last settlement before the mountain."
+    },
+    {
+      "id": "snaefell-base",
+      "name": "Snaefell base",
+      "chapter": 15,
+      "position": {
+        "lat": 64.795,
+        "lon": -23.67
+      },
+      "confidence": "estimated"
+    },
+    {
+      "id": "scartaris-crater",
+      "name": "Scartaris crater",
+      "chapter": 16,
+      "position": {
+        "lat": 64.807,
+        "lon": -23.776,
+        "depthKm": 0
+      },
+      "confidence": "fictional",
+      "notes": "The crater is selected by the shadow of Scartaris before the kalends of July."
+    },
+    {
+      "id": "crater-bottom",
+      "name": "Crater bottom at sea level",
+      "chapter": 17,
+      "position": {
+        "lat": 64.805,
+        "lon": -23.772,
+        "depthKm": 1.5
+      },
+      "confidence": "book",
+      "notes": "The book describes the vertical tube ending near sea level after the descent from Snaefell."
+    },
+    {
+      "id": "lava-gallery",
+      "name": "Steep ESE lava staircase",
+      "chapter": 18,
+      "position": {
+        "lat": 64.62,
+        "lon": -23.32,
+        "depthKm": 4.55
+      },
+      "confidence": "fictional",
+      "notes": "By the first underground halt the party is about 10,000 feet below sea level, still in the inclined lava gallery."
+    },
+    {
+      "id": "two-road-fork",
+      "name": "Eastern / western gallery fork",
+      "chapter": 19,
+      "position": {
+        "lat": 64.55,
+        "lon": -23.12,
+        "depthKm": 5.25
+      },
+      "confidence": "book",
+      "notes": "At the end of the chimney the party finds two dark narrow roads and chooses the eastern one by chance."
+    },
+    {
+      "id": "dry-gallery",
+      "name": "Eastern blind alley",
+      "chapter": 20,
+      "position": {
+        "lat": 64.28,
+        "lon": -22.08,
+        "depthKm": 4.85
+      },
+      "confidence": "book",
+      "notes": "The mistaken eastern tunnel levels out, rises slightly, crosses fossiliferous beds, and ends at a wall."
+    },
+    {
+      "id": "western-tunnel",
+      "name": "Western granite fissure",
+      "chapter": 22,
+      "position": {
+        "lat": 64.38,
+        "lon": -22.62,
+        "depthKm": 7.2
+      },
+      "confidence": "fictional",
+      "notes": "The second gallery is a winding fissure in primitive rock, chosen after returning from the blind alley."
+    },
+    {
+      "id": "hansbach",
+      "name": "Hansbach",
+      "chapter": 23,
+      "position": {
+        "lat": 64.16,
+        "lon": -22.34,
+        "depthKm": 9.3
+      },
+      "confidence": "fictional",
+      "notes": "Hans opens the rock and discovers the stream that saves the expedition."
+    },
+    {
+      "id": "sixteen-leagues",
+      "name": "Sixteen leagues deep",
+      "chapter": 25,
+      "position": {
+        "lat": 60.85,
+        "lon": -14.35,
+        "depthKm": 77.25
+      },
+      "confidence": "book",
+      "notes": "The Professor states they are 85 leagues from Snaefell and 16 leagues deep."
+    },
+    {
+      "id": "axel-lost",
+      "name": "Axel lost",
+      "chapter": 27,
+      "position": {
+        "lat": 59.9,
+        "lon": -12.9,
+        "depthKm": 86
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "whispering-gallery",
+      "name": "Whispering gallery",
+      "chapter": 28,
+      "position": {
+        "lat": 58.7,
+        "lon": -11.2,
+        "depthKm": 92
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "liedenbrock-sea",
+      "name": "Liedenbrock Sea",
+      "chapter": 29,
+      "position": {
+        "lat": 56.8,
+        "lon": -8.5,
+        "depthKm": 96
+      },
+      "confidence": "fictional",
+      "notes": "The underground sea is fictional; shape and position are cinematic."
+    },
+    {
+      "id": "raft-launch",
+      "name": "Raft launch",
+      "chapter": 31,
+      "position": {
+        "lat": 55.9,
+        "lon": -7.2,
+        "depthKm": 96
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "axel-island",
+      "name": "Axel Island",
+      "chapter": 34,
+      "position": {
+        "lat": 50.7,
+        "lon": -2,
+        "depthKm": 84
+      },
+      "confidence": "book",
+      "notes": "The Professor counts 270 leagues of sea by the island/geyser stage."
+    },
+    {
+      "id": "storm-landfall",
+      "name": "Storm landfall",
+      "chapter": 38,
+      "position": {
+        "lat": 43.6,
+        "lon": 6.4,
+        "depthKm": 70
+      },
+      "confidence": "book",
+      "notes": "After the electric storm, the Professor estimates another 300 leagues of drift."
+    },
+    {
+      "id": "cape-saknussemm",
+      "name": "Cape Saknussemm",
+      "chapter": 40,
+      "position": {
+        "lat": 42.6,
+        "lon": 8.7,
+        "depthKm": 68
+      },
+      "confidence": "fictional",
+      "notes": "The name marks the rediscovered Saknussemm route after the storm has reversed the party."
+    },
+    {
+      "id": "fossil-forest",
+      "name": "Fossil forest",
+      "chapter": 39,
+      "position": {
+        "lat": 42,
+        "lon": 9.8,
+        "depthKm": 78
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "blocked-gallery",
+      "name": "Blocked gallery",
+      "chapter": 40,
+      "position": {
+        "lat": 41.5,
+        "lon": 10.6,
+        "depthKm": 90
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "volcanic-rush",
+      "name": "Volcanic conduit",
+      "chapter": 41,
+      "position": {
+        "lat": 40.1,
+        "lon": 12.9,
+        "depthKm": 150
+      },
+      "confidence": "fictional",
+      "notes": "The explosion opens a water-driven descent and then a violent upward volcanic transport."
+    },
+    {
+      "id": "stromboli",
+      "name": "Stromboli",
+      "chapter": 43,
+      "position": {
+        "lat": 38.793,
+        "lon": 15.213
+      },
+      "confidence": "confirmed",
+      "notes": "The party emerges on Stromboli, more than two thousand miles from Snaefell by the text."
+    },
+    {
+      "id": "san-vicenzo",
+      "name": "San Vicenzo port",
+      "chapter": 44,
+      "position": {
+        "lat": 38.804,
+        "lon": 15.24
+      },
+      "confidence": "estimated",
+      "notes": "The book names the port reached after leaving the grove on Stromboli."
+    }
+  ],
+  "paths": [
+    {
+      "id": "hamburg-altona",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "title": "Hamburg departure",
+      "medium": "carriage",
+      "distanceKm": 6,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "The party leaves Hamburg for the Altona railway station.",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Pack trunks and depart for Copenhagen route",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "hamburg"
+      },
+      "end": {
+        "waypointId": "altona"
+      }
+    },
+    {
+      "id": "altona-kiel",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "title": "Rail to Kiel",
+      "medium": "rail",
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "Surface route distance is calculated from modern coordinates.",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Altona to Kiel rail leg",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "altona"
+      },
+      "end": {
+        "waypointId": "kiel"
+      }
+    },
+    {
+      "id": "kiel-korsor",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "title": "Belt steamer",
+      "medium": "steamer",
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "The sea crossing links the German and Danish rail portions.",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Steamer toward Korsor",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "kiel"
+      },
+      "end": {
+        "waypointId": "korsor"
+      },
+      "points": [
+        {
+          "lat": 54.7,
+          "lon": 10.6
+        },
+        {
+          "lat": 55,
+          "lon": 11.1
+        }
+      ]
+    },
+    {
+      "id": "korsor-copenhagen",
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "title": "Rail across Zealand",
+      "medium": "rail",
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "The last rail segment before the Copenhagen preparations.",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Arrival in Copenhagen",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "korsor"
+      },
+      "end": {
+        "waypointId": "copenhagen"
+      }
+    },
+    {
+      "id": "copenhagen-skagen",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "title": "Out through the Sound",
+      "medium": "schooner",
+      "distanceSource": "geodesic",
+      "confidence": "estimated",
+      "notes": "The route follows the Sound and the Danish coast before entering the North Sea.",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "Schooner voyage toward Iceland",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "copenhagen"
+      },
+      "end": {
+        "waypointId": "skagen"
+      },
+      "points": [
+        {
+          "lat": 56.05,
+          "lon": 12.55
+        },
+        {
+          "lat": 56.9,
+          "lon": 11.6
+        }
+      ]
+    },
+    {
+      "id": "skagen-faroe",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "title": "North Sea crossing",
+      "medium": "schooner",
+      "distanceSource": "geodesic",
+      "confidence": "estimated",
+      "notes": "Cinematic leg through the North Atlantic corridor described in the voyage.",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "North Sea and Faroe approach",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "skagen"
+      },
+      "end": {
+        "waypointId": "faroe"
+      },
+      "points": [
+        {
+          "lat": 58.6,
+          "lon": 5.6
+        },
+        {
+          "lat": 60.4,
+          "lon": -0.7
+        }
+      ]
+    },
+    {
+      "id": "faroe-cape-portland",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "title": "Toward Iceland",
+      "medium": "schooner",
+      "distanceSource": "geodesic",
+      "confidence": "estimated",
+      "notes": "The text names Cape Portland before the approach to Faxa Bay.",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "Cape Portland and Iceland landfall",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "faroe"
+      },
+      "end": {
+        "waypointId": "cape-portland"
+      }
+    },
+    {
+      "id": "cape-portland-reykjavik",
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "title": "Faxa Bay arrival",
+      "medium": "schooner",
+      "distanceSource": "geodesic",
+      "confidence": "estimated",
+      "notes": "The final sea approach to Reykjavik.",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "Arrival at Reykjavik",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "cape-portland"
+      },
+      "end": {
+        "waypointId": "reykjavik"
+      },
+      "points": [
+        {
+          "lat": 63.75,
+          "lon": -21.4
+        }
+      ]
+    },
+    {
+      "id": "reykjavik-gufunes",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "title": "First Iceland stage",
+      "medium": "horse",
+      "distanceSource": "geodesic",
+      "confidence": "geocoded",
+      "notes": "Hans leads the party out of Reykjavik toward the coast road.",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Two hours from Reykjavik to Gufunes",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "reykjavik"
+      },
+      "end": {
+        "waypointId": "gufunes"
+      }
+    },
+    {
+      "id": "gufunes-hvalfjord",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "title": "Around Kolla fiord",
+      "medium": "horse",
+      "distanceKm": 32,
+      "distanceSource": "book",
+      "confidence": "textual",
+      "notes": "The book counts four Icelandic miles, or twenty-four English miles, by this stage.",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Four Icelandic miles by late afternoon",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "gufunes"
+      },
+      "end": {
+        "waypointId": "hvalfjord"
+      }
+    },
+    {
+      "id": "hvalfjord-gardar",
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "title": "Hvalfjord ferry",
+      "medium": "boat",
+      "distanceKm": 4.8,
+      "distanceSource": "book",
+      "confidence": "textual",
+      "notes": "The fjord is described as at least three English miles wide and crossed by raft/boat at slack tide.",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Hvalfjord ferry waits for the tide",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "hvalfjord"
+      },
+      "end": {
+        "waypointId": "gardar"
+      }
+    },
+    {
+      "id": "gardar-krosolbt",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "title": "Coastal barrens",
+      "medium": "horse",
+      "distanceKm": 93,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "A long inferred coastal stage preserving the novel itinerary toward the Snaefellsnes peninsula.",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "Night stage at Krosolbt",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "gardar"
+      },
+      "end": {
+        "waypointId": "krosolbt"
+      }
+    },
+    {
+      "id": "krosolbt-budir",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "title": "Hraun and hot springs",
+      "medium": "horse",
+      "distanceKm": 66,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "The text notes hardened lava, bogs, small lakes, and the white twin peaks ahead.",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "Hraun and first close views of Snaefell",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "krosolbt"
+      },
+      "end": {
+        "waypointId": "budir"
+      }
+    },
+    {
+      "id": "budir-stapi",
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "title": "To Stapi",
+      "medium": "horse",
+      "distanceSource": "geodesic",
+      "confidence": "geocoded",
+      "notes": "The horses stop at the rector blacksmith house at Stapi.",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "Arrival at Stapi",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "budir"
+      },
+      "end": {
+        "waypointId": "stapi"
+      }
+    },
+    {
+      "id": "stapi-snaefell-base",
+      "chapterStart": 15,
+      "chapterEnd": 15,
+      "title": "Assault on Snaefell",
+      "medium": "foot",
+      "distanceKm": 7,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "Hans leads the ascent over basalt, peat, and loose rock.",
+      "sourceRefs": [
+        {
+          "chapter": 15,
+          "label": "Stapi to the base of Snaefell",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "stapi"
+      },
+      "end": {
+        "waypointId": "snaefell-base"
+      }
+    },
+    {
+      "id": "snaefell-base-crater",
+      "chapterStart": 15,
+      "chapterEnd": 16,
+      "title": "Scartaris crater",
+      "medium": "foot",
+      "distanceKm": 5.5,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "The party reaches the crater indicated by the shadow of Scartaris.",
+      "sourceRefs": [
+        {
+          "chapter": 16,
+          "label": "Crater selected by Scartaris shadow",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "snaefell-base"
+      },
+      "end": {
+        "waypointId": "scartaris-crater"
+      }
+    },
+    {
+      "id": "crater-vertical-descent",
+      "chapterStart": 16,
+      "chapterEnd": 17,
+      "title": "Vertical descent",
+      "medium": "tunnel",
+      "distanceKm": 1.5,
+      "distanceSource": "book",
+      "confidence": "book",
+      "notes": "Snaefell is given as five thousand feet high; the tube reaches about sea level.",
+      "sourceRefs": [
+        {
+          "chapter": 17,
+          "label": "Barometer shows the bottom at sea level",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "scartaris-crater"
+      },
+      "end": {
+        "waypointId": "crater-bottom"
+      }
+    },
+    {
+      "id": "bottom-lava-gallery",
+      "chapterStart": 18,
+      "chapterEnd": 18,
+      "title": "Inclined lava staircase",
+      "medium": "tunnel",
+      "distanceKm": 6.2,
+      "distanceSource": "estimated",
+      "confidence": "book",
+      "notes": "After the sea-level crater floor, the route becomes a sloped natural staircase rather than a vertical shaft.",
+      "sourceRefs": [
+        {
+          "chapter": 18,
+          "label": "Inclined lava gallery reaches 10,000 feet below sea level",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "crater-bottom"
+      },
+      "end": {
+        "waypointId": "lava-gallery"
+      },
+      "points": [
+        {
+          "lat": 64.76,
+          "lon": -23.62,
+          "depthKm": 2.4
+        },
+        {
+          "lat": 64.68,
+          "lon": -23.45,
+          "depthKm": 3.35
+        }
+      ]
+    },
+    {
+      "id": "lava-gallery-fork",
+      "chapterStart": 19,
+      "chapterEnd": 19,
+      "title": "End of the chimney",
+      "medium": "tunnel",
+      "distanceKm": 5.5,
+      "distanceSource": "estimated",
+      "confidence": "book",
+      "notes": "They continue down the gently sloped lava staircase until Hans stops at the intersection of two roads.",
+      "sourceRefs": [
+        {
+          "chapter": 19,
+          "label": "Intersection of the eastern and western roads",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "lava-gallery"
+      },
+      "end": {
+        "waypointId": "two-road-fork"
+      },
+      "points": [
+        {
+          "lat": 64.59,
+          "lon": -23.24,
+          "depthKm": 4.9
+        },
+        {
+          "lat": 64.57,
+          "lon": -23.18,
+          "depthKm": 5.15
+        }
+      ]
+    },
+    {
+      "id": "fork-eastern-blind-alley",
+      "chapterStart": 19,
+      "chapterEnd": 20,
+      "title": "Mistaken eastern gallery",
+      "medium": "wrong-turn",
+      "distanceKm": 58,
+      "distanceSource": "estimated",
+      "confidence": "book",
+      "notes": "Liedenbrock chooses the eastern tunnel by chance; it becomes nearly horizontal, then rises, leaves the lava path, and ends at a blind wall.",
+      "sourceRefs": [
+        {
+          "chapter": 19,
+          "label": "Eastern tunnel chosen at random",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        },
+        {
+          "chapter": 20,
+          "label": "The blind alley proves the road was wrong",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "two-road-fork"
+      },
+      "end": {
+        "waypointId": "dry-gallery"
+      },
+      "points": [
+        {
+          "lat": 64.51,
+          "lon": -22.88,
+          "depthKm": 5.15
+        },
+        {
+          "lat": 64.45,
+          "lon": -22.56,
+          "depthKm": 5
+        },
+        {
+          "lat": 64.36,
+          "lon": -22.28,
+          "depthKm": 4.95
+        }
+      ]
+    },
+    {
+      "id": "blind-alley-return-fork",
+      "chapterStart": 21,
+      "chapterEnd": 21,
+      "title": "Three-day return to the fork",
+      "medium": "wrong-turn",
+      "distanceKm": 58,
+      "distanceSource": "estimated",
+      "confidence": "book",
+      "notes": "With water exhausted, the party retraces the mistaken eastern gallery back to the cross roads before trying the other branch.",
+      "sourceRefs": [
+        {
+          "chapter": 21,
+          "label": "Return from the dry eastern gallery to the cross roads",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "dry-gallery"
+      },
+      "end": {
+        "waypointId": "two-road-fork"
+      },
+      "points": [
+        {
+          "lat": 64.33,
+          "lon": -22.32,
+          "depthKm": 4.75
+        },
+        {
+          "lat": 64.43,
+          "lon": -22.61,
+          "depthKm": 4.9
+        },
+        {
+          "lat": 64.5,
+          "lon": -22.94,
+          "depthKm": 5.05
+        }
+      ]
+    },
+    {
+      "id": "fork-western-tunnel",
+      "chapterStart": 22,
+      "chapterEnd": 22,
+      "title": "Western gallery descent",
+      "medium": "tunnel",
+      "distanceKm": 6,
+      "distanceSource": "estimated",
+      "confidence": "book",
+      "notes": "The western fissure descends through primitive rock in a maze of windings rather than dropping straight down.",
+      "sourceRefs": [
+        {
+          "chapter": 21,
+          "label": "Proposal to try the western tunnel",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        },
+        {
+          "chapter": 22,
+          "label": "Primitive rocks and winding granite fissure",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "two-road-fork"
+      },
+      "end": {
+        "waypointId": "western-tunnel"
+      },
+      "points": [
+        {
+          "lat": 64.51,
+          "lon": -23,
+          "depthKm": 5.8
+        },
+        {
+          "lat": 64.48,
+          "lon": -22.82,
+          "depthKm": 6.35
+        },
+        {
+          "lat": 64.42,
+          "lon": -22.74,
+          "depthKm": 6.85
+        }
+      ]
+    },
+    {
+      "id": "western-hansbach",
+      "chapterStart": 23,
+      "chapterEnd": 23,
+      "title": "Hansbach",
+      "medium": "tunnel",
+      "distanceKm": 4.4,
+      "distanceSource": "book",
+      "confidence": "book",
+      "notes": "Hans leads them down a passage inclining two feet in seven; after about a mile and a quarter plus another half league they hear the buried torrent.",
+      "sourceRefs": [
+        {
+          "chapter": 23,
+          "label": "Water discovered down the inclined passage",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "western-tunnel"
+      },
+      "end": {
+        "waypointId": "hansbach"
+      },
+      "points": [
+        {
+          "lat": 64.34,
+          "lon": -22.55,
+          "depthKm": 7.9
+        },
+        {
+          "lat": 64.25,
+          "lon": -22.42,
+          "depthKm": 8.65
+        }
+      ]
+    },
+    {
+      "id": "hansbach-sixteen-leagues",
+      "chapterStart": 24,
+      "chapterEnd": 25,
+      "title": "Eighty-five leagues from Snaefell",
+      "medium": "tunnel",
+      "distanceKm": 241,
+      "distanceSource": "book",
+      "confidence": "book",
+      "notes": "The Hansbach first follows spiral curves down a fault, then a south-easterly slope; by chapter XXV the Professor reckons 85 leagues from Snaefell and 16 leagues deep.",
+      "sourceRefs": [
+        {
+          "chapter": 24,
+          "label": "Spiral well and south-east fault",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        },
+        {
+          "chapter": 25,
+          "label": "85 leagues from Snaefell; 16 leagues deep",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "hansbach"
+      },
+      "end": {
+        "waypointId": "sixteen-leagues"
+      },
+      "points": [
+        {
+          "lat": 64.06,
+          "lon": -22.08,
+          "depthKm": 16
+        },
+        {
+          "lat": 63.94,
+          "lon": -21.78,
+          "depthKm": 27
+        },
+        {
+          "lat": 63.35,
+          "lon": -20.52,
+          "depthKm": 40
+        },
+        {
+          "lat": 62.66,
+          "lon": -18.72,
+          "depthKm": 53
+        },
+        {
+          "lat": 61.72,
+          "lon": -16.5,
+          "depthKm": 65
+        }
+      ]
+    },
+    {
+      "id": "sixteen-axel-lost",
+      "chapterStart": 26,
+      "chapterEnd": 27,
+      "title": "Axel separates",
+      "medium": "tunnel",
+      "distanceKm": 30,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "Axel loses the party in the labyrinth while the stream and galleries complicate the route.",
+      "sourceRefs": [
+        {
+          "chapter": 27,
+          "label": "Lost in the bowels of the earth",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "sixteen-leagues"
+      },
+      "end": {
+        "waypointId": "axel-lost"
+      }
+    },
+    {
+      "id": "lost-whispering",
+      "chapterStart": 28,
+      "chapterEnd": 28,
+      "title": "Whispering gallery",
+      "medium": "tunnel",
+      "distanceKm": 18,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "The concave gallery carries voices across the rock and guides Axel back.",
+      "sourceRefs": [
+        {
+          "chapter": 28,
+          "label": "The acoustic rescue",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "axel-lost"
+      },
+      "end": {
+        "waypointId": "whispering-gallery"
+      }
+    },
+    {
+      "id": "whispering-sea",
+      "chapterStart": 29,
+      "chapterEnd": 30,
+      "title": "Thalatta",
+      "medium": "tunnel",
+      "distanceKm": 22,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "Axel falls into a shaft and wakes near the shore of the underground sea.",
+      "sourceRefs": [
+        {
+          "chapter": 29,
+          "label": "The sea discovered underground",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "whispering-gallery"
+      },
+      "end": {
+        "waypointId": "liedenbrock-sea"
+      }
+    },
+    {
+      "id": "sea-raft-launch",
+      "chapterStart": 31,
+      "chapterEnd": 31,
+      "title": "Raft built on the shore",
+      "medium": "raft",
+      "distanceKm": 5,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "Hans builds the raft for the voyage across the Mare Internum.",
+      "sourceRefs": [
+        {
+          "chapter": 31,
+          "label": "Preparations for the raft voyage",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "liedenbrock-sea"
+      },
+      "end": {
+        "waypointId": "raft-launch"
+      }
+    },
+    {
+      "id": "raft-axel-island",
+      "chapterStart": 32,
+      "chapterEnd": 34,
+      "title": "Across Liedenbrock Sea",
+      "medium": "raft",
+      "distanceKm": 1304,
+      "distanceSource": "book",
+      "confidence": "book",
+      "notes": "The Professor estimates 270 leagues of sea by the Axel Island and geyser stage.",
+      "sourceRefs": [
+        {
+          "chapter": 34,
+          "label": "270 leagues of sea",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "raft-launch"
+      },
+      "end": {
+        "waypointId": "axel-island"
+      },
+      "points": [
+        {
+          "lat": 53.9,
+          "lon": -5.8,
+          "depthKm": 94
+        },
+        {
+          "lat": 52.1,
+          "lon": -4,
+          "depthKm": 90
+        }
+      ]
+    },
+    {
+      "id": "axel-island-storm",
+      "chapterStart": 35,
+      "chapterEnd": 38,
+      "title": "Electric storm drift",
+      "medium": "raft",
+      "distanceKm": 1448,
+      "distanceSource": "book",
+      "confidence": "book",
+      "notes": "After the storm, the Professor estimates at least 80 leagues per day over four days.",
+      "sourceRefs": [
+        {
+          "chapter": 35,
+          "label": "Electric storm",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        },
+        {
+          "chapter": 38,
+          "label": "300 leagues after four storm days",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "axel-island"
+      },
+      "end": {
+        "waypointId": "storm-landfall"
+      },
+      "points": [
+        {
+          "lat": 48.8,
+          "lon": 0.4,
+          "depthKm": 82
+        },
+        {
+          "lat": 46,
+          "lon": 3.4,
+          "depthKm": 76
+        }
+      ]
+    },
+    {
+      "id": "storm-cape-saknussemm",
+      "chapterStart": 39,
+      "chapterEnd": 40,
+      "title": "Back to Saknussemm route",
+      "medium": "raft",
+      "distanceKm": 45,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "The party discovers it has been carried back toward the northern route and Cape Saknussemm.",
+      "sourceRefs": [
+        {
+          "chapter": 40,
+          "label": "Cape Saknussemm reached by raft",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "storm-landfall"
+      },
+      "end": {
+        "waypointId": "cape-saknussemm"
+      }
+    },
+    {
+      "id": "cape-fossil-forest",
+      "chapterStart": 39,
+      "chapterEnd": 39,
+      "title": "Fossil forest",
+      "medium": "foot",
+      "distanceKm": 8,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "The forest sequence is staged as a side excursion near the second shore.",
+      "sourceRefs": [
+        {
+          "chapter": 39,
+          "label": "Forest scenery under electric light",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "cape-saknussemm"
+      },
+      "end": {
+        "waypointId": "fossil-forest"
+      }
+    },
+    {
+      "id": "forest-blocked-gallery",
+      "chapterStart": 40,
+      "chapterEnd": 40,
+      "title": "Blocked passage",
+      "medium": "foot",
+      "distanceKm": 3,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "A granite block prevents progress and prompts the blasting plan.",
+      "sourceRefs": [
+        {
+          "chapter": 40,
+          "label": "Granite block and guncotton charge",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "fossil-forest"
+      },
+      "end": {
+        "waypointId": "blocked-gallery"
+      }
+    },
+    {
+      "id": "blocked-volcanic-rush",
+      "chapterStart": 41,
+      "chapterEnd": 42,
+      "title": "Explosion and rush below",
+      "medium": "eruption",
+      "distanceKm": 180,
+      "distanceSource": "cinematic",
+      "confidence": "fictional",
+      "notes": "The route becomes a violent water and lava conduit after the explosion.",
+      "sourceRefs": [
+        {
+          "chapter": 41,
+          "label": "The great explosion",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "blocked-gallery"
+      },
+      "end": {
+        "waypointId": "volcanic-rush"
+      }
+    },
+    {
+      "id": "volcanic-rush-stromboli",
+      "chapterStart": 42,
+      "chapterEnd": 43,
+      "title": "Shot out at Stromboli",
+      "medium": "eruption",
+      "distanceKm": 3219,
+      "distanceSource": "book",
+      "confidence": "book",
+      "notes": "The book gives the final displacement as more than two thousand miles from Snaefell; the visible curve is cinematic.",
+      "sourceRefs": [
+        {
+          "chapter": 43,
+          "label": "Stromboli exit; more than two thousand miles from Snaefell",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "volcanic-rush"
+      },
+      "end": {
+        "waypointId": "stromboli"
+      },
+      "points": [
+        {
+          "lat": 39.2,
+          "lon": 14.4,
+          "depthKm": 80
+        },
+        {
+          "lat": 38.95,
+          "lon": 15,
+          "depthKm": 25
+        }
+      ]
+    },
+    {
+      "id": "stromboli-port",
+      "chapterStart": 44,
+      "chapterEnd": 44,
+      "title": "To San Vicenzo",
+      "medium": "foot",
+      "distanceKm": 3,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "The party walks from the grove toward the small port on Stromboli.",
+      "sourceRefs": [
+        {
+          "chapter": 44,
+          "label": "One hour to the port of San Vicenzo",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ],
+      "start": {
+        "waypointId": "stromboli"
+      },
+      "end": {
+        "waypointId": "san-vicenzo"
+      }
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 1,
+      "movement": "stationary",
+      "anchor": "Hamburg, No. 19 Konigstrasse",
+      "locationFacts": [
+        "Axel and Liedenbrock are at the Hamburg house that anchors the route."
+      ],
+      "deltaFacts": [
+        "No route displacement; this is the domestic origin."
+      ],
+      "slopeFacts": [
+        "No slope estimate."
+      ],
+      "xyzEstimate": "Locked to the Hamburg waypoint until chapter 8.",
+      "segmentIds": [],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Hamburg house and household",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "movement": "stationary",
+      "anchor": "Hamburg study",
+      "locationFacts": [
+        "The manuscript investigation remains inside the Hamburg origin."
+      ],
+      "deltaFacts": [
+        "No physical travel."
+      ],
+      "slopeFacts": [
+        "No slope estimate."
+      ],
+      "xyzEstimate": "No XYZ delta; position is inherited from chapter 1.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "Runic manuscript in Hamburg",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "movement": "stationary",
+      "anchor": "Hamburg study",
+      "locationFacts": [
+        "The decoded text names Snaefell, Scartaris, and the July shadow condition."
+      ],
+      "deltaFacts": [
+        "No travel yet; the map gains a destination clue, not a movement segment."
+      ],
+      "slopeFacts": [
+        "Future vertical/descent clue only."
+      ],
+      "xyzEstimate": "No XYZ delta; destination remains textual.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "Snaefell, Scartaris, and kalends clue",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "movement": "stationary",
+      "anchor": "Hamburg",
+      "locationFacts": [
+        "The argument over the journey remains in Hamburg."
+      ],
+      "deltaFacts": [
+        "No physical route displacement."
+      ],
+      "slopeFacts": [
+        "No slope estimate."
+      ],
+      "xyzEstimate": "No XYZ delta.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "Axel resists the expedition",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "movement": "stationary",
+      "anchor": "Hamburg",
+      "locationFacts": [
+        "The route target is confirmed as Snaefell in Iceland."
+      ],
+      "deltaFacts": [
+        "No travel; this chapter converts the cipher into itinerary intent."
+      ],
+      "slopeFacts": [
+        "No modeled slope yet."
+      ],
+      "xyzEstimate": "No XYZ delta.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Decoded route instruction",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "movement": "stationary",
+      "anchor": "Hamburg",
+      "locationFacts": [
+        "Liedenbrock plans the Iceland journey from Hamburg."
+      ],
+      "deltaFacts": [
+        "No route displacement."
+      ],
+      "slopeFacts": [
+        "No slope estimate."
+      ],
+      "xyzEstimate": "No XYZ delta.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "Scientific debate before departure",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "movement": "stationary",
+      "anchor": "Hamburg and Altona road context",
+      "locationFacts": [
+        "Grauben has been at Altona; Axel walks the Altona road before accepting the expedition."
+      ],
+      "deltaFacts": [
+        "Local wandering is not mapped as a journey leg."
+      ],
+      "slopeFacts": [
+        "No meaningful route slope."
+      ],
+      "xyzEstimate": "No modeled chapter delta; Hamburg remains the route origin.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "Altona road and departure consent",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "movement": "surface",
+      "anchor": "Hamburg to Copenhagen",
+      "locationFacts": [
+        "The party leaves Hamburg for Altona, Kiel, Korsor, and Copenhagen."
+      ],
+      "deltaFacts": [
+        "First mapped surface displacement: carriage, rail, steamer, then rail."
+      ],
+      "slopeFacts": [
+        "Surface legs are treated as zero-depth slope."
+      ],
+      "xyzEstimate": "XYZ delta uses geocoded Hamburg/Kiel/Korsor/Copenhagen waypoints and estimated harbor path bends.",
+      "segmentIds": [
+        "hamburg-altona",
+        "altona-kiel",
+        "kiel-korsor",
+        "korsor-copenhagen"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Altona, Kiel, Korsor, Copenhagen",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "movement": "sea",
+      "anchor": "Copenhagen to Reykjavik",
+      "locationFacts": [
+        "The schooner route leaves Copenhagen and approaches Iceland via northern waters."
+      ],
+      "deltaFacts": [
+        "Sea displacement is modeled through Skagen, Faroe waters, Cape Portland, and Faxa Bay."
+      ],
+      "slopeFacts": [
+        "Surface sea route; no depth slope."
+      ],
+      "xyzEstimate": "XYZ delta is estimated from named landfalls and sea-shaping waypoints.",
+      "segmentIds": [
+        "copenhagen-skagen",
+        "skagen-faroe",
+        "faroe-cape-portland",
+        "cape-portland-reykjavik"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "Schooner route to Iceland",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "movement": "stationary",
+      "anchor": "Reykjavik",
+      "locationFacts": [
+        "The expedition is in Reykjavik, consulting local savants and library material."
+      ],
+      "deltaFacts": [
+        "No mapped route displacement."
+      ],
+      "slopeFacts": [
+        "No slope estimate."
+      ],
+      "xyzEstimate": "No XYZ delta; Reykjavik remains the active anchor.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 10,
+          "label": "Reykjavik scholarly inquiries",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "movement": "stationary",
+      "anchor": "Reykjavik",
+      "locationFacts": [
+        "Hans is engaged as guide for the route to Stapi and Snaefell."
+      ],
+      "deltaFacts": [
+        "No mapped displacement; guide acquisition changes route confidence."
+      ],
+      "slopeFacts": [
+        "No slope estimate."
+      ],
+      "xyzEstimate": "No XYZ delta.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "Hans engaged as guide",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "movement": "surface",
+      "anchor": "Reykjavik to Gardar",
+      "locationFacts": [
+        "The party rides from Reykjavik to Gufunes, around the fjord, and crosses Hvalfjord."
+      ],
+      "deltaFacts": [
+        "Horse and boat legs begin the Iceland overland approach."
+      ],
+      "slopeFacts": [
+        "Surface travel; no depth slope modeled."
+      ],
+      "xyzEstimate": "XYZ delta uses Reykjavik, Gufunes, Hvalfjord, and Gardar coordinates.",
+      "segmentIds": [
+        "reykjavik-gufunes",
+        "gufunes-hvalfjord",
+        "hvalfjord-gardar"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Gufunes, Hvalfjord, and Gardar",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "movement": "surface",
+      "anchor": "Gardar to Stapi",
+      "locationFacts": [
+        "The route crosses coastal barrens, lava fields, Budir, and reaches Stapi."
+      ],
+      "deltaFacts": [
+        "Long horse stages carry the party across the Snaefellsnes approach."
+      ],
+      "slopeFacts": [
+        "Surface travel; local terrain is rough but not modeled as vertical slope."
+      ],
+      "xyzEstimate": "XYZ delta uses inferred coastal waypoints and geocoded Budir/Stapi.",
+      "segmentIds": [
+        "gardar-krosolbt",
+        "krosolbt-budir",
+        "budir-stapi"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "Krosolbt, Budir, and Stapi",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "movement": "stationary",
+      "anchor": "Stapi",
+      "locationFacts": [
+        "The party waits at Stapi before the Snaefell ascent."
+      ],
+      "deltaFacts": [
+        "No mapped displacement."
+      ],
+      "slopeFacts": [
+        "No slope estimate."
+      ],
+      "xyzEstimate": "No XYZ delta; Stapi remains the anchor.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 14,
+          "label": "Waiting at Stapi",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "movement": "ascent",
+      "anchor": "Stapi to Snaefell",
+      "locationFacts": [
+        "Hans leads the ascent from Stapi toward Snaefell and the crater area."
+      ],
+      "deltaFacts": [
+        "The route changes from horse travel to foot ascent."
+      ],
+      "slopeFacts": [
+        "Surface ascent is estimated from Stapi to Snaefell base and crater waypoint."
+      ],
+      "xyzEstimate": "XYZ delta is estimated from Stapi, Snaefell base, and fictional crater coordinates.",
+      "segmentIds": [
+        "stapi-snaefell-base",
+        "snaefell-base-crater"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 15,
+          "label": "Ascent from Stapi toward Snaefell",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "movement": "descent",
+      "anchor": "Scartaris crater",
+      "locationFacts": [
+        "The Scartaris shadow identifies the crater, and the party commits to descent."
+      ],
+      "deltaFacts": [
+        "The map transitions from surface approach into the volcanic opening."
+      ],
+      "slopeFacts": [
+        "Crater approach remains surface; vertical descent begins at the crater."
+      ],
+      "xyzEstimate": "XYZ estimate combines crater coordinate with the first vertical shaft segment.",
+      "segmentIds": [
+        "snaefell-base-crater",
+        "crater-vertical-descent"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 16,
+          "label": "Scartaris shadow and crater entry",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "movement": "descent",
+      "anchor": "Crater shaft to sea level",
+      "locationFacts": [
+        "The barometer places the party near sea level at the bottom of the shaft."
+      ],
+      "deltaFacts": [
+        "Nearly pure vertical displacement from Snaefell crater to crater bottom."
+      ],
+      "slopeFacts": [
+        "Modeled as the route true vertical shaft."
+      ],
+      "xyzEstimate": "XYZ delta is mostly inward radial change at nearly fixed lat/lon.",
+      "segmentIds": [
+        "crater-vertical-descent"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 17,
+          "label": "Barometer reaches sea level",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "movement": "descent",
+      "anchor": "Inclined lava gallery",
+      "locationFacts": [
+        "The path becomes an inclined lava gallery and natural staircase."
+      ],
+      "deltaFacts": [
+        "The expedition moves inward and laterally, no longer straight down."
+      ],
+      "slopeFacts": [
+        "Estimated descending slope to about 10,000 feet below sea level."
+      ],
+      "xyzEstimate": "XYZ delta follows path bends through the lava staircase.",
+      "segmentIds": [
+        "bottom-lava-gallery"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 18,
+          "label": "Inclined lava gallery and depth",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 19,
+      "movement": "wrong-turn",
+      "anchor": "Fork and eastern gallery",
+      "locationFacts": [
+        "Hans stops at two roads; the eastern tunnel is chosen by chance."
+      ],
+      "deltaFacts": [
+        "The route branches: correct path pauses at the fork, wrong path begins eastward."
+      ],
+      "slopeFacts": [
+        "The eastern gallery becomes nearly horizontal and later rises slightly."
+      ],
+      "xyzEstimate": "XYZ estimate records both the fork approach and the wrong-turn branch.",
+      "segmentIds": [
+        "lava-gallery-fork",
+        "fork-eastern-blind-alley"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 19,
+          "label": "Two roads and eastern choice",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 20,
+      "movement": "wrong-turn",
+      "anchor": "Eastern blind alley",
+      "locationFacts": [
+        "The eastern gallery proves dry and ends against a wall."
+      ],
+      "deltaFacts": [
+        "The wrong-turn displacement is real travel but not progress toward the center."
+      ],
+      "slopeFacts": [
+        "Nearly flat to slight rise, contrasting with the intended descent."
+      ],
+      "xyzEstimate": "XYZ estimate follows the modeled blind-alley endpoint.",
+      "segmentIds": [
+        "fork-eastern-blind-alley"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 20,
+          "label": "Blind alley in the eastern gallery",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 21,
+      "movement": "wrong-turn",
+      "anchor": "Return to the fork",
+      "locationFacts": [
+        "The party retraces the dry eastern gallery back to the two-road junction."
+      ],
+      "deltaFacts": [
+        "Modeled as an equal return branch; net progress returns to the fork."
+      ],
+      "slopeFacts": [
+        "The return reverses the slight wrong-turn rise/descent pattern."
+      ],
+      "xyzEstimate": "XYZ delta intentionally points back to the fork.",
+      "segmentIds": [
+        "blind-alley-return-fork"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 21,
+          "label": "Return from the dry gallery",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "movement": "subterranean",
+      "anchor": "Western granite fissure",
+      "locationFacts": [
+        "The correct western tunnel descends through primitive rock."
+      ],
+      "deltaFacts": [
+        "Progress resumes down the western branch after the wrong-turn correction."
+      ],
+      "slopeFacts": [
+        "Modeled as a winding descent rather than a straight vertical drop."
+      ],
+      "xyzEstimate": "XYZ estimate follows several bend points in the western fissure.",
+      "segmentIds": [
+        "fork-western-tunnel"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 22,
+          "label": "Western tunnel and primitive rocks",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 23,
+      "movement": "subterranean",
+      "anchor": "Hansbach",
+      "locationFacts": [
+        "Hans hears and opens a buried watercourse, creating Hansbach."
+      ],
+      "deltaFacts": [
+        "Short but important descent to the water source."
+      ],
+      "slopeFacts": [
+        "The book gives an incline of two feet in seven for part of this passage."
+      ],
+      "xyzEstimate": "XYZ delta uses the modeled Hansbach waypoint and bend points.",
+      "segmentIds": [
+        "western-hansbach"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 23,
+          "label": "Water discovered and named Hansbach",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 24,
+      "movement": "subterranean",
+      "anchor": "Hansbach fault",
+      "locationFacts": [
+        "The stream leads down a spiral fault and then a south-easterly route."
+      ],
+      "deltaFacts": [
+        "Large interior displacement begins after the water discovery."
+      ],
+      "slopeFacts": [
+        "Modeled as spiral descent followed by a south-east sloping gallery."
+      ],
+      "xyzEstimate": "XYZ estimate uses bend points from Hansbach toward the 16-league depth checkpoint.",
+      "segmentIds": [
+        "hansbach-sixteen-leagues"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 24,
+          "label": "Spiral fault and south-east route",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 25,
+      "movement": "subterranean",
+      "anchor": "Sixteen leagues deep",
+      "locationFacts": [
+        "The Professor reckons 85 leagues from Snaefell and 16 leagues deep."
+      ],
+      "deltaFacts": [
+        "This is the first explicit long-range underground displacement check."
+      ],
+      "slopeFacts": [
+        "Slope is derived from the modeled path to the 16-league depth point."
+      ],
+      "xyzEstimate": "XYZ estimate is book-distance constrained but geographically fictional.",
+      "segmentIds": [
+        "hansbach-sixteen-leagues"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 25,
+          "label": "85 leagues from Snaefell; 16 leagues deep",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 26,
+      "movement": "subterranean",
+      "anchor": "Deep labyrinth near Hansbach",
+      "locationFacts": [
+        "The party continues through the subterranean galleries under severe fatigue."
+      ],
+      "deltaFacts": [
+        "Modeled as the opening portion of Axel separation/labyrinth travel."
+      ],
+      "slopeFacts": [
+        "Estimated uneven tunnel slope."
+      ],
+      "xyzEstimate": "XYZ estimate is fictional and tied to the labyrinth segment.",
+      "segmentIds": [
+        "sixteen-axel-lost"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 26,
+          "label": "Peril in the deep galleries",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 27,
+      "movement": "subterranean",
+      "anchor": "Axel lost",
+      "locationFacts": [
+        "Axel becomes separated in the labyrinth."
+      ],
+      "deltaFacts": [
+        "The displacement is partly individual rather than the full party route."
+      ],
+      "slopeFacts": [
+        "Estimated tunnel slope; precise direction is intentionally uncertain."
+      ],
+      "xyzEstimate": "XYZ estimate marks Axel lost as a fictional branch point.",
+      "segmentIds": [
+        "sixteen-axel-lost"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 27,
+          "label": "Lost in the bowels of the earth",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 28,
+      "movement": "subterranean",
+      "anchor": "Whispering gallery",
+      "locationFacts": [
+        "Acoustics across the gallery help locate and recover Axel."
+      ],
+      "deltaFacts": [
+        "Modeled as movement from the lost point to the whispering gallery."
+      ],
+      "slopeFacts": [
+        "Estimated descending tunnel slope."
+      ],
+      "xyzEstimate": "XYZ estimate follows the acoustic rescue segment.",
+      "segmentIds": [
+        "lost-whispering"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 28,
+          "label": "Whispering gallery rescue",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 29,
+      "movement": "subterranean",
+      "anchor": "Liedenbrock Sea shore",
+      "locationFacts": [
+        "Axel reaches the shore of the underground sea."
+      ],
+      "deltaFacts": [
+        "Transition from enclosed galleries to the underground sea basin."
+      ],
+      "slopeFacts": [
+        "Final approach is modeled as a descent to the sea chamber."
+      ],
+      "xyzEstimate": "XYZ estimate connects the whispering gallery to the sea waypoint.",
+      "segmentIds": [
+        "whispering-sea"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 29,
+          "label": "Thalatta and underground sea",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 30,
+      "movement": "stationary",
+      "anchor": "Liedenbrock Sea shore",
+      "locationFacts": [
+        "The sea chamber is inspected from shore."
+      ],
+      "deltaFacts": [
+        "No major route displacement; this chapter establishes the new basin."
+      ],
+      "slopeFacts": [
+        "No slope estimate."
+      ],
+      "xyzEstimate": "No new XYZ delta beyond the sea arrival segment.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 30,
+          "label": "Description of Mare Internum",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 31,
+      "movement": "raft",
+      "anchor": "Raft launch",
+      "locationFacts": [
+        "Hans builds the raft at the underground sea shore."
+      ],
+      "deltaFacts": [
+        "Short shoreline movement to the launch point."
+      ],
+      "slopeFacts": [
+        "Flat sea-shore movement."
+      ],
+      "xyzEstimate": "XYZ delta is small and near constant depth.",
+      "segmentIds": [
+        "sea-raft-launch"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 31,
+          "label": "Raft preparations",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 32,
+      "movement": "raft",
+      "anchor": "Liedenbrock Sea",
+      "locationFacts": [
+        "The raft voyage begins across the underground sea."
+      ],
+      "deltaFacts": [
+        "Open-water interior displacement starts."
+      ],
+      "slopeFacts": [
+        "Near-flat raft path with small modeled depth variation."
+      ],
+      "xyzEstimate": "XYZ estimate follows the first part of the raft crossing.",
+      "segmentIds": [
+        "raft-axel-island"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 32,
+          "label": "Raft voyage and marine life",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 33,
+      "movement": "raft",
+      "anchor": "Liedenbrock Sea",
+      "locationFacts": [
+        "The raft continues across the sea during the monster encounter."
+      ],
+      "deltaFacts": [
+        "Displacement continues but is not separately measured in the chapter."
+      ],
+      "slopeFacts": [
+        "Sea surface path; no meaningful slope."
+      ],
+      "xyzEstimate": "XYZ estimate shares the long raft-crossing segment.",
+      "segmentIds": [
+        "raft-axel-island"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 33,
+          "label": "Battle of monsters at sea",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 34,
+      "movement": "raft",
+      "anchor": "Axel Island and geyser",
+      "locationFacts": [
+        "The Professor counts 270 leagues by the island/geyser stage."
+      ],
+      "deltaFacts": [
+        "Book-distance checkpoint for the underground sea crossing."
+      ],
+      "slopeFacts": [
+        "Raft path remains near-flat, with modeled basin depth variation."
+      ],
+      "xyzEstimate": "XYZ estimate is constrained by the 270-league book distance.",
+      "segmentIds": [
+        "raft-axel-island"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 34,
+          "label": "270 leagues of sea",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 35,
+      "movement": "raft",
+      "anchor": "Electric storm drift",
+      "locationFacts": [
+        "The raft is driven by the electric storm."
+      ],
+      "deltaFacts": [
+        "Storm drift begins the large reversal/displacement across the sea."
+      ],
+      "slopeFacts": [
+        "Near-flat raft drift."
+      ],
+      "xyzEstimate": "XYZ estimate follows the storm drift segment.",
+      "segmentIds": [
+        "axel-island-storm"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 35,
+          "label": "Electric storm",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 36,
+      "movement": "raft",
+      "anchor": "Liedenbrock Sea drift",
+      "locationFacts": [
+        "The raft continues after the storm sequence while the party debates their course."
+      ],
+      "deltaFacts": [
+        "Continuing drift; exact daily position is not isolated."
+      ],
+      "slopeFacts": [
+        "Near-flat raft drift."
+      ],
+      "xyzEstimate": "XYZ estimate shares the storm drift leg.",
+      "segmentIds": [
+        "axel-island-storm"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 36,
+          "label": "Course discussions after storm",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 37,
+      "movement": "raft",
+      "anchor": "Liedenbrock Sea geology",
+      "locationFacts": [
+        "The raft remains in the sea basin while geological evidence accumulates."
+      ],
+      "deltaFacts": [
+        "Continuing sea displacement with no separate waypoint."
+      ],
+      "slopeFacts": [
+        "Near-flat raft drift."
+      ],
+      "xyzEstimate": "XYZ estimate shares the storm drift leg.",
+      "segmentIds": [
+        "axel-island-storm"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 37,
+          "label": "Sea geology and drift",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 38,
+      "movement": "raft",
+      "anchor": "Storm landfall",
+      "locationFacts": [
+        "After four storm days, the Professor estimates another 300 leagues."
+      ],
+      "deltaFacts": [
+        "Book-distance checkpoint for the drift to landfall."
+      ],
+      "slopeFacts": [
+        "Near-flat raft path ending at a new shore."
+      ],
+      "xyzEstimate": "XYZ estimate is constrained by the 300-league drift statement.",
+      "segmentIds": [
+        "axel-island-storm"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 38,
+          "label": "300 leagues after the storm",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 39,
+      "movement": "surface",
+      "anchor": "Second shore and fossil forest",
+      "locationFacts": [
+        "The party explores the shore, fossil forest, and finds evidence of the Saknussemm route."
+      ],
+      "deltaFacts": [
+        "Short foot movement from the storm landfall into the forest."
+      ],
+      "slopeFacts": [
+        "Local foot travel; slight modeled depth change."
+      ],
+      "xyzEstimate": "XYZ estimate uses storm landfall, Cape Saknussemm, and fossil forest waypoints.",
+      "segmentIds": [
+        "storm-cape-saknussemm",
+        "cape-fossil-forest"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 39,
+          "label": "Fossil forest and Saknussemm evidence",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 40,
+      "movement": "surface",
+      "anchor": "Blocked gallery",
+      "locationFacts": [
+        "The Saknussemm route reaches a blocked granite passage."
+      ],
+      "deltaFacts": [
+        "Short movement from forest/shore to blocked gallery."
+      ],
+      "slopeFacts": [
+        "Modeled as a descending foot approach into the blocked passage."
+      ],
+      "xyzEstimate": "XYZ estimate connects Cape/forest waypoints to the blocked gallery.",
+      "segmentIds": [
+        "storm-cape-saknussemm",
+        "forest-blocked-gallery"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 40,
+          "label": "Cape Saknussemm and granite block",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 41,
+      "movement": "volcanic",
+      "anchor": "Explosion and lower conduit",
+      "locationFacts": [
+        "The guncotton blast opens a violent water-driven passage."
+      ],
+      "deltaFacts": [
+        "The route drops/rushes through a newly opened conduit."
+      ],
+      "slopeFacts": [
+        "Cinematic steep descent; exact gradient is not physically constrained."
+      ],
+      "xyzEstimate": "XYZ estimate is deliberately cinematic for the explosion-driven rush.",
+      "segmentIds": [
+        "blocked-volcanic-rush"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 41,
+          "label": "Explosion and rush below",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 42,
+      "movement": "volcanic",
+      "anchor": "Volcanic ascent conduit",
+      "locationFacts": [
+        "The party is carried upward through darkness by the volcanic/water conduit."
+      ],
+      "deltaFacts": [
+        "The final long displacement toward Stromboli begins."
+      ],
+      "slopeFacts": [
+        "Cinematic transition from deep conduit to violent upward transport."
+      ],
+      "xyzEstimate": "XYZ estimate bridges the fictional conduit to the Stromboli exit path.",
+      "segmentIds": [
+        "blocked-volcanic-rush",
+        "volcanic-rush-stromboli"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 42,
+          "label": "Headlong speed upward",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 43,
+      "movement": "volcanic",
+      "anchor": "Stromboli",
+      "locationFacts": [
+        "The party is ejected at Stromboli."
+      ],
+      "deltaFacts": [
+        "Book states the exit is more than two thousand miles from Snaefell."
+      ],
+      "slopeFacts": [
+        "Final route is a cinematic upward volcanic transport."
+      ],
+      "xyzEstimate": "XYZ estimate is constrained by Stromboli coordinates and book displacement.",
+      "segmentIds": [
+        "volcanic-rush-stromboli"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 43,
+          "label": "Stromboli exit; more than two thousand miles",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 44,
+      "movement": "surface",
+      "anchor": "San Vicenzo port, Stromboli",
+      "locationFacts": [
+        "The party walks to the port of San Vicenzo on Stromboli."
+      ],
+      "deltaFacts": [
+        "Short surface recovery leg after the volcanic exit."
+      ],
+      "slopeFacts": [
+        "Surface foot travel; no depth slope."
+      ],
+      "xyzEstimate": "XYZ delta uses estimated local port coordinate.",
+      "segmentIds": [
+        "stromboli-port"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 44,
+          "label": "Walk to San Vicenzo port",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 45,
+      "movement": "return",
+      "anchor": "Return after Stromboli",
+      "locationFacts": [
+        "The narrative resolves after the expedition returns to ordinary life."
+      ],
+      "deltaFacts": [
+        "Return travel is summarized rather than mapped segment by segment."
+      ],
+      "slopeFacts": [
+        "No slope estimate for the omitted return journey."
+      ],
+      "xyzEstimate": "No mapped XYZ delta; final return is intentionally excluded until more text-specific legs are added.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 45,
+          "label": "Aftermath and return",
+          "url": "https://www.gutenberg.org/cache/epub/3748/pg3748-images.html"
+        }
+      ]
+    }
+  ]
+}

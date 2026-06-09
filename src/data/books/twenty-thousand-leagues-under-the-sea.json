@@ -1,0 +1,2940 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "twenty-thousand-leagues-under-the-sea",
+  "title": "Twenty Thousand Leagues under the Sea",
+  "author": "Jules Verne",
+  "source": {
+    "label": "Project Gutenberg #164",
+    "url": "https://www.gutenberg.org/cache/epub/164/pg164-images.html"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "A Shifting Reef"
+    },
+    {
+      "number": 2,
+      "title": "Pro and Con"
+    },
+    {
+      "number": 3,
+      "title": "I Form My Resolution"
+    },
+    {
+      "number": 4,
+      "title": "Ned Land"
+    },
+    {
+      "number": 5,
+      "title": "At a Venture"
+    },
+    {
+      "number": 6,
+      "title": "At Full Steam"
+    },
+    {
+      "number": 7,
+      "title": "An Unknown Species of Whale"
+    },
+    {
+      "number": 8,
+      "title": "Mobilis in Mobili"
+    },
+    {
+      "number": 9,
+      "title": "Ned Land's Tempers"
+    },
+    {
+      "number": 10,
+      "title": "The Man of the Seas"
+    },
+    {
+      "number": 11,
+      "title": "All by Electricity"
+    },
+    {
+      "number": 12,
+      "title": "Some Figures"
+    },
+    {
+      "number": 13,
+      "title": "The Black River"
+    },
+    {
+      "number": 14,
+      "title": "A Note of Invitation"
+    },
+    {
+      "number": 15,
+      "title": "A Walk on the Bottom of the Sea"
+    },
+    {
+      "number": 16,
+      "title": "A Submarine Forest"
+    },
+    {
+      "number": 17,
+      "title": "Four Thousand Leagues under the Pacific"
+    },
+    {
+      "number": 18,
+      "title": "Vanikoro"
+    },
+    {
+      "number": 19,
+      "title": "Torres Straits"
+    },
+    {
+      "number": 20,
+      "title": "A Few Days on Land"
+    },
+    {
+      "number": 21,
+      "title": "Captain Nemo's Thunderbolt"
+    },
+    {
+      "number": 22,
+      "title": "Aegri Somnia"
+    },
+    {
+      "number": 23,
+      "title": "The Coral Kingdom"
+    },
+    {
+      "number": 24,
+      "title": "The Indian Ocean"
+    },
+    {
+      "number": 25,
+      "title": "A Novel Proposal of Captain Nemo's"
+    },
+    {
+      "number": 26,
+      "title": "A Pearl of Ten Millions"
+    },
+    {
+      "number": 27,
+      "title": "The Red Sea"
+    },
+    {
+      "number": 28,
+      "title": "The Arabian Tunnel"
+    },
+    {
+      "number": 29,
+      "title": "The Grecian Archipelago"
+    },
+    {
+      "number": 30,
+      "title": "The Mediterranean in Forty-Eight Hours"
+    },
+    {
+      "number": 31,
+      "title": "Vigo Bay"
+    },
+    {
+      "number": 32,
+      "title": "A Vanished Continent"
+    },
+    {
+      "number": 33,
+      "title": "The Submarine Coal-Mines"
+    },
+    {
+      "number": 34,
+      "title": "The Sargasso Sea"
+    },
+    {
+      "number": 35,
+      "title": "Cachalots and Whales"
+    },
+    {
+      "number": 36,
+      "title": "The Iceberg"
+    },
+    {
+      "number": 37,
+      "title": "The South Pole"
+    },
+    {
+      "number": 38,
+      "title": "Accident or Incident?"
+    },
+    {
+      "number": 39,
+      "title": "Want of Air"
+    },
+    {
+      "number": 40,
+      "title": "From Cape Horn to the Amazon"
+    },
+    {
+      "number": 41,
+      "title": "The Poulps"
+    },
+    {
+      "number": 42,
+      "title": "The Gulf Stream"
+    },
+    {
+      "number": 43,
+      "title": "From Latitude 47 deg 24 min to Longitude 17 deg 28 min"
+    },
+    {
+      "number": 44,
+      "title": "A Hecatomb"
+    },
+    {
+      "number": 45,
+      "title": "The Last Words of Captain Nemo"
+    },
+    {
+      "number": 46,
+      "title": "Conclusion"
+    }
+  ],
+  "media": {
+    "carriage": {
+      "label": "Carriage",
+      "color": "#d39a4c"
+    },
+    "frigate": {
+      "label": "Frigate",
+      "color": "#6aa9e6"
+    },
+    "swim": {
+      "label": "Swim",
+      "color": "#9dd8e8"
+    },
+    "submarine": {
+      "label": "Submarine",
+      "color": "#46d5c8"
+    },
+    "diving": {
+      "label": "Diving suit",
+      "color": "#c2d968"
+    },
+    "boat": {
+      "label": "Boat",
+      "color": "#d4b05f"
+    },
+    "foot": {
+      "label": "Foot",
+      "color": "#89c96d"
+    },
+    "tunnel": {
+      "label": "Tunnel",
+      "color": "#8c72d9"
+    },
+    "maelstrom": {
+      "label": "Maelstrom",
+      "color": "#f06b52"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "fifth-avenue-hotel",
+      "name": "Fifth Avenue Hotel",
+      "chapter": 2,
+      "position": {
+        "lat": 40.741,
+        "lon": -73.989
+      },
+      "confidence": "estimated",
+      "notes": "Aronnax receives the invitation in New York; mapped to the historical Fifth Avenue Hotel area."
+    },
+    {
+      "id": "brooklyn-pier",
+      "name": "Brooklyn pier",
+      "chapter": 3,
+      "position": {
+        "lat": 40.7003,
+        "lon": -73.9967
+      },
+      "confidence": "estimated",
+      "notes": "Departure point for the Abraham Lincoln."
+    },
+    {
+      "id": "cape-horn",
+      "name": "Cape Horn",
+      "chapter": 5,
+      "position": {
+        "lat": -55.9833,
+        "lon": -67.2667
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "south-pacific-search",
+      "name": "Tropic of Capricorn, 105 W",
+      "chapter": 5,
+      "position": {
+        "lat": -23.436,
+        "lon": -105
+      },
+      "confidence": "book",
+      "notes": "The Abraham Lincoln cuts the tropic of Capricorn at 105 degrees longitude."
+    },
+    {
+      "id": "equator-110w",
+      "name": "Equator, 110 W",
+      "chapter": 5,
+      "position": {
+        "lat": 0,
+        "lon": -110
+      },
+      "confidence": "book",
+      "notes": "The frigate crosses the equator on the 110th meridian."
+    },
+    {
+      "id": "japan-encounter",
+      "name": "Japan encounter",
+      "chapter": 5,
+      "position": {
+        "lat": 31.25,
+        "lon": 136.7
+      },
+      "confidence": "book",
+      "notes": "Gutenberg text gives 31 deg 15 min N, 136 deg 42 min E, less than two hundred miles from Japan."
+    },
+    {
+      "id": "nautilus-japan",
+      "name": "Nautilus boarding",
+      "chapter": 8,
+      "position": {
+        "lat": 31.25,
+        "lon": 136.7,
+        "depthKm": 0.05
+      },
+      "confidence": "book",
+      "notes": "The castaways discover the Nautilus after the collision."
+    },
+    {
+      "id": "crespo",
+      "name": "Crespo Island",
+      "chapter": 14,
+      "position": {
+        "lat": 32.6667,
+        "lon": -157.8333,
+        "depthKm": 0.05
+      },
+      "confidence": "book",
+      "notes": "Gutenberg text gives 32 deg 40 min N, 157 deg 50 min W."
+    },
+    {
+      "id": "crespo-forest",
+      "name": "Crespo submarine forest",
+      "chapter": 15,
+      "position": {
+        "lat": 32.6667,
+        "lon": -157.8333,
+        "depthKm": 0.009
+      },
+      "confidence": "book",
+      "notes": "The Nautilus is stranded in five fathoms for the undersea walk."
+    },
+    {
+      "id": "clermont-tonnerre",
+      "name": "Clermont-Tonnerre atoll",
+      "chapter": 18,
+      "position": {
+        "lat": -18.63,
+        "lon": -136.45,
+        "depthKm": 0.05
+      },
+      "confidence": "estimated",
+      "notes": "One of the Pomotou/Tuamotu atolls observed before Vanikoro."
+    },
+    {
+      "id": "tahiti",
+      "name": "Tahiti",
+      "chapter": 18,
+      "position": {
+        "lat": -17.6509,
+        "lon": -149.426,
+        "depthKm": 0.05
+      },
+      "confidence": "geocoded",
+      "notes": "Seen to the east on 15 December."
+    },
+    {
+      "id": "aurou-new-hebrides",
+      "name": "Aurou, New Hebrides",
+      "chapter": 18,
+      "position": {
+        "lat": -15.55,
+        "lon": 167.17,
+        "depthKm": 0.05
+      },
+      "confidence": "estimated",
+      "notes": "Mapped near Aore/Espiritu Santo for the New Hebrides passage."
+    },
+    {
+      "id": "vanikoro",
+      "name": "Vanikoro",
+      "chapter": 18,
+      "position": {
+        "lat": -16.0667,
+        "lon": 164.5333,
+        "depthKm": 0.06
+      },
+      "confidence": "book",
+      "notes": "The text gives Vanou harbor as 16 deg 4 min S, 164 deg 32 min E."
+    },
+    {
+      "id": "torres-reef",
+      "name": "Torres Strait reef",
+      "chapter": 19,
+      "position": {
+        "lat": -10.58,
+        "lon": 142.22,
+        "depthKm": 0.015
+      },
+      "confidence": "estimated",
+      "notes": "Grounding location in Torres Strait, near Gueboroar and the Papuan coast."
+    },
+    {
+      "id": "gueboroar-island",
+      "name": "Gueboroar Island",
+      "chapter": 20,
+      "position": {
+        "lat": -10.61,
+        "lon": 142.3
+      },
+      "confidence": "estimated",
+      "notes": "Mapped near the Torres Strait island visited while the Nautilus is grounded."
+    },
+    {
+      "id": "gueboroar-inland-grove",
+      "name": "Gueboroar inland grove",
+      "chapter": 20,
+      "position": {
+        "lat": -10.64,
+        "lon": 142.27
+      },
+      "confidence": "estimated",
+      "notes": "Estimated inland point for the chapter 20 hunting and gathering walk."
+    },
+    {
+      "id": "indian-ocean-open",
+      "name": "Indian Ocean",
+      "chapter": 24,
+      "position": {
+        "lat": -18,
+        "lon": 100,
+        "depthKm": 0.12
+      },
+      "confidence": "estimated"
+    },
+    {
+      "id": "cocos-keeling",
+      "name": "Cocos Islands",
+      "chapter": 24,
+      "position": {
+        "lat": -12.1642,
+        "lon": 96.871,
+        "depthKm": 0.08
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "ceylon-pearl-bank",
+      "name": "Ceylon pearl bank",
+      "chapter": 26,
+      "position": {
+        "lat": 9.08,
+        "lon": 79.65,
+        "depthKm": 0.015
+      },
+      "confidence": "estimated",
+      "notes": "Mapped west of Mannar/Ceylon for Nemo's pearl-bank excursion."
+    },
+    {
+      "id": "aden",
+      "name": "Aden",
+      "chapter": 27,
+      "position": {
+        "lat": 12.7855,
+        "lon": 45.0187,
+        "depthKm": 0.06
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "red-sea-2130",
+      "name": "Red Sea, 21 deg 30 min N",
+      "chapter": 28,
+      "position": {
+        "lat": 21.5,
+        "lon": 38.2,
+        "depthKm": 0.08
+      },
+      "confidence": "book",
+      "notes": "The text gives 21 deg 30 min N before the Arabian Tunnel passage."
+    },
+    {
+      "id": "suez-tunnel-mouth",
+      "name": "Suez tunnel mouth",
+      "chapter": 28,
+      "position": {
+        "lat": 29.9668,
+        "lon": 32.5498,
+        "depthKm": 0.12
+      },
+      "confidence": "estimated"
+    },
+    {
+      "id": "pelusium",
+      "name": "Gulf of Pelusium",
+      "chapter": 28,
+      "position": {
+        "lat": 31.05,
+        "lon": 32.55,
+        "depthKm": 0.08
+      },
+      "confidence": "estimated",
+      "notes": "Mediterranean exit of Nemo's fictional Arabian Tunnel."
+    },
+    {
+      "id": "crete-candia",
+      "name": "Candia, Crete",
+      "chapter": 29,
+      "position": {
+        "lat": 35.2401,
+        "lon": 24.8093,
+        "depthKm": 0.25
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "greek-archipelago",
+      "name": "Grecian Archipelago",
+      "chapter": 29,
+      "position": {
+        "lat": 36.3932,
+        "lon": 25.4615,
+        "depthKm": 0.25
+      },
+      "confidence": "geocoded",
+      "notes": "Aegean shaping point near Santorini."
+    },
+    {
+      "id": "gibraltar",
+      "name": "Strait of Gibraltar",
+      "chapter": 30,
+      "position": {
+        "lat": 36.1408,
+        "lon": -5.3536,
+        "depthKm": 0.15
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "vigo-bay",
+      "name": "Vigo Bay",
+      "chapter": 31,
+      "position": {
+        "lat": 42.2406,
+        "lon": -8.7287,
+        "depthKm": 0.02
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "atlantis",
+      "name": "Atlantis",
+      "chapter": 32,
+      "position": {
+        "lat": 33.3667,
+        "lon": -16.2833,
+        "depthKm": 0.15
+      },
+      "confidence": "book",
+      "notes": "The text gives 33 deg 22 min latitude and 16 deg 17 min longitude; longitude is modeled west in the Atlantic."
+    },
+    {
+      "id": "volcanic-lagoon",
+      "name": "Submarine coal lagoon",
+      "chapter": 33,
+      "position": {
+        "lat": 34.8,
+        "lon": -24.5,
+        "depthKm": 0.02
+      },
+      "confidence": "fictional",
+      "notes": "Fictional volcanic refuge for the Nautilus."
+    },
+    {
+      "id": "sargasso-sea",
+      "name": "Sargasso Sea",
+      "chapter": 34,
+      "position": {
+        "lat": 30,
+        "lon": -45,
+        "depthKm": 0.05
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "atlantic-abyss",
+      "name": "Atlantic abyss",
+      "chapter": 34,
+      "position": {
+        "lat": 5,
+        "lon": -35,
+        "depthKm": 14.6
+      },
+      "confidence": "book",
+      "notes": "The Nautilus descends to 16,000 yards, or four leagues, in the Atlantic abyss."
+    },
+    {
+      "id": "southern-whale-sea",
+      "name": "Southern whale waters",
+      "chapter": 35,
+      "position": {
+        "lat": -50,
+        "lon": -45,
+        "depthKm": 0.08
+      },
+      "confidence": "estimated"
+    },
+    {
+      "id": "antarctic-ice-edge",
+      "name": "Antarctic ice edge",
+      "chapter": 36,
+      "position": {
+        "lat": -65,
+        "lon": -45,
+        "depthKm": 0.08
+      },
+      "confidence": "estimated"
+    },
+    {
+      "id": "south-pole",
+      "name": "South Pole",
+      "chapter": 37,
+      "position": {
+        "lat": -90,
+        "lon": 0,
+        "depthKm": 0.02
+      },
+      "confidence": "fictional",
+      "notes": "Nemo's fictional open sea at the South Pole."
+    },
+    {
+      "id": "ice-prison",
+      "name": "Ice prison",
+      "chapter": 39,
+      "position": {
+        "lat": -82,
+        "lon": -45,
+        "depthKm": 0.35
+      },
+      "confidence": "estimated",
+      "notes": "Position inferred for the post-pole iceberg imprisonment."
+    },
+    {
+      "id": "plata-estuary",
+      "name": "Rio de la Plata",
+      "chapter": 40,
+      "position": {
+        "lat": -35,
+        "lon": -55,
+        "depthKm": 0.05
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "amazon-mouth",
+      "name": "Amazon mouth",
+      "chapter": 40,
+      "position": {
+        "lat": 0,
+        "lon": -49,
+        "depthKm": 0.05
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "guianas",
+      "name": "Guianas",
+      "chapter": 40,
+      "position": {
+        "lat": 5,
+        "lon": -52,
+        "depthKm": 0.05
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "martinique",
+      "name": "Martinique",
+      "chapter": 41,
+      "position": {
+        "lat": 14.6415,
+        "lon": -61.0242,
+        "depthKm": 0.05
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "poulp-battle",
+      "name": "Poulp battle",
+      "chapter": 41,
+      "position": {
+        "lat": 25,
+        "lon": -75,
+        "depthKm": 0.02
+      },
+      "confidence": "estimated",
+      "notes": "Estimated North Atlantic/Antilles location for the giant-poulp attack."
+    },
+    {
+      "id": "gulf-stream-nc",
+      "name": "Gulf Stream off Hatteras",
+      "chapter": 42,
+      "position": {
+        "lat": 35.3,
+        "lon": -74,
+        "depthKm": 0.05
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "long-island",
+      "name": "Long Island waters",
+      "chapter": 42,
+      "position": {
+        "lat": 40.75,
+        "lon": -72.9,
+        "depthKm": 0.04
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "transatlantic-cable",
+      "name": "Atlantic cable",
+      "chapter": 43,
+      "position": {
+        "lat": 47,
+        "lon": -35,
+        "depthKm": 3.5
+      },
+      "confidence": "estimated",
+      "notes": "A shaping point for the transatlantic cable inspection."
+    },
+    {
+      "id": "avenger-wreck",
+      "name": "Avenger wreck",
+      "chapter": 43,
+      "position": {
+        "lat": 47.4,
+        "lon": -17.4667,
+        "depthKm": 3.5
+      },
+      "confidence": "book",
+      "notes": "The text gives 47 deg 24 min latitude, 17 deg 28 min longitude for the wreck of the Avenger."
+    },
+    {
+      "id": "north-atlantic-run",
+      "name": "North Atlantic run",
+      "chapter": 45,
+      "position": {
+        "lat": 55,
+        "lon": -10,
+        "depthKm": 0.08
+      },
+      "confidence": "estimated"
+    },
+    {
+      "id": "lofoten-maelstrom",
+      "name": "Lofoten Maelstrom",
+      "chapter": 46,
+      "position": {
+        "lat": 67.8,
+        "lon": 12.8
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "lofoten-shore",
+      "name": "Lofoten shore",
+      "chapter": 46,
+      "position": {
+        "lat": 68.1,
+        "lon": 13.6
+      },
+      "confidence": "estimated",
+      "notes": "Aronnax, Conseil, and Ned Land recover on the Norwegian coast."
+    }
+  ],
+  "paths": [
+    {
+      "id": "new-york-to-brooklyn",
+      "title": "New York to Brooklyn pier",
+      "medium": "carriage",
+      "start": {
+        "waypointId": "fifth-avenue-hotel"
+      },
+      "end": {
+        "waypointId": "brooklyn-pier"
+      },
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "distanceKm": 6.5,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "Aronnax and Conseil hurry from the hotel to the Abraham Lincoln at Brooklyn.",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "Brooklyn departure",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap03"
+        }
+      ]
+    },
+    {
+      "id": "abraham-lincoln-search",
+      "title": "Abraham Lincoln search cruise",
+      "medium": "frigate",
+      "start": {
+        "waypointId": "brooklyn-pier"
+      },
+      "end": {
+        "waypointId": "japan-encounter"
+      },
+      "chapterStart": 3,
+      "chapterEnd": 7,
+      "distanceSource": "geodesic",
+      "confidence": "book",
+      "notes": "The frigate leaves Brooklyn, rounds Cape Horn, crosses the tropic of Capricorn at 105 W and the equator on 110 W, then meets the Nautilus near Japan.",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Pacific search coordinates",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap05"
+        },
+        {
+          "chapter": 7,
+          "label": "collision and castaways",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap07"
+        }
+      ],
+      "points": [
+        {
+          "lat": -55.9833,
+          "lon": -67.2667
+        },
+        {
+          "lat": -23.436,
+          "lon": -105
+        },
+        {
+          "lat": 0,
+          "lon": -110
+        },
+        {
+          "lat": 21.3069,
+          "lon": -157.8583
+        }
+      ]
+    },
+    {
+      "id": "castaways-board-nautilus",
+      "title": "Castaways on the Nautilus",
+      "medium": "swim",
+      "start": {
+        "waypointId": "japan-encounter"
+      },
+      "end": {
+        "waypointId": "nautilus-japan"
+      },
+      "chapterStart": 7,
+      "chapterEnd": 8,
+      "distanceKm": 1,
+      "distanceSource": "estimated",
+      "confidence": "book",
+      "notes": "Aronnax, Conseil, and Ned Land survive the collision and climb onto the unknown vessel.",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "unknown species of whale",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap07"
+        },
+        {
+          "chapter": 8,
+          "label": "Mobilis in mobili",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap08"
+        }
+      ]
+    },
+    {
+      "id": "japan-to-crespo",
+      "title": "Black River to Crespo",
+      "medium": "submarine",
+      "start": {
+        "waypointId": "nautilus-japan"
+      },
+      "end": {
+        "waypointId": "crespo"
+      },
+      "chapterStart": 13,
+      "chapterEnd": 14,
+      "distanceKm": 2897,
+      "distanceSource": "book",
+      "confidence": "book",
+      "notes": "The Nautilus follows the Kuro-Scivo; Crespo is described as about 1,800 miles from the starting point.",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "Black River",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap13"
+        },
+        {
+          "chapter": 14,
+          "label": "Crespo coordinates",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap14"
+        }
+      ],
+      "points": [
+        {
+          "lat": 35,
+          "lon": 155,
+          "depthKm": 0.05
+        },
+        {
+          "lat": 35,
+          "lon": 178,
+          "depthKm": 0.05
+        }
+      ]
+    },
+    {
+      "id": "crespo-submarine-forest",
+      "title": "Crespo sea-floor walk",
+      "medium": "diving",
+      "start": {
+        "waypointId": "crespo"
+      },
+      "end": {
+        "waypointId": "crespo-forest"
+      },
+      "chapterStart": 15,
+      "chapterEnd": 16,
+      "distanceKm": 4,
+      "distanceSource": "estimated",
+      "confidence": "book",
+      "notes": "Nemo leads a diving-suit hunt through the submarine forest while the Nautilus rests in five fathoms.",
+      "sourceRefs": [
+        {
+          "chapter": 15,
+          "label": "walk on the sea floor",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap15"
+        },
+        {
+          "chapter": 16,
+          "label": "submarine forest",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap16"
+        }
+      ]
+    },
+    {
+      "id": "crespo-to-vanikoro-pacific",
+      "title": "Four thousand leagues under the Pacific",
+      "medium": "submarine",
+      "start": {
+        "waypointId": "crespo"
+      },
+      "end": {
+        "waypointId": "vanikoro"
+      },
+      "chapterStart": 17,
+      "chapterEnd": 18,
+      "distanceKm": 16400,
+      "distanceSource": "book",
+      "confidence": "book",
+      "notes": "Distance is scaled to the chapter title's under-Pacific cumulative travel while the curve follows Pomotou, Tahiti, New Hebrides, and Vanikoro anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 17,
+          "label": "four thousand leagues under the Pacific",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap17"
+        },
+        {
+          "chapter": 18,
+          "label": "Vanikoro",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap18"
+        }
+      ],
+      "points": [
+        {
+          "lat": -18.63,
+          "lon": -136.45,
+          "depthKm": 0.05
+        },
+        {
+          "lat": -17.6509,
+          "lon": -149.426,
+          "depthKm": 0.05
+        },
+        {
+          "lat": -15.55,
+          "lon": 167.17,
+          "depthKm": 0.05
+        }
+      ]
+    },
+    {
+      "id": "vanikoro-to-torres",
+      "title": "Vanikoro to Torres Strait",
+      "medium": "submarine",
+      "start": {
+        "waypointId": "vanikoro"
+      },
+      "end": {
+        "waypointId": "torres-reef"
+      },
+      "chapterStart": 19,
+      "chapterEnd": 19,
+      "distanceKm": 3621,
+      "distanceSource": "book",
+      "confidence": "book",
+      "notes": "The text gives 750 leagues from Vanikoro/La Perouse's group to the southeast point of Papua.",
+      "sourceRefs": [
+        {
+          "chapter": 19,
+          "label": "750 leagues to Papua",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap19"
+        }
+      ],
+      "points": [
+        {
+          "lat": -12.4,
+          "lon": 155.5,
+          "depthKm": 0.06
+        }
+      ]
+    },
+    {
+      "id": "gueboroar-landing",
+      "title": "Gueboroar landing",
+      "medium": "boat",
+      "start": {
+        "waypointId": "torres-reef"
+      },
+      "end": {
+        "waypointId": "gueboroar-island"
+      },
+      "chapterStart": 20,
+      "chapterEnd": 21,
+      "distanceKm": 5,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "While the Nautilus is grounded, Aronnax, Conseil, and Ned Land row ashore and explore the island.",
+      "sourceRefs": [
+        {
+          "chapter": 20,
+          "label": "few days on land",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap20"
+        },
+        {
+          "chapter": 21,
+          "label": "return to the Nautilus",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap21"
+        }
+      ]
+    },
+    {
+      "id": "gueboroar-island-foray",
+      "title": "Gueboroar island foray",
+      "medium": "foot",
+      "start": {
+        "waypointId": "gueboroar-island"
+      },
+      "end": {
+        "waypointId": "gueboroar-inland-grove"
+      },
+      "chapterStart": 20,
+      "chapterEnd": 20,
+      "distanceKm": 8,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "Aronnax, Conseil, and Ned Land spend a few days ashore hunting and gathering while the Nautilus waits for the tide.",
+      "sourceRefs": [
+        {
+          "chapter": 20,
+          "label": "A few days on land",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap20"
+        }
+      ],
+      "points": [
+        {
+          "lat": -10.62,
+          "lon": 142.24
+        },
+        {
+          "lat": -10.66,
+          "lon": 142.3
+        }
+      ]
+    },
+    {
+      "id": "torres-to-ceylon",
+      "title": "Indian Ocean crossing",
+      "medium": "submarine",
+      "start": {
+        "waypointId": "torres-reef"
+      },
+      "end": {
+        "waypointId": "ceylon-pearl-bank"
+      },
+      "chapterStart": 23,
+      "chapterEnd": 26,
+      "distanceKm": 12000,
+      "distanceSource": "estimated",
+      "confidence": "book",
+      "notes": "The Nautilus leaves the coral kingdom for the Indian Ocean, passes near Cocos, and approaches the pearl banks of Ceylon.",
+      "sourceRefs": [
+        {
+          "chapter": 23,
+          "label": "coral kingdom",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap23"
+        },
+        {
+          "chapter": 24,
+          "label": "Indian Ocean",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap24"
+        },
+        {
+          "chapter": 26,
+          "label": "Ceylon pearl bank",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap26"
+        }
+      ],
+      "points": [
+        {
+          "lat": -18,
+          "lon": 100,
+          "depthKm": 0.12
+        },
+        {
+          "lat": -12.1642,
+          "lon": 96.871,
+          "depthKm": 0.08
+        }
+      ]
+    },
+    {
+      "id": "ceylon-pearl-dive",
+      "title": "Ceylon pearl dive",
+      "medium": "diving",
+      "start": {
+        "waypointId": "ceylon-pearl-bank"
+      },
+      "end": {
+        "waypointId": "ceylon-pearl-bank"
+      },
+      "chapterStart": 26,
+      "chapterEnd": 26,
+      "distanceKm": 3,
+      "distanceSource": "estimated",
+      "confidence": "book",
+      "notes": "Nemo takes the party on foot across the pearl bank and saves an Indian diver from a shark.",
+      "sourceRefs": [
+        {
+          "chapter": 26,
+          "label": "pearl of ten millions",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap26"
+        }
+      ],
+      "points": [
+        {
+          "lat": 9.1,
+          "lon": 79.67,
+          "depthKm": 0.015
+        }
+      ]
+    },
+    {
+      "id": "ceylon-to-red-sea",
+      "title": "Ceylon to the Red Sea",
+      "medium": "submarine",
+      "start": {
+        "waypointId": "ceylon-pearl-bank"
+      },
+      "end": {
+        "waypointId": "red-sea-2130"
+      },
+      "chapterStart": 27,
+      "chapterEnd": 27,
+      "distanceKm": 7500,
+      "distanceSource": "estimated",
+      "confidence": "book",
+      "notes": "The Nautilus crosses the Sea of Oman, passes Aden, and enters the Red Sea.",
+      "sourceRefs": [
+        {
+          "chapter": 27,
+          "label": "Red Sea",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap27"
+        }
+      ],
+      "points": [
+        {
+          "lat": 12.7855,
+          "lon": 45.0187,
+          "depthKm": 0.06
+        }
+      ]
+    },
+    {
+      "id": "arabian-tunnel",
+      "title": "Arabian Tunnel",
+      "medium": "tunnel",
+      "start": {
+        "waypointId": "red-sea-2130"
+      },
+      "end": {
+        "waypointId": "pelusium"
+      },
+      "chapterStart": 28,
+      "chapterEnd": 28,
+      "distanceKm": 700,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "Nemo's fictional submarine passage runs beneath Suez from the Red Sea to the Gulf of Pelusium.",
+      "sourceRefs": [
+        {
+          "chapter": 28,
+          "label": "Arabian Tunnel",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap28"
+        }
+      ],
+      "points": [
+        {
+          "lat": 29.9668,
+          "lon": 32.5498,
+          "depthKm": 0.12
+        }
+      ]
+    },
+    {
+      "id": "mediterranean-crossing",
+      "title": "Mediterranean in forty-eight hours",
+      "medium": "submarine",
+      "start": {
+        "waypointId": "pelusium"
+      },
+      "end": {
+        "waypointId": "gibraltar"
+      },
+      "chapterStart": 29,
+      "chapterEnd": 30,
+      "distanceKm": 2897,
+      "distanceSource": "book",
+      "confidence": "book",
+      "notes": "The book estimates about 600 leagues through the Mediterranean in forty-eight hours.",
+      "sourceRefs": [
+        {
+          "chapter": 29,
+          "label": "Grecian Archipelago",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap29"
+        },
+        {
+          "chapter": 30,
+          "label": "Mediterranean in forty-eight hours",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap30"
+        }
+      ],
+      "points": [
+        {
+          "lat": 35.2401,
+          "lon": 24.8093,
+          "depthKm": 0.25
+        },
+        {
+          "lat": 36.3932,
+          "lon": 25.4615,
+          "depthKm": 0.25
+        },
+        {
+          "lat": 36.0,
+          "lon": 5.0,
+          "depthKm": 1.5
+        }
+      ]
+    },
+    {
+      "id": "gibraltar-to-vigo",
+      "title": "Gibraltar to Vigo Bay",
+      "medium": "submarine",
+      "start": {
+        "waypointId": "gibraltar"
+      },
+      "end": {
+        "waypointId": "vigo-bay"
+      },
+      "chapterStart": 31,
+      "chapterEnd": 31,
+      "distanceKm": 900,
+      "distanceSource": "estimated",
+      "confidence": "geocoded",
+      "notes": "After the failed escape plan near Portugal, Nemo brings the Nautilus to the treasure wrecks in Vigo Bay.",
+      "sourceRefs": [
+        {
+          "chapter": 31,
+          "label": "Vigo Bay",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap31"
+        }
+      ],
+      "points": [
+        {
+          "lat": 37.02,
+          "lon": -8.99,
+          "depthKm": 0.06
+        }
+      ]
+    },
+    {
+      "id": "vigo-to-atlantis",
+      "title": "Vigo Bay to Atlantis",
+      "medium": "submarine",
+      "start": {
+        "waypointId": "vigo-bay"
+      },
+      "end": {
+        "waypointId": "atlantis"
+      },
+      "chapterStart": 32,
+      "chapterEnd": 32,
+      "distanceKm": 2000,
+      "distanceSource": "estimated",
+      "confidence": "book",
+      "notes": "The Nautilus runs south to the Atlantic coordinate where Nemo reveals the vanished continent.",
+      "sourceRefs": [
+        {
+          "chapter": 32,
+          "label": "Atlantis coordinate",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap32"
+        }
+      ]
+    },
+    {
+      "id": "atlantis-to-coal-lagoon",
+      "title": "Atlantis to submarine coal mines",
+      "medium": "submarine",
+      "start": {
+        "waypointId": "atlantis"
+      },
+      "end": {
+        "waypointId": "volcanic-lagoon"
+      },
+      "chapterStart": 33,
+      "chapterEnd": 33,
+      "distanceKm": 800,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "Nemo enters a fictional volcanic lagoon where the Nautilus takes sodium for its electricity.",
+      "sourceRefs": [
+        {
+          "chapter": 33,
+          "label": "submarine coal mines",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap33"
+        }
+      ]
+    },
+    {
+      "id": "coal-lagoon-to-sargasso",
+      "title": "Volcanic refuge to Sargasso Sea",
+      "medium": "submarine",
+      "start": {
+        "waypointId": "volcanic-lagoon"
+      },
+      "end": {
+        "waypointId": "sargasso-sea"
+      },
+      "chapterStart": 34,
+      "chapterEnd": 34,
+      "distanceKm": 2200,
+      "distanceSource": "estimated",
+      "confidence": "geocoded",
+      "notes": "The Nautilus reaches the weed-filled central Atlantic described as the Sargasso Sea.",
+      "sourceRefs": [
+        {
+          "chapter": 34,
+          "label": "Sargasso Sea",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap34"
+        }
+      ]
+    },
+    {
+      "id": "sargasso-to-abyss",
+      "title": "Dive to the Atlantic abyss",
+      "medium": "submarine",
+      "start": {
+        "waypointId": "sargasso-sea"
+      },
+      "end": {
+        "waypointId": "atlantic-abyss"
+      },
+      "chapterStart": 34,
+      "chapterEnd": 34,
+      "distanceKm": 8800,
+      "distanceSource": "book",
+      "confidence": "book",
+      "notes": "The book says that by 13 March the Nautilus had traveled about 13,000 leagues since the Pacific departure, then descends to 16,000 yards.",
+      "sourceRefs": [
+        {
+          "chapter": 34,
+          "label": "13,000 leagues and abyss dive",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap34"
+        }
+      ]
+    },
+    {
+      "id": "abyss-to-whale-waters",
+      "title": "Abyss to southern whale waters",
+      "medium": "submarine",
+      "start": {
+        "waypointId": "atlantic-abyss"
+      },
+      "end": {
+        "waypointId": "southern-whale-sea"
+      },
+      "chapterStart": 35,
+      "chapterEnd": 35,
+      "distanceKm": 5000,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "The Nautilus resumes its southerly course and encounters whales and cachalots in southern latitudes.",
+      "sourceRefs": [
+        {
+          "chapter": 35,
+          "label": "cachalots and whales",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap35"
+        }
+      ]
+    },
+    {
+      "id": "whale-waters-to-south-pole",
+      "title": "Southern Ocean to the South Pole",
+      "medium": "submarine",
+      "start": {
+        "waypointId": "southern-whale-sea"
+      },
+      "end": {
+        "waypointId": "south-pole"
+      },
+      "chapterStart": 36,
+      "chapterEnd": 37,
+      "distanceKm": 6000,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "The Nautilus passes icebergs, dives beneath the ice, and reaches Nemo's fictional open sea at the South Pole.",
+      "sourceRefs": [
+        {
+          "chapter": 36,
+          "label": "the iceberg",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap36"
+        },
+        {
+          "chapter": 37,
+          "label": "the South Pole",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap37"
+        }
+      ],
+      "points": [
+        {
+          "lat": -65,
+          "lon": -45,
+          "depthKm": 0.08
+        },
+        {
+          "lat": -78,
+          "lon": -35,
+          "depthKm": 0.7
+        }
+      ]
+    },
+    {
+      "id": "south-pole-ice-prison",
+      "title": "Ice tunnel imprisonment",
+      "medium": "submarine",
+      "start": {
+        "waypointId": "south-pole"
+      },
+      "end": {
+        "waypointId": "ice-prison"
+      },
+      "chapterStart": 38,
+      "chapterEnd": 39,
+      "distanceKm": 2000,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "After the pole, an overturned iceberg traps the Nautilus under ice until the crew cuts an escape.",
+      "sourceRefs": [
+        {
+          "chapter": 38,
+          "label": "accident or incident",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap38"
+        },
+        {
+          "chapter": 39,
+          "label": "want of air",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap39"
+        }
+      ],
+      "points": [
+        {
+          "lat": -86,
+          "lon": -25,
+          "depthKm": 0.7
+        }
+      ]
+    },
+    {
+      "id": "ice-prison-to-amazon",
+      "title": "From Cape Horn to the Amazon",
+      "medium": "submarine",
+      "start": {
+        "waypointId": "ice-prison"
+      },
+      "end": {
+        "waypointId": "amazon-mouth"
+      },
+      "chapterStart": 40,
+      "chapterEnd": 40,
+      "distanceKm": 8000,
+      "distanceSource": "estimated",
+      "confidence": "geocoded",
+      "notes": "The Nautilus heads north, sights South America, passes the Plata, and rises near the Amazon mouth.",
+      "sourceRefs": [
+        {
+          "chapter": 40,
+          "label": "Cape Horn to the Amazon",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap40"
+        }
+      ],
+      "points": [
+        {
+          "lat": -55.9833,
+          "lon": -67.2667,
+          "depthKm": 0.06
+        },
+        {
+          "lat": -35,
+          "lon": -55,
+          "depthKm": 0.05
+        },
+        {
+          "lat": 5,
+          "lon": -52,
+          "depthKm": 0.05
+        }
+      ]
+    },
+    {
+      "id": "amazon-to-poulps",
+      "title": "Amazon to the poulps",
+      "medium": "submarine",
+      "start": {
+        "waypointId": "amazon-mouth"
+      },
+      "end": {
+        "waypointId": "poulp-battle"
+      },
+      "chapterStart": 41,
+      "chapterEnd": 41,
+      "distanceKm": 3000,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "The Nautilus passes the Guianas and Antilles before the giant-poulp attack.",
+      "sourceRefs": [
+        {
+          "chapter": 41,
+          "label": "poulps",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap41"
+        }
+      ],
+      "points": [
+        {
+          "lat": 5,
+          "lon": -52,
+          "depthKm": 0.05
+        },
+        {
+          "lat": 14.6415,
+          "lon": -61.0242,
+          "depthKm": 0.05
+        }
+      ]
+    },
+    {
+      "id": "poulps-to-long-island",
+      "title": "Gulf Stream to Long Island",
+      "medium": "submarine",
+      "start": {
+        "waypointId": "poulp-battle"
+      },
+      "end": {
+        "waypointId": "long-island"
+      },
+      "chapterStart": 42,
+      "chapterEnd": 42,
+      "distanceKm": 3000,
+      "distanceSource": "estimated",
+      "confidence": "geocoded",
+      "notes": "The Nautilus follows the Gulf Stream past Hatteras toward Long Island during a storm.",
+      "sourceRefs": [
+        {
+          "chapter": 42,
+          "label": "Gulf Stream",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap42"
+        }
+      ],
+      "points": [
+        {
+          "lat": 35.3,
+          "lon": -74,
+          "depthKm": 0.05
+        }
+      ]
+    },
+    {
+      "id": "long-island-to-avenger",
+      "title": "Atlantic cable to the Avenger",
+      "medium": "submarine",
+      "start": {
+        "waypointId": "long-island"
+      },
+      "end": {
+        "waypointId": "avenger-wreck"
+      },
+      "chapterStart": 43,
+      "chapterEnd": 43,
+      "distanceKm": 4000,
+      "distanceSource": "book",
+      "confidence": "book",
+      "notes": "The Nautilus inspects the transatlantic cable, then reaches the Avenger wreck at 47 deg 24 min latitude, 17 deg 28 min longitude.",
+      "sourceRefs": [
+        {
+          "chapter": 43,
+          "label": "latitude 47 deg 24 min and longitude 17 deg 28 min",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap43"
+        }
+      ],
+      "points": [
+        {
+          "lat": 47,
+          "lon": -35,
+          "depthKm": 3.5
+        }
+      ]
+    },
+    {
+      "id": "avenger-to-maelstrom",
+      "title": "North Atlantic vengeance run",
+      "medium": "submarine",
+      "start": {
+        "waypointId": "avenger-wreck"
+      },
+      "end": {
+        "waypointId": "lofoten-maelstrom"
+      },
+      "chapterStart": 44,
+      "chapterEnd": 46,
+      "distanceKm": 5500,
+      "distanceSource": "book",
+      "confidence": "book",
+      "notes": "After sinking the warship, the Nautilus races north until it is drawn into the Lofoten Maelstrom near the end of the 20,000-league tour.",
+      "sourceRefs": [
+        {
+          "chapter": 44,
+          "label": "hecatomb",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap44"
+        },
+        {
+          "chapter": 46,
+          "label": "Maelstrom conclusion",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap46"
+        }
+      ],
+      "points": [
+        {
+          "lat": 55,
+          "lon": -10,
+          "depthKm": 0.08
+        },
+        {
+          "lat": 62,
+          "lon": 2,
+          "depthKm": 0.05
+        }
+      ]
+    },
+    {
+      "id": "maelstrom-escape",
+      "title": "Escape from the Maelstrom",
+      "medium": "maelstrom",
+      "start": {
+        "waypointId": "lofoten-maelstrom"
+      },
+      "end": {
+        "waypointId": "lofoten-shore"
+      },
+      "chapterStart": 46,
+      "chapterEnd": 46,
+      "distanceKm": 25,
+      "distanceSource": "estimated",
+      "confidence": "book",
+      "notes": "The prisoners detach the dinghy and survive the Maelstrom, waking on the Lofoten coast.",
+      "sourceRefs": [
+        {
+          "chapter": 46,
+          "label": "conclusion",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap46"
+        }
+      ]
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 1,
+      "movement": "stationary",
+      "anchor": "Atlantic reports of a shifting reef",
+      "locationFacts": [
+        "The chapter surveys global reports of an unknown marine hazard.",
+        "No named route by the main characters has started."
+      ],
+      "deltaFacts": [
+        "No mapped displacement."
+      ],
+      "slopeFacts": [
+        "No travel slope."
+      ],
+      "xyzEstimate": "Introductory reports are not modeled as a route segment.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "shifting reef reports",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap01"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "movement": "stationary",
+      "anchor": "New York debate",
+      "locationFacts": [
+        "Aronnax is in New York after returning from Nebraska.",
+        "He is consulted about the sea monster before the naval expedition forms."
+      ],
+      "deltaFacts": [
+        "No route segment starts until Aronnax accepts the invitation."
+      ],
+      "slopeFacts": [
+        "Stationary surface chapter."
+      ],
+      "xyzEstimate": "New York is the narrative anchor but no displacement is assigned.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "New York debate",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap02"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "movement": "surface",
+      "anchor": "New York to the Abraham Lincoln",
+      "locationFacts": [
+        "Aronnax accepts the invitation aboard the Abraham Lincoln.",
+        "The frigate leaves Brooklyn pier."
+      ],
+      "deltaFacts": [
+        "The mapped expedition begins with a short city transfer and the frigate's outbound voyage."
+      ],
+      "slopeFacts": [
+        "Surface and sea-level travel."
+      ],
+      "xyzEstimate": "XYZ delta uses New York/Brooklyn waypoints and the first part of the frigate route.",
+      "segmentIds": [
+        "new-york-to-brooklyn",
+        "abraham-lincoln-search"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "I form my resolution",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap03"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "movement": "surface",
+      "anchor": "Aboard the Abraham Lincoln",
+      "locationFacts": [
+        "Ned Land is introduced aboard the frigate.",
+        "The expedition continues outward toward the Pacific search zone."
+      ],
+      "deltaFacts": [
+        "No new waypoint is introduced; the frigate route continues."
+      ],
+      "slopeFacts": [
+        "Sea-level frigate route."
+      ],
+      "xyzEstimate": "The chapter is represented by the Abraham Lincoln search path.",
+      "segmentIds": [
+        "abraham-lincoln-search"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "Ned Land",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap04"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "movement": "sea",
+      "anchor": "Pacific search near Japan",
+      "locationFacts": [
+        "The Abraham Lincoln crosses the tropic of Capricorn at 105 degrees longitude.",
+        "The frigate crosses the equator on the 110th meridian, then searches the North Pacific near Japan.",
+        "The monster is sighted at 31 deg 15 min N, 136 deg 42 min E."
+      ],
+      "deltaFacts": [
+        "The route reaches the explicit Japan encounter coordinate."
+      ],
+      "slopeFacts": [
+        "Surface sea route."
+      ],
+      "xyzEstimate": "XYZ delta uses the text's Pacific coordinates and Cape Horn shaping.",
+      "segmentIds": [
+        "abraham-lincoln-search"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "At a venture",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap05"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "movement": "sea",
+      "anchor": "Chase at full steam",
+      "locationFacts": [
+        "The Abraham Lincoln pursues the luminous object at speed.",
+        "The chase remains in the waters near the Japan coordinate."
+      ],
+      "deltaFacts": [
+        "The map keeps this chapter on the same encounter segment."
+      ],
+      "slopeFacts": [
+        "Surface chase; no depth modeled yet."
+      ],
+      "xyzEstimate": "The chase is localized near the Japan encounter waypoint.",
+      "segmentIds": [
+        "abraham-lincoln-search"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "at full steam",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap06"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "movement": "sea",
+      "anchor": "Collision and castaways",
+      "locationFacts": [
+        "The frigate collides with the unknown vessel.",
+        "Aronnax, Conseil, and Ned Land are thrown into the sea and reach the Nautilus."
+      ],
+      "deltaFacts": [
+        "The route changes from frigate to swim/drift and boarding."
+      ],
+      "slopeFacts": [
+        "Surface to shallow submerged boarding point."
+      ],
+      "xyzEstimate": "The short castaway segment shares the Japan encounter coordinate but adds shallow depth.",
+      "segmentIds": [
+        "abraham-lincoln-search",
+        "castaways-board-nautilus"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "unknown species of whale",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap07"
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "movement": "stationary",
+      "anchor": "Inside the Nautilus",
+      "locationFacts": [
+        "The prisoners discover the interior of the Nautilus.",
+        "The route is now locked to Nemo's submarine."
+      ],
+      "deltaFacts": [
+        "No long-distance movement is assigned beyond boarding."
+      ],
+      "slopeFacts": [
+        "Shallow submerged state."
+      ],
+      "xyzEstimate": "The boarding waypoint is retained as the active location.",
+      "segmentIds": [
+        "castaways-board-nautilus"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Mobilis in mobili",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap08"
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "movement": "stationary",
+      "anchor": "Ned Land's captivity",
+      "locationFacts": [
+        "Ned Land's frustration with captivity is foregrounded.",
+        "The submarine route has not yet been formally plotted by Nemo."
+      ],
+      "deltaFacts": [
+        "No new path starts in this chapter."
+      ],
+      "slopeFacts": [
+        "No additional vertical change."
+      ],
+      "xyzEstimate": "The scene remains aboard the Nautilus near the initial boarding area.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "Ned Land's tempers",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap09"
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "movement": "stationary",
+      "anchor": "Captain Nemo revealed",
+      "locationFacts": [
+        "Captain Nemo names the Nautilus and declares his severance from land.",
+        "The chapter is primarily explanatory and internal to the vessel."
+      ],
+      "deltaFacts": [
+        "No mapped displacement."
+      ],
+      "slopeFacts": [
+        "No new depth movement."
+      ],
+      "xyzEstimate": "No path starts; the chapter explains the vessel and its commander.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 10,
+          "label": "the man of the seas",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap10"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "movement": "stationary",
+      "anchor": "Nautilus machinery",
+      "locationFacts": [
+        "Nemo explains the electric systems and instruments of the Nautilus.",
+        "The chapter stays aboard the vessel."
+      ],
+      "deltaFacts": [
+        "No new geographic displacement."
+      ],
+      "slopeFacts": [
+        "No route slope."
+      ],
+      "xyzEstimate": "Technical interior chapter; no segment is assigned.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "all by electricity",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap11"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "movement": "stationary",
+      "anchor": "Nautilus specifications",
+      "locationFacts": [
+        "Nemo gives dimensions and operating principles for the Nautilus.",
+        "The text explains how the submarine rises, sinks, and moves horizontally."
+      ],
+      "deltaFacts": [
+        "No new route path starts here."
+      ],
+      "slopeFacts": [
+        "The chapter explains vertical movement but does not map a journey leg."
+      ],
+      "xyzEstimate": "No route delta; this chapter informs later depth modeling.",
+      "segmentIds": [],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "some figures",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap12"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "movement": "sea",
+      "anchor": "Kuro-Scivo, the Black River",
+      "locationFacts": [
+        "Nemo fixes the starting point and takes the Nautilus into the Japanese current.",
+        "The vessel runs about fifty yards below the sea."
+      ],
+      "deltaFacts": [
+        "The true submarine route begins from the Japan boarding point."
+      ],
+      "slopeFacts": [
+        "Shallow underwater travel at roughly fifty yards below the surface."
+      ],
+      "xyzEstimate": "XYZ delta starts the Japan-to-Crespo submarine leg.",
+      "segmentIds": [
+        "japan-to-crespo"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "Black River",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap13"
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "movement": "sea",
+      "anchor": "Approach to Crespo Island",
+      "locationFacts": [
+        "Nemo invites the prisoners to a submarine hunt near Crespo Island.",
+        "The text gives Crespo's coordinate and its distance from the starting point."
+      ],
+      "deltaFacts": [
+        "The route reaches the Crespo coordinate in the North Pacific."
+      ],
+      "slopeFacts": [
+        "Shallow submarine transit, about twenty-five to thirty fathoms in this period."
+      ],
+      "xyzEstimate": "The segment uses the book's 1,800-mile distance to Crespo.",
+      "segmentIds": [
+        "japan-to-crespo"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 14,
+          "label": "Crespo invitation",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap14"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "movement": "sea",
+      "anchor": "Crespo sea floor",
+      "locationFacts": [
+        "The party leaves the Nautilus in diving suits.",
+        "The Nautilus is stranded in five fathoms for the walk."
+      ],
+      "deltaFacts": [
+        "The path changes from submarine travel to a short sea-floor excursion."
+      ],
+      "slopeFacts": [
+        "Descent to roughly nine meters below sea level."
+      ],
+      "xyzEstimate": "The route uses the Crespo coordinate with a shallow depth offset.",
+      "segmentIds": [
+        "crespo-submarine-forest"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 15,
+          "label": "walk on the bottom",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap15"
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "movement": "sea",
+      "anchor": "Crespo submarine forest",
+      "locationFacts": [
+        "The walkers cross the undersea forest and return by the Nautilus light.",
+        "The terrain includes slopes and a cliff-like island base."
+      ],
+      "deltaFacts": [
+        "The short undersea loop ends back at the Nautilus."
+      ],
+      "slopeFacts": [
+        "The model keeps this as a shallow diving path rather than a long horizontal run."
+      ],
+      "xyzEstimate": "The route is localized at Crespo with a shallow sea-floor depth.",
+      "segmentIds": [
+        "crespo-submarine-forest"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 16,
+          "label": "submarine forest",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap16"
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "movement": "sea",
+      "anchor": "Across the Pacific",
+      "locationFacts": [
+        "The Nautilus continues its long under-Pacific passage.",
+        "Aronnax traces the route on the chart while the submarine keeps southeast."
+      ],
+      "deltaFacts": [
+        "The route leaves Crespo for the South Pacific island chain."
+      ],
+      "slopeFacts": [
+        "Underwater route at ordinary cruising depths."
+      ],
+      "xyzEstimate": "The distance is constrained toward the four-thousand-league Pacific arc.",
+      "segmentIds": [
+        "crespo-to-vanikoro-pacific"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 17,
+          "label": "four thousand leagues under the Pacific",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap17"
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "movement": "sea",
+      "anchor": "Vanikoro",
+      "locationFacts": [
+        "The Nautilus passes Pomotou/Tuamotu, Tahiti, and New Hebrides waters.",
+        "Nemo brings the submarine to Vanikoro and the La Perouse wreck site."
+      ],
+      "deltaFacts": [
+        "The Pacific arc reaches Vanikoro."
+      ],
+      "slopeFacts": [
+        "Mostly shallow submarine travel; Vanikoro reef waters are tens of fathoms deep."
+      ],
+      "xyzEstimate": "XYZ delta uses explicit Vanou harbor coordinates and South Pacific shaping points.",
+      "segmentIds": [
+        "crespo-to-vanikoro-pacific"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 18,
+          "label": "Vanikoro",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap18"
+        }
+      ]
+    },
+    {
+      "chapter": 19,
+      "movement": "sea",
+      "anchor": "Torres Strait",
+      "locationFacts": [
+        "The Nautilus leaves Vanikoro for Papua and Torres Strait.",
+        "It grounds on a reef while trying to pass through the strait."
+      ],
+      "deltaFacts": [
+        "The book gives 750 leagues from Vanikoro to the southeast point of Papua."
+      ],
+      "slopeFacts": [
+        "The route rises into shallow reef water at the grounding."
+      ],
+      "xyzEstimate": "XYZ delta uses a book-distance leg from Vanikoro to an estimated Torres reef point.",
+      "segmentIds": [
+        "vanikoro-to-torres"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 19,
+          "label": "Torres Straits",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap19"
+        }
+      ]
+    },
+    {
+      "chapter": 20,
+      "movement": "surface",
+      "anchor": "Gueboroar Island",
+      "locationFacts": [
+        "The prisoners go ashore while waiting for the tide to free the Nautilus.",
+        "The chapter includes hunting and gathering on land."
+      ],
+      "deltaFacts": [
+        "A short boat landing branches away from the grounded submarine.",
+        "A short inland foot segment represents the hunting and gathering excursion."
+      ],
+      "slopeFacts": [
+        "Sea-level boat route and land movement."
+      ],
+      "xyzEstimate": "The landing point is estimated near the Torres reef grounding.",
+      "segmentIds": [
+        "gueboroar-landing",
+        "gueboroar-island-foray"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 20,
+          "label": "few days on land",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap20"
+        }
+      ]
+    },
+    {
+      "chapter": 21,
+      "movement": "surface",
+      "anchor": "Return from Gueboroar",
+      "locationFacts": [
+        "The landing party returns as islanders approach the Nautilus.",
+        "Nemo's electric defense prevents boarding."
+      ],
+      "deltaFacts": [
+        "The short boat branch returns to the grounded submarine."
+      ],
+      "slopeFacts": [
+        "Surface route."
+      ],
+      "xyzEstimate": "The same Gueboroar landing segment represents the return branch.",
+      "segmentIds": [
+        "gueboroar-landing"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 21,
+          "label": "Nemo's thunderbolt",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap21"
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "movement": "stationary",
+      "anchor": "After Torres Strait",
+      "locationFacts": [
+        "The strange sleep episode follows the Torres Strait crisis.",
+        "The route resumes only after the coral kingdom chapter."
+      ],
+      "deltaFacts": [
+        "No new mapped segment starts here."
+      ],
+      "slopeFacts": [
+        "No route slope."
+      ],
+      "xyzEstimate": "The chapter remains aboard the Nautilus without a distinct waypoint.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 22,
+          "label": "Aegri Somnia",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap22"
+        }
+      ]
+    },
+    {
+      "chapter": 23,
+      "movement": "sea",
+      "anchor": "Coral Kingdom",
+      "locationFacts": [
+        "The Nautilus visits the coral cemetery after leaving the Torres region.",
+        "The route then heads into the Indian Ocean."
+      ],
+      "deltaFacts": [
+        "The Indian Ocean crossing begins after the coral kingdom."
+      ],
+      "slopeFacts": [
+        "Submarine route at moderate depth."
+      ],
+      "xyzEstimate": "The chapter starts the Torres-to-Ceylon route.",
+      "segmentIds": [
+        "torres-to-ceylon"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 23,
+          "label": "coral kingdom",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap23"
+        }
+      ]
+    },
+    {
+      "chapter": 24,
+      "movement": "sea",
+      "anchor": "Indian Ocean",
+      "locationFacts": [
+        "The Nautilus cruises through the Indian Ocean.",
+        "It passes near Cocos and observes Indian Ocean marine life."
+      ],
+      "deltaFacts": [
+        "The route advances west across the Indian Ocean."
+      ],
+      "slopeFacts": [
+        "The text says the Nautilus usually floats between fifty and one hundred fathoms deep."
+      ],
+      "xyzEstimate": "XYZ delta uses Torres, open Indian Ocean, Cocos, and Ceylon shaping.",
+      "segmentIds": [
+        "torres-to-ceylon"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 24,
+          "label": "Indian Ocean",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap24"
+        }
+      ]
+    },
+    {
+      "chapter": 25,
+      "movement": "sea",
+      "anchor": "Approach to Ceylon",
+      "locationFacts": [
+        "Nemo proposes a visit to Ceylon's pearl fisheries.",
+        "The submarine nears the island."
+      ],
+      "deltaFacts": [
+        "The Indian Ocean crossing approaches the pearl-bank endpoint."
+      ],
+      "slopeFacts": [
+        "Shallowing route toward Ceylon."
+      ],
+      "xyzEstimate": "The chapter remains on the Torres-to-Ceylon segment.",
+      "segmentIds": [
+        "torres-to-ceylon"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 25,
+          "label": "novel proposal",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap25"
+        }
+      ]
+    },
+    {
+      "chapter": 26,
+      "movement": "sea",
+      "anchor": "Ceylon pearl bank",
+      "locationFacts": [
+        "Nemo takes the party to the pearl bank west of Ceylon.",
+        "A shark attack interrupts the dive, and Nemo gives the rescued diver pearls."
+      ],
+      "deltaFacts": [
+        "The Indian Ocean leg reaches Ceylon and adds a short diving excursion."
+      ],
+      "slopeFacts": [
+        "Shallow sea-floor walk at the pearl bank."
+      ],
+      "xyzEstimate": "XYZ delta combines the end of the Indian Ocean route with the localized pearl dive.",
+      "segmentIds": [
+        "torres-to-ceylon",
+        "ceylon-pearl-dive"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 26,
+          "label": "pearl of ten millions",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap26"
+        }
+      ]
+    },
+    {
+      "chapter": 27,
+      "movement": "sea",
+      "anchor": "Ceylon to Red Sea",
+      "locationFacts": [
+        "The Nautilus leaves Ceylon, passes Aden, and enters the Red Sea.",
+        "Ned Land doubts that this route can lead back to Europe."
+      ],
+      "deltaFacts": [
+        "The route moves northwest from Ceylon to the Red Sea."
+      ],
+      "slopeFacts": [
+        "Submarine travel at ordinary cruising depths."
+      ],
+      "xyzEstimate": "XYZ delta uses Ceylon, Aden, and the Red Sea latitude anchor.",
+      "segmentIds": [
+        "ceylon-to-red-sea"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 27,
+          "label": "Red Sea",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap27"
+        }
+      ]
+    },
+    {
+      "chapter": 28,
+      "movement": "subterranean",
+      "anchor": "Arabian Tunnel",
+      "locationFacts": [
+        "Nemo explains the fictional tunnel beneath Suez.",
+        "The Nautilus passes from the Red Sea to the Mediterranean in minutes."
+      ],
+      "deltaFacts": [
+        "A hidden undersea tunnel replaces any surface Suez Canal route."
+      ],
+      "slopeFacts": [
+        "Submarine tunnel route, shallow compared with ocean abyss segments."
+      ],
+      "xyzEstimate": "XYZ delta uses Red Sea and Pelusium endpoints with a Suez mouth control point.",
+      "segmentIds": [
+        "arabian-tunnel"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 28,
+          "label": "Arabian Tunnel",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap28"
+        }
+      ]
+    },
+    {
+      "chapter": 29,
+      "movement": "sea",
+      "anchor": "Grecian Archipelago",
+      "locationFacts": [
+        "The Nautilus crosses eastern Mediterranean waters near Crete and the Greek islands.",
+        "Nemo secretly aids a Cretan diver."
+      ],
+      "deltaFacts": [
+        "The Mediterranean crossing begins from Pelusium."
+      ],
+      "slopeFacts": [
+        "Submarine route with deeper Aegean water."
+      ],
+      "xyzEstimate": "XYZ delta uses Pelusium, Crete, and Greek Archipelago shaping points.",
+      "segmentIds": [
+        "mediterranean-crossing"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 29,
+          "label": "Grecian Archipelago",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap29"
+        }
+      ]
+    },
+    {
+      "chapter": 30,
+      "movement": "sea",
+      "anchor": "Mediterranean to Gibraltar",
+      "locationFacts": [
+        "The Nautilus crosses the Mediterranean in forty-eight hours.",
+        "The text estimates this Mediterranean course at about 600 leagues."
+      ],
+      "deltaFacts": [
+        "The route exits the Mediterranean through Gibraltar."
+      ],
+      "slopeFacts": [
+        "Deep Mediterranean basin route, then a shallow strait."
+      ],
+      "xyzEstimate": "XYZ delta is constrained by the book's 600-league Mediterranean distance.",
+      "segmentIds": [
+        "mediterranean-crossing"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 30,
+          "label": "Mediterranean in forty-eight hours",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap30"
+        }
+      ]
+    },
+    {
+      "chapter": 31,
+      "movement": "sea",
+      "anchor": "Vigo Bay",
+      "locationFacts": [
+        "Ned Land plans an escape near Europe, but the Nautilus dives.",
+        "Nemo brings the prisoners to the treasure wrecks in Vigo Bay."
+      ],
+      "deltaFacts": [
+        "The route runs from Gibraltar to Vigo Bay."
+      ],
+      "slopeFacts": [
+        "Mostly shallow submarine coastal route."
+      ],
+      "xyzEstimate": "XYZ delta uses Gibraltar and Vigo Bay geocoding.",
+      "segmentIds": [
+        "gibraltar-to-vigo"
+      ],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 31,
+          "label": "Vigo Bay",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap31"
+        }
+      ]
+    },
+    {
+      "chapter": 32,
+      "movement": "sea",
+      "anchor": "Atlantis",
+      "locationFacts": [
+        "Nemo leads Aronnax on a night walk across the ruins of Atlantis.",
+        "The text gives the Nautilus coordinate as 33 deg 22 min latitude and 16 deg 17 min longitude."
+      ],
+      "deltaFacts": [
+        "The route leaves Vigo for the Atlantic Atlantis coordinate."
+      ],
+      "slopeFacts": [
+        "Submerged walk at moderate depth in the Atlantic."
+      ],
+      "xyzEstimate": "Longitude is modeled west because the scene lies in the Atlantic, 150 leagues from the nearest coast.",
+      "segmentIds": [
+        "vigo-to-atlantis"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 32,
+          "label": "vanished continent",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap32"
+        }
+      ]
+    },
+    {
+      "chapter": 33,
+      "movement": "volcanic",
+      "anchor": "Submarine coal lagoon",
+      "locationFacts": [
+        "The Nautilus enters a hidden volcanic lagoon.",
+        "Nemo gathers sodium-bearing coal for the submarine's electricity."
+      ],
+      "deltaFacts": [
+        "The route enters a fictional volcanic refuge."
+      ],
+      "slopeFacts": [
+        "The route rises from submerged Atlantic travel into a shallow enclosed lagoon."
+      ],
+      "xyzEstimate": "The lagoon is fictional and placed west of Atlantis as an Atlantic shaping point.",
+      "segmentIds": [
+        "atlantis-to-coal-lagoon"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 33,
+          "label": "submarine coal-mines",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap33"
+        }
+      ]
+    },
+    {
+      "chapter": 34,
+      "movement": "descent",
+      "anchor": "Sargasso Sea and Atlantic abyss",
+      "locationFacts": [
+        "The Nautilus crosses the Sargasso Sea.",
+        "By 13 March it has made about 13,000 leagues since the Pacific departure.",
+        "It dives to 16,000 yards in the Atlantic abyss."
+      ],
+      "deltaFacts": [
+        "The route runs from the volcanic refuge through Sargasso and down into the abyss."
+      ],
+      "slopeFacts": [
+        "Major descent to the deepest modeled point in this book."
+      ],
+      "xyzEstimate": "XYZ delta combines Sargasso travel with the book's 16,000-yard depth.",
+      "segmentIds": [
+        "coal-lagoon-to-sargasso",
+        "sargasso-to-abyss"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 34,
+          "label": "Sargasso Sea",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap34"
+        }
+      ]
+    },
+    {
+      "chapter": 35,
+      "movement": "sea",
+      "anchor": "Southern whale waters",
+      "locationFacts": [
+        "The Nautilus resumes southward travel.",
+        "Nemo attacks cachalots to defend whales."
+      ],
+      "deltaFacts": [
+        "The route leaves the abyss for southern latitudes."
+      ],
+      "slopeFacts": [
+        "Ascent from abyss to ordinary submarine depth, then surface-near action."
+      ],
+      "xyzEstimate": "The chapter starts from the abyss waypoint and returns to southern ocean cruising depth.",
+      "segmentIds": [
+        "abyss-to-whale-waters"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 35,
+          "label": "cachalots and whales",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap35"
+        }
+      ]
+    },
+    {
+      "chapter": 36,
+      "movement": "sea",
+      "anchor": "Iceberg field",
+      "locationFacts": [
+        "The Nautilus enters Antarctic ice fields.",
+        "Nemo prepares to pass beneath the ice toward the pole."
+      ],
+      "deltaFacts": [
+        "The route continues south through the Southern Ocean."
+      ],
+      "slopeFacts": [
+        "Submarine route under ice, with deeper submerged travel than open-water cruising."
+      ],
+      "xyzEstimate": "The route uses Antarctic ice-edge shaping before the pole.",
+      "segmentIds": [
+        "whale-waters-to-south-pole"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 36,
+          "label": "iceberg",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap36"
+        }
+      ]
+    },
+    {
+      "chapter": 37,
+      "movement": "ascent",
+      "anchor": "South Pole",
+      "locationFacts": [
+        "Nemo reaches a fictional open sea at the South Pole.",
+        "He lands, observes the sun, and claims the pole."
+      ],
+      "deltaFacts": [
+        "The route reaches its southernmost point."
+      ],
+      "slopeFacts": [
+        "Ascent from under-ice travel to near-surface polar water."
+      ],
+      "xyzEstimate": "The South Pole waypoint is fictional and marks Nemo's claimed endpoint.",
+      "segmentIds": [
+        "whale-waters-to-south-pole"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 37,
+          "label": "South Pole",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap37"
+        }
+      ]
+    },
+    {
+      "chapter": 38,
+      "movement": "descent",
+      "anchor": "Ice tunnel accident",
+      "locationFacts": [
+        "An overturned iceberg imprisons the Nautilus under the ice.",
+        "The submarine lies in an ice tunnel with air running down."
+      ],
+      "deltaFacts": [
+        "The route departs the pole and becomes trapped beneath the ice."
+      ],
+      "slopeFacts": [
+        "Descent to a trapped under-ice depth."
+      ],
+      "xyzEstimate": "The ice-prison position is inferred north of the pole with a depth near the text's hundreds-of-yards range.",
+      "segmentIds": [
+        "south-pole-ice-prison"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 38,
+          "label": "accident or incident",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap38"
+        }
+      ]
+    },
+    {
+      "chapter": 39,
+      "movement": "ascent",
+      "anchor": "Escape from ice",
+      "locationFacts": [
+        "The crew cuts ice below the Nautilus while air runs out.",
+        "The submarine finally breaks free."
+      ],
+      "deltaFacts": [
+        "The same under-ice segment ends with escape from the trap."
+      ],
+      "slopeFacts": [
+        "Modeled as trapped depth with an eventual ascent."
+      ],
+      "xyzEstimate": "The chapter uses the ice-prison segment with depth noted in the waypoint.",
+      "segmentIds": [
+        "south-pole-ice-prison"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 39,
+          "label": "want of air",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap39"
+        }
+      ]
+    },
+    {
+      "chapter": 40,
+      "movement": "sea",
+      "anchor": "Cape Horn to Amazon",
+      "locationFacts": [
+        "The Nautilus heads north, sights South America, passes the Plata, and reaches the Amazon mouth.",
+        "Aronnax notes 1,600 miles since the polar escape in this section."
+      ],
+      "deltaFacts": [
+        "The route turns from Antarctic waters to equatorial South America."
+      ],
+      "slopeFacts": [
+        "Ascent from under-ice conditions to ordinary coastal submarine cruising."
+      ],
+      "xyzEstimate": "XYZ delta uses Cape Horn, Plata, Guianas, and Amazon control points.",
+      "segmentIds": [
+        "ice-prison-to-amazon"
+      ],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 40,
+          "label": "Cape Horn to the Amazon",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap40"
+        }
+      ]
+    },
+    {
+      "chapter": 41,
+      "movement": "sea",
+      "anchor": "Poulp battle",
+      "locationFacts": [
+        "The Nautilus passes the Guianas and Antilles.",
+        "Giant poulps attack the submarine and one crewman is lost."
+      ],
+      "deltaFacts": [
+        "The route moves north from the Amazon into the Antilles/North Atlantic."
+      ],
+      "slopeFacts": [
+        "Near-surface action when the crew fights on the platform."
+      ],
+      "xyzEstimate": "The battle coordinate is estimated from the described Antilles/North Atlantic progression.",
+      "segmentIds": [
+        "amazon-to-poulps"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 41,
+          "label": "poulps",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap41"
+        }
+      ]
+    },
+    {
+      "chapter": 42,
+      "movement": "sea",
+      "anchor": "Gulf Stream and Long Island",
+      "locationFacts": [
+        "The Nautilus follows the Gulf Stream past Hatteras.",
+        "It nears Long Island during heavy weather, frustrating escape."
+      ],
+      "deltaFacts": [
+        "The route reaches waters near New York again."
+      ],
+      "slopeFacts": [
+        "Near-surface storm route with intermittent diving."
+      ],
+      "xyzEstimate": "XYZ delta uses Hatteras/Gulf Stream and Long Island waypoints.",
+      "segmentIds": [
+        "poulps-to-long-island"
+      ],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 42,
+          "label": "Gulf Stream",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap42"
+        }
+      ]
+    },
+    {
+      "chapter": 43,
+      "movement": "descent",
+      "anchor": "Atlantic cable and Avenger",
+      "locationFacts": [
+        "The Nautilus follows the transatlantic cable.",
+        "It reaches the wreck of the Avenger at the chapter's latitude/longitude."
+      ],
+      "deltaFacts": [
+        "The route leaves Long Island for the eastern Atlantic."
+      ],
+      "slopeFacts": [
+        "Deep descent to cable and wreck depths."
+      ],
+      "xyzEstimate": "XYZ delta uses cable shaping and the book's Avenger coordinate.",
+      "segmentIds": [
+        "long-island-to-avenger"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 43,
+          "label": "latitude 47 deg 24 min to longitude 17 deg 28 min",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap43"
+        }
+      ]
+    },
+    {
+      "chapter": 44,
+      "movement": "sea",
+      "anchor": "Warship attack",
+      "locationFacts": [
+        "A warship attacks the Nautilus.",
+        "Nemo uses the submarine's spur to sink it."
+      ],
+      "deltaFacts": [
+        "The north Atlantic vengeance run begins after the Avenger coordinate."
+      ],
+      "slopeFacts": [
+        "Near-surface attack followed by submerged ramming."
+      ],
+      "xyzEstimate": "The path continues from the Avenger coordinate toward the far north.",
+      "segmentIds": [
+        "avenger-to-maelstrom"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 44,
+          "label": "hecatomb",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap44"
+        }
+      ]
+    },
+    {
+      "chapter": 45,
+      "movement": "sea",
+      "anchor": "Nemo's last words",
+      "locationFacts": [
+        "The Nautilus races north after the sinking.",
+        "Nemo becomes increasingly isolated and grief-stricken."
+      ],
+      "deltaFacts": [
+        "The route continues toward Norway."
+      ],
+      "slopeFacts": [
+        "Alternating surface and underwater travel."
+      ],
+      "xyzEstimate": "The northbound segment uses an estimated North Atlantic control point.",
+      "segmentIds": [
+        "avenger-to-maelstrom"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 45,
+          "label": "last words of Captain Nemo",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap45"
+        }
+      ]
+    },
+    {
+      "chapter": 46,
+      "movement": "return",
+      "anchor": "Lofoten Maelstrom",
+      "locationFacts": [
+        "The Nautilus is drawn into the Lofoten Maelstrom.",
+        "Aronnax, Conseil, and Ned Land escape in the dinghy and recover on the Norwegian coast.",
+        "Aronnax reports crossing 20,000 leagues in more than ten months."
+      ],
+      "deltaFacts": [
+        "The submarine tour closes at the Maelstrom and the survivors reach shore."
+      ],
+      "slopeFacts": [
+        "Violent surface whirlpool route after a long submarine run."
+      ],
+      "xyzEstimate": "XYZ delta ends at the Lofoten Maelstrom, with a short escape segment to shore.",
+      "segmentIds": [
+        "avenger-to-maelstrom",
+        "maelstrom-escape"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 46,
+          "label": "conclusion",
+          "url": "https://www.gutenberg.org/files/164/164-h/164-h.htm#chap46"
+        }
+      ]
+    }
+  ]
+}

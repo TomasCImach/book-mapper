@@ -1,0 +1,229 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://book-mapper.local/schema/book-map.schema.json",
+  "title": "Book Mapper Book Data",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "id",
+    "title",
+    "author",
+    "source",
+    "chapters",
+    "media",
+    "waypoints",
+    "paths",
+    "chapterFacts"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "type": "integer", "minimum": 1 },
+    "id": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "author": { "type": "string", "minLength": 1 },
+    "source": { "$ref": "#/$defs/source" },
+    "chapters": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/chapter" }
+    },
+    "media": {
+      "type": "object",
+      "additionalProperties": { "$ref": "#/$defs/medium" }
+    },
+    "waypoints": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/waypoint" }
+    },
+    "paths": {
+      "description": "Each item is one modeled route path. It may match one chapter, span chapters, or represent only a part/branch of a chapter.",
+      "type": "array",
+      "items": { "$ref": "#/$defs/path" }
+    },
+    "chapterFacts": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/chapterFact" }
+    }
+  },
+  "$defs": {
+    "chapter": {
+      "type": "object",
+      "required": ["number", "title"],
+      "additionalProperties": false,
+      "properties": {
+        "number": { "type": "integer", "minimum": 1 },
+        "title": { "type": "string", "minLength": 1 }
+      }
+    },
+    "medium": {
+      "type": "object",
+      "required": ["label", "color"],
+      "additionalProperties": false,
+      "properties": {
+        "label": { "type": "string", "minLength": 1 },
+        "color": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$"
+        }
+      }
+    },
+    "position": {
+      "type": "object",
+      "required": ["lat", "lon"],
+      "additionalProperties": false,
+      "properties": {
+        "lat": { "type": "number", "minimum": -90, "maximum": 90 },
+        "lon": { "type": "number", "minimum": -180, "maximum": 180 },
+        "depthKm": { "type": "number", "minimum": 0 }
+      }
+    },
+    "waypoint": {
+      "type": "object",
+      "required": ["id", "name", "chapter", "position", "confidence"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "chapter": { "type": "integer", "minimum": 1 },
+        "position": { "$ref": "#/$defs/position" },
+        "confidence": { "$ref": "#/$defs/confidence" },
+        "notes": { "type": "string" }
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": ["label", "url"],
+      "additionalProperties": false,
+      "properties": {
+        "label": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri" }
+      }
+    },
+    "sourceRef": {
+      "type": "object",
+      "required": ["chapter", "label", "url"],
+      "additionalProperties": false,
+      "properties": {
+        "chapter": { "type": "integer", "minimum": 1 },
+        "label": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri" }
+      }
+    },
+    "pathEndpoint": {
+      "type": "object",
+      "required": ["waypointId"],
+      "additionalProperties": false,
+      "properties": {
+        "waypointId": { "type": "string", "minLength": 1 }
+      }
+    },
+    "path": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "medium",
+        "start",
+        "end",
+        "chapterStart",
+        "chapterEnd",
+        "distanceSource",
+        "confidence",
+        "notes",
+        "sourceRefs"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "medium": { "type": "string", "minLength": 1 },
+        "start": { "$ref": "#/$defs/pathEndpoint" },
+        "end": { "$ref": "#/$defs/pathEndpoint" },
+        "chapterStart": { "type": "integer", "minimum": 1 },
+        "chapterEnd": { "type": "integer", "minimum": 1 },
+        "distanceKm": { "type": "number", "minimum": 0 },
+        "distanceSource": {
+          "type": "string",
+          "enum": ["geodesic", "book", "estimated", "cinematic"]
+        },
+        "confidence": { "$ref": "#/$defs/confidence" },
+        "notes": { "type": "string" },
+        "sourceRefs": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/sourceRef" },
+          "minItems": 1
+        },
+        "points": {
+          "description": "Optional intermediate control points used to construct the rendered curve.",
+          "type": "array",
+          "items": { "$ref": "#/$defs/position" }
+        }
+      }
+    },
+    "chapterFact": {
+      "type": "object",
+      "required": [
+        "chapter",
+        "movement",
+        "anchor",
+        "locationFacts",
+        "deltaFacts",
+        "slopeFacts",
+        "xyzEstimate",
+        "segmentIds",
+        "confidence",
+        "sourceRefs"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "chapter": { "type": "integer", "minimum": 1 },
+        "movement": {
+          "type": "string",
+          "enum": [
+            "stationary",
+            "surface",
+            "sea",
+            "ascent",
+            "descent",
+            "wrong-turn",
+            "subterranean",
+            "raft",
+            "volcanic",
+            "return"
+          ]
+        },
+        "anchor": { "type": "string", "minLength": 1 },
+        "locationFacts": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1
+        },
+        "deltaFacts": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1
+        },
+        "slopeFacts": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1
+        },
+        "xyzEstimate": { "type": "string", "minLength": 1 },
+        "segmentIds": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "confidence": { "$ref": "#/$defs/confidence" },
+        "sourceRefs": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/sourceRef" },
+          "minItems": 1
+        }
+      }
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["confirmed", "geocoded", "textual", "estimated", "fictional", "book"]
+    }
+  }
+}
