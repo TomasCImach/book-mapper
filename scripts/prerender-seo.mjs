@@ -7,7 +7,6 @@ const rootDir = path.resolve(__dirname, '..')
 const distDir = path.join(rootDir, 'dist')
 const bookDir = path.join(rootDir, 'src', 'data', 'books')
 const siteUrl = (process.env.SITE_URL ?? 'https://www.mappedfiction.com').replace(/\/+$/, '')
-const today = new Date().toISOString().slice(0, 10)
 
 const bookFiles = [
   'journey-to-the-center-of-the-earth.json',
@@ -38,9 +37,6 @@ const pages = [
 for (const page of pages) {
   writePage(page)
 }
-
-writeSitemap(pages)
-writeRobots()
 
 console.log(`Prerendered ${pages.length} SEO pages for ${siteUrl}`)
 
@@ -832,34 +828,6 @@ function isCatalogPageRoute(route) {
     route === '/authors/' ||
     route === '/locations/' ||
     route.startsWith('/authors/')
-  )
-}
-
-function writeSitemap(activePages) {
-  const urls = activePages
-    .map(
-      (page) => `
-  <url>
-    <loc>${siteUrl}${page.route}</loc>
-    <lastmod>${today}</lastmod>
-  </url>`,
-    )
-    .join('')
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls}
-</urlset>
-`
-
-  fs.writeFileSync(path.join(distDir, 'sitemap.xml'), xml)
-}
-
-function writeRobots() {
-  fs.writeFileSync(
-    path.join(distDir, 'robots.txt'),
-    `User-agent: *
-Allow: /
-Sitemap: ${siteUrl}/sitemap.xml
-`,
   )
 }
 

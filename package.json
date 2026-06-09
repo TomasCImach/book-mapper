@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && npm run prerender",
+    "build": "tsc -b && vite build && npm run prerender && npm run sitemap",
     "lint": "eslint .",
     "prerender": "node scripts/prerender-seo.mjs",
+    "sitemap": "node scripts/sitemap.mjs",
     "preview": "vite preview",
     "test": "vitest run"
   },
