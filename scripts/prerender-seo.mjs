@@ -748,6 +748,7 @@ function writePage(page) {
 
 function renderHtml(page) {
   const canonical = `${siteUrl}${page.route}`
+  const isStaticSeoPage = page.route !== '/'
   const jsonLd = page.jsonLd
     .map((item) => {
       const json = JSON.stringify(item).replace(/</g, '\\u003c')
@@ -773,6 +774,16 @@ function renderHtml(page) {
     </article>`
 
   return template
+    .replace(
+      '<body>',
+      isStaticSeoPage ? '<body class="seo-static-page">' : '<body>',
+    )
+    .replace(
+      '<div id="app-root"></div>',
+      isStaticSeoPage
+        ? '<div id="app-root" data-static-seo-page="true"></div>'
+        : '<div id="app-root"></div>',
+    )
     .replace(/<title>.*?<\/title>/s, `<title>${escapeHtml(page.title)}</title>`)
     .replace(
       /<meta\s+name="description"\s+content="[^"]*"\s*\/?>/i,
