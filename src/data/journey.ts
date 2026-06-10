@@ -1,4 +1,5 @@
 import aroundWorldJson from './books/around-the-world-in-eighty-days.json'
+import forrestGumpJson from './books/forrest-gump.json'
 import journeyJson from './books/journey-to-the-center-of-the-earth.json'
 import mobyDickJson from './books/moby-dick.json'
 import leaguesJson from './books/twenty-thousand-leagues-under-the-sea.json'
@@ -132,6 +133,7 @@ export const availableBooks = [
   aroundWorldJson as BookMapData,
   leaguesJson as BookMapData,
   mobyDickJson as BookMapData,
+  forrestGumpJson as BookMapData,
 ]
 
 export const DEFAULT_BOOK_ID = availableBooks[0].id

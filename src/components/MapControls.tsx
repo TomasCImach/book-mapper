@@ -218,7 +218,7 @@ export function MapControls() {
   }
 
   return (
-    <aside className="map-ui" aria-label="Book map controls">
+    <aside className="map-ui" aria-label="Title map controls">
       <header className="app-header">
         <div className="brand-row">
           <img
@@ -239,15 +239,15 @@ export function MapControls() {
         <h1>{book.title}</h1>
       </header>
 
-      <section className="book-selector" aria-label="Book selection">
+      <section className="book-selector" aria-label="Title selection">
         <div className="book-selector-heading">
-          <label htmlFor="book-select">Book</label>
+          <label htmlFor="book-select">Title</label>
           <a
-            href="/books/"
+            href="/titles/"
             data-analytics-event="navigation_link_clicked"
             data-analytics-location="book_selector"
           >
-            All books
+            All titles
           </a>
         </div>
         <select

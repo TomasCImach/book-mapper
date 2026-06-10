@@ -100,7 +100,7 @@ export function BookMapScene() {
   )
 
   return (
-    <section className="map-stage" aria-label="Interactive 3D book map">
+    <section className="map-stage" aria-label="Interactive 3D title map">
       <Canvas
         camera={{ position: [9, 5.4, 9], fov: 46, near: 0.1, far: 100 }}
         dpr={[1, 2]}

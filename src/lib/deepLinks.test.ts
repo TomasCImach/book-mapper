@@ -2,19 +2,19 @@ import { describe, expect, it } from 'vitest'
 import { resolveDeepLinkSelection } from './deepLinks'
 
 describe('deep link selection', () => {
-  it('opens book overview pages at the completed route', () => {
+  it('opens title overview pages at the completed route', () => {
     expect(
-      resolveDeepLinkSelection('/books/around-the-world-in-eighty-days/', ''),
+      resolveDeepLinkSelection('/titles/around-the-world-in-eighty-days/', ''),
     ).toEqual({
       bookId: 'around-the-world-in-eighty-days',
       chapter: 37,
     })
   })
 
-  it('opens book route pages at the completed route', () => {
+  it('opens title route pages at the completed route', () => {
     expect(
       resolveDeepLinkSelection(
-        '/books/twenty-thousand-leagues-under-the-sea/route/',
+        '/titles/twenty-thousand-leagues-under-the-sea/route/',
         '',
       ),
     ).toEqual({
@@ -24,6 +24,15 @@ describe('deep link selection', () => {
   })
 
   it('opens chapter pages at the requested chapter', () => {
+    expect(
+      resolveDeepLinkSelection('/titles/around-the-world-in-eighty-days/chapter-20/', ''),
+    ).toEqual({
+      bookId: 'around-the-world-in-eighty-days',
+      chapter: 20,
+    })
+  })
+
+  it('keeps legacy book URLs selectable in the client', () => {
     expect(
       resolveDeepLinkSelection('/books/around-the-world-in-eighty-days/chapter-20/', ''),
     ).toEqual({

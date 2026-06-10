@@ -4,7 +4,7 @@ export type PageRoute =
   | { kind: 'book-route'; bookId: string }
   | { kind: 'chapter'; bookId: string; chapter: number }
   | { kind: 'location'; locationId: string }
-  | { kind: 'catalog'; catalog: 'books' | 'authors' | 'locations' }
+  | { kind: 'catalog'; catalog: 'titles' | 'authors' | 'locations' }
   | { kind: 'author'; authorSlug: string }
   | { kind: 'unknown' }
 
@@ -28,9 +28,9 @@ export function classifyPageRoute(pathname = window.location.pathname): PageRout
     return { kind: 'home' }
   }
 
-  if (parts[0] === 'books') {
+  if (parts[0] === 'titles' || parts[0] === 'books') {
     if (!parts[1]) {
-      return { kind: 'catalog', catalog: 'books' }
+      return { kind: 'catalog', catalog: 'titles' }
     }
 
     if (parts[2] === 'route') {

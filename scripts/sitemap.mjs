@@ -15,6 +15,7 @@ export const bookFiles = [
   'around-the-world-in-eighty-days.json',
   'twenty-thousand-leagues-under-the-sea.json',
   'moby-dick.json',
+  'forrest-gump.json',
 ]
 
 export function normalizeSiteUrl(siteUrl = process.env.SITE_URL ?? DEFAULT_SITE_URL) {
@@ -37,15 +38,15 @@ export function slugify(value) {
 }
 
 export function bookPath(book) {
-  return `/books/${book.id}/`
+  return `/titles/${book.id}/`
 }
 
 export function routePath(book) {
-  return `/books/${book.id}/route/`
+  return `/titles/${book.id}/route/`
 }
 
 export function chapterPath(book, chapterNumber) {
-  return `/books/${book.id}/chapter-${chapterNumber}/`
+  return `/titles/${book.id}/chapter-${chapterNumber}/`
 }
 
 export function authorPath(author) {
@@ -77,7 +78,7 @@ export function getSitemapRoutes(books = readBooks()) {
 
   return assertUniqueRoutes([
     '/',
-    '/books/',
+    '/titles/',
     '/authors/',
     '/locations/',
     ...bookRoutes,

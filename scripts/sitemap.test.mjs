@@ -32,13 +32,13 @@ describe('sitemap automation', () => {
     expect(routes).toHaveLength(expectedRouteCount)
     expect(new Set(routes).size).toBe(routes.length)
     expect(routes).toContain('/')
-    expect(routes).toContain('/books/')
+    expect(routes).toContain('/titles/')
     expect(routes).toContain('/authors/')
     expect(routes).toContain('/locations/')
-    expect(routes).toContain('/books/twenty-thousand-leagues-under-the-sea/')
-    expect(routes).toContain('/books/twenty-thousand-leagues-under-the-sea/route/')
+    expect(routes).toContain('/titles/twenty-thousand-leagues-under-the-sea/')
+    expect(routes).toContain('/titles/twenty-thousand-leagues-under-the-sea/route/')
     expect(routes).toContain(
-      '/books/twenty-thousand-leagues-under-the-sea/chapter-13/',
+      '/titles/twenty-thousand-leagues-under-the-sea/chapter-13/',
     )
     expect(routes).toContain('/authors/jules-verne/')
     expect(routes).toContain('/locations/nautilus-japan/')
@@ -51,7 +51,7 @@ describe('sitemap automation', () => {
     const result = writeSitemapFiles({
       lastmod: '2026-06-09',
       outDir: tempDir,
-      routes: ['/', '/books/'],
+      routes: ['/', '/titles/'],
       siteUrl: DEFAULT_SITE_URL,
     })
     const sitemap = fs.readFileSync(result.sitemapPath, 'utf8')
@@ -60,7 +60,7 @@ describe('sitemap automation', () => {
     expect(result.routeCount).toBe(2)
     expect(sitemap).toContain('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
     expect(sitemap).toContain('<loc>https://www.mappedfiction.com/</loc>')
-    expect(sitemap).toContain('<loc>https://www.mappedfiction.com/books/</loc>')
+    expect(sitemap).toContain('<loc>https://www.mappedfiction.com/titles/</loc>')
     expect(sitemap).toContain('<lastmod>2026-06-09</lastmod>')
     expect(robots).toBe(renderRobots({ siteUrl: DEFAULT_SITE_URL }))
   })

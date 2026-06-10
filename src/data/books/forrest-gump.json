@@ -1,0 +1,1374 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "forrest-gump",
+  "title": "Forrest Gump",
+  "author": "Robert Zemeckis",
+  "source": {
+    "label": "Paramount Pictures official film page",
+    "url": "https://www.paramountpictures.com/movies/forrest-gump"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Scene 1: Savannah bus bench"
+    },
+    {
+      "number": 2,
+      "title": "Scene 2: Greenbow childhood"
+    },
+    {
+      "number": 3,
+      "title": "Scene 3: University of Alabama football"
+    },
+    {
+      "number": 4,
+      "title": "Scene 4: Memphis leave and Army service"
+    },
+    {
+      "number": 5,
+      "title": "Scene 5: Vietnam ambush and rescue"
+    },
+    {
+      "number": 6,
+      "title": "Scene 6: Medal of Honor and Washington rally"
+    },
+    {
+      "number": 7,
+      "title": "Scene 7: Ping-pong diplomacy and New York"
+    },
+    {
+      "number": 8,
+      "title": "Scene 8: Watergate and discharge home"
+    },
+    {
+      "number": 9,
+      "title": "Scene 9: Bayou La Batre shrimping"
+    },
+    {
+      "number": 10,
+      "title": "Scene 10: Hurricane Carmen and Bubba Gump success"
+    },
+    {
+      "number": 11,
+      "title": "Scene 11: Return home to Mrs. Gump"
+    },
+    {
+      "number": 12,
+      "title": "Scene 12: Jenny returns and leaves"
+    },
+    {
+      "number": 13,
+      "title": "Scene 13: Running to the Pacific"
+    },
+    {
+      "number": 14,
+      "title": "Scene 14: Running to the Atlantic"
+    },
+    {
+      "number": 15,
+      "title": "Scene 15: Running until Monument Valley"
+    },
+    {
+      "number": 16,
+      "title": "Scene 16: Savannah reunion with Jenny"
+    },
+    {
+      "number": 17,
+      "title": "Scene 17: Greenbow wedding and school bus"
+    }
+  ],
+  "media": {
+    "road": {
+      "label": "Road",
+      "color": "#d18b45"
+    },
+    "bus": {
+      "label": "Bus",
+      "color": "#e0c14f"
+    },
+    "militaryAir": {
+      "label": "Military air",
+      "color": "#7f9f6f"
+    },
+    "air": {
+      "label": "Air",
+      "color": "#7db7df"
+    },
+    "shrimpBoat": {
+      "label": "Shrimp boat",
+      "color": "#34b7a4"
+    },
+    "running": {
+      "label": "Running",
+      "color": "#e35f4f"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "savannah-bus-bench",
+      "name": "Savannah bus bench",
+      "chapter": 1,
+      "position": {
+        "lat": 32.0763,
+        "lon": -81.0937
+      },
+      "confidence": "geocoded",
+      "notes": "The frame story is set at a Savannah bus bench; the film's bench scenes were shot at Chippewa Square."
+    },
+    {
+      "id": "greenbow-alabama",
+      "name": "Greenbow, Alabama",
+      "chapter": 2,
+      "position": {
+        "lat": 32.7046,
+        "lon": -87.5958
+      },
+      "confidence": "fictional",
+      "notes": "Fictional Greenbow is placed near west-central Alabama for route continuity; this is not a filming-location claim."
+    },
+    {
+      "id": "university-of-alabama",
+      "name": "University of Alabama",
+      "chapter": 3,
+      "position": {
+        "lat": 33.2083,
+        "lon": -87.5504
+      },
+      "confidence": "geocoded",
+      "notes": "Narrative anchor for Forrest's football scholarship and the schoolhouse-door episode."
+    },
+    {
+      "id": "memphis-tennessee",
+      "name": "Memphis, Tennessee",
+      "chapter": 4,
+      "position": {
+        "lat": 35.1495,
+        "lon": -90.049
+      },
+      "confidence": "geocoded",
+      "notes": "Forrest visits Jenny at a Memphis club while on leave."
+    },
+    {
+      "id": "vietnam-mekong-delta",
+      "name": "Vietnam combat zone",
+      "chapter": 5,
+      "position": {
+        "lat": 10.0452,
+        "lon": 105.7469
+      },
+      "confidence": "estimated",
+      "notes": "The film gives Vietnam combat scenes rather than a precise coordinate; this marker uses the Mekong Delta region as a schematic anchor."
+    },
+    {
+      "id": "lincoln-memorial-reflecting-pool",
+      "name": "Lincoln Memorial and Reflecting Pool",
+      "chapter": 6,
+      "position": {
+        "lat": 38.8893,
+        "lon": -77.0502
+      },
+      "confidence": "geocoded",
+      "notes": "Washington rally location where Forrest and Jenny reunite after the Medal of Honor sequence."
+    },
+    {
+      "id": "beijing-ping-pong",
+      "name": "China ping-pong diplomacy",
+      "chapter": 7,
+      "position": {
+        "lat": 39.9042,
+        "lon": 116.4074
+      },
+      "confidence": "estimated",
+      "notes": "A Beijing marker represents Forrest's China table-tennis tour; the film does not specify an arena."
+    },
+    {
+      "id": "new-york-city-forrest",
+      "name": "New York City",
+      "chapter": 7,
+      "position": {
+        "lat": 40.7128,
+        "lon": -74.006
+      },
+      "confidence": "geocoded",
+      "notes": "Forrest appears on television and spends New Year's Eve with Lieutenant Dan."
+    },
+    {
+      "id": "watergate-hotel",
+      "name": "Watergate Hotel",
+      "chapter": 8,
+      "position": {
+        "lat": 38.8997,
+        "lon": -77.0557
+      },
+      "confidence": "geocoded",
+      "notes": "Narrative anchor for the Watergate discovery after Forrest meets President Nixon."
+    },
+    {
+      "id": "bayou-la-batre",
+      "name": "Bayou La Batre",
+      "chapter": 9,
+      "position": {
+        "lat": 30.4033,
+        "lon": -88.2481
+      },
+      "confidence": "geocoded",
+      "notes": "Real Alabama fishing community used as Bubba's home and Forrest's shrimping base in the story."
+    },
+    {
+      "id": "gulf-shrimping-grounds",
+      "name": "Gulf shrimping grounds",
+      "chapter": 10,
+      "position": {
+        "lat": 29.55,
+        "lon": -88.5
+      },
+      "confidence": "estimated",
+      "notes": "Schematic offshore point for the shrimping montage and Hurricane Carmen sequence."
+    },
+    {
+      "id": "santa-monica-pier",
+      "name": "Santa Monica Pier",
+      "chapter": 13,
+      "position": {
+        "lat": 34.0094,
+        "lon": -118.4973
+      },
+      "confidence": "geocoded",
+      "notes": "West Coast endpoint in the running montage."
+    },
+    {
+      "id": "marshall-point-lighthouse",
+      "name": "Marshall Point Lighthouse",
+      "chapter": 14,
+      "position": {
+        "lat": 43.9179,
+        "lon": -69.2619
+      },
+      "confidence": "geocoded",
+      "notes": "East Coast endpoint in the running montage near Port Clyde, Maine."
+    },
+    {
+      "id": "forrest-gump-point",
+      "name": "Forrest Gump Point",
+      "chapter": 15,
+      "position": {
+        "lat": 37.1014,
+        "lon": -109.9908
+      },
+      "confidence": "geocoded",
+      "notes": "U.S. 163 view north of Monument Valley where Forrest stops running."
+    }
+  ],
+  "paths": [
+    {
+      "id": "greenbow-to-university-of-alabama",
+      "title": "Greenbow to University of Alabama",
+      "medium": "road",
+      "start": {
+        "waypointId": "greenbow-alabama"
+      },
+      "end": {
+        "waypointId": "university-of-alabama"
+      },
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "distanceSource": "geodesic",
+      "confidence": "estimated",
+      "notes": "The route models Forrest leaving fictional Greenbow for college football in Tuscaloosa.",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "AFI synopsis: football scholarship",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        }
+      ],
+      "points": [
+        {
+          "lat": 33.2098,
+          "lon": -87.5692
+        }
+      ]
+    },
+    {
+      "id": "university-of-alabama-to-memphis",
+      "title": "College years to Memphis leave",
+      "medium": "road",
+      "start": {
+        "waypointId": "university-of-alabama"
+      },
+      "end": {
+        "waypointId": "memphis-tennessee"
+      },
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "distanceSource": "geodesic",
+      "confidence": "geocoded",
+      "notes": "Forrest's leave visit to Jenny is represented as a direct road move from the Alabama college arc to Memphis.",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "AFI synopsis: Memphis leave",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        }
+      ],
+      "points": [
+        {
+          "lat": 34.7304,
+          "lon": -86.5861
+        }
+      ]
+    },
+    {
+      "id": "memphis-to-vietnam",
+      "title": "Deployment to Vietnam",
+      "medium": "militaryAir",
+      "start": {
+        "waypointId": "memphis-tennessee"
+      },
+      "end": {
+        "waypointId": "vietnam-mekong-delta"
+      },
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "distanceSource": "cinematic",
+      "confidence": "estimated",
+      "notes": "The military deployment is schematic: the film cuts from Army service to Vietnam without naming bases or airports.",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Paramount synopsis: service in Vietnam",
+          "url": "https://www.paramountpictures.com/movies/forrest-gump"
+        },
+        {
+          "chapter": 5,
+          "label": "AFI synopsis: Vietnam combat",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        }
+      ],
+      "points": [
+        {
+          "lat": 33.9416,
+          "lon": -118.4085
+        },
+        {
+          "lat": 21.3187,
+          "lon": -157.9224
+        },
+        {
+          "lat": 13.4443,
+          "lon": 144.7937
+        },
+        {
+          "lat": 14.5995,
+          "lon": 120.9842
+        }
+      ]
+    },
+    {
+      "id": "vietnam-to-washington",
+      "title": "War hero return to Washington",
+      "medium": "militaryAir",
+      "start": {
+        "waypointId": "vietnam-mekong-delta"
+      },
+      "end": {
+        "waypointId": "lincoln-memorial-reflecting-pool"
+      },
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "distanceSource": "cinematic",
+      "confidence": "estimated",
+      "notes": "The path compresses Forrest's hospital recovery, Medal of Honor ceremony, and Washington anti-war rally into one return arc.",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "AFI synopsis: Medal of Honor and rally",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        }
+      ],
+      "points": [
+        {
+          "lat": 14.5995,
+          "lon": 120.9842
+        },
+        {
+          "lat": 21.3187,
+          "lon": -157.9224
+        },
+        {
+          "lat": 34.0522,
+          "lon": -118.2437
+        }
+      ]
+    },
+    {
+      "id": "washington-to-beijing",
+      "title": "Ping-pong diplomacy outbound",
+      "medium": "air",
+      "start": {
+        "waypointId": "lincoln-memorial-reflecting-pool"
+      },
+      "end": {
+        "waypointId": "beijing-ping-pong"
+      },
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "distanceSource": "cinematic",
+      "confidence": "estimated",
+      "notes": "China is represented by Beijing as a national route anchor; the film does not specify the table-tennis venue.",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "Paramount synopsis: Chinese table tennis",
+          "url": "https://www.paramountpictures.com/movies/forrest-gump"
+        },
+        {
+          "chapter": 7,
+          "label": "AFI synopsis: China ping-pong tour",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        }
+      ],
+      "points": [
+        {
+          "lat": 61.2181,
+          "lon": -149.9003
+        }
+      ]
+    },
+    {
+      "id": "beijing-to-new-york",
+      "title": "Return celebrity circuit to New York",
+      "medium": "air",
+      "start": {
+        "waypointId": "beijing-ping-pong"
+      },
+      "end": {
+        "waypointId": "new-york-city-forrest"
+      },
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "distanceSource": "cinematic",
+      "confidence": "estimated",
+      "notes": "Forrest's U.S. celebrity return is mapped to New York for the Dick Cavett and Lieutenant Dan scenes.",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "AFI synopsis: New York with Lieutenant Dan",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        }
+      ],
+      "points": [
+        {
+          "lat": 61.2181,
+          "lon": -149.9003
+        },
+        {
+          "lat": 41.8781,
+          "lon": -87.6298
+        }
+      ]
+    },
+    {
+      "id": "new-york-to-watergate",
+      "title": "New York to Watergate",
+      "medium": "air",
+      "start": {
+        "waypointId": "new-york-city-forrest"
+      },
+      "end": {
+        "waypointId": "watergate-hotel"
+      },
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "distanceSource": "geodesic",
+      "confidence": "geocoded",
+      "notes": "This short domestic hop connects the New York sequence with Forrest's Watergate stay.",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "AFI synopsis: Watergate hotel",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        }
+      ]
+    },
+    {
+      "id": "watergate-to-greenbow",
+      "title": "Discharge home to Greenbow",
+      "medium": "air",
+      "start": {
+        "waypointId": "watergate-hotel"
+      },
+      "end": {
+        "waypointId": "greenbow-alabama"
+      },
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "distanceSource": "cinematic",
+      "confidence": "estimated",
+      "notes": "After discharge, Forrest returns to Alabama; the exact travel mode is not important in the film.",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "AFI synopsis: discharged and returns to Alabama",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        }
+      ],
+      "points": [
+        {
+          "lat": 33.5186,
+          "lon": -86.8104
+        }
+      ]
+    },
+    {
+      "id": "greenbow-to-bayou-la-batre",
+      "title": "Greenbow to Bubba's shrimping coast",
+      "medium": "road",
+      "start": {
+        "waypointId": "greenbow-alabama"
+      },
+      "end": {
+        "waypointId": "bayou-la-batre"
+      },
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "distanceSource": "geodesic",
+      "confidence": "geocoded",
+      "notes": "The route follows Forrest's promise to Bubba into the real Alabama shrimping community of Bayou La Batre.",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "AFI synopsis: shrimp business",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        },
+        {
+          "chapter": 9,
+          "label": "City of Bayou La Batre: seafood coast",
+          "url": "https://www.cityofbayoulabatre.com/"
+        }
+      ],
+      "points": [
+        {
+          "lat": 32.3668,
+          "lon": -86.3
+        },
+        {
+          "lat": 30.6954,
+          "lon": -88.0399
+        }
+      ]
+    },
+    {
+      "id": "bayou-la-batre-shrimping-loop",
+      "title": "Shrimping loop through Hurricane Carmen",
+      "medium": "shrimpBoat",
+      "start": {
+        "waypointId": "bayou-la-batre"
+      },
+      "end": {
+        "waypointId": "bayou-la-batre"
+      },
+      "chapterStart": 10,
+      "chapterEnd": 10,
+      "distanceKm": 190,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "A compact Gulf loop stands in for the shrimping montage, storm survival, and sudden haul of shrimp after Hurricane Carmen.",
+      "sourceRefs": [
+        {
+          "chapter": 10,
+          "label": "AFI synopsis: Hurricane Carmen success",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        },
+        {
+          "chapter": 10,
+          "label": "Bayou La Batre coastal seafood context",
+          "url": "https://www.cityofbayoulabatre.com/"
+        }
+      ],
+      "points": [
+        {
+          "lat": 29.85,
+          "lon": -88.2
+        },
+        {
+          "lat": 29.55,
+          "lon": -88.5
+        },
+        {
+          "lat": 29.95,
+          "lon": -88.78
+        }
+      ]
+    },
+    {
+      "id": "bayou-la-batre-to-greenbow",
+      "title": "Bayou La Batre to Mrs. Gump's house",
+      "medium": "road",
+      "start": {
+        "waypointId": "bayou-la-batre"
+      },
+      "end": {
+        "waypointId": "greenbow-alabama"
+      },
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "distanceSource": "geodesic",
+      "confidence": "estimated",
+      "notes": "Forrest rushes home from the boat when he learns his mother is sick.",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "AFI synopsis: Mrs. Gump is sick",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        }
+      ],
+      "points": [
+        {
+          "lat": 30.6954,
+          "lon": -88.0399
+        },
+        {
+          "lat": 32.3668,
+          "lon": -86.3
+        }
+      ]
+    },
+    {
+      "id": "greenbow-to-santa-monica-run",
+      "title": "First cross-country run to the Pacific",
+      "medium": "running",
+      "start": {
+        "waypointId": "greenbow-alabama"
+      },
+      "end": {
+        "waypointId": "santa-monica-pier"
+      },
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "distanceKm": 3400,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "The first running leg is a road-distance estimate from Alabama to the Pacific; the film compresses the route into a montage.",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "AFI synopsis: reaches California",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        },
+        {
+          "chapter": 13,
+          "label": "Santa Monica film-location note",
+          "url": "https://www.santamonica.com/experience-santa-monica/santa-monica-iconic-movie-locations/"
+        }
+      ],
+      "points": [
+        {
+          "lat": 32.7767,
+          "lon": -96.797
+        },
+        {
+          "lat": 35.0844,
+          "lon": -106.6504
+        },
+        {
+          "lat": 35.1983,
+          "lon": -111.6513
+        }
+      ]
+    },
+    {
+      "id": "santa-monica-to-marshall-point-run",
+      "title": "Pacific to Atlantic running turn",
+      "medium": "running",
+      "start": {
+        "waypointId": "santa-monica-pier"
+      },
+      "end": {
+        "waypointId": "marshall-point-lighthouse"
+      },
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "distanceKm": 5500,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "This leg follows the film's coast-to-coast turn from the Pacific to the Atlantic; its distance is a broad road-route estimate.",
+      "sourceRefs": [
+        {
+          "chapter": 14,
+          "label": "AFI production notes: Maine running scenes",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        },
+        {
+          "chapter": 14,
+          "label": "Marshall Point Lighthouse history",
+          "url": "https://www.marshallpoint.org/history"
+        }
+      ],
+      "points": [
+        {
+          "lat": 36.1699,
+          "lon": -115.1398
+        },
+        {
+          "lat": 39.7392,
+          "lon": -104.9903
+        },
+        {
+          "lat": 41.8781,
+          "lon": -87.6298
+        },
+        {
+          "lat": 44.4759,
+          "lon": -73.2121
+        }
+      ]
+    },
+    {
+      "id": "marshall-point-to-forrest-gump-point-run",
+      "title": "Three-year running montage to Monument Valley",
+      "medium": "running",
+      "start": {
+        "waypointId": "marshall-point-lighthouse"
+      },
+      "end": {
+        "waypointId": "forrest-gump-point"
+      },
+      "chapterStart": 15,
+      "chapterEnd": 15,
+      "distanceKm": 18000,
+      "distanceSource": "cinematic",
+      "confidence": "estimated",
+      "notes": "The route distance intentionally exceeds the endpoint-to-endpoint road distance to represent Forrest's repeated cross-country running before stopping on U.S. 163.",
+      "sourceRefs": [
+        {
+          "chapter": 15,
+          "label": "Paramount synopsis: runs across the country for years",
+          "url": "https://www.paramountpictures.com/movies/forrest-gump"
+        },
+        {
+          "chapter": 15,
+          "label": "Visit Utah: Forrest Gump Point",
+          "url": "https://www.visitutah.com/articles/selfie-at-forrest-gump-point"
+        }
+      ],
+      "points": [
+        {
+          "lat": 38.8893,
+          "lon": -77.0502
+        },
+        {
+          "lat": 35.5951,
+          "lon": -82.5515
+        },
+        {
+          "lat": 32.7767,
+          "lon": -96.797
+        },
+        {
+          "lat": 35.0844,
+          "lon": -106.6504
+        },
+        {
+          "lat": 35.1983,
+          "lon": -111.6513
+        }
+      ]
+    },
+    {
+      "id": "forrest-gump-point-to-greenbow",
+      "title": "Run ends and Forrest returns home",
+      "medium": "road",
+      "start": {
+        "waypointId": "forrest-gump-point"
+      },
+      "end": {
+        "waypointId": "greenbow-alabama"
+      },
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "After stopping in Monument Valley, Forrest's off-screen return to Alabama is modeled as a road route before Jenny's Savannah letter.",
+      "sourceRefs": [
+        {
+          "chapter": 16,
+          "label": "AFI synopsis: Jenny writes to Forrest",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        }
+      ],
+      "points": [
+        {
+          "lat": 35.1983,
+          "lon": -111.6513
+        },
+        {
+          "lat": 35.0844,
+          "lon": -106.6504
+        },
+        {
+          "lat": 32.7767,
+          "lon": -96.797
+        }
+      ]
+    },
+    {
+      "id": "greenbow-to-savannah",
+      "title": "Jenny's letter to Savannah",
+      "medium": "bus",
+      "start": {
+        "waypointId": "greenbow-alabama"
+      },
+      "end": {
+        "waypointId": "savannah-bus-bench"
+      },
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "Forrest reaches Savannah after Jenny invites him to visit; the exact bus route is not specified.",
+      "sourceRefs": [
+        {
+          "chapter": 16,
+          "label": "AFI synopsis: Savannah visit",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        }
+      ],
+      "points": [
+        {
+          "lat": 32.3792,
+          "lon": -86.3077
+        },
+        {
+          "lat": 32.461,
+          "lon": -84.9877
+        },
+        {
+          "lat": 32.8407,
+          "lon": -83.6324
+        }
+      ]
+    },
+    {
+      "id": "savannah-to-greenbow",
+      "title": "Jenny and Forrest Jr. move to Greenbow",
+      "medium": "bus",
+      "start": {
+        "waypointId": "savannah-bus-bench"
+      },
+      "end": {
+        "waypointId": "greenbow-alabama"
+      },
+      "chapterStart": 17,
+      "chapterEnd": 17,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "The final return follows Jenny and Forrest Jr. back to Forrest's Alabama home for the wedding, burial, and school-bus ending.",
+      "sourceRefs": [
+        {
+          "chapter": 17,
+          "label": "AFI synopsis: Greenbow wedding and final school bus",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        }
+      ],
+      "points": [
+        {
+          "lat": 32.8407,
+          "lon": -83.6324
+        },
+        {
+          "lat": 32.461,
+          "lon": -84.9877
+        },
+        {
+          "lat": 32.3792,
+          "lon": -86.3077
+        }
+      ]
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 1,
+      "movement": "stationary",
+      "anchor": "Savannah bus bench",
+      "locationFacts": [
+        "The frame story begins with Forrest waiting at a bus bench in Savannah.",
+        "The bench is a narrative launch point for the flashback route rather than a journey segment."
+      ],
+      "deltaFacts": [
+        "No mapped travel starts in this scene."
+      ],
+      "slopeFacts": [
+        "Surface-level stationary scene."
+      ],
+      "xyzEstimate": "The route has not begun; Savannah is used as the storyteller frame.",
+      "segmentIds": [],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "AFI synopsis: Savannah bus bench",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "movement": "stationary",
+      "anchor": "Greenbow, Alabama",
+      "locationFacts": [
+        "Forrest's childhood is set in fictional Greenbow, Alabama.",
+        "The route treats Greenbow as the home anchor for the rest of Forrest's travels."
+      ],
+      "deltaFacts": [
+        "No intercity route segment is assigned to the childhood setup."
+      ],
+      "slopeFacts": [
+        "Surface-level home and school scenes."
+      ],
+      "xyzEstimate": "Greenbow is positioned schematically in west-central Alabama.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "AFI synopsis: Greenbow childhood",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "movement": "surface",
+      "anchor": "University of Alabama",
+      "locationFacts": [
+        "Forrest's running ability leads to college football at the University of Alabama.",
+        "Tuscaloosa is the first named real destination after the Greenbow childhood scenes."
+      ],
+      "deltaFacts": [
+        "The route moves from fictional Greenbow to the University of Alabama."
+      ],
+      "slopeFacts": [
+        "Surface road movement; no elevation model is applied."
+      ],
+      "xyzEstimate": "Short west-central Alabama to Tuscaloosa segment.",
+      "segmentIds": [
+        "greenbow-to-university-of-alabama"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "AFI synopsis: football scholarship",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "movement": "surface",
+      "anchor": "Memphis leave",
+      "locationFacts": [
+        "Forrest joins the Army after graduation.",
+        "Before Vietnam, he visits Jenny at a Memphis club while on leave."
+      ],
+      "deltaFacts": [
+        "The mapped route moves from the Alabama college arc to Memphis."
+      ],
+      "slopeFacts": [
+        "Surface road movement; no vertical change is modeled."
+      ],
+      "xyzEstimate": "The scene points the route northwest from Alabama toward Tennessee.",
+      "segmentIds": [
+        "university-of-alabama-to-memphis"
+      ],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "AFI synopsis: Army and Memphis leave",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "movement": "surface",
+      "anchor": "Vietnam combat zone",
+      "locationFacts": [
+        "Forrest and Bubba are sent to fight in Vietnam.",
+        "The ambush and rescue sequence is mapped to a schematic Mekong Delta anchor."
+      ],
+      "deltaFacts": [
+        "The route leaves the United States for Southeast Asia."
+      ],
+      "slopeFacts": [
+        "Long surface-globe air path; no altitude is modeled."
+      ],
+      "xyzEstimate": "The military deployment crosses the Pacific through schematic control points.",
+      "segmentIds": [
+        "memphis-to-vietnam"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "AFI synopsis: Vietnam ambush",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "movement": "surface",
+      "anchor": "Washington, D.C.",
+      "locationFacts": [
+        "Forrest returns as a wounded veteran and receives the Medal of Honor.",
+        "The Washington rally reunites Forrest and Jenny near the Reflecting Pool."
+      ],
+      "deltaFacts": [
+        "The route returns from Vietnam to Washington, D.C."
+      ],
+      "slopeFacts": [
+        "Long surface-globe air path; no altitude is modeled."
+      ],
+      "xyzEstimate": "The return path crosses the Pacific and continental United States.",
+      "segmentIds": [
+        "vietnam-to-washington"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "AFI synopsis: Medal of Honor and rally",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "movement": "surface",
+      "anchor": "China and New York",
+      "locationFacts": [
+        "Forrest joins the U.S. table-tennis tour in China.",
+        "He then becomes a television celebrity and spends time with Lieutenant Dan in New York."
+      ],
+      "deltaFacts": [
+        "The route crosses from Washington to China, then returns to New York."
+      ],
+      "slopeFacts": [
+        "Long air-route arcs over the globe; no elevation or depth is modeled."
+      ],
+      "xyzEstimate": "Two transcontinental arcs represent the ping-pong diplomacy and celebrity return sequence.",
+      "segmentIds": [
+        "washington-to-beijing",
+        "beijing-to-new-york"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "Paramount synopsis: table tennis and celebrity",
+          "url": "https://www.paramountpictures.com/movies/forrest-gump"
+        },
+        {
+          "chapter": 7,
+          "label": "AFI synopsis: China and New York",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "movement": "surface",
+      "anchor": "Watergate and Alabama return",
+      "locationFacts": [
+        "Forrest is put up at the Watergate Hotel after meeting President Nixon.",
+        "After discharge, the story returns him to Alabama."
+      ],
+      "deltaFacts": [
+        "The route moves from New York to Washington, then back to Greenbow."
+      ],
+      "slopeFacts": [
+        "Surface-globe domestic travel; no altitude is modeled."
+      ],
+      "xyzEstimate": "The chapter closes the military-celebrity loop and returns the route to Alabama.",
+      "segmentIds": [
+        "new-york-to-watergate",
+        "watergate-to-greenbow"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "AFI synopsis: Watergate and discharge",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "movement": "surface",
+      "anchor": "Bayou La Batre",
+      "locationFacts": [
+        "Forrest uses his endorsement money to begin the Bubba Gump shrimping business.",
+        "Bayou La Batre provides the real coastal anchor for the shrimping chapter."
+      ],
+      "deltaFacts": [
+        "The route moves from Greenbow to the Alabama Gulf Coast."
+      ],
+      "slopeFacts": [
+        "Surface road movement to the coast."
+      ],
+      "xyzEstimate": "The route turns south from inland Alabama toward Mobile Bay and the Gulf.",
+      "segmentIds": [
+        "greenbow-to-bayou-la-batre"
+      ],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "AFI synopsis: shrimp business",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        },
+        {
+          "chapter": 9,
+          "label": "Bayou La Batre official site",
+          "url": "https://www.cityofbayoulabatre.com/"
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "movement": "sea",
+      "anchor": "Gulf shrimping grounds",
+      "locationFacts": [
+        "Lieutenant Dan joins Forrest on the shrimp boat.",
+        "Hurricane Carmen leaves their boat as a successful survivor in the shrimping business."
+      ],
+      "deltaFacts": [
+        "A short Gulf loop represents repeated shrimping trips rather than one literal voyage."
+      ],
+      "slopeFacts": [
+        "Surface sea route; no depth movement is modeled."
+      ],
+      "xyzEstimate": "The loop leaves and returns to Bayou La Batre through an estimated offshore control point.",
+      "segmentIds": [
+        "bayou-la-batre-shrimping-loop"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 10,
+          "label": "AFI synopsis: shrimp boat and hurricane",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "movement": "return",
+      "anchor": "Mrs. Gump's house",
+      "locationFacts": [
+        "Forrest learns his mother is ill and rushes back home.",
+        "Greenbow becomes the route anchor again after the shrimping success."
+      ],
+      "deltaFacts": [
+        "The route returns from Bayou La Batre to Greenbow."
+      ],
+      "slopeFacts": [
+        "Surface road return; no vertical change is modeled."
+      ],
+      "xyzEstimate": "The path reverses the Alabama Gulf Coast route back inland.",
+      "segmentIds": [
+        "bayou-la-batre-to-greenbow"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "AFI synopsis: Mrs. Gump is sick",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "movement": "stationary",
+      "anchor": "Greenbow, Alabama",
+      "locationFacts": [
+        "Jenny returns to stay with Forrest in Greenbow.",
+        "After she leaves, Forrest's next movement begins the running odyssey."
+      ],
+      "deltaFacts": [
+        "No new mapped travel occurs until Forrest starts running."
+      ],
+      "slopeFacts": [
+        "Stationary surface scene at the home anchor."
+      ],
+      "xyzEstimate": "The route holds at Greenbow before the cross-country run.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "AFI synopsis: Jenny returns and leaves",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "movement": "surface",
+      "anchor": "Santa Monica Pier",
+      "locationFacts": [
+        "Forrest begins running from home after Jenny leaves.",
+        "The first major endpoint is the Pacific Ocean at Santa Monica."
+      ],
+      "deltaFacts": [
+        "The route estimates the westbound run from Alabama to the Pacific at 3,400 km."
+      ],
+      "slopeFacts": [
+        "Surface running route across the southern and southwestern United States."
+      ],
+      "xyzEstimate": "The control points route the run through Texas, New Mexico, and Arizona before California.",
+      "segmentIds": [
+        "greenbow-to-santa-monica-run"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "AFI synopsis: California run",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        },
+        {
+          "chapter": 13,
+          "label": "Santa Monica film-location note",
+          "url": "https://www.santamonica.com/experience-santa-monica/santa-monica-iconic-movie-locations/"
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "movement": "surface",
+      "anchor": "Marshall Point Lighthouse",
+      "locationFacts": [
+        "After reaching the Pacific, Forrest turns around and keeps running.",
+        "Marshall Point Lighthouse anchors the Atlantic-side turn in the montage."
+      ],
+      "deltaFacts": [
+        "The route estimates the coast-to-coast running leg at 5,500 km."
+      ],
+      "slopeFacts": [
+        "Surface running route; no elevation profile is modeled."
+      ],
+      "xyzEstimate": "The path crosses from California to Maine through western, midwestern, and northeastern control points.",
+      "segmentIds": [
+        "santa-monica-to-marshall-point-run"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 14,
+          "label": "AFI production notes: Maine running scenes",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        },
+        {
+          "chapter": 14,
+          "label": "Marshall Point Lighthouse history",
+          "url": "https://www.marshallpoint.org/history"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "movement": "surface",
+      "anchor": "Forrest Gump Point",
+      "locationFacts": [
+        "The running montage continues across several years and repeated crossings.",
+        "Forrest stops running on U.S. 163 north of Monument Valley."
+      ],
+      "deltaFacts": [
+        "The chapter uses an 18,000 km cinematic distance to represent repeated crossings before the Monument Valley stop."
+      ],
+      "slopeFacts": [
+        "Surface running route; no elevation profile is modeled."
+      ],
+      "xyzEstimate": "The control points keep the montage in a lower eastern-to-southwestern corridor before ending at U.S. 163.",
+      "segmentIds": [
+        "marshall-point-to-forrest-gump-point-run"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 15,
+          "label": "Paramount synopsis: cross-country running years",
+          "url": "https://www.paramountpictures.com/movies/forrest-gump"
+        },
+        {
+          "chapter": 15,
+          "label": "Visit Utah: Forrest Gump Point",
+          "url": "https://www.visitutah.com/articles/selfie-at-forrest-gump-point"
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "movement": "return",
+      "anchor": "Savannah reunion",
+      "locationFacts": [
+        "After the run ends, Forrest receives Jenny's letter and travels to Savannah.",
+        "At Jenny's apartment he meets Forrest Jr. and learns Jenny is sick."
+      ],
+      "deltaFacts": [
+        "The route returns from Monument Valley to Greenbow, then continues to Savannah."
+      ],
+      "slopeFacts": [
+        "Surface travel across road and bus segments; no elevation or depth is modeled."
+      ],
+      "xyzEstimate": "The chapter reconnects the running route to the opening Savannah frame.",
+      "segmentIds": [
+        "forrest-gump-point-to-greenbow",
+        "greenbow-to-savannah"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 16,
+          "label": "AFI synopsis: Savannah reunion",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "movement": "return",
+      "anchor": "Greenbow wedding and school bus",
+      "locationFacts": [
+        "Jenny and Forrest Jr. move back with Forrest to Greenbow.",
+        "The film closes at the Greenbow home and school-bus stop."
+      ],
+      "deltaFacts": [
+        "The final route returns from Savannah to Greenbow."
+      ],
+      "slopeFacts": [
+        "Surface bus route; no elevation or depth is modeled."
+      ],
+      "xyzEstimate": "The final segment brings the route back to the fictional Alabama home anchor.",
+      "segmentIds": [
+        "savannah-to-greenbow"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 17,
+          "label": "AFI synopsis: Greenbow ending",
+          "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP"
+        }
+      ]
+    }
+  ]
+}

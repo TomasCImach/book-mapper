@@ -130,7 +130,7 @@ function ContextPanelBody({ route }: { route: PageRoute }) {
         ) : null}
         <div className="context-facts">
           <ContextFact label="Appearances" value={String(appearances.length)} />
-          <ContextFact label="Book" value={book.title} />
+          <ContextFact label="Title" value={book.title} />
           <ContextFact label="Chapter" value={String(selectedChapter)} />
         </div>
         {appearances.length > 1 ? (
@@ -218,7 +218,7 @@ function ContextPanelBody({ route }: { route: PageRoute }) {
   if (route.kind === 'book') {
     return (
       <>
-        <p className="context-kicker">Completed book route</p>
+        <p className="context-kicker">Completed title route</p>
         <h2>{book.title}</h2>
         <p className="context-copy">
           {firstSegment && lastSegment
