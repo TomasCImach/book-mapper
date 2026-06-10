@@ -12,6 +12,7 @@ const bookFiles = [
   'journey-to-the-center-of-the-earth.json',
   'around-the-world-in-eighty-days.json',
   'twenty-thousand-leagues-under-the-sea.json',
+  'moby-dick.json',
 ]
 
 const books = bookFiles.map((file) =>

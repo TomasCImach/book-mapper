@@ -1,0 +1,4 @@
+interface:
+  display_name: "Add Narrative Map"
+  short_description: "Add book or movie route datasets"
+  default_prompt: "Use $add-narrative-map to add a new book or movie route dataset to the 3D narrative map app."

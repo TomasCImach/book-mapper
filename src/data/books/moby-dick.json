@@ -1,0 +1,5192 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "moby-dick",
+  "title": "Moby-Dick; or, The Whale",
+  "author": "Herman Melville",
+  "source": {
+    "label": "Project Gutenberg #2701",
+    "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Loomings"
+    },
+    {
+      "number": 2,
+      "title": "The Carpet-Bag"
+    },
+    {
+      "number": 3,
+      "title": "The Spouter-Inn"
+    },
+    {
+      "number": 4,
+      "title": "The Counterpane"
+    },
+    {
+      "number": 5,
+      "title": "Breakfast"
+    },
+    {
+      "number": 6,
+      "title": "The Street"
+    },
+    {
+      "number": 7,
+      "title": "The Chapel"
+    },
+    {
+      "number": 8,
+      "title": "The Pulpit"
+    },
+    {
+      "number": 9,
+      "title": "The Sermon"
+    },
+    {
+      "number": 10,
+      "title": "A Bosom Friend"
+    },
+    {
+      "number": 11,
+      "title": "Nightgown"
+    },
+    {
+      "number": 12,
+      "title": "Biographical"
+    },
+    {
+      "number": 13,
+      "title": "Wheelbarrow"
+    },
+    {
+      "number": 14,
+      "title": "Nantucket"
+    },
+    {
+      "number": 15,
+      "title": "Chowder"
+    },
+    {
+      "number": 16,
+      "title": "The Ship"
+    },
+    {
+      "number": 17,
+      "title": "The Ramadan"
+    },
+    {
+      "number": 18,
+      "title": "His Mark"
+    },
+    {
+      "number": 19,
+      "title": "The Prophet"
+    },
+    {
+      "number": 20,
+      "title": "All Astir"
+    },
+    {
+      "number": 21,
+      "title": "Going Aboard"
+    },
+    {
+      "number": 22,
+      "title": "Merry Christmas"
+    },
+    {
+      "number": 23,
+      "title": "The Lee Shore"
+    },
+    {
+      "number": 24,
+      "title": "The Advocate"
+    },
+    {
+      "number": 25,
+      "title": "Postscript"
+    },
+    {
+      "number": 26,
+      "title": "Knights and Squires"
+    },
+    {
+      "number": 27,
+      "title": "Knights and Squires"
+    },
+    {
+      "number": 28,
+      "title": "Ahab"
+    },
+    {
+      "number": 29,
+      "title": "Enter Ahab; to Him, Stubb"
+    },
+    {
+      "number": 30,
+      "title": "The Pipe"
+    },
+    {
+      "number": 31,
+      "title": "Queen Mab"
+    },
+    {
+      "number": 32,
+      "title": "Cetology"
+    },
+    {
+      "number": 33,
+      "title": "The Specksnyder"
+    },
+    {
+      "number": 34,
+      "title": "The Cabin-Table"
+    },
+    {
+      "number": 35,
+      "title": "The Mast-Head"
+    },
+    {
+      "number": 36,
+      "title": "The Quarter-Deck"
+    },
+    {
+      "number": 37,
+      "title": "Sunset"
+    },
+    {
+      "number": 38,
+      "title": "Dusk"
+    },
+    {
+      "number": 39,
+      "title": "First Night-Watch"
+    },
+    {
+      "number": 40,
+      "title": "Midnight, Forecastle"
+    },
+    {
+      "number": 41,
+      "title": "Moby Dick"
+    },
+    {
+      "number": 42,
+      "title": "The Whiteness of the Whale"
+    },
+    {
+      "number": 43,
+      "title": "Hark!"
+    },
+    {
+      "number": 44,
+      "title": "The Chart"
+    },
+    {
+      "number": 45,
+      "title": "The Affidavit"
+    },
+    {
+      "number": 46,
+      "title": "Surmises"
+    },
+    {
+      "number": 47,
+      "title": "The Mat-Maker"
+    },
+    {
+      "number": 48,
+      "title": "The First Lowering"
+    },
+    {
+      "number": 49,
+      "title": "The Hyena"
+    },
+    {
+      "number": 50,
+      "title": "Ahab's Boat and Crew. Fedallah"
+    },
+    {
+      "number": 51,
+      "title": "The Spirit-Spout"
+    },
+    {
+      "number": 52,
+      "title": "The Albatross"
+    },
+    {
+      "number": 53,
+      "title": "The Gam"
+    },
+    {
+      "number": 54,
+      "title": "The Town-Ho's Story"
+    },
+    {
+      "number": 55,
+      "title": "Of the Monstrous Pictures of Whales"
+    },
+    {
+      "number": 56,
+      "title": "Of the Less Erroneous Pictures of Whales, and the True Pictures of Whaling Scenes"
+    },
+    {
+      "number": 57,
+      "title": "Of Whales in Paint; in Teeth; in Wood; in Sheet-Iron; in Stone; in Mountains; in Stars"
+    },
+    {
+      "number": 58,
+      "title": "Brit"
+    },
+    {
+      "number": 59,
+      "title": "Squid"
+    },
+    {
+      "number": 60,
+      "title": "The Line"
+    },
+    {
+      "number": 61,
+      "title": "Stubb Kills a Whale"
+    },
+    {
+      "number": 62,
+      "title": "The Dart"
+    },
+    {
+      "number": 63,
+      "title": "The Crotch"
+    },
+    {
+      "number": 64,
+      "title": "Stubb's Supper"
+    },
+    {
+      "number": 65,
+      "title": "The Whale as a Dish"
+    },
+    {
+      "number": 66,
+      "title": "The Shark Massacre"
+    },
+    {
+      "number": 67,
+      "title": "Cutting In"
+    },
+    {
+      "number": 68,
+      "title": "The Blanket"
+    },
+    {
+      "number": 69,
+      "title": "The Funeral"
+    },
+    {
+      "number": 70,
+      "title": "The Sphynx"
+    },
+    {
+      "number": 71,
+      "title": "The Jeroboam's Story"
+    },
+    {
+      "number": 72,
+      "title": "The Monkey-Rope"
+    },
+    {
+      "number": 73,
+      "title": "Stubb and Flask kill a Right Whale; and Then Have a Talk over Him"
+    },
+    {
+      "number": 74,
+      "title": "The Sperm Whale's Head - Contrasted View"
+    },
+    {
+      "number": 75,
+      "title": "The Right Whale's Head - Contrasted View"
+    },
+    {
+      "number": 76,
+      "title": "The Battering-Ram"
+    },
+    {
+      "number": 77,
+      "title": "The Great Heidelburgh Tun"
+    },
+    {
+      "number": 78,
+      "title": "Cistern and Buckets"
+    },
+    {
+      "number": 79,
+      "title": "The Prairie"
+    },
+    {
+      "number": 80,
+      "title": "The Nut"
+    },
+    {
+      "number": 81,
+      "title": "The Pequod Meets The Virgin"
+    },
+    {
+      "number": 82,
+      "title": "The Honor and Glory of Whaling"
+    },
+    {
+      "number": 83,
+      "title": "Jonah Historically Regarded"
+    },
+    {
+      "number": 84,
+      "title": "Pitchpoling"
+    },
+    {
+      "number": 85,
+      "title": "The Fountain"
+    },
+    {
+      "number": 86,
+      "title": "The Tail"
+    },
+    {
+      "number": 87,
+      "title": "The Grand Armada"
+    },
+    {
+      "number": 88,
+      "title": "Schools and Schoolmasters"
+    },
+    {
+      "number": 89,
+      "title": "Fast-Fish and Loose-Fish"
+    },
+    {
+      "number": 90,
+      "title": "Heads or Tails"
+    },
+    {
+      "number": 91,
+      "title": "The Pequod Meets The Rose-Bud"
+    },
+    {
+      "number": 92,
+      "title": "Ambergris"
+    },
+    {
+      "number": 93,
+      "title": "The Castaway"
+    },
+    {
+      "number": 94,
+      "title": "A Squeeze of the Hand"
+    },
+    {
+      "number": 95,
+      "title": "The Cassock"
+    },
+    {
+      "number": 96,
+      "title": "The Try-Works"
+    },
+    {
+      "number": 97,
+      "title": "The Lamp"
+    },
+    {
+      "number": 98,
+      "title": "Stowing Down and Clearing Up"
+    },
+    {
+      "number": 99,
+      "title": "The Doubloon"
+    },
+    {
+      "number": 100,
+      "title": "Leg and Arm"
+    },
+    {
+      "number": 101,
+      "title": "The Decanter"
+    },
+    {
+      "number": 102,
+      "title": "A Bower in the Arsacides"
+    },
+    {
+      "number": 103,
+      "title": "Measurement of The Whale's Skeleton"
+    },
+    {
+      "number": 104,
+      "title": "The Fossil Whale"
+    },
+    {
+      "number": 105,
+      "title": "Does the Whale's Magnitude Diminish? - Will He Perish?"
+    },
+    {
+      "number": 106,
+      "title": "Ahab's Leg"
+    },
+    {
+      "number": 107,
+      "title": "The Carpenter"
+    },
+    {
+      "number": 108,
+      "title": "Ahab and the Carpenter"
+    },
+    {
+      "number": 109,
+      "title": "Ahab and Starbuck in the Cabin"
+    },
+    {
+      "number": 110,
+      "title": "Queequeg in His Coffin"
+    },
+    {
+      "number": 111,
+      "title": "The Pacific"
+    },
+    {
+      "number": 112,
+      "title": "The Blacksmith"
+    },
+    {
+      "number": 113,
+      "title": "The Forge"
+    },
+    {
+      "number": 114,
+      "title": "The Gilder"
+    },
+    {
+      "number": 115,
+      "title": "The Pequod Meets The Bachelor"
+    },
+    {
+      "number": 116,
+      "title": "The Dying Whale"
+    },
+    {
+      "number": 117,
+      "title": "The Whale Watch"
+    },
+    {
+      "number": 118,
+      "title": "The Quadrant"
+    },
+    {
+      "number": 119,
+      "title": "The Candles"
+    },
+    {
+      "number": 120,
+      "title": "The Deck Towards the End of the First Night Watch"
+    },
+    {
+      "number": 121,
+      "title": "Midnight - The Forecastle Bulwarks"
+    },
+    {
+      "number": 122,
+      "title": "Midnight Aloft - Thunder and Lightning"
+    },
+    {
+      "number": 123,
+      "title": "The Musket"
+    },
+    {
+      "number": 124,
+      "title": "The Needle"
+    },
+    {
+      "number": 125,
+      "title": "The Log and Line"
+    },
+    {
+      "number": 126,
+      "title": "The Life-Buoy"
+    },
+    {
+      "number": 127,
+      "title": "The Deck"
+    },
+    {
+      "number": 128,
+      "title": "The Pequod Meets The Rachel"
+    },
+    {
+      "number": 129,
+      "title": "The Cabin"
+    },
+    {
+      "number": 130,
+      "title": "The Hat"
+    },
+    {
+      "number": 131,
+      "title": "The Pequod Meets The Delight"
+    },
+    {
+      "number": 132,
+      "title": "The Symphony"
+    },
+    {
+      "number": 133,
+      "title": "The Chase - First Day"
+    },
+    {
+      "number": 134,
+      "title": "The Chase - Second Day"
+    },
+    {
+      "number": 135,
+      "title": "The Chase - Third Day"
+    },
+    {
+      "number": 136,
+      "title": "Epilogue"
+    }
+  ],
+  "media": {
+    "shoreTravel": {
+      "label": "Shore travel",
+      "color": "#d49a54"
+    },
+    "packet": {
+      "label": "Packet schooner",
+      "color": "#67b7c7"
+    },
+    "whaleship": {
+      "label": "Whaleship",
+      "color": "#4f88c8"
+    },
+    "whaleboat": {
+      "label": "Whaleboat",
+      "color": "#d7c15d"
+    },
+    "drift": {
+      "label": "Drift and rescue",
+      "color": "#8aa36b"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "old-manhatto",
+      "name": "Old Manhatto",
+      "chapter": 1,
+      "position": {
+        "lat": 40.7128,
+        "lon": -74.006
+      },
+      "confidence": "geocoded",
+      "notes": "Ishmael begins from the island city he calls Manhatto."
+    },
+    {
+      "id": "new-bedford",
+      "name": "New Bedford",
+      "chapter": 2,
+      "position": {
+        "lat": 41.6362,
+        "lon": -70.9342
+      },
+      "confidence": "geocoded",
+      "notes": "Ishmael arrives after quitting Manhatto and waits for the Nantucket packet."
+    },
+    {
+      "id": "nantucket",
+      "name": "Nantucket",
+      "chapter": 13,
+      "position": {
+        "lat": 41.2835,
+        "lon": -70.0995
+      },
+      "confidence": "geocoded",
+      "notes": "Pequod home port and the point from which the whaling voyage begins."
+    },
+    {
+      "id": "north-atlantic-off-nantucket",
+      "name": "North Atlantic off Nantucket",
+      "chapter": 23,
+      "position": {
+        "lat": 40.2,
+        "lon": -65
+      },
+      "confidence": "estimated",
+      "notes": "An offshore modeling anchor for the first days after the Pequod leaves Nantucket."
+    },
+    {
+      "id": "south-atlantic-trades",
+      "name": "South Atlantic trades",
+      "chapter": 44,
+      "position": {
+        "lat": -15,
+        "lon": -28
+      },
+      "confidence": "estimated",
+      "notes": "A schematic open-ocean anchor for Ahab's southward Atlantic passage."
+    },
+    {
+      "id": "cape-good-hope-waters",
+      "name": "Cape of Good Hope waters",
+      "chapter": 51,
+      "position": {
+        "lat": -35.5,
+        "lon": 18.5
+      },
+      "confidence": "textual",
+      "notes": "The Spirit-Spout chapter names the Cape winds and Cape of Good Hope seas."
+    },
+    {
+      "id": "crozet-waters",
+      "name": "Waters off the Crozet Islands",
+      "chapter": 52,
+      "position": {
+        "lat": -46,
+        "lon": 51
+      },
+      "confidence": "textual",
+      "notes": "Chapter 52 places the Albatross southeastward from the Cape, off the distant Crozetts."
+    },
+    {
+      "id": "indian-ocean-line",
+      "name": "Indian Ocean Line",
+      "chapter": 60,
+      "position": {
+        "lat": -8,
+        "lon": 72
+      },
+      "confidence": "textual",
+      "notes": "Chapter 60 refers to this part of the Indian Ocean and the Line."
+    },
+    {
+      "id": "eastern-indian-whale-ground",
+      "name": "Eastern Indian Ocean whale-ground",
+      "chapter": 81,
+      "position": {
+        "lat": -15,
+        "lon": 95
+      },
+      "confidence": "estimated",
+      "notes": "A modeled cruising-ground anchor before the Pequod closes on Java Head."
+    },
+    {
+      "id": "java-head",
+      "name": "Java Head",
+      "chapter": 87,
+      "position": {
+        "lat": -6.78,
+        "lon": 105.21
+      },
+      "confidence": "geocoded",
+      "notes": "Chapter 87 names Java Head at the Straits of Sunda."
+    },
+    {
+      "id": "javan-sea",
+      "name": "Javan Sea",
+      "chapter": 87,
+      "position": {
+        "lat": -5.5,
+        "lon": 110
+      },
+      "confidence": "textual",
+      "notes": "Ahab intends to pass through Sunda into the Javan Sea."
+    },
+    {
+      "id": "formosa-bashee-approach",
+      "name": "Formosa and Bashee approach",
+      "chapter": 109,
+      "position": {
+        "lat": 20.5,
+        "lon": 121.8
+      },
+      "confidence": "textual",
+      "notes": "Chapter 109 says the Pequod draws nigh to Formosa and the Bashee Isles."
+    },
+    {
+      "id": "bashee-isles",
+      "name": "Bashee Isles",
+      "chapter": 111,
+      "position": {
+        "lat": 20.35,
+        "lon": 121.95
+      },
+      "confidence": "geocoded",
+      "notes": "Chapter 111 begins as the Pequod glides by the Bashee Isles into the Pacific."
+    },
+    {
+      "id": "japanese-cruising-ground",
+      "name": "Japanese cruising-ground",
+      "chapter": 114,
+      "position": {
+        "lat": 30,
+        "lon": 142
+      },
+      "confidence": "textual",
+      "notes": "The text repeatedly names the Japanese cruising-ground and Japanese seas."
+    },
+    {
+      "id": "eastern-japanese-whale-ground",
+      "name": "Eastern Japanese whale-ground",
+      "chapter": 115,
+      "position": {
+        "lat": 28,
+        "lon": 147
+      },
+      "confidence": "estimated",
+      "notes": "A local open-ocean anchor for the Japanese-ground whale chases and gams."
+    },
+    {
+      "id": "pacific-line-approach",
+      "name": "Pacific Line approach",
+      "chapter": 118,
+      "position": {
+        "lat": 10,
+        "lon": 155
+      },
+      "confidence": "estimated",
+      "notes": "Ahab turns from the Japanese seas toward the equatorial whaling ground."
+    },
+    {
+      "id": "equatorial-fishing-ground",
+      "name": "Equatorial Pacific fishing-ground",
+      "chapter": 126,
+      "position": {
+        "lat": 0.5,
+        "lon": 163
+      },
+      "confidence": "textual",
+      "notes": "Chapter 126 says the Pequod nears the outskirts of the Equatorial fishing-ground."
+    },
+    {
+      "id": "rachel-encounter",
+      "name": "Rachel encounter waters",
+      "chapter": 128,
+      "position": {
+        "lat": 0.2,
+        "lon": 166.5
+      },
+      "confidence": "estimated",
+      "notes": "A modeled point for the Rachel gam after her boat sees Moby Dick the previous day."
+    },
+    {
+      "id": "delight-encounter",
+      "name": "Delight encounter waters",
+      "chapter": 131,
+      "position": {
+        "lat": 0.1,
+        "lon": 168
+      },
+      "confidence": "estimated",
+      "notes": "A local modeling anchor for the final warning gam before the chase."
+    },
+    {
+      "id": "first-day-chase",
+      "name": "First day chase waters",
+      "chapter": 133,
+      "position": {
+        "lat": 0,
+        "lon": 169.2
+      },
+      "confidence": "estimated",
+      "notes": "A short-range chase anchor for the first day with Moby Dick."
+    },
+    {
+      "id": "second-day-chase",
+      "name": "Second day chase waters",
+      "chapter": 134,
+      "position": {
+        "lat": -0.1,
+        "lon": 169.8
+      },
+      "confidence": "estimated",
+      "notes": "A short-range chase anchor for the second day."
+    },
+    {
+      "id": "pequod-wreck",
+      "name": "Pequod wreck",
+      "chapter": 135,
+      "position": {
+        "lat": -0.2,
+        "lon": 170.3
+      },
+      "confidence": "fictional",
+      "notes": "Estimated final wreck coordinate on the Pacific Line; the book gives no exact latitude or longitude."
+    },
+    {
+      "id": "rachel-rescue",
+      "name": "Rachel rescue",
+      "chapter": 136,
+      "position": {
+        "lat": -0.4,
+        "lon": 170.1
+      },
+      "confidence": "estimated",
+      "notes": "Ishmael drifts for almost one day and night before the Rachel finds him."
+    }
+  ],
+  "paths": [
+    {
+      "id": "manhatto-to-new-bedford",
+      "title": "Manhatto to New Bedford",
+      "medium": "shoreTravel",
+      "start": {
+        "waypointId": "old-manhatto"
+      },
+      "end": {
+        "waypointId": "new-bedford"
+      },
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "distanceSource": "estimated",
+      "confidence": "book",
+      "notes": "Ishmael says he quits old Manhatto and duly arrives in New Bedford; the exact conveyance is not specified, so the curve follows a plausible coastal approach.",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "quits Manhatto for New Bedford",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0002"
+        }
+      ],
+      "points": [
+        {
+          "lat": 40.82,
+          "lon": -73.2
+        },
+        {
+          "lat": 41.04,
+          "lon": -72.4
+        },
+        {
+          "lat": 41.25,
+          "lon": -71.2
+        }
+      ]
+    },
+    {
+      "id": "new-bedford-to-nantucket",
+      "title": "The Moss packet to Nantucket",
+      "medium": "packet",
+      "start": {
+        "waypointId": "new-bedford"
+      },
+      "end": {
+        "waypointId": "nantucket"
+      },
+      "chapterStart": 13,
+      "chapterEnd": 14,
+      "distanceSource": "geodesic",
+      "confidence": "geocoded",
+      "notes": "Ishmael and Queequeg board the little packet schooner Moss and make a fine run to Nantucket.",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "packet schooner Moss",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0013"
+        },
+        {
+          "chapter": 14,
+          "label": "safe arrival in Nantucket",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0014"
+        }
+      ],
+      "points": [
+        {
+          "lat": 41.48,
+          "lon": -70.7
+        },
+        {
+          "lat": 41.38,
+          "lon": -70.35
+        }
+      ]
+    },
+    {
+      "id": "nantucket-departure",
+      "title": "Pequod clears Nantucket",
+      "medium": "whaleship",
+      "start": {
+        "waypointId": "nantucket"
+      },
+      "end": {
+        "waypointId": "north-atlantic-off-nantucket"
+      },
+      "chapterStart": 21,
+      "chapterEnd": 23,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "The Pequod is boarded at Nantucket and leaves on Christmas; the offshore endpoint represents the first open Atlantic stage.",
+      "sourceRefs": [
+        {
+          "chapter": 21,
+          "label": "going aboard",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0021"
+        },
+        {
+          "chapter": 22,
+          "label": "Merry Christmas departure",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0022"
+        },
+        {
+          "chapter": 23,
+          "label": "lee shore",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0023"
+        }
+      ],
+      "points": [
+        {
+          "lat": 41,
+          "lon": -69.3
+        },
+        {
+          "lat": 40.45,
+          "lon": -67.6
+        }
+      ]
+    },
+    {
+      "id": "north-atlantic-cruise",
+      "title": "Outward North Atlantic cruise",
+      "medium": "whaleship",
+      "start": {
+        "waypointId": "north-atlantic-off-nantucket"
+      },
+      "end": {
+        "waypointId": "south-atlantic-trades"
+      },
+      "chapterStart": 24,
+      "chapterEnd": 43,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "The shipboard chapters carry the Pequod away from Nantucket before Ahab charts the broader hunt; this segment is a schematic Atlantic southbound run.",
+      "sourceRefs": [
+        {
+          "chapter": 28,
+          "label": "Ahab appears after several days at sea",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0028"
+        },
+        {
+          "chapter": 36,
+          "label": "Ahab reveals the White Whale hunt",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0036"
+        },
+        {
+          "chapter": 44,
+          "label": "charts of all four oceans",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0044"
+        }
+      ],
+      "points": [
+        {
+          "lat": 34,
+          "lon": -55
+        },
+        {
+          "lat": 18,
+          "lon": -38
+        },
+        {
+          "lat": 0,
+          "lon": -31
+        }
+      ]
+    },
+    {
+      "id": "atlantic-to-cape-good-hope",
+      "title": "South Atlantic to Cape of Good Hope",
+      "medium": "whaleship",
+      "start": {
+        "waypointId": "south-atlantic-trades"
+      },
+      "end": {
+        "waypointId": "cape-good-hope-waters"
+      },
+      "chapterStart": 44,
+      "chapterEnd": 51,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Ahab studies the whale grounds and the Spirit-Spout leads the Pequod toward the Cape winds and Cape of Good Hope seas.",
+      "sourceRefs": [
+        {
+          "chapter": 44,
+          "label": "Season-on-the-Line planning",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0044"
+        },
+        {
+          "chapter": 51,
+          "label": "Cape winds and Cape of Good Hope",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0051"
+        }
+      ],
+      "points": [
+        {
+          "lat": -24,
+          "lon": -12
+        },
+        {
+          "lat": -31,
+          "lon": 2
+        },
+        {
+          "lat": -35,
+          "lon": 16
+        }
+      ]
+    },
+    {
+      "id": "cape-to-crozetts",
+      "title": "Cape to the distant Crozetts",
+      "medium": "whaleship",
+      "start": {
+        "waypointId": "cape-good-hope-waters"
+      },
+      "end": {
+        "waypointId": "crozet-waters"
+      },
+      "chapterStart": 52,
+      "chapterEnd": 52,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Chapter 52 places the Albatross southeastward from the Cape, off the Crozet region.",
+      "sourceRefs": [
+        {
+          "chapter": 52,
+          "label": "southeastward from the Cape",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0052"
+        }
+      ],
+      "points": [
+        {
+          "lat": -38,
+          "lon": 25
+        },
+        {
+          "lat": -43,
+          "lon": 38
+        }
+      ]
+    },
+    {
+      "id": "crozetts-to-indian-ocean-line",
+      "title": "Crozet waters to the Indian Ocean Line",
+      "medium": "whaleship",
+      "start": {
+        "waypointId": "crozet-waters"
+      },
+      "end": {
+        "waypointId": "indian-ocean-line"
+      },
+      "chapterStart": 53,
+      "chapterEnd": 60,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "The intervening gams and whaling chapters are modeled as an east-northeast Indian Ocean cruise toward the Line.",
+      "sourceRefs": [
+        {
+          "chapter": 53,
+          "label": "gam at sea",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0053"
+        },
+        {
+          "chapter": 60,
+          "label": "this part of the Indian Ocean",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0060"
+        }
+      ],
+      "points": [
+        {
+          "lat": -42,
+          "lon": 60
+        },
+        {
+          "lat": -30,
+          "lon": 65
+        },
+        {
+          "lat": -15,
+          "lon": 70
+        }
+      ]
+    },
+    {
+      "id": "indian-ocean-cruise",
+      "title": "Indian Ocean whaling cruise",
+      "medium": "whaleship",
+      "start": {
+        "waypointId": "indian-ocean-line"
+      },
+      "end": {
+        "waypointId": "eastern-indian-whale-ground"
+      },
+      "chapterStart": 61,
+      "chapterEnd": 80,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "Stubb kills a whale and the narrative remains on whaling work and shipboard anatomy while the Pequod ranges eastward.",
+      "sourceRefs": [
+        {
+          "chapter": 61,
+          "label": "Stubb kills a whale",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0061"
+        },
+        {
+          "chapter": 81,
+          "label": "wide intervals of latitude and longitude",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0081"
+        }
+      ],
+      "points": [
+        {
+          "lat": -4,
+          "lon": 80
+        },
+        {
+          "lat": -10,
+          "lon": 90
+        }
+      ]
+    },
+    {
+      "id": "eastern-indian-to-java",
+      "title": "Eastern Indian Ocean to Java Head",
+      "medium": "whaleship",
+      "start": {
+        "waypointId": "eastern-indian-whale-ground"
+      },
+      "end": {
+        "waypointId": "java-head"
+      },
+      "chapterStart": 81,
+      "chapterEnd": 86,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "The route bends toward Java before the Grand Armada chapter explicitly places the ship near the Sunda gateway.",
+      "sourceRefs": [
+        {
+          "chapter": 81,
+          "label": "Pequod meets the Virgin",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0081"
+        },
+        {
+          "chapter": 87,
+          "label": "drawing nigh to the Straits of Sunda",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0087"
+        }
+      ],
+      "points": [
+        {
+          "lat": -12,
+          "lon": 100
+        },
+        {
+          "lat": -8,
+          "lon": 103
+        }
+      ]
+    },
+    {
+      "id": "sunda-and-javan-sea",
+      "title": "Sunda Strait and Javan Sea",
+      "medium": "whaleship",
+      "start": {
+        "waypointId": "java-head"
+      },
+      "end": {
+        "waypointId": "javan-sea"
+      },
+      "chapterStart": 87,
+      "chapterEnd": 87,
+      "distanceSource": "geodesic",
+      "confidence": "textual",
+      "notes": "Ahab intends to pass through Sunda into the Javan Sea, where the Grand Armada appears near Java Head.",
+      "sourceRefs": [
+        {
+          "chapter": 87,
+          "label": "Java Head and the Javan Sea",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0087"
+        }
+      ],
+      "points": [
+        {
+          "lat": -6.2,
+          "lon": 106.1
+        },
+        {
+          "lat": -5.8,
+          "lon": 108.2
+        }
+      ]
+    },
+    {
+      "id": "javan-sea-to-bashee",
+      "title": "Javan Sea to Formosa and the Bashees",
+      "medium": "whaleship",
+      "start": {
+        "waypointId": "javan-sea"
+      },
+      "end": {
+        "waypointId": "formosa-bashee-approach"
+      },
+      "chapterStart": 88,
+      "chapterEnd": 110,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "After Sunda, the Pequod sweeps north by island waters until chapter 109 places her near Formosa and the Bashee Isles.",
+      "sourceRefs": [
+        {
+          "chapter": 87,
+          "label": "cruising northwards by the Philippines",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0087"
+        },
+        {
+          "chapter": 109,
+          "label": "drawing nigh to Formosa and Bashee Isles",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0109"
+        }
+      ],
+      "points": [
+        {
+          "lat": 0,
+          "lon": 112
+        },
+        {
+          "lat": 8,
+          "lon": 117
+        },
+        {
+          "lat": 16,
+          "lon": 120
+        }
+      ]
+    },
+    {
+      "id": "bashee-to-japan",
+      "title": "Bashee Isles to the Japanese cruising-ground",
+      "medium": "whaleship",
+      "start": {
+        "waypointId": "bashee-isles"
+      },
+      "end": {
+        "waypointId": "japanese-cruising-ground"
+      },
+      "chapterStart": 111,
+      "chapterEnd": 113,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The Pequod enters the Pacific by the Bashees and glides toward the Japanese cruising-ground.",
+      "sourceRefs": [
+        {
+          "chapter": 111,
+          "label": "gliding by the Bashee Isles",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0111"
+        },
+        {
+          "chapter": 111,
+          "label": "towards the Japanese cruising-ground",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0111"
+        }
+      ],
+      "points": [
+        {
+          "lat": 23,
+          "lon": 126
+        },
+        {
+          "lat": 27,
+          "lon": 135
+        }
+      ]
+    },
+    {
+      "id": "japanese-cruising-ground",
+      "title": "Whaling on the Japanese ground",
+      "medium": "whaleboat",
+      "start": {
+        "waypointId": "japanese-cruising-ground"
+      },
+      "end": {
+        "waypointId": "eastern-japanese-whale-ground"
+      },
+      "chapterStart": 114,
+      "chapterEnd": 117,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The Pequod penetrates the Japanese cruising-ground, lowers boats, meets the Bachelor, and kills whales.",
+      "sourceRefs": [
+        {
+          "chapter": 114,
+          "label": "heart of the Japanese cruising ground",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0114"
+        },
+        {
+          "chapter": 115,
+          "label": "Bachelor on the same seas",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0115"
+        },
+        {
+          "chapter": 116,
+          "label": "next day whales were seen",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0116"
+        }
+      ],
+      "points": [
+        {
+          "lat": 31,
+          "lon": 145
+        },
+        {
+          "lat": 29,
+          "lon": 148
+        }
+      ]
+    },
+    {
+      "id": "japan-to-line",
+      "title": "Japanese seas toward the Pacific Line",
+      "medium": "whaleship",
+      "start": {
+        "waypointId": "eastern-japanese-whale-ground"
+      },
+      "end": {
+        "waypointId": "equatorial-fishing-ground"
+      },
+      "chapterStart": 118,
+      "chapterEnd": 126,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "When the season for the Line draws near, Ahab points the ship toward the Equator and the outskirts of the Equatorial fishing-ground.",
+      "sourceRefs": [
+        {
+          "chapter": 118,
+          "label": "season for the Line",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0118"
+        },
+        {
+          "chapter": 126,
+          "label": "path towards the Equator",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0126"
+        },
+        {
+          "chapter": 126,
+          "label": "outskirts of the Equatorial fishing-ground",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0126"
+        }
+      ],
+      "points": [
+        {
+          "lat": 20,
+          "lon": 150
+        },
+        {
+          "lat": 10,
+          "lon": 156
+        }
+      ]
+    },
+    {
+      "id": "equatorial-search",
+      "title": "Equatorial search and final gams",
+      "medium": "whaleship",
+      "start": {
+        "waypointId": "equatorial-fishing-ground"
+      },
+      "end": {
+        "waypointId": "delight-encounter"
+      },
+      "chapterStart": 127,
+      "chapterEnd": 132,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "The Rachel has seen Moby Dick near this ground, and the Pequod refuses to join her search before meeting the battered Delight.",
+      "sourceRefs": [
+        {
+          "chapter": 128,
+          "label": "Rachel saw Moby Dick yesterday",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0128"
+        },
+        {
+          "chapter": 131,
+          "label": "Pequod meets the Delight",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0131"
+        },
+        {
+          "chapter": 132,
+          "label": "calm before the chase",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0132"
+        }
+      ],
+      "points": [
+        {
+          "lat": 0.4,
+          "lon": 164.5
+        },
+        {
+          "lat": 0.2,
+          "lon": 166.5
+        }
+      ]
+    },
+    {
+      "id": "first-day-chase",
+      "title": "The chase - first day",
+      "medium": "whaleboat",
+      "start": {
+        "waypointId": "delight-encounter"
+      },
+      "end": {
+        "waypointId": "first-day-chase"
+      },
+      "chapterStart": 133,
+      "chapterEnd": 133,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "The first day of the local chase is represented by a short open-ocean displacement on the Line.",
+      "sourceRefs": [
+        {
+          "chapter": 133,
+          "label": "The Chase - First Day",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0133"
+        }
+      ],
+      "points": [
+        {
+          "lat": 0.1,
+          "lon": 168.6
+        }
+      ]
+    },
+    {
+      "id": "second-day-chase",
+      "title": "The chase - second day",
+      "medium": "whaleboat",
+      "start": {
+        "waypointId": "first-day-chase"
+      },
+      "end": {
+        "waypointId": "second-day-chase"
+      },
+      "chapterStart": 134,
+      "chapterEnd": 134,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "A second short chase leg captures the repeated lowering, loss, and night pursuit without claiming exact coordinates.",
+      "sourceRefs": [
+        {
+          "chapter": 134,
+          "label": "The Chase - Second Day",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0134"
+        }
+      ],
+      "points": [
+        {
+          "lat": -0.05,
+          "lon": 169.5
+        }
+      ]
+    },
+    {
+      "id": "third-day-wreck",
+      "title": "The chase - third day and Pequod wreck",
+      "medium": "whaleboat",
+      "start": {
+        "waypointId": "second-day-chase"
+      },
+      "end": {
+        "waypointId": "pequod-wreck"
+      },
+      "chapterStart": 135,
+      "chapterEnd": 135,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "The final leg ends at the wreck of the Pequod after Moby Dick rams the ship.",
+      "sourceRefs": [
+        {
+          "chapter": 135,
+          "label": "The Chase - Third Day",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0135"
+        }
+      ],
+      "points": [
+        {
+          "lat": -0.15,
+          "lon": 170.1
+        }
+      ]
+    },
+    {
+      "id": "ishmael-drift-rachel",
+      "title": "Ishmael drift and Rachel rescue",
+      "medium": "drift",
+      "start": {
+        "waypointId": "pequod-wreck"
+      },
+      "end": {
+        "waypointId": "rachel-rescue"
+      },
+      "chapterStart": 136,
+      "chapterEnd": 136,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "Ishmael floats on Queequeg's coffin life-buoy for almost one whole day and night before the Rachel picks him up.",
+      "sourceRefs": [
+        {
+          "chapter": 136,
+          "label": "Epilogue rescue",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2H_EPIL"
+        }
+      ],
+      "points": [
+        {
+          "lat": -0.32,
+          "lon": 170.25
+        }
+      ]
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 1,
+      "movement": "stationary",
+      "anchor": "Old Manhatto",
+      "locationFacts": [
+        "Ishmael frames the voyage from the island city he calls old Manhatto.",
+        "The chapter establishes the urge toward Cape Horn, the Pacific, and whaling before any mapped travel begins."
+      ],
+      "deltaFacts": [
+        "No route segment starts yet."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The map remains on Manhattan until the New Bedford departure in chapter 2.",
+      "segmentIds": [],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Loomings",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0001"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "movement": "surface",
+      "anchor": "Manhatto to New Bedford",
+      "locationFacts": [
+        "Ishmael quits old Manhatto and arrives in New Bedford on a Saturday night in December.",
+        "He finds the Nantucket packet has already sailed."
+      ],
+      "deltaFacts": [
+        "The route moves from New York to New Bedford."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment follows a plausible coastal New York-to-New Bedford route because the exact conveyance is not specified.",
+      "segmentIds": [
+        "manhatto-to-new-bedford"
+      ],
+      "confidence": "book",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "The Carpet-Bag",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0002"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "movement": "stationary",
+      "anchor": "New Bedford",
+      "locationFacts": [
+        "Chapter 3, The Spouter-Inn., remains in New Bedford before the Nantucket packet sails.",
+        "The map holds at the Spouter-Inn, chapel, streets, and waterfront context rather than inventing local micro-routes."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route waits at New Bedford until the packet schooner Moss leaves in chapter 13.",
+      "segmentIds": [],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "The Spouter-Inn",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0003"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "movement": "stationary",
+      "anchor": "New Bedford",
+      "locationFacts": [
+        "Chapter 4, The Counterpane., remains in New Bedford before the Nantucket packet sails.",
+        "The map holds at the Spouter-Inn, chapel, streets, and waterfront context rather than inventing local micro-routes."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route waits at New Bedford until the packet schooner Moss leaves in chapter 13.",
+      "segmentIds": [],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "The Counterpane",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0004"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "movement": "stationary",
+      "anchor": "New Bedford",
+      "locationFacts": [
+        "Chapter 5, Breakfast., remains in New Bedford before the Nantucket packet sails.",
+        "The map holds at the Spouter-Inn, chapel, streets, and waterfront context rather than inventing local micro-routes."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route waits at New Bedford until the packet schooner Moss leaves in chapter 13.",
+      "segmentIds": [],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Breakfast",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0005"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "movement": "stationary",
+      "anchor": "New Bedford",
+      "locationFacts": [
+        "Chapter 6, The Street., remains in New Bedford before the Nantucket packet sails.",
+        "The map holds at the Spouter-Inn, chapel, streets, and waterfront context rather than inventing local micro-routes."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route waits at New Bedford until the packet schooner Moss leaves in chapter 13.",
+      "segmentIds": [],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "The Street",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0006"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "movement": "stationary",
+      "anchor": "New Bedford",
+      "locationFacts": [
+        "Chapter 7, The Chapel., remains in New Bedford before the Nantucket packet sails.",
+        "The map holds at the Spouter-Inn, chapel, streets, and waterfront context rather than inventing local micro-routes."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route waits at New Bedford until the packet schooner Moss leaves in chapter 13.",
+      "segmentIds": [],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "The Chapel",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0007"
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "movement": "stationary",
+      "anchor": "New Bedford",
+      "locationFacts": [
+        "Chapter 8, The Pulpit., remains in New Bedford before the Nantucket packet sails.",
+        "The map holds at the Spouter-Inn, chapel, streets, and waterfront context rather than inventing local micro-routes."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route waits at New Bedford until the packet schooner Moss leaves in chapter 13.",
+      "segmentIds": [],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "The Pulpit",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0008"
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "movement": "stationary",
+      "anchor": "New Bedford",
+      "locationFacts": [
+        "Chapter 9, The Sermon., remains in New Bedford before the Nantucket packet sails.",
+        "The map holds at the Spouter-Inn, chapel, streets, and waterfront context rather than inventing local micro-routes."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route waits at New Bedford until the packet schooner Moss leaves in chapter 13.",
+      "segmentIds": [],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "The Sermon",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0009"
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "movement": "stationary",
+      "anchor": "New Bedford",
+      "locationFacts": [
+        "Chapter 10, A Bosom Friend., remains in New Bedford before the Nantucket packet sails.",
+        "The map holds at the Spouter-Inn, chapel, streets, and waterfront context rather than inventing local micro-routes."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route waits at New Bedford until the packet schooner Moss leaves in chapter 13.",
+      "segmentIds": [],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 10,
+          "label": "A Bosom Friend",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0010"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "movement": "stationary",
+      "anchor": "New Bedford",
+      "locationFacts": [
+        "Chapter 11, Nightgown., remains in New Bedford before the Nantucket packet sails.",
+        "The map holds at the Spouter-Inn, chapel, streets, and waterfront context rather than inventing local micro-routes."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route waits at New Bedford until the packet schooner Moss leaves in chapter 13.",
+      "segmentIds": [],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "Nightgown",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0011"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "movement": "stationary",
+      "anchor": "New Bedford",
+      "locationFacts": [
+        "Chapter 12, Biographical., remains in New Bedford before the Nantucket packet sails.",
+        "The map holds at the Spouter-Inn, chapel, streets, and waterfront context rather than inventing local micro-routes."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route waits at New Bedford until the packet schooner Moss leaves in chapter 13.",
+      "segmentIds": [],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Biographical",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0012"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "movement": "sea",
+      "anchor": "New Bedford to Nantucket",
+      "locationFacts": [
+        "Ishmael and Queequeg board the packet schooner Moss.",
+        "The next chapter records a safe arrival in Nantucket after a fine run."
+      ],
+      "deltaFacts": [
+        "The route crosses from New Bedford to Nantucket by packet schooner."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path is shaped through Buzzards Bay and Nantucket Sound toward Nantucket.",
+      "segmentIds": [
+        "new-bedford-to-nantucket"
+      ],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "Wheelbarrow",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0013"
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "movement": "sea",
+      "anchor": "New Bedford to Nantucket",
+      "locationFacts": [
+        "Ishmael and Queequeg board the packet schooner Moss.",
+        "The next chapter records a safe arrival in Nantucket after a fine run."
+      ],
+      "deltaFacts": [
+        "The route crosses from New Bedford to Nantucket by packet schooner."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path is shaped through Buzzards Bay and Nantucket Sound toward Nantucket.",
+      "segmentIds": [
+        "new-bedford-to-nantucket"
+      ],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 14,
+          "label": "Nantucket",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0014"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "movement": "stationary",
+      "anchor": "Nantucket",
+      "locationFacts": [
+        "Chapter 15, Chowder., stays in the Nantucket fitting-out sequence.",
+        "The Pequod is selected and prepared before Ishmael goes aboard."
+      ],
+      "deltaFacts": [
+        "No new sea route starts in this chapter."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The model holds at Nantucket until the Pequod is boarded and clears harbor.",
+      "segmentIds": [],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 15,
+          "label": "Chowder",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0015"
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "movement": "stationary",
+      "anchor": "Nantucket",
+      "locationFacts": [
+        "Chapter 16, The Ship., stays in the Nantucket fitting-out sequence.",
+        "The Pequod is selected and prepared before Ishmael goes aboard."
+      ],
+      "deltaFacts": [
+        "No new sea route starts in this chapter."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The model holds at Nantucket until the Pequod is boarded and clears harbor.",
+      "segmentIds": [],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 16,
+          "label": "The Ship",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0016"
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "movement": "stationary",
+      "anchor": "Nantucket",
+      "locationFacts": [
+        "Chapter 17, The Ramadan., stays in the Nantucket fitting-out sequence.",
+        "The Pequod is selected and prepared before Ishmael goes aboard."
+      ],
+      "deltaFacts": [
+        "No new sea route starts in this chapter."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The model holds at Nantucket until the Pequod is boarded and clears harbor.",
+      "segmentIds": [],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 17,
+          "label": "The Ramadan",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0017"
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "movement": "stationary",
+      "anchor": "Nantucket",
+      "locationFacts": [
+        "Chapter 18, His Mark., stays in the Nantucket fitting-out sequence.",
+        "The Pequod is selected and prepared before Ishmael goes aboard."
+      ],
+      "deltaFacts": [
+        "No new sea route starts in this chapter."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The model holds at Nantucket until the Pequod is boarded and clears harbor.",
+      "segmentIds": [],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 18,
+          "label": "His Mark",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0018"
+        }
+      ]
+    },
+    {
+      "chapter": 19,
+      "movement": "stationary",
+      "anchor": "Nantucket",
+      "locationFacts": [
+        "Chapter 19, The Prophet., stays in the Nantucket fitting-out sequence.",
+        "The Pequod is selected and prepared before Ishmael goes aboard."
+      ],
+      "deltaFacts": [
+        "No new sea route starts in this chapter."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The model holds at Nantucket until the Pequod is boarded and clears harbor.",
+      "segmentIds": [],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 19,
+          "label": "The Prophet",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0019"
+        }
+      ]
+    },
+    {
+      "chapter": 20,
+      "movement": "stationary",
+      "anchor": "Nantucket",
+      "locationFacts": [
+        "Chapter 20, All Astir., stays in the Nantucket fitting-out sequence.",
+        "The Pequod is selected and prepared before Ishmael goes aboard."
+      ],
+      "deltaFacts": [
+        "No new sea route starts in this chapter."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The model holds at Nantucket until the Pequod is boarded and clears harbor.",
+      "segmentIds": [],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 20,
+          "label": "All Astir",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0020"
+        }
+      ]
+    },
+    {
+      "chapter": 21,
+      "movement": "sea",
+      "anchor": "Pequod clears Nantucket",
+      "locationFacts": [
+        "Ishmael and Queequeg go aboard the Pequod at Nantucket.",
+        "The ship leaves on Christmas and stands out into the Atlantic."
+      ],
+      "deltaFacts": [
+        "The whaling voyage leaves Nantucket for open water."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The offshore point is estimated to move the route beyond Nantucket Shoals into the North Atlantic.",
+      "segmentIds": [
+        "nantucket-departure"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 21,
+          "label": "Going Aboard",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0021"
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "movement": "sea",
+      "anchor": "Pequod clears Nantucket",
+      "locationFacts": [
+        "Ishmael and Queequeg go aboard the Pequod at Nantucket.",
+        "The ship leaves on Christmas and stands out into the Atlantic."
+      ],
+      "deltaFacts": [
+        "The whaling voyage leaves Nantucket for open water."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The offshore point is estimated to move the route beyond Nantucket Shoals into the North Atlantic.",
+      "segmentIds": [
+        "nantucket-departure"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 22,
+          "label": "Merry Christmas",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0022"
+        }
+      ]
+    },
+    {
+      "chapter": 23,
+      "movement": "sea",
+      "anchor": "Pequod clears Nantucket",
+      "locationFacts": [
+        "Ishmael and Queequeg go aboard the Pequod at Nantucket.",
+        "The ship leaves on Christmas and stands out into the Atlantic."
+      ],
+      "deltaFacts": [
+        "The whaling voyage leaves Nantucket for open water."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The offshore point is estimated to move the route beyond Nantucket Shoals into the North Atlantic.",
+      "segmentIds": [
+        "nantucket-departure"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 23,
+          "label": "The Lee Shore",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0023"
+        }
+      ]
+    },
+    {
+      "chapter": 24,
+      "movement": "sea",
+      "anchor": "Outward North Atlantic cruise",
+      "locationFacts": [
+        "Chapter 24, The Advocate., is shipboard on the Pequod after departure.",
+        "Ahab and the crew are carried southward while the hunt for Moby Dick is declared and internal ship life develops."
+      ],
+      "deltaFacts": [
+        "The modeled route advances through a southbound Atlantic cruise."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is schematic, using open-ocean control points until the text anchors the voyage near the Cape.",
+      "segmentIds": [
+        "north-atlantic-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 24,
+          "label": "The Advocate",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0024"
+        }
+      ]
+    },
+    {
+      "chapter": 25,
+      "movement": "sea",
+      "anchor": "Outward North Atlantic cruise",
+      "locationFacts": [
+        "Chapter 25, Postscript., is shipboard on the Pequod after departure.",
+        "Ahab and the crew are carried southward while the hunt for Moby Dick is declared and internal ship life develops."
+      ],
+      "deltaFacts": [
+        "The modeled route advances through a southbound Atlantic cruise."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is schematic, using open-ocean control points until the text anchors the voyage near the Cape.",
+      "segmentIds": [
+        "north-atlantic-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 25,
+          "label": "Postscript",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0025"
+        }
+      ]
+    },
+    {
+      "chapter": 26,
+      "movement": "sea",
+      "anchor": "Outward North Atlantic cruise",
+      "locationFacts": [
+        "Chapter 26, Knights and Squires., is shipboard on the Pequod after departure.",
+        "Ahab and the crew are carried southward while the hunt for Moby Dick is declared and internal ship life develops."
+      ],
+      "deltaFacts": [
+        "The modeled route advances through a southbound Atlantic cruise."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is schematic, using open-ocean control points until the text anchors the voyage near the Cape.",
+      "segmentIds": [
+        "north-atlantic-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 26,
+          "label": "Knights and Squires",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0026"
+        }
+      ]
+    },
+    {
+      "chapter": 27,
+      "movement": "sea",
+      "anchor": "Outward North Atlantic cruise",
+      "locationFacts": [
+        "Chapter 27, Knights and Squires., is shipboard on the Pequod after departure.",
+        "Ahab and the crew are carried southward while the hunt for Moby Dick is declared and internal ship life develops."
+      ],
+      "deltaFacts": [
+        "The modeled route advances through a southbound Atlantic cruise."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is schematic, using open-ocean control points until the text anchors the voyage near the Cape.",
+      "segmentIds": [
+        "north-atlantic-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 27,
+          "label": "Knights and Squires",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0027"
+        }
+      ]
+    },
+    {
+      "chapter": 28,
+      "movement": "sea",
+      "anchor": "Outward North Atlantic cruise",
+      "locationFacts": [
+        "Chapter 28, Ahab., is shipboard on the Pequod after departure.",
+        "Ahab and the crew are carried southward while the hunt for Moby Dick is declared and internal ship life develops."
+      ],
+      "deltaFacts": [
+        "The modeled route advances through a southbound Atlantic cruise."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is schematic, using open-ocean control points until the text anchors the voyage near the Cape.",
+      "segmentIds": [
+        "north-atlantic-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 28,
+          "label": "Ahab",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0028"
+        }
+      ]
+    },
+    {
+      "chapter": 29,
+      "movement": "sea",
+      "anchor": "Outward North Atlantic cruise",
+      "locationFacts": [
+        "Chapter 29, Enter Ahab; to Him, Stubb., is shipboard on the Pequod after departure.",
+        "Ahab and the crew are carried southward while the hunt for Moby Dick is declared and internal ship life develops."
+      ],
+      "deltaFacts": [
+        "The modeled route advances through a southbound Atlantic cruise."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is schematic, using open-ocean control points until the text anchors the voyage near the Cape.",
+      "segmentIds": [
+        "north-atlantic-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 29,
+          "label": "Enter Ahab; to Him, Stubb",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0029"
+        }
+      ]
+    },
+    {
+      "chapter": 30,
+      "movement": "sea",
+      "anchor": "Outward North Atlantic cruise",
+      "locationFacts": [
+        "Chapter 30, The Pipe., is shipboard on the Pequod after departure.",
+        "Ahab and the crew are carried southward while the hunt for Moby Dick is declared and internal ship life develops."
+      ],
+      "deltaFacts": [
+        "The modeled route advances through a southbound Atlantic cruise."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is schematic, using open-ocean control points until the text anchors the voyage near the Cape.",
+      "segmentIds": [
+        "north-atlantic-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 30,
+          "label": "The Pipe",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0030"
+        }
+      ]
+    },
+    {
+      "chapter": 31,
+      "movement": "sea",
+      "anchor": "Outward North Atlantic cruise",
+      "locationFacts": [
+        "Chapter 31, Queen Mab., is shipboard on the Pequod after departure.",
+        "Ahab and the crew are carried southward while the hunt for Moby Dick is declared and internal ship life develops."
+      ],
+      "deltaFacts": [
+        "The modeled route advances through a southbound Atlantic cruise."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is schematic, using open-ocean control points until the text anchors the voyage near the Cape.",
+      "segmentIds": [
+        "north-atlantic-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 31,
+          "label": "Queen Mab",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0031"
+        }
+      ]
+    },
+    {
+      "chapter": 32,
+      "movement": "sea",
+      "anchor": "Outward North Atlantic cruise",
+      "locationFacts": [
+        "Chapter 32, Cetology., is shipboard on the Pequod after departure.",
+        "Ahab and the crew are carried southward while the hunt for Moby Dick is declared and internal ship life develops."
+      ],
+      "deltaFacts": [
+        "The modeled route advances through a southbound Atlantic cruise."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is schematic, using open-ocean control points until the text anchors the voyage near the Cape.",
+      "segmentIds": [
+        "north-atlantic-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 32,
+          "label": "Cetology",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0032"
+        }
+      ]
+    },
+    {
+      "chapter": 33,
+      "movement": "sea",
+      "anchor": "Outward North Atlantic cruise",
+      "locationFacts": [
+        "Chapter 33, The Specksnyder., is shipboard on the Pequod after departure.",
+        "Ahab and the crew are carried southward while the hunt for Moby Dick is declared and internal ship life develops."
+      ],
+      "deltaFacts": [
+        "The modeled route advances through a southbound Atlantic cruise."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is schematic, using open-ocean control points until the text anchors the voyage near the Cape.",
+      "segmentIds": [
+        "north-atlantic-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 33,
+          "label": "The Specksnyder",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0033"
+        }
+      ]
+    },
+    {
+      "chapter": 34,
+      "movement": "sea",
+      "anchor": "Outward North Atlantic cruise",
+      "locationFacts": [
+        "Chapter 34, The Cabin-Table., is shipboard on the Pequod after departure.",
+        "Ahab and the crew are carried southward while the hunt for Moby Dick is declared and internal ship life develops."
+      ],
+      "deltaFacts": [
+        "The modeled route advances through a southbound Atlantic cruise."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is schematic, using open-ocean control points until the text anchors the voyage near the Cape.",
+      "segmentIds": [
+        "north-atlantic-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 34,
+          "label": "The Cabin-Table",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0034"
+        }
+      ]
+    },
+    {
+      "chapter": 35,
+      "movement": "sea",
+      "anchor": "Outward North Atlantic cruise",
+      "locationFacts": [
+        "Chapter 35, The Mast-Head., is shipboard on the Pequod after departure.",
+        "Ahab and the crew are carried southward while the hunt for Moby Dick is declared and internal ship life develops."
+      ],
+      "deltaFacts": [
+        "The modeled route advances through a southbound Atlantic cruise."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is schematic, using open-ocean control points until the text anchors the voyage near the Cape.",
+      "segmentIds": [
+        "north-atlantic-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 35,
+          "label": "The Mast-Head",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0035"
+        }
+      ]
+    },
+    {
+      "chapter": 36,
+      "movement": "sea",
+      "anchor": "Outward North Atlantic cruise",
+      "locationFacts": [
+        "Chapter 36, The Quarter-Deck., is shipboard on the Pequod after departure.",
+        "Ahab and the crew are carried southward while the hunt for Moby Dick is declared and internal ship life develops."
+      ],
+      "deltaFacts": [
+        "The modeled route advances through a southbound Atlantic cruise."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is schematic, using open-ocean control points until the text anchors the voyage near the Cape.",
+      "segmentIds": [
+        "north-atlantic-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 36,
+          "label": "The Quarter-Deck",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0036"
+        }
+      ]
+    },
+    {
+      "chapter": 37,
+      "movement": "sea",
+      "anchor": "Outward North Atlantic cruise",
+      "locationFacts": [
+        "Chapter 37, Sunset., is shipboard on the Pequod after departure.",
+        "Ahab and the crew are carried southward while the hunt for Moby Dick is declared and internal ship life develops."
+      ],
+      "deltaFacts": [
+        "The modeled route advances through a southbound Atlantic cruise."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is schematic, using open-ocean control points until the text anchors the voyage near the Cape.",
+      "segmentIds": [
+        "north-atlantic-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 37,
+          "label": "Sunset",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0037"
+        }
+      ]
+    },
+    {
+      "chapter": 38,
+      "movement": "sea",
+      "anchor": "Outward North Atlantic cruise",
+      "locationFacts": [
+        "Chapter 38, Dusk., is shipboard on the Pequod after departure.",
+        "Ahab and the crew are carried southward while the hunt for Moby Dick is declared and internal ship life develops."
+      ],
+      "deltaFacts": [
+        "The modeled route advances through a southbound Atlantic cruise."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is schematic, using open-ocean control points until the text anchors the voyage near the Cape.",
+      "segmentIds": [
+        "north-atlantic-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 38,
+          "label": "Dusk",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0038"
+        }
+      ]
+    },
+    {
+      "chapter": 39,
+      "movement": "sea",
+      "anchor": "Outward North Atlantic cruise",
+      "locationFacts": [
+        "Chapter 39, First Night-Watch., is shipboard on the Pequod after departure.",
+        "Ahab and the crew are carried southward while the hunt for Moby Dick is declared and internal ship life develops."
+      ],
+      "deltaFacts": [
+        "The modeled route advances through a southbound Atlantic cruise."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is schematic, using open-ocean control points until the text anchors the voyage near the Cape.",
+      "segmentIds": [
+        "north-atlantic-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 39,
+          "label": "First Night-Watch",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0039"
+        }
+      ]
+    },
+    {
+      "chapter": 40,
+      "movement": "sea",
+      "anchor": "Outward North Atlantic cruise",
+      "locationFacts": [
+        "Chapter 40, Midnight, Forecastle., is shipboard on the Pequod after departure.",
+        "Ahab and the crew are carried southward while the hunt for Moby Dick is declared and internal ship life develops."
+      ],
+      "deltaFacts": [
+        "The modeled route advances through a southbound Atlantic cruise."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is schematic, using open-ocean control points until the text anchors the voyage near the Cape.",
+      "segmentIds": [
+        "north-atlantic-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 40,
+          "label": "Midnight, Forecastle",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0040"
+        }
+      ]
+    },
+    {
+      "chapter": 41,
+      "movement": "sea",
+      "anchor": "Outward North Atlantic cruise",
+      "locationFacts": [
+        "Chapter 41, Moby Dick., is shipboard on the Pequod after departure.",
+        "Ahab and the crew are carried southward while the hunt for Moby Dick is declared and internal ship life develops."
+      ],
+      "deltaFacts": [
+        "The modeled route advances through a southbound Atlantic cruise."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is schematic, using open-ocean control points until the text anchors the voyage near the Cape.",
+      "segmentIds": [
+        "north-atlantic-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 41,
+          "label": "Moby Dick",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0041"
+        }
+      ]
+    },
+    {
+      "chapter": 42,
+      "movement": "sea",
+      "anchor": "Outward North Atlantic cruise",
+      "locationFacts": [
+        "Chapter 42, The Whiteness of the Whale., is shipboard on the Pequod after departure.",
+        "Ahab and the crew are carried southward while the hunt for Moby Dick is declared and internal ship life develops."
+      ],
+      "deltaFacts": [
+        "The modeled route advances through a southbound Atlantic cruise."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is schematic, using open-ocean control points until the text anchors the voyage near the Cape.",
+      "segmentIds": [
+        "north-atlantic-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 42,
+          "label": "The Whiteness of the Whale",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0042"
+        }
+      ]
+    },
+    {
+      "chapter": 43,
+      "movement": "sea",
+      "anchor": "Outward North Atlantic cruise",
+      "locationFacts": [
+        "Chapter 43, Hark!, is shipboard on the Pequod after departure.",
+        "Ahab and the crew are carried southward while the hunt for Moby Dick is declared and internal ship life develops."
+      ],
+      "deltaFacts": [
+        "The modeled route advances through a southbound Atlantic cruise."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is schematic, using open-ocean control points until the text anchors the voyage near the Cape.",
+      "segmentIds": [
+        "north-atlantic-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 43,
+          "label": "Hark!",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0043"
+        }
+      ]
+    },
+    {
+      "chapter": 44,
+      "movement": "sea",
+      "anchor": "Toward the Cape of Good Hope",
+      "locationFacts": [
+        "Ahab studies charts of whale grounds and the Season-on-the-Line.",
+        "The Spirit-Spout leads the Pequod into the Cape winds and Cape of Good Hope seas."
+      ],
+      "deltaFacts": [
+        "The route bends from the South Atlantic toward the Cape of Good Hope."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path uses open-ocean control points and the textual Cape anchor from chapter 51.",
+      "segmentIds": [
+        "atlantic-to-cape-good-hope"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 44,
+          "label": "The Chart",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0044"
+        }
+      ]
+    },
+    {
+      "chapter": 45,
+      "movement": "sea",
+      "anchor": "Toward the Cape of Good Hope",
+      "locationFacts": [
+        "Ahab studies charts of whale grounds and the Season-on-the-Line.",
+        "The Spirit-Spout leads the Pequod into the Cape winds and Cape of Good Hope seas."
+      ],
+      "deltaFacts": [
+        "The route bends from the South Atlantic toward the Cape of Good Hope."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path uses open-ocean control points and the textual Cape anchor from chapter 51.",
+      "segmentIds": [
+        "atlantic-to-cape-good-hope"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 45,
+          "label": "The Affidavit",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0045"
+        }
+      ]
+    },
+    {
+      "chapter": 46,
+      "movement": "sea",
+      "anchor": "Toward the Cape of Good Hope",
+      "locationFacts": [
+        "Ahab studies charts of whale grounds and the Season-on-the-Line.",
+        "The Spirit-Spout leads the Pequod into the Cape winds and Cape of Good Hope seas."
+      ],
+      "deltaFacts": [
+        "The route bends from the South Atlantic toward the Cape of Good Hope."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path uses open-ocean control points and the textual Cape anchor from chapter 51.",
+      "segmentIds": [
+        "atlantic-to-cape-good-hope"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 46,
+          "label": "Surmises",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0046"
+        }
+      ]
+    },
+    {
+      "chapter": 47,
+      "movement": "sea",
+      "anchor": "Toward the Cape of Good Hope",
+      "locationFacts": [
+        "Ahab studies charts of whale grounds and the Season-on-the-Line.",
+        "The Spirit-Spout leads the Pequod into the Cape winds and Cape of Good Hope seas."
+      ],
+      "deltaFacts": [
+        "The route bends from the South Atlantic toward the Cape of Good Hope."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path uses open-ocean control points and the textual Cape anchor from chapter 51.",
+      "segmentIds": [
+        "atlantic-to-cape-good-hope"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 47,
+          "label": "The Mat-Maker",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0047"
+        }
+      ]
+    },
+    {
+      "chapter": 48,
+      "movement": "sea",
+      "anchor": "Toward the Cape of Good Hope",
+      "locationFacts": [
+        "Ahab studies charts of whale grounds and the Season-on-the-Line.",
+        "The Spirit-Spout leads the Pequod into the Cape winds and Cape of Good Hope seas."
+      ],
+      "deltaFacts": [
+        "The route bends from the South Atlantic toward the Cape of Good Hope."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path uses open-ocean control points and the textual Cape anchor from chapter 51.",
+      "segmentIds": [
+        "atlantic-to-cape-good-hope"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 48,
+          "label": "The First Lowering",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0048"
+        }
+      ]
+    },
+    {
+      "chapter": 49,
+      "movement": "sea",
+      "anchor": "Toward the Cape of Good Hope",
+      "locationFacts": [
+        "Ahab studies charts of whale grounds and the Season-on-the-Line.",
+        "The Spirit-Spout leads the Pequod into the Cape winds and Cape of Good Hope seas."
+      ],
+      "deltaFacts": [
+        "The route bends from the South Atlantic toward the Cape of Good Hope."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path uses open-ocean control points and the textual Cape anchor from chapter 51.",
+      "segmentIds": [
+        "atlantic-to-cape-good-hope"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 49,
+          "label": "The Hyena",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0049"
+        }
+      ]
+    },
+    {
+      "chapter": 50,
+      "movement": "sea",
+      "anchor": "Toward the Cape of Good Hope",
+      "locationFacts": [
+        "Ahab studies charts of whale grounds and the Season-on-the-Line.",
+        "The Spirit-Spout leads the Pequod into the Cape winds and Cape of Good Hope seas."
+      ],
+      "deltaFacts": [
+        "The route bends from the South Atlantic toward the Cape of Good Hope."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path uses open-ocean control points and the textual Cape anchor from chapter 51.",
+      "segmentIds": [
+        "atlantic-to-cape-good-hope"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 50,
+          "label": "Ahab's Boat and Crew. Fedallah",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0050"
+        }
+      ]
+    },
+    {
+      "chapter": 51,
+      "movement": "sea",
+      "anchor": "Toward the Cape of Good Hope",
+      "locationFacts": [
+        "Ahab studies charts of whale grounds and the Season-on-the-Line.",
+        "The Spirit-Spout leads the Pequod into the Cape winds and Cape of Good Hope seas."
+      ],
+      "deltaFacts": [
+        "The route bends from the South Atlantic toward the Cape of Good Hope."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path uses open-ocean control points and the textual Cape anchor from chapter 51.",
+      "segmentIds": [
+        "atlantic-to-cape-good-hope"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 51,
+          "label": "The Spirit-Spout",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0051"
+        }
+      ]
+    },
+    {
+      "chapter": 52,
+      "movement": "sea",
+      "anchor": "Off the Crozet Islands",
+      "locationFacts": [
+        "The Pequod meets the Albatross southeastward from the Cape.",
+        "The text places the meeting off the distant Crozetts."
+      ],
+      "deltaFacts": [
+        "The route leaves the Cape waters for the Crozet region."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The endpoint is placed near the Crozet Islands but remains an open-sea textual anchor.",
+      "segmentIds": [
+        "cape-to-crozetts"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 52,
+          "label": "The Albatross",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0052"
+        }
+      ]
+    },
+    {
+      "chapter": 53,
+      "movement": "sea",
+      "anchor": "Indian Ocean Line",
+      "locationFacts": [
+        "Chapter 53, The Gam., occurs during the long Indian Ocean cruising stretch.",
+        "The Line chapter identifies this part of the Indian Ocean as the active sea region."
+      ],
+      "deltaFacts": [
+        "The route moves east-northeast from Crozet waters toward the Indian Ocean Line."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "Control points keep the route in open Indian Ocean water.",
+      "segmentIds": [
+        "crozetts-to-indian-ocean-line"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 53,
+          "label": "The Gam",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0053"
+        }
+      ]
+    },
+    {
+      "chapter": 54,
+      "movement": "sea",
+      "anchor": "Indian Ocean Line",
+      "locationFacts": [
+        "Chapter 54, The Town-Ho's Story., occurs during the long Indian Ocean cruising stretch.",
+        "The Line chapter identifies this part of the Indian Ocean as the active sea region."
+      ],
+      "deltaFacts": [
+        "The route moves east-northeast from Crozet waters toward the Indian Ocean Line."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "Control points keep the route in open Indian Ocean water.",
+      "segmentIds": [
+        "crozetts-to-indian-ocean-line"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 54,
+          "label": "The Town-Ho's Story",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0054"
+        }
+      ]
+    },
+    {
+      "chapter": 55,
+      "movement": "sea",
+      "anchor": "Indian Ocean Line",
+      "locationFacts": [
+        "Chapter 55, Of the Monstrous Pictures of Whales., occurs during the long Indian Ocean cruising stretch.",
+        "The Line chapter identifies this part of the Indian Ocean as the active sea region."
+      ],
+      "deltaFacts": [
+        "The route moves east-northeast from Crozet waters toward the Indian Ocean Line."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "Control points keep the route in open Indian Ocean water.",
+      "segmentIds": [
+        "crozetts-to-indian-ocean-line"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 55,
+          "label": "Of the Monstrous Pictures of Whales",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0055"
+        }
+      ]
+    },
+    {
+      "chapter": 56,
+      "movement": "sea",
+      "anchor": "Indian Ocean Line",
+      "locationFacts": [
+        "Chapter 56, Of the Less Erroneous Pictures of Whales, and the True Pictures of Whaling Scenes, occurs during the long Indian Ocean cruising stretch.",
+        "The Line chapter identifies this part of the Indian Ocean as the active sea region."
+      ],
+      "deltaFacts": [
+        "The route moves east-northeast from Crozet waters toward the Indian Ocean Line."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "Control points keep the route in open Indian Ocean water.",
+      "segmentIds": [
+        "crozetts-to-indian-ocean-line"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 56,
+          "label": "Of the Less Erroneous Pictures of Whales, and the True Pictures of Whaling Scenes",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0056"
+        }
+      ]
+    },
+    {
+      "chapter": 57,
+      "movement": "sea",
+      "anchor": "Indian Ocean Line",
+      "locationFacts": [
+        "Chapter 57, Of Whales in Paint; in Teeth; in Wood; in Sheet-Iron; in Stone; in Mountains; in Stars, occurs during the long Indian Ocean cruising stretch.",
+        "The Line chapter identifies this part of the Indian Ocean as the active sea region."
+      ],
+      "deltaFacts": [
+        "The route moves east-northeast from Crozet waters toward the Indian Ocean Line."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "Control points keep the route in open Indian Ocean water.",
+      "segmentIds": [
+        "crozetts-to-indian-ocean-line"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 57,
+          "label": "Of Whales in Paint; in Teeth; in Wood; in Sheet-Iron; in Stone; in Mountains; in Stars",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0057"
+        }
+      ]
+    },
+    {
+      "chapter": 58,
+      "movement": "sea",
+      "anchor": "Indian Ocean Line",
+      "locationFacts": [
+        "Chapter 58, Brit., occurs during the long Indian Ocean cruising stretch.",
+        "The Line chapter identifies this part of the Indian Ocean as the active sea region."
+      ],
+      "deltaFacts": [
+        "The route moves east-northeast from Crozet waters toward the Indian Ocean Line."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "Control points keep the route in open Indian Ocean water.",
+      "segmentIds": [
+        "crozetts-to-indian-ocean-line"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 58,
+          "label": "Brit",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0058"
+        }
+      ]
+    },
+    {
+      "chapter": 59,
+      "movement": "sea",
+      "anchor": "Indian Ocean Line",
+      "locationFacts": [
+        "Chapter 59, Squid., occurs during the long Indian Ocean cruising stretch.",
+        "The Line chapter identifies this part of the Indian Ocean as the active sea region."
+      ],
+      "deltaFacts": [
+        "The route moves east-northeast from Crozet waters toward the Indian Ocean Line."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "Control points keep the route in open Indian Ocean water.",
+      "segmentIds": [
+        "crozetts-to-indian-ocean-line"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 59,
+          "label": "Squid",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0059"
+        }
+      ]
+    },
+    {
+      "chapter": 60,
+      "movement": "sea",
+      "anchor": "Indian Ocean Line",
+      "locationFacts": [
+        "Chapter 60, The Line., occurs during the long Indian Ocean cruising stretch.",
+        "The Line chapter identifies this part of the Indian Ocean as the active sea region."
+      ],
+      "deltaFacts": [
+        "The route moves east-northeast from Crozet waters toward the Indian Ocean Line."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "Control points keep the route in open Indian Ocean water.",
+      "segmentIds": [
+        "crozetts-to-indian-ocean-line"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 60,
+          "label": "The Line",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0060"
+        }
+      ]
+    },
+    {
+      "chapter": 61,
+      "movement": "sea",
+      "anchor": "Indian Ocean whaling ground",
+      "locationFacts": [
+        "Chapter 61, Stubb Kills a Whale., is modeled on the broad Indian Ocean whaling cruise.",
+        "Whaling action and shipboard processing dominate this part of the voyage."
+      ],
+      "deltaFacts": [
+        "The Pequod ranges eastward across a schematic whale-ground segment."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route follows open-ocean control points because these chapters do not provide exact coordinates.",
+      "segmentIds": [
+        "indian-ocean-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 61,
+          "label": "Stubb Kills a Whale",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0061"
+        }
+      ]
+    },
+    {
+      "chapter": 62,
+      "movement": "sea",
+      "anchor": "Indian Ocean whaling ground",
+      "locationFacts": [
+        "Chapter 62, The Dart., is modeled on the broad Indian Ocean whaling cruise.",
+        "Whaling action and shipboard processing dominate this part of the voyage."
+      ],
+      "deltaFacts": [
+        "The Pequod ranges eastward across a schematic whale-ground segment."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route follows open-ocean control points because these chapters do not provide exact coordinates.",
+      "segmentIds": [
+        "indian-ocean-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 62,
+          "label": "The Dart",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0062"
+        }
+      ]
+    },
+    {
+      "chapter": 63,
+      "movement": "sea",
+      "anchor": "Indian Ocean whaling ground",
+      "locationFacts": [
+        "Chapter 63, The Crotch., is modeled on the broad Indian Ocean whaling cruise.",
+        "Whaling action and shipboard processing dominate this part of the voyage."
+      ],
+      "deltaFacts": [
+        "The Pequod ranges eastward across a schematic whale-ground segment."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route follows open-ocean control points because these chapters do not provide exact coordinates.",
+      "segmentIds": [
+        "indian-ocean-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 63,
+          "label": "The Crotch",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0063"
+        }
+      ]
+    },
+    {
+      "chapter": 64,
+      "movement": "sea",
+      "anchor": "Indian Ocean whaling ground",
+      "locationFacts": [
+        "Chapter 64, Stubb's Supper., is modeled on the broad Indian Ocean whaling cruise.",
+        "Whaling action and shipboard processing dominate this part of the voyage."
+      ],
+      "deltaFacts": [
+        "The Pequod ranges eastward across a schematic whale-ground segment."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route follows open-ocean control points because these chapters do not provide exact coordinates.",
+      "segmentIds": [
+        "indian-ocean-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 64,
+          "label": "Stubb's Supper",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0064"
+        }
+      ]
+    },
+    {
+      "chapter": 65,
+      "movement": "sea",
+      "anchor": "Indian Ocean whaling ground",
+      "locationFacts": [
+        "Chapter 65, The Whale as a Dish., is modeled on the broad Indian Ocean whaling cruise.",
+        "Whaling action and shipboard processing dominate this part of the voyage."
+      ],
+      "deltaFacts": [
+        "The Pequod ranges eastward across a schematic whale-ground segment."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route follows open-ocean control points because these chapters do not provide exact coordinates.",
+      "segmentIds": [
+        "indian-ocean-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 65,
+          "label": "The Whale as a Dish",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0065"
+        }
+      ]
+    },
+    {
+      "chapter": 66,
+      "movement": "sea",
+      "anchor": "Indian Ocean whaling ground",
+      "locationFacts": [
+        "Chapter 66, The Shark Massacre., is modeled on the broad Indian Ocean whaling cruise.",
+        "Whaling action and shipboard processing dominate this part of the voyage."
+      ],
+      "deltaFacts": [
+        "The Pequod ranges eastward across a schematic whale-ground segment."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route follows open-ocean control points because these chapters do not provide exact coordinates.",
+      "segmentIds": [
+        "indian-ocean-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 66,
+          "label": "The Shark Massacre",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0066"
+        }
+      ]
+    },
+    {
+      "chapter": 67,
+      "movement": "sea",
+      "anchor": "Indian Ocean whaling ground",
+      "locationFacts": [
+        "Chapter 67, Cutting In., is modeled on the broad Indian Ocean whaling cruise.",
+        "Whaling action and shipboard processing dominate this part of the voyage."
+      ],
+      "deltaFacts": [
+        "The Pequod ranges eastward across a schematic whale-ground segment."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route follows open-ocean control points because these chapters do not provide exact coordinates.",
+      "segmentIds": [
+        "indian-ocean-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 67,
+          "label": "Cutting In",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0067"
+        }
+      ]
+    },
+    {
+      "chapter": 68,
+      "movement": "sea",
+      "anchor": "Indian Ocean whaling ground",
+      "locationFacts": [
+        "Chapter 68, The Blanket., is modeled on the broad Indian Ocean whaling cruise.",
+        "Whaling action and shipboard processing dominate this part of the voyage."
+      ],
+      "deltaFacts": [
+        "The Pequod ranges eastward across a schematic whale-ground segment."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route follows open-ocean control points because these chapters do not provide exact coordinates.",
+      "segmentIds": [
+        "indian-ocean-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 68,
+          "label": "The Blanket",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0068"
+        }
+      ]
+    },
+    {
+      "chapter": 69,
+      "movement": "sea",
+      "anchor": "Indian Ocean whaling ground",
+      "locationFacts": [
+        "Chapter 69, The Funeral., is modeled on the broad Indian Ocean whaling cruise.",
+        "Whaling action and shipboard processing dominate this part of the voyage."
+      ],
+      "deltaFacts": [
+        "The Pequod ranges eastward across a schematic whale-ground segment."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route follows open-ocean control points because these chapters do not provide exact coordinates.",
+      "segmentIds": [
+        "indian-ocean-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 69,
+          "label": "The Funeral",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0069"
+        }
+      ]
+    },
+    {
+      "chapter": 70,
+      "movement": "sea",
+      "anchor": "Indian Ocean whaling ground",
+      "locationFacts": [
+        "Chapter 70, The Sphynx., is modeled on the broad Indian Ocean whaling cruise.",
+        "Whaling action and shipboard processing dominate this part of the voyage."
+      ],
+      "deltaFacts": [
+        "The Pequod ranges eastward across a schematic whale-ground segment."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route follows open-ocean control points because these chapters do not provide exact coordinates.",
+      "segmentIds": [
+        "indian-ocean-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 70,
+          "label": "The Sphynx",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0070"
+        }
+      ]
+    },
+    {
+      "chapter": 71,
+      "movement": "sea",
+      "anchor": "Indian Ocean whaling ground",
+      "locationFacts": [
+        "Chapter 71, The Jeroboam's Story., is modeled on the broad Indian Ocean whaling cruise.",
+        "Whaling action and shipboard processing dominate this part of the voyage."
+      ],
+      "deltaFacts": [
+        "The Pequod ranges eastward across a schematic whale-ground segment."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route follows open-ocean control points because these chapters do not provide exact coordinates.",
+      "segmentIds": [
+        "indian-ocean-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 71,
+          "label": "The Jeroboam's Story",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0071"
+        }
+      ]
+    },
+    {
+      "chapter": 72,
+      "movement": "sea",
+      "anchor": "Indian Ocean whaling ground",
+      "locationFacts": [
+        "Chapter 72, The Monkey-Rope., is modeled on the broad Indian Ocean whaling cruise.",
+        "Whaling action and shipboard processing dominate this part of the voyage."
+      ],
+      "deltaFacts": [
+        "The Pequod ranges eastward across a schematic whale-ground segment."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route follows open-ocean control points because these chapters do not provide exact coordinates.",
+      "segmentIds": [
+        "indian-ocean-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 72,
+          "label": "The Monkey-Rope",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0072"
+        }
+      ]
+    },
+    {
+      "chapter": 73,
+      "movement": "sea",
+      "anchor": "Indian Ocean whaling ground",
+      "locationFacts": [
+        "Chapter 73, Stubb and Flask kill a Right Whale; and Then Have a Talk over Him., is modeled on the broad Indian Ocean whaling cruise.",
+        "Whaling action and shipboard processing dominate this part of the voyage."
+      ],
+      "deltaFacts": [
+        "The Pequod ranges eastward across a schematic whale-ground segment."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route follows open-ocean control points because these chapters do not provide exact coordinates.",
+      "segmentIds": [
+        "indian-ocean-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 73,
+          "label": "Stubb and Flask kill a Right Whale; and Then Have a Talk over Him",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0073"
+        }
+      ]
+    },
+    {
+      "chapter": 74,
+      "movement": "sea",
+      "anchor": "Indian Ocean whaling ground",
+      "locationFacts": [
+        "Chapter 74, The Sperm Whale's Head - Contrasted View., is modeled on the broad Indian Ocean whaling cruise.",
+        "Whaling action and shipboard processing dominate this part of the voyage."
+      ],
+      "deltaFacts": [
+        "The Pequod ranges eastward across a schematic whale-ground segment."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route follows open-ocean control points because these chapters do not provide exact coordinates.",
+      "segmentIds": [
+        "indian-ocean-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 74,
+          "label": "The Sperm Whale's Head - Contrasted View",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0074"
+        }
+      ]
+    },
+    {
+      "chapter": 75,
+      "movement": "sea",
+      "anchor": "Indian Ocean whaling ground",
+      "locationFacts": [
+        "Chapter 75, The Right Whale's Head - Contrasted View., is modeled on the broad Indian Ocean whaling cruise.",
+        "Whaling action and shipboard processing dominate this part of the voyage."
+      ],
+      "deltaFacts": [
+        "The Pequod ranges eastward across a schematic whale-ground segment."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route follows open-ocean control points because these chapters do not provide exact coordinates.",
+      "segmentIds": [
+        "indian-ocean-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 75,
+          "label": "The Right Whale's Head - Contrasted View",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0075"
+        }
+      ]
+    },
+    {
+      "chapter": 76,
+      "movement": "sea",
+      "anchor": "Indian Ocean whaling ground",
+      "locationFacts": [
+        "Chapter 76, The Battering-Ram., is modeled on the broad Indian Ocean whaling cruise.",
+        "Whaling action and shipboard processing dominate this part of the voyage."
+      ],
+      "deltaFacts": [
+        "The Pequod ranges eastward across a schematic whale-ground segment."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route follows open-ocean control points because these chapters do not provide exact coordinates.",
+      "segmentIds": [
+        "indian-ocean-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 76,
+          "label": "The Battering-Ram",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0076"
+        }
+      ]
+    },
+    {
+      "chapter": 77,
+      "movement": "sea",
+      "anchor": "Indian Ocean whaling ground",
+      "locationFacts": [
+        "Chapter 77, The Great Heidelburgh Tun., is modeled on the broad Indian Ocean whaling cruise.",
+        "Whaling action and shipboard processing dominate this part of the voyage."
+      ],
+      "deltaFacts": [
+        "The Pequod ranges eastward across a schematic whale-ground segment."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route follows open-ocean control points because these chapters do not provide exact coordinates.",
+      "segmentIds": [
+        "indian-ocean-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 77,
+          "label": "The Great Heidelburgh Tun",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0077"
+        }
+      ]
+    },
+    {
+      "chapter": 78,
+      "movement": "sea",
+      "anchor": "Indian Ocean whaling ground",
+      "locationFacts": [
+        "Chapter 78, Cistern and Buckets., is modeled on the broad Indian Ocean whaling cruise.",
+        "Whaling action and shipboard processing dominate this part of the voyage."
+      ],
+      "deltaFacts": [
+        "The Pequod ranges eastward across a schematic whale-ground segment."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route follows open-ocean control points because these chapters do not provide exact coordinates.",
+      "segmentIds": [
+        "indian-ocean-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 78,
+          "label": "Cistern and Buckets",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0078"
+        }
+      ]
+    },
+    {
+      "chapter": 79,
+      "movement": "sea",
+      "anchor": "Indian Ocean whaling ground",
+      "locationFacts": [
+        "Chapter 79, The Prairie., is modeled on the broad Indian Ocean whaling cruise.",
+        "Whaling action and shipboard processing dominate this part of the voyage."
+      ],
+      "deltaFacts": [
+        "The Pequod ranges eastward across a schematic whale-ground segment."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route follows open-ocean control points because these chapters do not provide exact coordinates.",
+      "segmentIds": [
+        "indian-ocean-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 79,
+          "label": "The Prairie",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0079"
+        }
+      ]
+    },
+    {
+      "chapter": 80,
+      "movement": "sea",
+      "anchor": "Indian Ocean whaling ground",
+      "locationFacts": [
+        "Chapter 80, The Nut., is modeled on the broad Indian Ocean whaling cruise.",
+        "Whaling action and shipboard processing dominate this part of the voyage."
+      ],
+      "deltaFacts": [
+        "The Pequod ranges eastward across a schematic whale-ground segment."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The route follows open-ocean control points because these chapters do not provide exact coordinates.",
+      "segmentIds": [
+        "indian-ocean-cruise"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 80,
+          "label": "The Nut",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0080"
+        }
+      ]
+    },
+    {
+      "chapter": 81,
+      "movement": "sea",
+      "anchor": "Toward Java Head",
+      "locationFacts": [
+        "Chapter 81, The Pequod Meets The Virgin., is assigned to the approach toward the Sunda gateway.",
+        "The following chapter gives the clear Java Head and Sunda Strait anchor."
+      ],
+      "deltaFacts": [
+        "The route closes on the eastern Indian Ocean and Java Head."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The endpoint is fixed by Java Head; preceding motion is modeled from the prior whale-ground.",
+      "segmentIds": [
+        "eastern-indian-to-java"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 81,
+          "label": "The Pequod Meets The Virgin",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0081"
+        }
+      ]
+    },
+    {
+      "chapter": 82,
+      "movement": "sea",
+      "anchor": "Toward Java Head",
+      "locationFacts": [
+        "Chapter 82, The Honor and Glory of Whaling., is assigned to the approach toward the Sunda gateway.",
+        "The following chapter gives the clear Java Head and Sunda Strait anchor."
+      ],
+      "deltaFacts": [
+        "The route closes on the eastern Indian Ocean and Java Head."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The endpoint is fixed by Java Head; preceding motion is modeled from the prior whale-ground.",
+      "segmentIds": [
+        "eastern-indian-to-java"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 82,
+          "label": "The Honor and Glory of Whaling",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0082"
+        }
+      ]
+    },
+    {
+      "chapter": 83,
+      "movement": "sea",
+      "anchor": "Toward Java Head",
+      "locationFacts": [
+        "Chapter 83, Jonah Historically Regarded., is assigned to the approach toward the Sunda gateway.",
+        "The following chapter gives the clear Java Head and Sunda Strait anchor."
+      ],
+      "deltaFacts": [
+        "The route closes on the eastern Indian Ocean and Java Head."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The endpoint is fixed by Java Head; preceding motion is modeled from the prior whale-ground.",
+      "segmentIds": [
+        "eastern-indian-to-java"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 83,
+          "label": "Jonah Historically Regarded",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0083"
+        }
+      ]
+    },
+    {
+      "chapter": 84,
+      "movement": "sea",
+      "anchor": "Toward Java Head",
+      "locationFacts": [
+        "Chapter 84, Pitchpoling., is assigned to the approach toward the Sunda gateway.",
+        "The following chapter gives the clear Java Head and Sunda Strait anchor."
+      ],
+      "deltaFacts": [
+        "The route closes on the eastern Indian Ocean and Java Head."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The endpoint is fixed by Java Head; preceding motion is modeled from the prior whale-ground.",
+      "segmentIds": [
+        "eastern-indian-to-java"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 84,
+          "label": "Pitchpoling",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0084"
+        }
+      ]
+    },
+    {
+      "chapter": 85,
+      "movement": "sea",
+      "anchor": "Toward Java Head",
+      "locationFacts": [
+        "Chapter 85, The Fountain., is assigned to the approach toward the Sunda gateway.",
+        "The following chapter gives the clear Java Head and Sunda Strait anchor."
+      ],
+      "deltaFacts": [
+        "The route closes on the eastern Indian Ocean and Java Head."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The endpoint is fixed by Java Head; preceding motion is modeled from the prior whale-ground.",
+      "segmentIds": [
+        "eastern-indian-to-java"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 85,
+          "label": "The Fountain",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0085"
+        }
+      ]
+    },
+    {
+      "chapter": 86,
+      "movement": "sea",
+      "anchor": "Toward Java Head",
+      "locationFacts": [
+        "Chapter 86, The Tail., is assigned to the approach toward the Sunda gateway.",
+        "The following chapter gives the clear Java Head and Sunda Strait anchor."
+      ],
+      "deltaFacts": [
+        "The route closes on the eastern Indian Ocean and Java Head."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The endpoint is fixed by Java Head; preceding motion is modeled from the prior whale-ground.",
+      "segmentIds": [
+        "eastern-indian-to-java"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 86,
+          "label": "The Tail",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0086"
+        }
+      ]
+    },
+    {
+      "chapter": 87,
+      "movement": "sea",
+      "anchor": "Java Head and Sunda Strait",
+      "locationFacts": [
+        "The Grand Armada chapter names the Straits of Sunda, Java Head, and the Javan Sea.",
+        "Ahab plans to pass through into the Javan Sea and then north toward Japan."
+      ],
+      "deltaFacts": [
+        "The route passes the Sunda gateway into the Javan Sea."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The short path uses real Java Head geography and Javan Sea shaping points.",
+      "segmentIds": [
+        "sunda-and-javan-sea"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 87,
+          "label": "The Grand Armada",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0087"
+        }
+      ]
+    },
+    {
+      "chapter": 88,
+      "movement": "sea",
+      "anchor": "Javan Sea to Formosa and Bashee Isles",
+      "locationFacts": [
+        "Chapter 88, Schools and Schoolmasters., remains aboard the Pequod during the northbound Asian sea passage.",
+        "Chapter 109 provides the next strong anchor near Formosa and the Bashee Isles."
+      ],
+      "deltaFacts": [
+        "The route sweeps north from the Javan Sea through island waters."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path is shaped offshore through the Philippines corridor toward Formosa and the Bashee Isles.",
+      "segmentIds": [
+        "javan-sea-to-bashee"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 88,
+          "label": "Schools and Schoolmasters",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0088"
+        }
+      ]
+    },
+    {
+      "chapter": 89,
+      "movement": "sea",
+      "anchor": "Javan Sea to Formosa and Bashee Isles",
+      "locationFacts": [
+        "Chapter 89, Fast-Fish and Loose-Fish., remains aboard the Pequod during the northbound Asian sea passage.",
+        "Chapter 109 provides the next strong anchor near Formosa and the Bashee Isles."
+      ],
+      "deltaFacts": [
+        "The route sweeps north from the Javan Sea through island waters."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path is shaped offshore through the Philippines corridor toward Formosa and the Bashee Isles.",
+      "segmentIds": [
+        "javan-sea-to-bashee"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 89,
+          "label": "Fast-Fish and Loose-Fish",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0089"
+        }
+      ]
+    },
+    {
+      "chapter": 90,
+      "movement": "sea",
+      "anchor": "Javan Sea to Formosa and Bashee Isles",
+      "locationFacts": [
+        "Chapter 90, Heads or Tails., remains aboard the Pequod during the northbound Asian sea passage.",
+        "Chapter 109 provides the next strong anchor near Formosa and the Bashee Isles."
+      ],
+      "deltaFacts": [
+        "The route sweeps north from the Javan Sea through island waters."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path is shaped offshore through the Philippines corridor toward Formosa and the Bashee Isles.",
+      "segmentIds": [
+        "javan-sea-to-bashee"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 90,
+          "label": "Heads or Tails",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0090"
+        }
+      ]
+    },
+    {
+      "chapter": 91,
+      "movement": "sea",
+      "anchor": "Javan Sea to Formosa and Bashee Isles",
+      "locationFacts": [
+        "Chapter 91, The Pequod Meets The Rose-Bud., remains aboard the Pequod during the northbound Asian sea passage.",
+        "Chapter 109 provides the next strong anchor near Formosa and the Bashee Isles."
+      ],
+      "deltaFacts": [
+        "The route sweeps north from the Javan Sea through island waters."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path is shaped offshore through the Philippines corridor toward Formosa and the Bashee Isles.",
+      "segmentIds": [
+        "javan-sea-to-bashee"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 91,
+          "label": "The Pequod Meets The Rose-Bud",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0091"
+        }
+      ]
+    },
+    {
+      "chapter": 92,
+      "movement": "sea",
+      "anchor": "Javan Sea to Formosa and Bashee Isles",
+      "locationFacts": [
+        "Chapter 92, Ambergris., remains aboard the Pequod during the northbound Asian sea passage.",
+        "Chapter 109 provides the next strong anchor near Formosa and the Bashee Isles."
+      ],
+      "deltaFacts": [
+        "The route sweeps north from the Javan Sea through island waters."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path is shaped offshore through the Philippines corridor toward Formosa and the Bashee Isles.",
+      "segmentIds": [
+        "javan-sea-to-bashee"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 92,
+          "label": "Ambergris",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0092"
+        }
+      ]
+    },
+    {
+      "chapter": 93,
+      "movement": "sea",
+      "anchor": "Javan Sea to Formosa and Bashee Isles",
+      "locationFacts": [
+        "Chapter 93, The Castaway., remains aboard the Pequod during the northbound Asian sea passage.",
+        "Chapter 109 provides the next strong anchor near Formosa and the Bashee Isles."
+      ],
+      "deltaFacts": [
+        "The route sweeps north from the Javan Sea through island waters."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path is shaped offshore through the Philippines corridor toward Formosa and the Bashee Isles.",
+      "segmentIds": [
+        "javan-sea-to-bashee"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 93,
+          "label": "The Castaway",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0093"
+        }
+      ]
+    },
+    {
+      "chapter": 94,
+      "movement": "sea",
+      "anchor": "Javan Sea to Formosa and Bashee Isles",
+      "locationFacts": [
+        "Chapter 94, A Squeeze of the Hand., remains aboard the Pequod during the northbound Asian sea passage.",
+        "Chapter 109 provides the next strong anchor near Formosa and the Bashee Isles."
+      ],
+      "deltaFacts": [
+        "The route sweeps north from the Javan Sea through island waters."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path is shaped offshore through the Philippines corridor toward Formosa and the Bashee Isles.",
+      "segmentIds": [
+        "javan-sea-to-bashee"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 94,
+          "label": "A Squeeze of the Hand",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0094"
+        }
+      ]
+    },
+    {
+      "chapter": 95,
+      "movement": "sea",
+      "anchor": "Javan Sea to Formosa and Bashee Isles",
+      "locationFacts": [
+        "Chapter 95, The Cassock., remains aboard the Pequod during the northbound Asian sea passage.",
+        "Chapter 109 provides the next strong anchor near Formosa and the Bashee Isles."
+      ],
+      "deltaFacts": [
+        "The route sweeps north from the Javan Sea through island waters."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path is shaped offshore through the Philippines corridor toward Formosa and the Bashee Isles.",
+      "segmentIds": [
+        "javan-sea-to-bashee"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 95,
+          "label": "The Cassock",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0095"
+        }
+      ]
+    },
+    {
+      "chapter": 96,
+      "movement": "sea",
+      "anchor": "Javan Sea to Formosa and Bashee Isles",
+      "locationFacts": [
+        "Chapter 96, The Try-Works., remains aboard the Pequod during the northbound Asian sea passage.",
+        "Chapter 109 provides the next strong anchor near Formosa and the Bashee Isles."
+      ],
+      "deltaFacts": [
+        "The route sweeps north from the Javan Sea through island waters."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path is shaped offshore through the Philippines corridor toward Formosa and the Bashee Isles.",
+      "segmentIds": [
+        "javan-sea-to-bashee"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 96,
+          "label": "The Try-Works",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0096"
+        }
+      ]
+    },
+    {
+      "chapter": 97,
+      "movement": "sea",
+      "anchor": "Javan Sea to Formosa and Bashee Isles",
+      "locationFacts": [
+        "Chapter 97, The Lamp., remains aboard the Pequod during the northbound Asian sea passage.",
+        "Chapter 109 provides the next strong anchor near Formosa and the Bashee Isles."
+      ],
+      "deltaFacts": [
+        "The route sweeps north from the Javan Sea through island waters."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path is shaped offshore through the Philippines corridor toward Formosa and the Bashee Isles.",
+      "segmentIds": [
+        "javan-sea-to-bashee"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 97,
+          "label": "The Lamp",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0097"
+        }
+      ]
+    },
+    {
+      "chapter": 98,
+      "movement": "sea",
+      "anchor": "Javan Sea to Formosa and Bashee Isles",
+      "locationFacts": [
+        "Chapter 98, Stowing Down and Clearing Up., remains aboard the Pequod during the northbound Asian sea passage.",
+        "Chapter 109 provides the next strong anchor near Formosa and the Bashee Isles."
+      ],
+      "deltaFacts": [
+        "The route sweeps north from the Javan Sea through island waters."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path is shaped offshore through the Philippines corridor toward Formosa and the Bashee Isles.",
+      "segmentIds": [
+        "javan-sea-to-bashee"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 98,
+          "label": "Stowing Down and Clearing Up",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0098"
+        }
+      ]
+    },
+    {
+      "chapter": 99,
+      "movement": "sea",
+      "anchor": "Javan Sea to Formosa and Bashee Isles",
+      "locationFacts": [
+        "Chapter 99, The Doubloon., remains aboard the Pequod during the northbound Asian sea passage.",
+        "Chapter 109 provides the next strong anchor near Formosa and the Bashee Isles."
+      ],
+      "deltaFacts": [
+        "The route sweeps north from the Javan Sea through island waters."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path is shaped offshore through the Philippines corridor toward Formosa and the Bashee Isles.",
+      "segmentIds": [
+        "javan-sea-to-bashee"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 99,
+          "label": "The Doubloon",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0099"
+        }
+      ]
+    },
+    {
+      "chapter": 100,
+      "movement": "sea",
+      "anchor": "Javan Sea to Formosa and Bashee Isles",
+      "locationFacts": [
+        "Chapter 100, Leg and Arm., remains aboard the Pequod during the northbound Asian sea passage.",
+        "Chapter 109 provides the next strong anchor near Formosa and the Bashee Isles."
+      ],
+      "deltaFacts": [
+        "The route sweeps north from the Javan Sea through island waters."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path is shaped offshore through the Philippines corridor toward Formosa and the Bashee Isles.",
+      "segmentIds": [
+        "javan-sea-to-bashee"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 100,
+          "label": "Leg and Arm",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0100"
+        }
+      ]
+    },
+    {
+      "chapter": 101,
+      "movement": "sea",
+      "anchor": "Javan Sea to Formosa and Bashee Isles",
+      "locationFacts": [
+        "Chapter 101, The Decanter., remains aboard the Pequod during the northbound Asian sea passage.",
+        "Chapter 109 provides the next strong anchor near Formosa and the Bashee Isles."
+      ],
+      "deltaFacts": [
+        "The route sweeps north from the Javan Sea through island waters."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path is shaped offshore through the Philippines corridor toward Formosa and the Bashee Isles.",
+      "segmentIds": [
+        "javan-sea-to-bashee"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 101,
+          "label": "The Decanter",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0101"
+        }
+      ]
+    },
+    {
+      "chapter": 102,
+      "movement": "sea",
+      "anchor": "Javan Sea to Formosa and Bashee Isles",
+      "locationFacts": [
+        "Chapter 102, A Bower in the Arsacides., remains aboard the Pequod during the northbound Asian sea passage.",
+        "Chapter 109 provides the next strong anchor near Formosa and the Bashee Isles."
+      ],
+      "deltaFacts": [
+        "The route sweeps north from the Javan Sea through island waters."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path is shaped offshore through the Philippines corridor toward Formosa and the Bashee Isles.",
+      "segmentIds": [
+        "javan-sea-to-bashee"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 102,
+          "label": "A Bower in the Arsacides",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0102"
+        }
+      ]
+    },
+    {
+      "chapter": 103,
+      "movement": "sea",
+      "anchor": "Javan Sea to Formosa and Bashee Isles",
+      "locationFacts": [
+        "Chapter 103, Measurement of The Whale's Skeleton., remains aboard the Pequod during the northbound Asian sea passage.",
+        "Chapter 109 provides the next strong anchor near Formosa and the Bashee Isles."
+      ],
+      "deltaFacts": [
+        "The route sweeps north from the Javan Sea through island waters."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path is shaped offshore through the Philippines corridor toward Formosa and the Bashee Isles.",
+      "segmentIds": [
+        "javan-sea-to-bashee"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 103,
+          "label": "Measurement of The Whale's Skeleton",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0103"
+        }
+      ]
+    },
+    {
+      "chapter": 104,
+      "movement": "sea",
+      "anchor": "Javan Sea to Formosa and Bashee Isles",
+      "locationFacts": [
+        "Chapter 104, The Fossil Whale., remains aboard the Pequod during the northbound Asian sea passage.",
+        "Chapter 109 provides the next strong anchor near Formosa and the Bashee Isles."
+      ],
+      "deltaFacts": [
+        "The route sweeps north from the Javan Sea through island waters."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path is shaped offshore through the Philippines corridor toward Formosa and the Bashee Isles.",
+      "segmentIds": [
+        "javan-sea-to-bashee"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 104,
+          "label": "The Fossil Whale",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0104"
+        }
+      ]
+    },
+    {
+      "chapter": 105,
+      "movement": "sea",
+      "anchor": "Javan Sea to Formosa and Bashee Isles",
+      "locationFacts": [
+        "Chapter 105, Does the Whale's Magnitude Diminish? - Will He Perish?, remains aboard the Pequod during the northbound Asian sea passage.",
+        "Chapter 109 provides the next strong anchor near Formosa and the Bashee Isles."
+      ],
+      "deltaFacts": [
+        "The route sweeps north from the Javan Sea through island waters."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path is shaped offshore through the Philippines corridor toward Formosa and the Bashee Isles.",
+      "segmentIds": [
+        "javan-sea-to-bashee"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 105,
+          "label": "Does the Whale's Magnitude Diminish? - Will He Perish?",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0105"
+        }
+      ]
+    },
+    {
+      "chapter": 106,
+      "movement": "sea",
+      "anchor": "Javan Sea to Formosa and Bashee Isles",
+      "locationFacts": [
+        "Chapter 106, Ahab's Leg., remains aboard the Pequod during the northbound Asian sea passage.",
+        "Chapter 109 provides the next strong anchor near Formosa and the Bashee Isles."
+      ],
+      "deltaFacts": [
+        "The route sweeps north from the Javan Sea through island waters."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path is shaped offshore through the Philippines corridor toward Formosa and the Bashee Isles.",
+      "segmentIds": [
+        "javan-sea-to-bashee"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 106,
+          "label": "Ahab's Leg",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0106"
+        }
+      ]
+    },
+    {
+      "chapter": 107,
+      "movement": "sea",
+      "anchor": "Javan Sea to Formosa and Bashee Isles",
+      "locationFacts": [
+        "Chapter 107, The Carpenter., remains aboard the Pequod during the northbound Asian sea passage.",
+        "Chapter 109 provides the next strong anchor near Formosa and the Bashee Isles."
+      ],
+      "deltaFacts": [
+        "The route sweeps north from the Javan Sea through island waters."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path is shaped offshore through the Philippines corridor toward Formosa and the Bashee Isles.",
+      "segmentIds": [
+        "javan-sea-to-bashee"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 107,
+          "label": "The Carpenter",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0107"
+        }
+      ]
+    },
+    {
+      "chapter": 108,
+      "movement": "sea",
+      "anchor": "Javan Sea to Formosa and Bashee Isles",
+      "locationFacts": [
+        "Chapter 108, Ahab and the Carpenter., remains aboard the Pequod during the northbound Asian sea passage.",
+        "Chapter 109 provides the next strong anchor near Formosa and the Bashee Isles."
+      ],
+      "deltaFacts": [
+        "The route sweeps north from the Javan Sea through island waters."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path is shaped offshore through the Philippines corridor toward Formosa and the Bashee Isles.",
+      "segmentIds": [
+        "javan-sea-to-bashee"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 108,
+          "label": "Ahab and the Carpenter",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0108"
+        }
+      ]
+    },
+    {
+      "chapter": 109,
+      "movement": "sea",
+      "anchor": "Javan Sea to Formosa and Bashee Isles",
+      "locationFacts": [
+        "Chapter 109, Ahab and Starbuck in the Cabin., remains aboard the Pequod during the northbound Asian sea passage.",
+        "Chapter 109 provides the next strong anchor near Formosa and the Bashee Isles."
+      ],
+      "deltaFacts": [
+        "The route sweeps north from the Javan Sea through island waters."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path is shaped offshore through the Philippines corridor toward Formosa and the Bashee Isles.",
+      "segmentIds": [
+        "javan-sea-to-bashee"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 109,
+          "label": "Ahab and Starbuck in the Cabin",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0109"
+        }
+      ]
+    },
+    {
+      "chapter": 110,
+      "movement": "sea",
+      "anchor": "Javan Sea to Formosa and Bashee Isles",
+      "locationFacts": [
+        "Chapter 110, Queequeg in His Coffin., remains aboard the Pequod during the northbound Asian sea passage.",
+        "Chapter 109 provides the next strong anchor near Formosa and the Bashee Isles."
+      ],
+      "deltaFacts": [
+        "The route sweeps north from the Javan Sea through island waters."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path is shaped offshore through the Philippines corridor toward Formosa and the Bashee Isles.",
+      "segmentIds": [
+        "javan-sea-to-bashee"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 110,
+          "label": "Queequeg in His Coffin",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0110"
+        }
+      ]
+    },
+    {
+      "chapter": 111,
+      "movement": "sea",
+      "anchor": "Bashee Isles to the Pacific",
+      "locationFacts": [
+        "The Pequod glides by the Bashee Isles and emerges upon the Pacific.",
+        "Ahab is now headed toward the Japanese cruising-ground."
+      ],
+      "deltaFacts": [
+        "The route enters the Pacific and turns northeast toward Japan."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path uses Bashee and Japanese cruising-ground anchors with offshore control points.",
+      "segmentIds": [
+        "bashee-to-japan"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 111,
+          "label": "The Pacific",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0111"
+        }
+      ]
+    },
+    {
+      "chapter": 112,
+      "movement": "sea",
+      "anchor": "Bashee Isles to the Pacific",
+      "locationFacts": [
+        "The Pequod glides by the Bashee Isles and emerges upon the Pacific.",
+        "Ahab is now headed toward the Japanese cruising-ground."
+      ],
+      "deltaFacts": [
+        "The route enters the Pacific and turns northeast toward Japan."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path uses Bashee and Japanese cruising-ground anchors with offshore control points.",
+      "segmentIds": [
+        "bashee-to-japan"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 112,
+          "label": "The Blacksmith",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0112"
+        }
+      ]
+    },
+    {
+      "chapter": 113,
+      "movement": "sea",
+      "anchor": "Bashee Isles to the Pacific",
+      "locationFacts": [
+        "The Pequod glides by the Bashee Isles and emerges upon the Pacific.",
+        "Ahab is now headed toward the Japanese cruising-ground."
+      ],
+      "deltaFacts": [
+        "The route enters the Pacific and turns northeast toward Japan."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The path uses Bashee and Japanese cruising-ground anchors with offshore control points.",
+      "segmentIds": [
+        "bashee-to-japan"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 113,
+          "label": "The Forge",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0113"
+        }
+      ]
+    },
+    {
+      "chapter": 114,
+      "movement": "sea",
+      "anchor": "Japanese cruising-ground",
+      "locationFacts": [
+        "Chapter 114, The Gilder., is located on or around the Japanese whaling ground.",
+        "The Pequod lowers boats, meets the Bachelor, and kills whales in these seas."
+      ],
+      "deltaFacts": [
+        "The modeled route is a local whaling movement on the Japanese ground."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "A short regional segment represents whaleboat and ship movement without exact coordinates.",
+      "segmentIds": [
+        "japanese-cruising-ground"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 114,
+          "label": "The Gilder",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0114"
+        }
+      ]
+    },
+    {
+      "chapter": 115,
+      "movement": "sea",
+      "anchor": "Japanese cruising-ground",
+      "locationFacts": [
+        "Chapter 115, The Pequod Meets The Bachelor., is located on or around the Japanese whaling ground.",
+        "The Pequod lowers boats, meets the Bachelor, and kills whales in these seas."
+      ],
+      "deltaFacts": [
+        "The modeled route is a local whaling movement on the Japanese ground."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "A short regional segment represents whaleboat and ship movement without exact coordinates.",
+      "segmentIds": [
+        "japanese-cruising-ground"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 115,
+          "label": "The Pequod Meets The Bachelor",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0115"
+        }
+      ]
+    },
+    {
+      "chapter": 116,
+      "movement": "sea",
+      "anchor": "Japanese cruising-ground",
+      "locationFacts": [
+        "Chapter 116, The Dying Whale., is located on or around the Japanese whaling ground.",
+        "The Pequod lowers boats, meets the Bachelor, and kills whales in these seas."
+      ],
+      "deltaFacts": [
+        "The modeled route is a local whaling movement on the Japanese ground."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "A short regional segment represents whaleboat and ship movement without exact coordinates.",
+      "segmentIds": [
+        "japanese-cruising-ground"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 116,
+          "label": "The Dying Whale",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0116"
+        }
+      ]
+    },
+    {
+      "chapter": 117,
+      "movement": "sea",
+      "anchor": "Japanese cruising-ground",
+      "locationFacts": [
+        "Chapter 117, The Whale Watch., is located on or around the Japanese whaling ground.",
+        "The Pequod lowers boats, meets the Bachelor, and kills whales in these seas."
+      ],
+      "deltaFacts": [
+        "The modeled route is a local whaling movement on the Japanese ground."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "A short regional segment represents whaleboat and ship movement without exact coordinates.",
+      "segmentIds": [
+        "japanese-cruising-ground"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 117,
+          "label": "The Whale Watch",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0117"
+        }
+      ]
+    },
+    {
+      "chapter": 118,
+      "movement": "sea",
+      "anchor": "Japanese seas toward the Line",
+      "locationFacts": [
+        "The season for the Line draws near and Ahab points the Pequod toward the Equator.",
+        "The life-buoy chapter says the ship nears the outskirts of the Equatorial fishing-ground."
+      ],
+      "deltaFacts": [
+        "The route descends from the Japanese seas toward the Pacific Line."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is shaped southeast through open Pacific water toward the equatorial ground.",
+      "segmentIds": [
+        "japan-to-line"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 118,
+          "label": "The Quadrant",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0118"
+        }
+      ]
+    },
+    {
+      "chapter": 119,
+      "movement": "sea",
+      "anchor": "Japanese seas toward the Line",
+      "locationFacts": [
+        "The season for the Line draws near and Ahab points the Pequod toward the Equator.",
+        "The life-buoy chapter says the ship nears the outskirts of the Equatorial fishing-ground."
+      ],
+      "deltaFacts": [
+        "The route descends from the Japanese seas toward the Pacific Line."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is shaped southeast through open Pacific water toward the equatorial ground.",
+      "segmentIds": [
+        "japan-to-line"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 119,
+          "label": "The Candles",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0119"
+        }
+      ]
+    },
+    {
+      "chapter": 120,
+      "movement": "sea",
+      "anchor": "Japanese seas toward the Line",
+      "locationFacts": [
+        "The season for the Line draws near and Ahab points the Pequod toward the Equator.",
+        "The life-buoy chapter says the ship nears the outskirts of the Equatorial fishing-ground."
+      ],
+      "deltaFacts": [
+        "The route descends from the Japanese seas toward the Pacific Line."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is shaped southeast through open Pacific water toward the equatorial ground.",
+      "segmentIds": [
+        "japan-to-line"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 120,
+          "label": "The Deck Towards the End of the First Night Watch",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0120"
+        }
+      ]
+    },
+    {
+      "chapter": 121,
+      "movement": "sea",
+      "anchor": "Japanese seas toward the Line",
+      "locationFacts": [
+        "The season for the Line draws near and Ahab points the Pequod toward the Equator.",
+        "The life-buoy chapter says the ship nears the outskirts of the Equatorial fishing-ground."
+      ],
+      "deltaFacts": [
+        "The route descends from the Japanese seas toward the Pacific Line."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is shaped southeast through open Pacific water toward the equatorial ground.",
+      "segmentIds": [
+        "japan-to-line"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 121,
+          "label": "Midnight - The Forecastle Bulwarks",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0121"
+        }
+      ]
+    },
+    {
+      "chapter": 122,
+      "movement": "sea",
+      "anchor": "Japanese seas toward the Line",
+      "locationFacts": [
+        "The season for the Line draws near and Ahab points the Pequod toward the Equator.",
+        "The life-buoy chapter says the ship nears the outskirts of the Equatorial fishing-ground."
+      ],
+      "deltaFacts": [
+        "The route descends from the Japanese seas toward the Pacific Line."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is shaped southeast through open Pacific water toward the equatorial ground.",
+      "segmentIds": [
+        "japan-to-line"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 122,
+          "label": "Midnight Aloft - Thunder and Lightning",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0122"
+        }
+      ]
+    },
+    {
+      "chapter": 123,
+      "movement": "sea",
+      "anchor": "Japanese seas toward the Line",
+      "locationFacts": [
+        "The season for the Line draws near and Ahab points the Pequod toward the Equator.",
+        "The life-buoy chapter says the ship nears the outskirts of the Equatorial fishing-ground."
+      ],
+      "deltaFacts": [
+        "The route descends from the Japanese seas toward the Pacific Line."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is shaped southeast through open Pacific water toward the equatorial ground.",
+      "segmentIds": [
+        "japan-to-line"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 123,
+          "label": "The Musket",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0123"
+        }
+      ]
+    },
+    {
+      "chapter": 124,
+      "movement": "sea",
+      "anchor": "Japanese seas toward the Line",
+      "locationFacts": [
+        "The season for the Line draws near and Ahab points the Pequod toward the Equator.",
+        "The life-buoy chapter says the ship nears the outskirts of the Equatorial fishing-ground."
+      ],
+      "deltaFacts": [
+        "The route descends from the Japanese seas toward the Pacific Line."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is shaped southeast through open Pacific water toward the equatorial ground.",
+      "segmentIds": [
+        "japan-to-line"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 124,
+          "label": "The Needle",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0124"
+        }
+      ]
+    },
+    {
+      "chapter": 125,
+      "movement": "sea",
+      "anchor": "Japanese seas toward the Line",
+      "locationFacts": [
+        "The season for the Line draws near and Ahab points the Pequod toward the Equator.",
+        "The life-buoy chapter says the ship nears the outskirts of the Equatorial fishing-ground."
+      ],
+      "deltaFacts": [
+        "The route descends from the Japanese seas toward the Pacific Line."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is shaped southeast through open Pacific water toward the equatorial ground.",
+      "segmentIds": [
+        "japan-to-line"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 125,
+          "label": "The Log and Line",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0125"
+        }
+      ]
+    },
+    {
+      "chapter": 126,
+      "movement": "sea",
+      "anchor": "Japanese seas toward the Line",
+      "locationFacts": [
+        "The season for the Line draws near and Ahab points the Pequod toward the Equator.",
+        "The life-buoy chapter says the ship nears the outskirts of the Equatorial fishing-ground."
+      ],
+      "deltaFacts": [
+        "The route descends from the Japanese seas toward the Pacific Line."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is shaped southeast through open Pacific water toward the equatorial ground.",
+      "segmentIds": [
+        "japan-to-line"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 126,
+          "label": "The Life-Buoy",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0126"
+        }
+      ]
+    },
+    {
+      "chapter": 127,
+      "movement": "sea",
+      "anchor": "Equatorial search waters",
+      "locationFacts": [
+        "Chapter 127, The Deck., takes place near the final equatorial hunting ground.",
+        "The Rachel has seen Moby Dick and the Delight foreshadows the final chase."
+      ],
+      "deltaFacts": [
+        "The route creeps across the final search area before the chase begins."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "Local coordinates are estimated because the text supplies a ground and relative sightings, not exact longitude.",
+      "segmentIds": [
+        "equatorial-search"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 127,
+          "label": "The Deck",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0127"
+        }
+      ]
+    },
+    {
+      "chapter": 128,
+      "movement": "sea",
+      "anchor": "Equatorial search waters",
+      "locationFacts": [
+        "Chapter 128, The Pequod Meets The Rachel., takes place near the final equatorial hunting ground.",
+        "The Rachel has seen Moby Dick and the Delight foreshadows the final chase."
+      ],
+      "deltaFacts": [
+        "The route creeps across the final search area before the chase begins."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "Local coordinates are estimated because the text supplies a ground and relative sightings, not exact longitude.",
+      "segmentIds": [
+        "equatorial-search"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 128,
+          "label": "The Pequod Meets The Rachel",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0128"
+        }
+      ]
+    },
+    {
+      "chapter": 129,
+      "movement": "sea",
+      "anchor": "Equatorial search waters",
+      "locationFacts": [
+        "Chapter 129, The Cabin., takes place near the final equatorial hunting ground.",
+        "The Rachel has seen Moby Dick and the Delight foreshadows the final chase."
+      ],
+      "deltaFacts": [
+        "The route creeps across the final search area before the chase begins."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "Local coordinates are estimated because the text supplies a ground and relative sightings, not exact longitude.",
+      "segmentIds": [
+        "equatorial-search"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 129,
+          "label": "The Cabin",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0129"
+        }
+      ]
+    },
+    {
+      "chapter": 130,
+      "movement": "sea",
+      "anchor": "Equatorial search waters",
+      "locationFacts": [
+        "Chapter 130, The Hat., takes place near the final equatorial hunting ground.",
+        "The Rachel has seen Moby Dick and the Delight foreshadows the final chase."
+      ],
+      "deltaFacts": [
+        "The route creeps across the final search area before the chase begins."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "Local coordinates are estimated because the text supplies a ground and relative sightings, not exact longitude.",
+      "segmentIds": [
+        "equatorial-search"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 130,
+          "label": "The Hat",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0130"
+        }
+      ]
+    },
+    {
+      "chapter": 131,
+      "movement": "sea",
+      "anchor": "Equatorial search waters",
+      "locationFacts": [
+        "Chapter 131, The Pequod Meets The Delight., takes place near the final equatorial hunting ground.",
+        "The Rachel has seen Moby Dick and the Delight foreshadows the final chase."
+      ],
+      "deltaFacts": [
+        "The route creeps across the final search area before the chase begins."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "Local coordinates are estimated because the text supplies a ground and relative sightings, not exact longitude.",
+      "segmentIds": [
+        "equatorial-search"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 131,
+          "label": "The Pequod Meets The Delight",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0131"
+        }
+      ]
+    },
+    {
+      "chapter": 132,
+      "movement": "sea",
+      "anchor": "Equatorial search waters",
+      "locationFacts": [
+        "Chapter 132, The Symphony., takes place near the final equatorial hunting ground.",
+        "The Rachel has seen Moby Dick and the Delight foreshadows the final chase."
+      ],
+      "deltaFacts": [
+        "The route creeps across the final search area before the chase begins."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "Local coordinates are estimated because the text supplies a ground and relative sightings, not exact longitude.",
+      "segmentIds": [
+        "equatorial-search"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 132,
+          "label": "The Symphony",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0132"
+        }
+      ]
+    },
+    {
+      "chapter": 133,
+      "movement": "sea",
+      "anchor": "First day chase waters",
+      "locationFacts": [
+        "Moby Dick is sighted and the first day of the chase begins.",
+        "The action is local to the final Pacific Line ground."
+      ],
+      "deltaFacts": [
+        "The map advances a short chase leg from the Delight encounter waters."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The coordinate is fictionalized within the final hunting area to visualize the chase progression.",
+      "segmentIds": [
+        "first-day-chase"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 133,
+          "label": "The Chase - First Day",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0133"
+        }
+      ]
+    },
+    {
+      "chapter": 134,
+      "movement": "sea",
+      "anchor": "Second day chase waters",
+      "locationFacts": [
+        "The chase continues through a second day.",
+        "The whale, boats, and Pequod remain in close pursuit range."
+      ],
+      "deltaFacts": [
+        "The map adds a second short chase leg."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The segment is intentionally short and schematic because the source gives no exact distance.",
+      "segmentIds": [
+        "second-day-chase"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 134,
+          "label": "The Chase - Second Day",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0134"
+        }
+      ]
+    },
+    {
+      "chapter": 135,
+      "movement": "sea",
+      "anchor": "Pequod wreck",
+      "locationFacts": [
+        "The third day ends with Moby Dick ramming the Pequod.",
+        "The ship sinks and Ishmael is left at the edge of the closing vortex."
+      ],
+      "deltaFacts": [
+        "The final chase segment ends at the wreck coordinate."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The wreck point is estimated on the Pacific Line and should be read as narrative geography, not a real coordinate.",
+      "segmentIds": [
+        "third-day-wreck"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 135,
+          "label": "The Chase - Third Day",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0135"
+        }
+      ]
+    },
+    {
+      "chapter": 136,
+      "movement": "return",
+      "anchor": "Rachel rescue",
+      "locationFacts": [
+        "Ishmael survives on Queequeg's coffin life-buoy.",
+        "The Rachel finds him while retracing her search for her missing children."
+      ],
+      "deltaFacts": [
+        "The final map movement is Ishmael's drift and rescue."
+      ],
+      "slopeFacts": [
+        "Sea-level or surface travel is modeled; no vertical depth component is assigned."
+      ],
+      "xyzEstimate": "The rescue point is modeled close to the wreck after nearly a day and night of drift.",
+      "segmentIds": [
+        "ishmael-drift-rachel"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 136,
+          "label": "Epilogue",
+          "url": "https://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2H_EPIL"
+        }
+      ]
+    }
+  ]
+}
