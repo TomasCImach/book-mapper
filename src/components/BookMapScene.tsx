@@ -24,6 +24,7 @@ import * as THREE from 'three'
 import { TextureLoader } from 'three'
 import {
   getBookModel,
+  getCurrentChapterSegments,
   getVisibleSegments,
   type BookModel,
   type RouteSegment,
@@ -41,9 +42,9 @@ import { useMapStore } from '../store/mapStore'
 const DEPTH_SCALE_TRUE = 1
 const DEPTH_SCALE_EXAGGERATED = 24
 const MIN_CAMERA_DISTANCE = 7
-const MAX_CAMERA_DISTANCE = 17
+const MAX_CAMERA_DISTANCE = 36
 const SURFACE_PIVOT_MIN_DISTANCE = 0.65
-const SURFACE_PIVOT_MAX_DISTANCE = 24
+const SURFACE_PIVOT_MAX_DISTANCE = 36
 const FOCUS_TARGET_MIN_RADIUS = 0.72
 const FOCUS_TARGET_MAX_RADIUS = EARTH_RENDER_RADIUS + 1.8
 const FOCUS_TARGET_KEY_STEP = 0.28
@@ -53,6 +54,11 @@ const ROUTE_SCALE_CLOSE = 0.22
 const ROUTE_SCALE_FAR = 1.1
 const TAG_SCALE_CLOSE = 0.86
 const TAG_SCALE_FAR = 1.06
+const CHAPTER_FOCUS_DURATION_SECONDS = 0.9
+const CHAPTER_FOCUS_DISTANCE_PADDING = 1.34
+const MOBILE_CHAPTER_FOCUS_DISTANCE_PADDING = 3.1
+const CHAPTER_FOCUS_MAX_DISTANCE = 36
+const CHAPTER_FOCUS_FRAME_MARGIN_PX = 20
 const INITIAL_CAMERA_DISTANCE = new THREE.Vector3(9, 5.4, 9).length()
 const INITIAL_CAMERA_POSITION = new THREE.Vector3(9, 5.4, 9)
 const MAP_CAMERA_COMMAND_EVENT = 'book-map-camera-command'
@@ -69,6 +75,31 @@ type MapCameraCommand =
 type ZoomFeatureScale = {
   route: number
   tag: number
+}
+
+type ChapterRouteFocus = {
+  localCenter: THREE.Vector3
+  localDirection: THREE.Vector3
+  radius: number
+}
+
+type ChapterFocusFrame = {
+  centerX: number
+  centerY: number
+  width: number
+  height: number
+  canvasWidth: number
+  canvasHeight: number
+}
+
+type ChapterFocusAnimation = {
+  elapsed: number
+  startCameraPosition: THREE.Vector3
+  endCameraPosition: THREE.Vector3
+  startTarget: THREE.Vector3
+  endTarget: THREE.Vector3
+  startQuaternion: THREE.Quaternion
+  endQuaternion: THREE.Quaternion
 }
 
 type OrbitControlsLike = THREE.EventDispatcher & {
@@ -109,6 +140,146 @@ function getDepthScale(depthExaggerated: boolean) {
   return depthExaggerated ? DEPTH_SCALE_EXAGGERATED : DEPTH_SCALE_TRUE
 }
 
+function easeOutCubic(value: number) {
+  return 1 - (1 - value) ** 3
+}
+
+function getChapterFocusSegments(chapter: number, segments: RouteSegment[]) {
+  const currentSegments = getCurrentChapterSegments(chapter, segments)
+
+  if (currentSegments.length > 0) {
+    return currentSegments
+  }
+
+  const visibleSegments = getVisibleSegments(chapter, segments)
+  const lastVisibleSegment = visibleSegments[visibleSegments.length - 1]
+
+  return lastVisibleSegment ? [lastVisibleSegment] : []
+}
+
+function getChapterRouteFocus(
+  chapter: number,
+  bookModel: BookModel,
+  depthScale: number,
+): ChapterRouteFocus | null {
+  const points = getChapterFocusSegments(chapter, bookModel.routeSegments).flatMap(
+    (segment) => getSegmentRenderPoints(segment, depthScale, bookModel.waypointById),
+  )
+
+  if (points.length === 0) {
+    return null
+  }
+
+  const bounds = new THREE.Box3().setFromPoints(points)
+  const sphere = bounds.getBoundingSphere(new THREE.Sphere())
+  const localDirection = new THREE.Vector3()
+
+  for (const point of points) {
+    if (point.lengthSq() > 0.0001) {
+      localDirection.add(point.clone().normalize())
+    }
+  }
+
+  if (localDirection.lengthSq() < 0.0001 && sphere.center.lengthSq() > 0.0001) {
+    localDirection.copy(sphere.center)
+  }
+
+  if (localDirection.lengthSq() < 0.0001) {
+    localDirection.set(0, 0, 1)
+  }
+
+  return {
+    localCenter: sphere.center.clone(),
+    localDirection: localDirection.normalize(),
+    radius: sphere.radius,
+  }
+}
+
+function getSafeFocusFrame(canvas: HTMLCanvasElement): ChapterFocusFrame {
+  const canvasRect = canvas.getBoundingClientRect()
+  let left = CHAPTER_FOCUS_FRAME_MARGIN_PX
+  let top = CHAPTER_FOCUS_FRAME_MARGIN_PX
+  let right = canvasRect.width - CHAPTER_FOCUS_FRAME_MARGIN_PX
+  let bottom = canvasRect.height - CHAPTER_FOCUS_FRAME_MARGIN_PX
+  const mapUi = document.querySelector<HTMLElement>('.map-ui')
+  const mapUiRect = mapUi?.getBoundingClientRect()
+
+  if (mapUiRect) {
+    const intersectsCanvas =
+      mapUiRect.right > canvasRect.left &&
+      mapUiRect.left < canvasRect.right &&
+      mapUiRect.bottom > canvasRect.top &&
+      mapUiRect.top < canvasRect.bottom
+
+    if (intersectsCanvas) {
+      const relativeRight = mapUiRect.right - canvasRect.left
+      const relativeTop = mapUiRect.top - canvasRect.top
+      const isLeftRail =
+        mapUiRect.left <= canvasRect.left + 48 &&
+        mapUiRect.height > canvasRect.height * 0.48
+      const isBottomSheet =
+        mapUiRect.bottom >= canvasRect.bottom - 48 &&
+        mapUiRect.width > canvasRect.width * 0.6
+
+      if (isLeftRail) {
+        left = Math.max(left, relativeRight + CHAPTER_FOCUS_FRAME_MARGIN_PX)
+      }
+
+      if (isBottomSheet) {
+        bottom = Math.min(bottom, relativeTop - CHAPTER_FOCUS_FRAME_MARGIN_PX)
+      }
+    }
+  }
+
+  const cameraControls = document.querySelector<HTMLElement>('.map-camera-controls')
+  const cameraControlsRect = cameraControls?.getBoundingClientRect()
+
+  if (cameraControlsRect) {
+    const intersectsCanvas =
+      cameraControlsRect.right > canvasRect.left &&
+      cameraControlsRect.left < canvasRect.right &&
+      cameraControlsRect.bottom > canvasRect.top &&
+      cameraControlsRect.top < canvasRect.bottom
+    const controlsSitInMobileMapArea =
+      canvasRect.width <= 560 &&
+      cameraControlsRect.right >= canvasRect.right - 32 &&
+      cameraControlsRect.top < canvasRect.top + canvasRect.height * 0.42
+
+    if (intersectsCanvas && controlsSitInMobileMapArea) {
+      right = Math.min(
+        right,
+        cameraControlsRect.left - canvasRect.left - CHAPTER_FOCUS_FRAME_MARGIN_PX,
+      )
+    }
+  }
+
+  const minFrameWidth = canvasRect.width <= 560 ? 160 : 240
+  const minWidth = Math.min(
+    canvasRect.width,
+    Math.max(minFrameWidth, canvasRect.width * 0.32),
+  )
+  const minHeight = Math.min(canvasRect.height, Math.max(220, canvasRect.height * 0.28))
+
+  if (right - left < minWidth) {
+    left = CHAPTER_FOCUS_FRAME_MARGIN_PX
+    right = canvasRect.width - CHAPTER_FOCUS_FRAME_MARGIN_PX
+  }
+
+  if (bottom - top < minHeight) {
+    top = CHAPTER_FOCUS_FRAME_MARGIN_PX
+    bottom = canvasRect.height - CHAPTER_FOCUS_FRAME_MARGIN_PX
+  }
+
+  return {
+    centerX: (left + right) / 2,
+    centerY: (top + bottom) / 2,
+    width: right - left,
+    height: bottom - top,
+    canvasWidth: canvasRect.width,
+    canvasHeight: canvasRect.height,
+  }
+}
+
 export function BookMapScene() {
   const selectedBookId = useMapStore((state) => state.selectedBookId)
   const selectedChapter = useMapStore((state) => state.selectedChapter)
@@ -128,7 +299,7 @@ export function BookMapScene() {
         gl={{ antialias: true }}
       >
         <color attach="background" args={['#10100f']} />
-        <fog attach="fog" args={['#10100f', 14, 26]} />
+        <fog attach="fog" args={['#10100f', 22, 50]} />
         <Suspense fallback={null}>
           <ambientLight intensity={1.15} />
         <directionalLight position={[6, 7, 5]} intensity={2.6} />
@@ -154,6 +325,12 @@ export function BookMapScene() {
           minDistance={MIN_CAMERA_DISTANCE}
           maxDistance={MAX_CAMERA_DISTANCE}
           zoomSpeed={0.75}
+        />
+        <ChapterFocusController
+          bookModel={bookModel}
+          selectedChapter={selectedChapter}
+          depthScale={getDepthScale(depthExaggerated)}
+          targetRef={globeRef}
         />
         </Suspense>
       </Canvas>
@@ -246,6 +423,161 @@ function MapControlButton({
       {children}
     </button>
   )
+}
+
+function ChapterFocusController({
+  bookModel,
+  selectedChapter,
+  depthScale,
+  targetRef,
+}: {
+  bookModel: BookModel
+  selectedChapter: number
+  depthScale: number
+  targetRef: RefObject<THREE.Group | null>
+}) {
+  const { camera, controls, gl } = useThree()
+  const animationRef = useRef<ChapterFocusAnimation | null>(null)
+  const focus = useMemo(
+    () => getChapterRouteFocus(selectedChapter, bookModel, depthScale),
+    [bookModel, depthScale, selectedChapter],
+  )
+
+  useEffect(() => {
+    const target = targetRef.current
+
+    if (!target || !focus) {
+      animationRef.current = null
+      return
+    }
+
+    const orbitControls = controls as OrbitControlsLike | null
+    const currentTarget = orbitControls?.target ?? new THREE.Vector3()
+    const frame = getSafeFocusFrame(gl.domElement)
+    const cameraDirection = new THREE.Vector3()
+      .copy(camera.position)
+      .sub(currentTarget)
+
+    if (cameraDirection.lengthSq() < 0.0001) {
+      cameraDirection.copy(INITIAL_CAMERA_POSITION)
+    }
+
+    cameraDirection.normalize()
+
+    const currentFocusDirection = focus.localDirection
+      .clone()
+      .applyQuaternion(target.quaternion)
+      .normalize()
+    const focusRotationDelta = new THREE.Quaternion().setFromUnitVectors(
+      currentFocusDirection,
+      cameraDirection,
+    )
+    const endQuaternion = target.quaternion
+      .clone()
+      .premultiply(focusRotationDelta)
+      .normalize()
+    const endTarget = focus.localCenter.clone().applyQuaternion(endQuaternion)
+    const verticalFov = THREE.MathUtils.degToRad(
+      camera instanceof THREE.PerspectiveCamera ? camera.fov : 46,
+    )
+    const aspect = frame.canvasWidth / frame.canvasHeight
+    const frameWidthRatio = frame.width / frame.canvasWidth
+    const frameHeightRatio = frame.height / frame.canvasHeight
+    const horizontalFit =
+      Math.tan(verticalFov / 2) * aspect * Math.max(frameWidthRatio, 0.1)
+    const verticalFit = Math.tan(verticalFov / 2) * Math.max(frameHeightRatio, 0.1)
+    const fitFactor = Math.max(0.001, Math.min(horizontalFit, verticalFit))
+    const distancePadding =
+      frame.canvasWidth <= 560
+        ? MOBILE_CHAPTER_FOCUS_DISTANCE_PADDING
+        : CHAPTER_FOCUS_DISTANCE_PADDING
+    const endDistance = THREE.MathUtils.clamp(
+      (focus.radius * distancePadding) / fitFactor,
+      MIN_CAMERA_DISTANCE,
+      CHAPTER_FOCUS_MAX_DISTANCE,
+    )
+    const desiredNdcX = (frame.centerX / frame.canvasWidth) * 2 - 1
+    const desiredNdcY = -((frame.centerY / frame.canvasHeight) * 2 - 1)
+    const halfHeightAtFocus = endDistance * Math.tan(verticalFov / 2)
+    const halfWidthAtFocus = halfHeightAtFocus * aspect
+    const cameraRight = new THREE.Vector3()
+      .copy(camera.up)
+      .cross(cameraDirection)
+      .normalize()
+
+    if (cameraRight.lengthSq() < 0.0001) {
+      cameraRight.set(1, 0, 0)
+    }
+
+    const cameraUp = new THREE.Vector3()
+      .copy(cameraDirection)
+      .cross(cameraRight)
+      .normalize()
+    const endLookTarget = endTarget
+      .clone()
+      .add(cameraRight.clone().multiplyScalar(-desiredNdcX * halfWidthAtFocus))
+      .add(cameraUp.clone().multiplyScalar(-desiredNdcY * halfHeightAtFocus))
+    const endCameraPosition = endLookTarget
+      .clone()
+      .add(cameraDirection.clone().multiplyScalar(endDistance))
+
+    animationRef.current = {
+      elapsed: 0,
+      startCameraPosition: camera.position.clone(),
+      endCameraPosition,
+      startTarget: currentTarget.clone(),
+      endTarget: endLookTarget,
+      startQuaternion: target.quaternion.clone(),
+      endQuaternion,
+    }
+  }, [camera, controls, focus, gl, targetRef])
+
+  useFrame((_, delta) => {
+    const animation = animationRef.current
+    const target = targetRef.current
+
+    if (!animation || !target) {
+      return
+    }
+
+    const orbitControls = controls as OrbitControlsLike | null
+    animation.elapsed += delta
+
+    const progress = THREE.MathUtils.clamp(
+      animation.elapsed / CHAPTER_FOCUS_DURATION_SECONDS,
+      0,
+      1,
+    )
+    const easedProgress = easeOutCubic(progress)
+    const nextTarget = new THREE.Vector3().lerpVectors(
+      animation.startTarget,
+      animation.endTarget,
+      easedProgress,
+    )
+
+    target.quaternion.slerpQuaternions(
+      animation.startQuaternion,
+      animation.endQuaternion,
+      easedProgress,
+    )
+    camera.position.lerpVectors(
+      animation.startCameraPosition,
+      animation.endCameraPosition,
+      easedProgress,
+    )
+    camera.lookAt(nextTarget)
+
+    if (orbitControls) {
+      orbitControls.target.copy(nextTarget)
+      orbitControls.update()
+    }
+
+    if (progress >= 1) {
+      animationRef.current = null
+    }
+  })
+
+  return null
 }
 
 function SurfaceDragControls({
