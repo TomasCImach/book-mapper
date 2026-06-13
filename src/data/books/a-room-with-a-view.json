@@ -1,0 +1,842 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "a-room-with-a-view",
+  "title": "A Room with a View",
+  "author": "E. M. Forster",
+  "source": {
+    "label": "Project Gutenberg #2641",
+    "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Chapter I: The Bertolini"
+    },
+    {
+      "number": 2,
+      "title": "Chapter II: In Santa Croce with No Baedeker"
+    },
+    {
+      "number": 3,
+      "title": "Chapter III: Music, Violets, and the Letter S"
+    },
+    {
+      "number": 4,
+      "title": "Chapter IV: Fourth Chapter"
+    },
+    {
+      "number": 5,
+      "title": "Chapter V: Possibilities of a Pleasant Outing"
+    },
+    {
+      "number": 6,
+      "title": "Chapter VI: Drive Out in Carriages to See a View"
+    },
+    {
+      "number": 7,
+      "title": "Chapter VII: They Return"
+    },
+    {
+      "number": 8,
+      "title": "Chapter VIII: Medieval"
+    },
+    {
+      "number": 9,
+      "title": "Chapter IX: Lucy As a Work of Art"
+    },
+    {
+      "number": 10,
+      "title": "Chapter X: Cecil as a Humourist"
+    },
+    {
+      "number": 11,
+      "title": "Chapter XI: In Mrs. Vyse's Well-Appointed Flat"
+    },
+    {
+      "number": 12,
+      "title": "Chapter XII: Twelfth Chapter"
+    },
+    {
+      "number": 13,
+      "title": "Chapter XIII: How Miss Bartlett's Boiler Was So Tiresome"
+    },
+    {
+      "number": 14,
+      "title": "Chapter XIV: How Lucy Faced the External Situation Bravely"
+    },
+    {
+      "number": 15,
+      "title": "Chapter XV: The Disaster Within"
+    },
+    {
+      "number": 16,
+      "title": "Chapter XVI: Lying to George"
+    },
+    {
+      "number": 17,
+      "title": "Chapter XVII: Lying to Cecil"
+    },
+    {
+      "number": 18,
+      "title": "Chapter XVIII: Lying to Mr. Beebe, Mrs. Honeychurch, Freddy, and the Servants"
+    },
+    {
+      "number": 19,
+      "title": "Chapter XIX: Lying to Mr. Emerson"
+    },
+    {
+      "number": 20,
+      "title": "Chapter XX: The End of the Middle Ages"
+    }
+  ],
+  "media": {
+    "foot": {
+      "label": "Walking",
+      "color": "#78b159"
+    },
+    "rail": {
+      "label": "Rail and Channel route",
+      "color": "#4f8fd8"
+    },
+    "road": {
+      "label": "Road journey",
+      "color": "#9c7a4f"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "florence-pension-bertolini",
+      "name": "Pension Bertolini, Florence",
+      "chapter": 1,
+      "position": {
+        "lat": 43.7696,
+        "lon": 11.2558
+      },
+      "confidence": "estimated"
+    },
+    {
+      "id": "santa-croce-florence",
+      "name": "Santa Croce",
+      "chapter": 2,
+      "position": {
+        "lat": 43.7687,
+        "lon": 11.2622
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "fiesole",
+      "name": "Fiesole",
+      "chapter": 6,
+      "position": {
+        "lat": 43.806,
+        "lon": 11.293
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "windy-corner",
+      "name": "Windy Corner",
+      "chapter": 8,
+      "position": {
+        "lat": 51.18,
+        "lon": -0.33
+      },
+      "confidence": "fictional",
+      "notes": "Fictional Honeychurch home placed in the Surrey hills."
+    },
+    {
+      "id": "london-room-view",
+      "name": "London",
+      "chapter": 11,
+      "position": {
+        "lat": 51.5074,
+        "lon": -0.1278
+      },
+      "confidence": "confirmed"
+    }
+  ],
+  "paths": [
+    {
+      "id": "pension-santa-croce",
+      "title": "Florence pension to Santa Croce",
+      "medium": "foot",
+      "start": {
+        "waypointId": "florence-pension-bertolini"
+      },
+      "end": {
+        "waypointId": "santa-croce-florence"
+      },
+      "chapterStart": 1,
+      "chapterEnd": 2,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "A compact city walk between the pension area and Santa Croce. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Florence pension to Santa Croce",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "florence-fiesole-outing",
+      "title": "Fiesole hillside outing",
+      "medium": "road",
+      "start": {
+        "waypointId": "santa-croce-florence"
+      },
+      "end": {
+        "waypointId": "fiesole"
+      },
+      "chapterStart": 5,
+      "chapterEnd": 7,
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "The Italian outing is modeled as Florence to Fiesole.",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Fiesole hillside outing",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "florence-windy-corner",
+      "title": "Florence back to Surrey",
+      "medium": "rail",
+      "start": {
+        "waypointId": "florence-pension-bertolini"
+      },
+      "end": {
+        "waypointId": "windy-corner"
+      },
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "International return route is schematic, with rail and Channel travel implied. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "points": [
+        {
+          "lat": 45.4642,
+          "lon": 9.19
+        },
+        {
+          "lat": 48.8566,
+          "lon": 2.3522
+        },
+        {
+          "lat": 51.125,
+          "lon": 1.313
+        }
+      ],
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Florence back to Surrey",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "surrey-london-engagement",
+      "title": "Windy Corner to London",
+      "medium": "rail",
+      "start": {
+        "waypointId": "windy-corner"
+      },
+      "end": {
+        "waypointId": "london-room-view"
+      },
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Social and engagement scenes bring the map into London. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "Windy Corner to London",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "london-windy-corner",
+      "title": "Return to Windy Corner",
+      "medium": "rail",
+      "start": {
+        "waypointId": "london-room-view"
+      },
+      "end": {
+        "waypointId": "windy-corner"
+      },
+      "chapterStart": 12,
+      "chapterEnd": 19,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The emotional reckoning resumes in Surrey. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Return to Windy Corner",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "windy-corner-florence-return",
+      "title": "Final return to Florence",
+      "medium": "rail",
+      "start": {
+        "waypointId": "windy-corner"
+      },
+      "end": {
+        "waypointId": "florence-pension-bertolini"
+      },
+      "chapterStart": 20,
+      "chapterEnd": 20,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The ending restores the Florence room and view. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "points": [
+        {
+          "lat": 51.125,
+          "lon": 1.313
+        },
+        {
+          "lat": 48.8566,
+          "lon": 2.3522
+        },
+        {
+          "lat": 45.4642,
+          "lon": 9.19
+        }
+      ],
+      "sourceRefs": [
+        {
+          "chapter": 20,
+          "label": "Final return to Florence",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 1,
+      "movement": "surface",
+      "anchor": "Florence pension and streets",
+      "locationFacts": [
+        "Chapter I: The Bertolini is reviewed against the Florence pension and streets source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: pension-santa-croce."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Florence pension and streets.",
+      "segmentIds": [
+        "pension-santa-croce"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Chapter I: The Bertolini",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "movement": "surface",
+      "anchor": "Florence pension and streets",
+      "locationFacts": [
+        "Chapter II: In Santa Croce with No Baedeker is reviewed against the Florence pension and streets source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: pension-santa-croce."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Florence pension and streets.",
+      "segmentIds": [
+        "pension-santa-croce"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "Chapter II: In Santa Croce with No Baedeker",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "movement": "stationary",
+      "anchor": "Florence pension and streets",
+      "locationFacts": [
+        "Chapter III: Music, Violets, and the Letter S is reviewed against the Florence pension and streets source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter III: Music, Violets, and the Letter S.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "Chapter III: Music, Violets, and the Letter S",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "movement": "stationary",
+      "anchor": "Florence pension and streets",
+      "locationFacts": [
+        "Chapter IV: Fourth Chapter is reviewed against the Florence pension and streets source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter IV: Fourth Chapter.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "Chapter IV: Fourth Chapter",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "movement": "surface",
+      "anchor": "Fiesole outing and Florence return",
+      "locationFacts": [
+        "Chapter V: Possibilities of a Pleasant Outing is reviewed against the Fiesole outing and Florence return source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: florence-fiesole-outing."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Fiesole outing and Florence return.",
+      "segmentIds": [
+        "florence-fiesole-outing"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Chapter V: Possibilities of a Pleasant Outing",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "movement": "surface",
+      "anchor": "Fiesole outing and Florence return",
+      "locationFacts": [
+        "Chapter VI: Drive Out in Carriages to See a View is reviewed against the Fiesole outing and Florence return source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: florence-fiesole-outing."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Fiesole outing and Florence return.",
+      "segmentIds": [
+        "florence-fiesole-outing"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "Chapter VI: Drive Out in Carriages to See a View",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "movement": "surface",
+      "anchor": "Fiesole outing and Florence return",
+      "locationFacts": [
+        "Chapter VII: They Return is reviewed against the Fiesole outing and Florence return source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: florence-fiesole-outing."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Fiesole outing and Florence return.",
+      "segmentIds": [
+        "florence-fiesole-outing"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "Chapter VII: They Return",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "movement": "surface",
+      "anchor": "Windy Corner in Surrey",
+      "locationFacts": [
+        "Chapter VIII: Medieval is reviewed against the Windy Corner in Surrey source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: florence-windy-corner."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Windy Corner in Surrey.",
+      "segmentIds": [
+        "florence-windy-corner"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Chapter VIII: Medieval",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "movement": "stationary",
+      "anchor": "Windy Corner in Surrey",
+      "locationFacts": [
+        "Chapter IX: Lucy As a Work of Art is reviewed against the Windy Corner in Surrey source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter IX: Lucy As a Work of Art.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "Chapter IX: Lucy As a Work of Art",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "movement": "stationary",
+      "anchor": "Windy Corner in Surrey",
+      "locationFacts": [
+        "Chapter X: Cecil as a Humourist is reviewed against the Windy Corner in Surrey source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter X: Cecil as a Humourist.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 10,
+          "label": "Chapter X: Cecil as a Humourist",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "movement": "surface",
+      "anchor": "London, Mrs. Vyse flat",
+      "locationFacts": [
+        "Chapter XI: In Mrs. Vyse's Well-Appointed Flat is reviewed against the London, Mrs. Vyse flat source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: surrey-london-engagement."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for London, Mrs. Vyse flat.",
+      "segmentIds": [
+        "surrey-london-engagement"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "Chapter XI: In Mrs. Vyse's Well-Appointed Flat",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "movement": "surface",
+      "anchor": "Windy Corner crisis",
+      "locationFacts": [
+        "Chapter XII: Twelfth Chapter is reviewed against the Windy Corner crisis source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-windy-corner."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Windy Corner crisis.",
+      "segmentIds": [
+        "london-windy-corner"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Chapter XII: Twelfth Chapter",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "movement": "surface",
+      "anchor": "Windy Corner crisis",
+      "locationFacts": [
+        "Chapter XIII: How Miss Bartlett's Boiler Was So Tiresome is reviewed against the Windy Corner crisis source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-windy-corner."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Windy Corner crisis.",
+      "segmentIds": [
+        "london-windy-corner"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "Chapter XIII: How Miss Bartlett's Boiler Was So Tiresome",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "movement": "surface",
+      "anchor": "Windy Corner crisis",
+      "locationFacts": [
+        "Chapter XIV: How Lucy Faced the External Situation Bravely is reviewed against the Windy Corner crisis source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-windy-corner."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Windy Corner crisis.",
+      "segmentIds": [
+        "london-windy-corner"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 14,
+          "label": "Chapter XIV: How Lucy Faced the External Situation Bravely",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "movement": "surface",
+      "anchor": "Windy Corner crisis",
+      "locationFacts": [
+        "Chapter XV: The Disaster Within is reviewed against the Windy Corner crisis source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-windy-corner."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Windy Corner crisis.",
+      "segmentIds": [
+        "london-windy-corner"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 15,
+          "label": "Chapter XV: The Disaster Within",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "movement": "surface",
+      "anchor": "Windy Corner crisis",
+      "locationFacts": [
+        "Chapter XVI: Lying to George is reviewed against the Windy Corner crisis source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-windy-corner."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Windy Corner crisis.",
+      "segmentIds": [
+        "london-windy-corner"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 16,
+          "label": "Chapter XVI: Lying to George",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "movement": "surface",
+      "anchor": "Windy Corner crisis",
+      "locationFacts": [
+        "Chapter XVII: Lying to Cecil is reviewed against the Windy Corner crisis source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-windy-corner."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Windy Corner crisis.",
+      "segmentIds": [
+        "london-windy-corner"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 17,
+          "label": "Chapter XVII: Lying to Cecil",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "movement": "surface",
+      "anchor": "Windy Corner crisis",
+      "locationFacts": [
+        "Chapter XVIII: Lying to Mr. Beebe, Mrs. Honeychurch, Freddy, and the Servants is reviewed against the Windy Corner crisis source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-windy-corner."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Windy Corner crisis.",
+      "segmentIds": [
+        "london-windy-corner"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 18,
+          "label": "Chapter XVIII: Lying to Mr. Beebe, Mrs. Honeychurch, Freddy, and the Servants",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 19,
+      "movement": "surface",
+      "anchor": "Windy Corner crisis",
+      "locationFacts": [
+        "Chapter XIX: Lying to Mr. Emerson is reviewed against the Windy Corner crisis source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-windy-corner."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Windy Corner crisis.",
+      "segmentIds": [
+        "london-windy-corner"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 19,
+          "label": "Chapter XIX: Lying to Mr. Emerson",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 20,
+      "movement": "surface",
+      "anchor": "Florence room with a view",
+      "locationFacts": [
+        "Chapter XX: The End of the Middle Ages is reviewed against the Florence room with a view source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: windy-corner-florence-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Florence room with a view.",
+      "segmentIds": [
+        "windy-corner-florence-return"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 20,
+          "label": "Chapter XX: The End of the Middle Ages",
+          "url": "https://www.gutenberg.org/files/2641/2641-h/2641-h.htm"
+        }
+      ]
+    }
+  ]
+}

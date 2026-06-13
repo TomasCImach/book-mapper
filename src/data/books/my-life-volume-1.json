@@ -1,0 +1,532 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "my-life-volume-1",
+  "title": "My Life - Volume 1",
+  "author": "Richard Wagner",
+  "source": {
+    "label": "Project Gutenberg #5197",
+    "url": "https://www.gutenberg.org/files/5197/5197-h/5197-h.htm"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Leipzig childhood"
+    },
+    {
+      "number": 2,
+      "title": "Dresden and early theatre"
+    },
+    {
+      "number": 3,
+      "title": "Wurzburg and first appointments"
+    },
+    {
+      "number": 4,
+      "title": "Magdeburg and Konigsberg"
+    },
+    {
+      "number": 5,
+      "title": "Riga years"
+    },
+    {
+      "number": 6,
+      "title": "Flight by sea to London"
+    },
+    {
+      "number": 7,
+      "title": "Paris struggle"
+    },
+    {
+      "number": 8,
+      "title": "Return toward Dresden"
+    }
+  ],
+  "media": {
+    "road": {
+      "label": "Road and coach",
+      "color": "#9c7a4f"
+    },
+    "sea": {
+      "label": "Sea passage",
+      "color": "#2aa8a8"
+    },
+    "rail": {
+      "label": "Continental travel",
+      "color": "#4f8fd8"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "leipzig-wagner",
+      "name": "Leipzig",
+      "chapter": 1,
+      "position": {
+        "lat": 51.3397,
+        "lon": 12.3731
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "dresden-wagner",
+      "name": "Dresden",
+      "chapter": 2,
+      "position": {
+        "lat": 51.0504,
+        "lon": 13.7373
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "wurzburg",
+      "name": "Wurzburg",
+      "chapter": 3,
+      "position": {
+        "lat": 49.7913,
+        "lon": 9.9534
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "magdeburg",
+      "name": "Magdeburg",
+      "chapter": 4,
+      "position": {
+        "lat": 52.1205,
+        "lon": 11.6276
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "konigsberg",
+      "name": "Konigsberg",
+      "chapter": 4,
+      "position": {
+        "lat": 54.7104,
+        "lon": 20.4522
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "riga",
+      "name": "Riga",
+      "chapter": 5,
+      "position": {
+        "lat": 56.9496,
+        "lon": 24.1052
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "london-wagner",
+      "name": "London",
+      "chapter": 6,
+      "position": {
+        "lat": 51.5074,
+        "lon": -0.1278
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "paris-wagner",
+      "name": "Paris",
+      "chapter": 7,
+      "position": {
+        "lat": 48.8566,
+        "lon": 2.3522
+      },
+      "confidence": "confirmed"
+    }
+  ],
+  "paths": [
+    {
+      "id": "leipzig-dresden-wagner",
+      "title": "Leipzig to Dresden",
+      "medium": "road",
+      "start": {
+        "waypointId": "leipzig-wagner"
+      },
+      "end": {
+        "waypointId": "dresden-wagner"
+      },
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "Early family and theatrical geography shifts between Leipzig and Dresden.",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "Leipzig to Dresden",
+          "url": "https://www.gutenberg.org/files/5197/5197-h/5197-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "dresden-wurzburg",
+      "title": "Dresden to Wurzburg",
+      "medium": "road",
+      "start": {
+        "waypointId": "dresden-wagner"
+      },
+      "end": {
+        "waypointId": "wurzburg"
+      },
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "Wagner moves into early professional appointments.",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "Dresden to Wurzburg",
+          "url": "https://www.gutenberg.org/files/5197/5197-h/5197-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "wurzburg-magdeburg-konigsberg",
+      "title": "German theatre appointments",
+      "medium": "road",
+      "start": {
+        "waypointId": "wurzburg"
+      },
+      "end": {
+        "waypointId": "konigsberg"
+      },
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "Magdeburg is included as a control point on the route to Konigsberg.",
+      "points": [
+        {
+          "lat": 52.1205,
+          "lon": 11.6276
+        }
+      ],
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "German theatre appointments",
+          "url": "https://www.gutenberg.org/files/5197/5197-h/5197-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "konigsberg-riga",
+      "title": "Konigsberg to Riga",
+      "medium": "road",
+      "start": {
+        "waypointId": "konigsberg"
+      },
+      "end": {
+        "waypointId": "riga"
+      },
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "Riga anchors the final Baltic appointment before flight west.",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Konigsberg to Riga",
+          "url": "https://www.gutenberg.org/files/5197/5197-h/5197-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "riga-london",
+      "title": "Sea flight from Riga to London",
+      "medium": "sea",
+      "start": {
+        "waypointId": "riga"
+      },
+      "end": {
+        "waypointId": "london-wagner"
+      },
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "distanceSource": "geodesic",
+      "confidence": "textual",
+      "notes": "The stormy sea passage is represented with Baltic and North Sea control points.",
+      "points": [
+        {
+          "lat": 57.7,
+          "lon": 21.8
+        },
+        {
+          "lat": 56,
+          "lon": 7.8
+        },
+        {
+          "lat": 52,
+          "lon": 2
+        }
+      ],
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "Sea flight from Riga to London",
+          "url": "https://www.gutenberg.org/files/5197/5197-h/5197-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "london-paris-wagner",
+      "title": "London to Paris",
+      "medium": "rail",
+      "start": {
+        "waypointId": "london-wagner"
+      },
+      "end": {
+        "waypointId": "paris-wagner"
+      },
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "Paris anchors Wagner's difficult expatriate years.",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "London to Paris",
+          "url": "https://www.gutenberg.org/files/5197/5197-h/5197-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "paris-dresden-wagner",
+      "title": "Return toward Dresden",
+      "medium": "rail",
+      "start": {
+        "waypointId": "paris-wagner"
+      },
+      "end": {
+        "waypointId": "dresden-wagner"
+      },
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "The volume route closes by returning Wagner toward German opera life.",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Return toward Dresden",
+          "url": "https://www.gutenberg.org/files/5197/5197-h/5197-h.htm"
+        }
+      ]
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 1,
+      "movement": "stationary",
+      "anchor": "Leipzig",
+      "locationFacts": [
+        "Leipzig childhood is mapped around Leipzig."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the stationary mapped segment set for Leipzig.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Leipzig childhood",
+          "url": "https://www.gutenberg.org/files/5197/5197-h/5197-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "movement": "surface",
+      "anchor": "Dresden",
+      "locationFacts": [
+        "Dresden and early theatre is mapped around Dresden."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Dresden.",
+      "segmentIds": [
+        "leipzig-dresden-wagner"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "Dresden and early theatre",
+          "url": "https://www.gutenberg.org/files/5197/5197-h/5197-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "movement": "surface",
+      "anchor": "Wurzburg",
+      "locationFacts": [
+        "Wurzburg and first appointments is mapped around Wurzburg."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Wurzburg.",
+      "segmentIds": [
+        "dresden-wurzburg"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "Wurzburg and first appointments",
+          "url": "https://www.gutenberg.org/files/5197/5197-h/5197-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "movement": "surface",
+      "anchor": "Magdeburg and Konigsberg",
+      "locationFacts": [
+        "Magdeburg and Konigsberg is mapped around Magdeburg and Konigsberg."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Magdeburg and Konigsberg.",
+      "segmentIds": [
+        "wurzburg-magdeburg-konigsberg"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "Magdeburg and Konigsberg",
+          "url": "https://www.gutenberg.org/files/5197/5197-h/5197-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "movement": "surface",
+      "anchor": "Riga",
+      "locationFacts": [
+        "Riga years is mapped around Riga."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Riga.",
+      "segmentIds": [
+        "konigsberg-riga"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Riga years",
+          "url": "https://www.gutenberg.org/files/5197/5197-h/5197-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "movement": "sea",
+      "anchor": "North Sea and London",
+      "locationFacts": [
+        "Flight by sea to London is mapped around North Sea and London."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for North Sea and London.",
+      "segmentIds": [
+        "riga-london"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "Flight by sea to London",
+          "url": "https://www.gutenberg.org/files/5197/5197-h/5197-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "movement": "surface",
+      "anchor": "Paris",
+      "locationFacts": [
+        "Paris struggle is mapped around Paris."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Paris.",
+      "segmentIds": [
+        "london-paris-wagner"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "Paris struggle",
+          "url": "https://www.gutenberg.org/files/5197/5197-h/5197-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "movement": "surface",
+      "anchor": "Dresden",
+      "locationFacts": [
+        "Return toward Dresden is mapped around Dresden."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Dresden.",
+      "segmentIds": [
+        "paris-dresden-wagner"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Return toward Dresden",
+          "url": "https://www.gutenberg.org/files/5197/5197-h/5197-h.htm"
+        }
+      ]
+    }
+  ]
+}

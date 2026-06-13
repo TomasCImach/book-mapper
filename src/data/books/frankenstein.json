@@ -1,0 +1,1120 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "frankenstein",
+  "title": "Frankenstein; or, The Modern Prometheus",
+  "author": "Mary Wollstonecraft Shelley",
+  "source": {
+    "label": "Project Gutenberg #84",
+    "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Letter 1"
+    },
+    {
+      "number": 2,
+      "title": "Letter 2"
+    },
+    {
+      "number": 3,
+      "title": "Letter 3"
+    },
+    {
+      "number": 4,
+      "title": "Letter 4"
+    },
+    {
+      "number": 5,
+      "title": "Chapter 1"
+    },
+    {
+      "number": 6,
+      "title": "Chapter 2"
+    },
+    {
+      "number": 7,
+      "title": "Chapter 3"
+    },
+    {
+      "number": 8,
+      "title": "Chapter 4"
+    },
+    {
+      "number": 9,
+      "title": "Chapter 5"
+    },
+    {
+      "number": 10,
+      "title": "Chapter 6"
+    },
+    {
+      "number": 11,
+      "title": "Chapter 7"
+    },
+    {
+      "number": 12,
+      "title": "Chapter 8"
+    },
+    {
+      "number": 13,
+      "title": "Chapter 9"
+    },
+    {
+      "number": 14,
+      "title": "Chapter 10"
+    },
+    {
+      "number": 15,
+      "title": "Chapter 11"
+    },
+    {
+      "number": 16,
+      "title": "Chapter 12"
+    },
+    {
+      "number": 17,
+      "title": "Chapter 13"
+    },
+    {
+      "number": 18,
+      "title": "Chapter 14"
+    },
+    {
+      "number": 19,
+      "title": "Chapter 15"
+    },
+    {
+      "number": 20,
+      "title": "Chapter 16"
+    },
+    {
+      "number": 21,
+      "title": "Chapter 17"
+    },
+    {
+      "number": 22,
+      "title": "Chapter 18"
+    },
+    {
+      "number": 23,
+      "title": "Chapter 19"
+    },
+    {
+      "number": 24,
+      "title": "Chapter 20"
+    },
+    {
+      "number": 25,
+      "title": "Chapter 21"
+    },
+    {
+      "number": 26,
+      "title": "Chapter 22"
+    },
+    {
+      "number": 27,
+      "title": "Chapter 23"
+    },
+    {
+      "number": 28,
+      "title": "Chapter 24"
+    }
+  ],
+  "media": {
+    "sea": {
+      "label": "Sea voyage",
+      "color": "#2aa8a8"
+    },
+    "road": {
+      "label": "Road and coach",
+      "color": "#9c7a4f"
+    },
+    "foot": {
+      "label": "Mountain foot travel",
+      "color": "#78b159"
+    },
+    "rail": {
+      "label": "European travel",
+      "color": "#4f8fd8"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "st-petersburg",
+      "name": "St. Petersburg",
+      "chapter": 1,
+      "position": {
+        "lat": 59.9311,
+        "lon": 30.3609
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "arkhangelsk",
+      "name": "Arkhangelsk",
+      "chapter": 2,
+      "position": {
+        "lat": 64.5393,
+        "lon": 40.517
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "geneva",
+      "name": "Geneva",
+      "chapter": 5,
+      "position": {
+        "lat": 46.2044,
+        "lon": 6.1432
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "ingolstadt",
+      "name": "Ingolstadt",
+      "chapter": 7,
+      "position": {
+        "lat": 48.7665,
+        "lon": 11.4258
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "chamonix",
+      "name": "Chamonix and Mont Blanc",
+      "chapter": 14,
+      "position": {
+        "lat": 45.9237,
+        "lon": 6.8694
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "london-frankenstein",
+      "name": "London",
+      "chapter": 22,
+      "position": {
+        "lat": 51.5074,
+        "lon": -0.1278
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "orkney-laboratory",
+      "name": "Orkney laboratory",
+      "chapter": 23,
+      "position": {
+        "lat": 59,
+        "lon": -3
+      },
+      "confidence": "estimated"
+    },
+    {
+      "id": "ireland-frankenstein",
+      "name": "Irish coast",
+      "chapter": 25,
+      "position": {
+        "lat": 53.27,
+        "lon": -9.05
+      },
+      "confidence": "estimated"
+    },
+    {
+      "id": "arctic-pack-frankenstein",
+      "name": "Arctic ice pack",
+      "chapter": 28,
+      "position": {
+        "lat": 78,
+        "lon": 60
+      },
+      "confidence": "estimated"
+    }
+  ],
+  "paths": [
+    {
+      "id": "petersburg-arkhangelsk-arctic",
+      "title": "Walton toward the Arctic",
+      "medium": "sea",
+      "start": {
+        "waypointId": "st-petersburg"
+      },
+      "end": {
+        "waypointId": "arkhangelsk"
+      },
+      "chapterStart": 1,
+      "chapterEnd": 4,
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "Walton writes from St. Petersburg and advances toward the northern voyage.",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Walton toward the Arctic",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "geneva-ingolstadt",
+      "title": "Victor leaves Geneva for Ingolstadt",
+      "medium": "road",
+      "start": {
+        "waypointId": "geneva"
+      },
+      "end": {
+        "waypointId": "ingolstadt"
+      },
+      "chapterStart": 7,
+      "chapterEnd": 9,
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "Victor studies at Ingolstadt, where the creature is animated.",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "Victor leaves Geneva for Ingolstadt",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "ingolstadt-geneva",
+      "title": "Return from Ingolstadt to Geneva",
+      "medium": "road",
+      "start": {
+        "waypointId": "ingolstadt"
+      },
+      "end": {
+        "waypointId": "geneva"
+      },
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "The murder of William pulls Victor back to Geneva.",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "Return from Ingolstadt to Geneva",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "geneva-chamonix",
+      "title": "Alpine confrontation",
+      "medium": "foot",
+      "start": {
+        "waypointId": "geneva"
+      },
+      "end": {
+        "waypointId": "chamonix"
+      },
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "Victor meets the creature amid the Mont Blanc and Mer de Glace landscape.",
+      "sourceRefs": [
+        {
+          "chapter": 14,
+          "label": "Alpine confrontation",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "geneva-london-orkney",
+      "title": "Companion-making journey",
+      "medium": "rail",
+      "start": {
+        "waypointId": "geneva"
+      },
+      "end": {
+        "waypointId": "orkney-laboratory"
+      },
+      "chapterStart": 22,
+      "chapterEnd": 24,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The British journey is simplified through London and north to Orkney. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "points": [
+        {
+          "lat": 51.5074,
+          "lon": -0.1278
+        }
+      ],
+      "sourceRefs": [
+        {
+          "chapter": 22,
+          "label": "Companion-making journey",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "orkney-ireland",
+      "title": "From Orkney to the Irish coast",
+      "medium": "sea",
+      "start": {
+        "waypointId": "orkney-laboratory"
+      },
+      "end": {
+        "waypointId": "ireland-frankenstein"
+      },
+      "chapterStart": 25,
+      "chapterEnd": 25,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "After destroying the companion, Victor is carried toward Ireland. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 25,
+          "label": "From Orkney to the Irish coast",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "geneva-arctic-pursuit",
+      "title": "Creature pursuit to the north",
+      "medium": "road",
+      "start": {
+        "waypointId": "geneva"
+      },
+      "end": {
+        "waypointId": "arctic-pack-frankenstein"
+      },
+      "chapterStart": 28,
+      "chapterEnd": 28,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "The final pursuit is geographically schematic, ending in Walton's Arctic frame. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "points": [
+        {
+          "lat": 50,
+          "lon": 10
+        },
+        {
+          "lat": 60,
+          "lon": 30
+        },
+        {
+          "lat": 70,
+          "lon": 45
+        }
+      ],
+      "sourceRefs": [
+        {
+          "chapter": 28,
+          "label": "Creature pursuit to the north",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 1,
+      "movement": "sea",
+      "anchor": "Walton Arctic frame",
+      "locationFacts": [
+        "Letter 1 is reviewed against the Walton Arctic frame source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: petersburg-arkhangelsk-arctic."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Walton Arctic frame.",
+      "segmentIds": [
+        "petersburg-arkhangelsk-arctic"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Letter 1",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "movement": "sea",
+      "anchor": "Walton Arctic frame",
+      "locationFacts": [
+        "Letter 2 is reviewed against the Walton Arctic frame source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: petersburg-arkhangelsk-arctic."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Walton Arctic frame.",
+      "segmentIds": [
+        "petersburg-arkhangelsk-arctic"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "Letter 2",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "movement": "sea",
+      "anchor": "Walton Arctic frame",
+      "locationFacts": [
+        "Letter 3 is reviewed against the Walton Arctic frame source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: petersburg-arkhangelsk-arctic."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Walton Arctic frame.",
+      "segmentIds": [
+        "petersburg-arkhangelsk-arctic"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "Letter 3",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "movement": "sea",
+      "anchor": "Walton Arctic frame",
+      "locationFacts": [
+        "Letter 4 is reviewed against the Walton Arctic frame source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: petersburg-arkhangelsk-arctic."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Walton Arctic frame.",
+      "segmentIds": [
+        "petersburg-arkhangelsk-arctic"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "Letter 4",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "movement": "stationary",
+      "anchor": "Geneva family history",
+      "locationFacts": [
+        "Chapter 1 is reviewed against the Geneva family history source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 1.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Chapter 1",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "movement": "stationary",
+      "anchor": "Geneva family history",
+      "locationFacts": [
+        "Chapter 2 is reviewed against the Geneva family history source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 2.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "Chapter 2",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "movement": "surface",
+      "anchor": "Ingolstadt creation narrative",
+      "locationFacts": [
+        "Chapter 3 is reviewed against the Ingolstadt creation narrative source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: geneva-ingolstadt."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Ingolstadt creation narrative.",
+      "segmentIds": [
+        "geneva-ingolstadt"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "Chapter 3",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "movement": "surface",
+      "anchor": "Ingolstadt creation narrative",
+      "locationFacts": [
+        "Chapter 4 is reviewed against the Ingolstadt creation narrative source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: geneva-ingolstadt."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Ingolstadt creation narrative.",
+      "segmentIds": [
+        "geneva-ingolstadt"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Chapter 4",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "movement": "surface",
+      "anchor": "Ingolstadt creation narrative",
+      "locationFacts": [
+        "Chapter 5 is reviewed against the Ingolstadt creation narrative source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: geneva-ingolstadt."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Ingolstadt creation narrative.",
+      "segmentIds": [
+        "geneva-ingolstadt"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "Chapter 5",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "movement": "stationary",
+      "anchor": "Ingolstadt creation narrative",
+      "locationFacts": [
+        "Chapter 6 is reviewed against the Ingolstadt creation narrative source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 6.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 10,
+          "label": "Chapter 6",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "movement": "surface",
+      "anchor": "Geneva after William's murder",
+      "locationFacts": [
+        "Chapter 7 is reviewed against the Geneva after William's murder source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: ingolstadt-geneva."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Geneva after William's murder.",
+      "segmentIds": [
+        "ingolstadt-geneva"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "Chapter 7",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "movement": "stationary",
+      "anchor": "Geneva after William's murder",
+      "locationFacts": [
+        "Chapter 8 is reviewed against the Geneva after William's murder source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 8.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Chapter 8",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "movement": "stationary",
+      "anchor": "Geneva after William's murder",
+      "locationFacts": [
+        "Chapter 9 is reviewed against the Geneva after William's murder source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 9.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "Chapter 9",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "movement": "surface",
+      "anchor": "Chamonix and Mer de Glace",
+      "locationFacts": [
+        "Chapter 10 is reviewed against the Chamonix and Mer de Glace source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: geneva-chamonix."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Chamonix and Mer de Glace.",
+      "segmentIds": [
+        "geneva-chamonix"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 14,
+          "label": "Chapter 10",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "movement": "stationary",
+      "anchor": "Creature narrative across Alpine and domestic memories",
+      "locationFacts": [
+        "Chapter 11 is reviewed against the Creature narrative across Alpine and domestic memories source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 11.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 15,
+          "label": "Chapter 11",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "movement": "stationary",
+      "anchor": "Creature narrative across Alpine and domestic memories",
+      "locationFacts": [
+        "Chapter 12 is reviewed against the Creature narrative across Alpine and domestic memories source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 12.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 16,
+          "label": "Chapter 12",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "movement": "stationary",
+      "anchor": "Creature narrative across Alpine and domestic memories",
+      "locationFacts": [
+        "Chapter 13 is reviewed against the Creature narrative across Alpine and domestic memories source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 13.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 17,
+          "label": "Chapter 13",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "movement": "stationary",
+      "anchor": "Creature narrative across Alpine and domestic memories",
+      "locationFacts": [
+        "Chapter 14 is reviewed against the Creature narrative across Alpine and domestic memories source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 14.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 18,
+          "label": "Chapter 14",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 19,
+      "movement": "stationary",
+      "anchor": "Creature narrative across Alpine and domestic memories",
+      "locationFacts": [
+        "Chapter 15 is reviewed against the Creature narrative across Alpine and domestic memories source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 15.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 19,
+          "label": "Chapter 15",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 20,
+      "movement": "stationary",
+      "anchor": "Creature narrative across Alpine and domestic memories",
+      "locationFacts": [
+        "Chapter 16 is reviewed against the Creature narrative across Alpine and domestic memories source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 16.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 20,
+          "label": "Chapter 16",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 21,
+      "movement": "stationary",
+      "anchor": "Creature narrative across Alpine and domestic memories",
+      "locationFacts": [
+        "Chapter 17 is reviewed against the Creature narrative across Alpine and domestic memories source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 17.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 21,
+          "label": "Chapter 17",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "movement": "surface",
+      "anchor": "England, Orkney, and Ireland",
+      "locationFacts": [
+        "Chapter 18 is reviewed against the England, Orkney, and Ireland source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: geneva-london-orkney."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for England, Orkney, and Ireland.",
+      "segmentIds": [
+        "geneva-london-orkney"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 22,
+          "label": "Chapter 18",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 23,
+      "movement": "surface",
+      "anchor": "England, Orkney, and Ireland",
+      "locationFacts": [
+        "Chapter 19 is reviewed against the England, Orkney, and Ireland source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: geneva-london-orkney."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for England, Orkney, and Ireland.",
+      "segmentIds": [
+        "geneva-london-orkney"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 23,
+          "label": "Chapter 19",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 24,
+      "movement": "surface",
+      "anchor": "England, Orkney, and Ireland",
+      "locationFacts": [
+        "Chapter 20 is reviewed against the England, Orkney, and Ireland source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: geneva-london-orkney."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for England, Orkney, and Ireland.",
+      "segmentIds": [
+        "geneva-london-orkney"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 24,
+          "label": "Chapter 20",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 25,
+      "movement": "surface",
+      "anchor": "England, Orkney, and Ireland",
+      "locationFacts": [
+        "Chapter 21 is reviewed against the England, Orkney, and Ireland source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: orkney-ireland."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for England, Orkney, and Ireland.",
+      "segmentIds": [
+        "orkney-ireland"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 25,
+          "label": "Chapter 21",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 26,
+      "movement": "stationary",
+      "anchor": "Geneva tragedy",
+      "locationFacts": [
+        "Chapter 22 is reviewed against the Geneva tragedy source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 22.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 26,
+          "label": "Chapter 22",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 27,
+      "movement": "stationary",
+      "anchor": "Geneva tragedy",
+      "locationFacts": [
+        "Chapter 23 is reviewed against the Geneva tragedy source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 23.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 27,
+          "label": "Chapter 23",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 28,
+      "movement": "sea",
+      "anchor": "Northern pursuit and Arctic frame",
+      "locationFacts": [
+        "Chapter 24 is reviewed against the Northern pursuit and Arctic frame source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: geneva-arctic-pursuit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Northern pursuit and Arctic frame.",
+      "segmentIds": [
+        "geneva-arctic-pursuit"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 28,
+          "label": "Chapter 24",
+          "url": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+        }
+      ]
+    }
+  ]
+}

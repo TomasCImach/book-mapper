@@ -1,0 +1,1657 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "little-women",
+  "title": "Little Women; Or, Meg, Jo, Beth, and Amy",
+  "author": "Louisa May Alcott",
+  "source": {
+    "label": "Project Gutenberg #37106",
+    "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Chapter I: Playing Pilgrims"
+    },
+    {
+      "number": 2,
+      "title": "Chapter II: A Merry Christmas"
+    },
+    {
+      "number": 3,
+      "title": "Chapter III: The Laurence Boy"
+    },
+    {
+      "number": 4,
+      "title": "Chapter IV: Burdens"
+    },
+    {
+      "number": 5,
+      "title": "Chapter V: Being Neighborly"
+    },
+    {
+      "number": 6,
+      "title": "Chapter VI: Beth finds the Palace Beautiful"
+    },
+    {
+      "number": 7,
+      "title": "Chapter VII: Amy's Valley of Humiliation"
+    },
+    {
+      "number": 8,
+      "title": "Chapter VIII: Jo Meets Apollyon"
+    },
+    {
+      "number": 9,
+      "title": "Chapter IX: Meg goes to Vanity Fair"
+    },
+    {
+      "number": 10,
+      "title": "Chapter X: The P. C. and P. O"
+    },
+    {
+      "number": 11,
+      "title": "Chapter XI: Experiments"
+    },
+    {
+      "number": 12,
+      "title": "Chapter XII: Camp Laurence"
+    },
+    {
+      "number": 13,
+      "title": "Chapter XIII: Castles in the Air"
+    },
+    {
+      "number": 14,
+      "title": "Chapter XIV: Secrets"
+    },
+    {
+      "number": 15,
+      "title": "Chapter XV: A Telegram"
+    },
+    {
+      "number": 16,
+      "title": "Chapter XVI: Letters"
+    },
+    {
+      "number": 17,
+      "title": "Chapter XVII: Little Faithful"
+    },
+    {
+      "number": 18,
+      "title": "Chapter XVIII: Dark Days"
+    },
+    {
+      "number": 19,
+      "title": "Chapter XIX: Amy's Will"
+    },
+    {
+      "number": 20,
+      "title": "Chapter XX: Confidential"
+    },
+    {
+      "number": 21,
+      "title": "Chapter XXI: Laurie makes Mischief, and Jo makes Peace"
+    },
+    {
+      "number": 22,
+      "title": "Chapter XXII: Pleasant Meadows"
+    },
+    {
+      "number": 23,
+      "title": "Chapter XXIII: Aunt March settles the Question"
+    },
+    {
+      "number": 24,
+      "title": "Chapter XXIV: Gossip"
+    },
+    {
+      "number": 25,
+      "title": "Chapter XXV: The First Wedding"
+    },
+    {
+      "number": 26,
+      "title": "Chapter XXVI: Artistic Attempts"
+    },
+    {
+      "number": 27,
+      "title": "Chapter XXVII: Literary Lessons"
+    },
+    {
+      "number": 28,
+      "title": "Chapter XXVIII: Domestic Experiences"
+    },
+    {
+      "number": 29,
+      "title": "Chapter XXIX: Calls"
+    },
+    {
+      "number": 30,
+      "title": "Chapter XXX: Consequences"
+    },
+    {
+      "number": 31,
+      "title": "Chapter XXXI: Our Foreign Correspondent"
+    },
+    {
+      "number": 32,
+      "title": "Chapter XXXII: Tender Troubles"
+    },
+    {
+      "number": 33,
+      "title": "Chapter XXXIII: Jo's Journal"
+    },
+    {
+      "number": 34,
+      "title": "Chapter XXXIV: A Friend"
+    },
+    {
+      "number": 35,
+      "title": "Chapter XXXV: Heartache"
+    },
+    {
+      "number": 36,
+      "title": "Chapter XXXVI: Beth's Secret"
+    },
+    {
+      "number": 37,
+      "title": "Chapter XXXVII: New Impressions"
+    },
+    {
+      "number": 38,
+      "title": "Chapter XXXVIII: On the Shelf"
+    },
+    {
+      "number": 39,
+      "title": "Chapter XXXIX: Lazy Laurence"
+    },
+    {
+      "number": 40,
+      "title": "Chapter XL: The Valley of the Shadow"
+    },
+    {
+      "number": 41,
+      "title": "Chapter XLI: Learning to Forget"
+    },
+    {
+      "number": 42,
+      "title": "Chapter XLII: All Alone"
+    },
+    {
+      "number": 43,
+      "title": "Chapter XLIII: Surprises"
+    },
+    {
+      "number": 44,
+      "title": "Chapter XLIV: My Lord and Lady"
+    },
+    {
+      "number": 45,
+      "title": "Chapter XLV: Daisy and Demi"
+    },
+    {
+      "number": 46,
+      "title": "Chapter XLVI: Under the Umbrella"
+    },
+    {
+      "number": 47,
+      "title": "Chapter XLVII: Harvest Time"
+    }
+  ],
+  "media": {
+    "foot": {
+      "label": "Concord local movement",
+      "color": "#78b159"
+    },
+    "rail": {
+      "label": "Rail and ocean travel",
+      "color": "#4f8fd8"
+    },
+    "road": {
+      "label": "Road journey",
+      "color": "#9c7a4f"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "march-house-concord",
+      "name": "March house, Concord",
+      "chapter": 1,
+      "position": {
+        "lat": 42.4604,
+        "lon": -71.3489
+      },
+      "confidence": "geocoded",
+      "notes": "Modeled with Orchard House as a Concord proxy."
+    },
+    {
+      "id": "lawrence-house",
+      "name": "Laurence house",
+      "chapter": 3,
+      "position": {
+        "lat": 42.461,
+        "lon": -71.35
+      },
+      "confidence": "estimated"
+    },
+    {
+      "id": "boston-little-women",
+      "name": "Boston",
+      "chapter": 9,
+      "position": {
+        "lat": 42.3601,
+        "lon": -71.0589
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "new-york-little-women",
+      "name": "New York",
+      "chapter": 33,
+      "position": {
+        "lat": 40.7128,
+        "lon": -74.006
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "paris-little-women",
+      "name": "Paris and European tour",
+      "chapter": 31,
+      "position": {
+        "lat": 48.8566,
+        "lon": 2.3522
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "plumfield",
+      "name": "Plumfield",
+      "chapter": 47,
+      "position": {
+        "lat": 42.455,
+        "lon": -71.35
+      },
+      "confidence": "fictional"
+    }
+  ],
+  "paths": [
+    {
+      "id": "march-lawrence-house",
+      "title": "March house to Laurence house",
+      "medium": "foot",
+      "start": {
+        "waypointId": "march-house-concord"
+      },
+      "end": {
+        "waypointId": "lawrence-house"
+      },
+      "chapterStart": 3,
+      "chapterEnd": 12,
+      "distanceKm": 0.4,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "Local Concord friendship route.",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "March house to Laurence house",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "concord-boston",
+      "title": "Concord to Boston",
+      "medium": "rail",
+      "start": {
+        "waypointId": "march-house-concord"
+      },
+      "end": {
+        "waypointId": "boston-little-women"
+      },
+      "chapterStart": 9,
+      "chapterEnd": 25,
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "Boston is used for Meg and family-world expansion.",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "Concord to Boston",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "concord-new-york",
+      "title": "Jo leaves for New York",
+      "medium": "rail",
+      "start": {
+        "waypointId": "march-house-concord"
+      },
+      "end": {
+        "waypointId": "new-york-little-women"
+      },
+      "chapterStart": 33,
+      "chapterEnd": 35,
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "Jo works away from home in New York.",
+      "sourceRefs": [
+        {
+          "chapter": 33,
+          "label": "Jo leaves for New York",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "concord-paris",
+      "title": "Amy to Europe",
+      "medium": "rail",
+      "start": {
+        "waypointId": "march-house-concord"
+      },
+      "end": {
+        "waypointId": "paris-little-women"
+      },
+      "chapterStart": 31,
+      "chapterEnd": 44,
+      "distanceSource": "geodesic",
+      "confidence": "textual",
+      "notes": "European travel is summarized with Paris as the continental anchor.",
+      "points": [
+        {
+          "lat": 40.7128,
+          "lon": -74.006
+        },
+        {
+          "lat": 50,
+          "lon": -25
+        }
+      ],
+      "sourceRefs": [
+        {
+          "chapter": 31,
+          "label": "Amy to Europe",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "paris-concord-return",
+      "title": "Return from Europe to Concord",
+      "medium": "rail",
+      "start": {
+        "waypointId": "paris-little-women"
+      },
+      "end": {
+        "waypointId": "march-house-concord"
+      },
+      "chapterStart": 45,
+      "chapterEnd": 46,
+      "distanceSource": "geodesic",
+      "confidence": "textual",
+      "notes": "Homecoming route returns the map to Concord.",
+      "points": [
+        {
+          "lat": 50,
+          "lon": -25
+        },
+        {
+          "lat": 40.7128,
+          "lon": -74.006
+        }
+      ],
+      "sourceRefs": [
+        {
+          "chapter": 45,
+          "label": "Return from Europe to Concord",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "concord-plumfield",
+      "title": "Concord to Plumfield",
+      "medium": "road",
+      "start": {
+        "waypointId": "march-house-concord"
+      },
+      "end": {
+        "waypointId": "plumfield"
+      },
+      "chapterStart": 47,
+      "chapterEnd": 47,
+      "distanceKm": 1.2,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "Plumfield is modeled as Jo and Bhaer future near Concord.",
+      "sourceRefs": [
+        {
+          "chapter": 47,
+          "label": "Concord to Plumfield",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 1,
+      "movement": "stationary",
+      "anchor": "Concord March and Laurence neighborhood",
+      "locationFacts": [
+        "Chapter I: Playing Pilgrims is reviewed against the Concord March and Laurence neighborhood source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter I: Playing Pilgrims.",
+      "segmentIds": [],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Chapter I: Playing Pilgrims",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "movement": "stationary",
+      "anchor": "Concord March and Laurence neighborhood",
+      "locationFacts": [
+        "Chapter II: A Merry Christmas is reviewed against the Concord March and Laurence neighborhood source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter II: A Merry Christmas.",
+      "segmentIds": [],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "Chapter II: A Merry Christmas",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "movement": "surface",
+      "anchor": "Concord March and Laurence neighborhood",
+      "locationFacts": [
+        "Chapter III: The Laurence Boy is reviewed against the Concord March and Laurence neighborhood source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: march-lawrence-house."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord March and Laurence neighborhood.",
+      "segmentIds": [
+        "march-lawrence-house"
+      ],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "Chapter III: The Laurence Boy",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "movement": "surface",
+      "anchor": "Concord March and Laurence neighborhood",
+      "locationFacts": [
+        "Chapter IV: Burdens is reviewed against the Concord March and Laurence neighborhood source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: march-lawrence-house."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord March and Laurence neighborhood.",
+      "segmentIds": [
+        "march-lawrence-house"
+      ],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "Chapter IV: Burdens",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "movement": "surface",
+      "anchor": "Concord March and Laurence neighborhood",
+      "locationFacts": [
+        "Chapter V: Being Neighborly is reviewed against the Concord March and Laurence neighborhood source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: march-lawrence-house."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord March and Laurence neighborhood.",
+      "segmentIds": [
+        "march-lawrence-house"
+      ],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Chapter V: Being Neighborly",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "movement": "surface",
+      "anchor": "Concord March and Laurence neighborhood",
+      "locationFacts": [
+        "Chapter VI: Beth finds the Palace Beautiful is reviewed against the Concord March and Laurence neighborhood source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: march-lawrence-house."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord March and Laurence neighborhood.",
+      "segmentIds": [
+        "march-lawrence-house"
+      ],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "Chapter VI: Beth finds the Palace Beautiful",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "movement": "surface",
+      "anchor": "Concord March and Laurence neighborhood",
+      "locationFacts": [
+        "Chapter VII: Amy's Valley of Humiliation is reviewed against the Concord March and Laurence neighborhood source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: march-lawrence-house."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord March and Laurence neighborhood.",
+      "segmentIds": [
+        "march-lawrence-house"
+      ],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "Chapter VII: Amy's Valley of Humiliation",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "movement": "surface",
+      "anchor": "Concord March and Laurence neighborhood",
+      "locationFacts": [
+        "Chapter VIII: Jo Meets Apollyon is reviewed against the Concord March and Laurence neighborhood source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: march-lawrence-house."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord March and Laurence neighborhood.",
+      "segmentIds": [
+        "march-lawrence-house"
+      ],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Chapter VIII: Jo Meets Apollyon",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "movement": "surface",
+      "anchor": "Concord March and Laurence neighborhood",
+      "locationFacts": [
+        "Chapter IX: Meg goes to Vanity Fair is reviewed against the Concord March and Laurence neighborhood source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segments active for this source unit: march-lawrence-house, concord-boston."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord March and Laurence neighborhood.",
+      "segmentIds": [
+        "march-lawrence-house",
+        "concord-boston"
+      ],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "Chapter IX: Meg goes to Vanity Fair",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "movement": "surface",
+      "anchor": "Concord March and Laurence neighborhood",
+      "locationFacts": [
+        "Chapter X: The P. C. and P. O is reviewed against the Concord March and Laurence neighborhood source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segments active for this source unit: march-lawrence-house, concord-boston."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord March and Laurence neighborhood.",
+      "segmentIds": [
+        "march-lawrence-house",
+        "concord-boston"
+      ],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 10,
+          "label": "Chapter X: The P. C. and P. O",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "movement": "surface",
+      "anchor": "Concord March and Laurence neighborhood",
+      "locationFacts": [
+        "Chapter XI: Experiments is reviewed against the Concord March and Laurence neighborhood source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segments active for this source unit: march-lawrence-house, concord-boston."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord March and Laurence neighborhood.",
+      "segmentIds": [
+        "march-lawrence-house",
+        "concord-boston"
+      ],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "Chapter XI: Experiments",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "movement": "surface",
+      "anchor": "Concord March and Laurence neighborhood",
+      "locationFacts": [
+        "Chapter XII: Camp Laurence is reviewed against the Concord March and Laurence neighborhood source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segments active for this source unit: march-lawrence-house, concord-boston."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord March and Laurence neighborhood.",
+      "segmentIds": [
+        "march-lawrence-house",
+        "concord-boston"
+      ],
+      "confidence": "geocoded",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Chapter XII: Camp Laurence",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "movement": "surface",
+      "anchor": "Concord, Boston society, and first wedding",
+      "locationFacts": [
+        "Chapter XIII: Castles in the Air is reviewed against the Concord, Boston society, and first wedding source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: concord-boston."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord, Boston society, and first wedding.",
+      "segmentIds": [
+        "concord-boston"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "Chapter XIII: Castles in the Air",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "movement": "surface",
+      "anchor": "Concord, Boston society, and first wedding",
+      "locationFacts": [
+        "Chapter XIV: Secrets is reviewed against the Concord, Boston society, and first wedding source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: concord-boston."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord, Boston society, and first wedding.",
+      "segmentIds": [
+        "concord-boston"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 14,
+          "label": "Chapter XIV: Secrets",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "movement": "surface",
+      "anchor": "Concord, Boston society, and first wedding",
+      "locationFacts": [
+        "Chapter XV: A Telegram is reviewed against the Concord, Boston society, and first wedding source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: concord-boston."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord, Boston society, and first wedding.",
+      "segmentIds": [
+        "concord-boston"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 15,
+          "label": "Chapter XV: A Telegram",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "movement": "surface",
+      "anchor": "Concord, Boston society, and first wedding",
+      "locationFacts": [
+        "Chapter XVI: Letters is reviewed against the Concord, Boston society, and first wedding source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: concord-boston."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord, Boston society, and first wedding.",
+      "segmentIds": [
+        "concord-boston"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 16,
+          "label": "Chapter XVI: Letters",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "movement": "surface",
+      "anchor": "Concord, Boston society, and first wedding",
+      "locationFacts": [
+        "Chapter XVII: Little Faithful is reviewed against the Concord, Boston society, and first wedding source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: concord-boston."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord, Boston society, and first wedding.",
+      "segmentIds": [
+        "concord-boston"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 17,
+          "label": "Chapter XVII: Little Faithful",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "movement": "surface",
+      "anchor": "Concord, Boston society, and first wedding",
+      "locationFacts": [
+        "Chapter XVIII: Dark Days is reviewed against the Concord, Boston society, and first wedding source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: concord-boston."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord, Boston society, and first wedding.",
+      "segmentIds": [
+        "concord-boston"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 18,
+          "label": "Chapter XVIII: Dark Days",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 19,
+      "movement": "surface",
+      "anchor": "Concord, Boston society, and first wedding",
+      "locationFacts": [
+        "Chapter XIX: Amy's Will is reviewed against the Concord, Boston society, and first wedding source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: concord-boston."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord, Boston society, and first wedding.",
+      "segmentIds": [
+        "concord-boston"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 19,
+          "label": "Chapter XIX: Amy's Will",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 20,
+      "movement": "surface",
+      "anchor": "Concord, Boston society, and first wedding",
+      "locationFacts": [
+        "Chapter XX: Confidential is reviewed against the Concord, Boston society, and first wedding source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: concord-boston."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord, Boston society, and first wedding.",
+      "segmentIds": [
+        "concord-boston"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 20,
+          "label": "Chapter XX: Confidential",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 21,
+      "movement": "surface",
+      "anchor": "Concord, Boston society, and first wedding",
+      "locationFacts": [
+        "Chapter XXI: Laurie makes Mischief, and Jo makes Peace is reviewed against the Concord, Boston society, and first wedding source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: concord-boston."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord, Boston society, and first wedding.",
+      "segmentIds": [
+        "concord-boston"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 21,
+          "label": "Chapter XXI: Laurie makes Mischief, and Jo makes Peace",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "movement": "surface",
+      "anchor": "Concord, Boston society, and first wedding",
+      "locationFacts": [
+        "Chapter XXII: Pleasant Meadows is reviewed against the Concord, Boston society, and first wedding source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: concord-boston."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord, Boston society, and first wedding.",
+      "segmentIds": [
+        "concord-boston"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 22,
+          "label": "Chapter XXII: Pleasant Meadows",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 23,
+      "movement": "surface",
+      "anchor": "Concord, Boston society, and first wedding",
+      "locationFacts": [
+        "Chapter XXIII: Aunt March settles the Question is reviewed against the Concord, Boston society, and first wedding source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: concord-boston."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord, Boston society, and first wedding.",
+      "segmentIds": [
+        "concord-boston"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 23,
+          "label": "Chapter XXIII: Aunt March settles the Question",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 24,
+      "movement": "surface",
+      "anchor": "Concord, Boston society, and first wedding",
+      "locationFacts": [
+        "Chapter XXIV: Gossip is reviewed against the Concord, Boston society, and first wedding source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: concord-boston."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord, Boston society, and first wedding.",
+      "segmentIds": [
+        "concord-boston"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 24,
+          "label": "Chapter XXIV: Gossip",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 25,
+      "movement": "surface",
+      "anchor": "Concord, Boston society, and first wedding",
+      "locationFacts": [
+        "Chapter XXV: The First Wedding is reviewed against the Concord, Boston society, and first wedding source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: concord-boston."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord, Boston society, and first wedding.",
+      "segmentIds": [
+        "concord-boston"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 25,
+          "label": "Chapter XXV: The First Wedding",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 26,
+      "movement": "stationary",
+      "anchor": "Concord and Amy foreign correspondence",
+      "locationFacts": [
+        "Chapter XXVI: Artistic Attempts is reviewed against the Concord and Amy foreign correspondence source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter XXVI: Artistic Attempts.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 26,
+          "label": "Chapter XXVI: Artistic Attempts",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 27,
+      "movement": "stationary",
+      "anchor": "Concord and Amy foreign correspondence",
+      "locationFacts": [
+        "Chapter XXVII: Literary Lessons is reviewed against the Concord and Amy foreign correspondence source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter XXVII: Literary Lessons.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 27,
+          "label": "Chapter XXVII: Literary Lessons",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 28,
+      "movement": "stationary",
+      "anchor": "Concord and Amy foreign correspondence",
+      "locationFacts": [
+        "Chapter XXVIII: Domestic Experiences is reviewed against the Concord and Amy foreign correspondence source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter XXVIII: Domestic Experiences.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 28,
+          "label": "Chapter XXVIII: Domestic Experiences",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 29,
+      "movement": "stationary",
+      "anchor": "Concord and Amy foreign correspondence",
+      "locationFacts": [
+        "Chapter XXIX: Calls is reviewed against the Concord and Amy foreign correspondence source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter XXIX: Calls.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 29,
+          "label": "Chapter XXIX: Calls",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 30,
+      "movement": "stationary",
+      "anchor": "Concord and Amy foreign correspondence",
+      "locationFacts": [
+        "Chapter XXX: Consequences is reviewed against the Concord and Amy foreign correspondence source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter XXX: Consequences.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 30,
+          "label": "Chapter XXX: Consequences",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 31,
+      "movement": "surface",
+      "anchor": "Concord and Amy foreign correspondence",
+      "locationFacts": [
+        "Chapter XXXI: Our Foreign Correspondent is reviewed against the Concord and Amy foreign correspondence source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: concord-paris."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord and Amy foreign correspondence.",
+      "segmentIds": [
+        "concord-paris"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 31,
+          "label": "Chapter XXXI: Our Foreign Correspondent",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 32,
+      "movement": "surface",
+      "anchor": "Concord and Amy foreign correspondence",
+      "locationFacts": [
+        "Chapter XXXII: Tender Troubles is reviewed against the Concord and Amy foreign correspondence source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: concord-paris."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord and Amy foreign correspondence.",
+      "segmentIds": [
+        "concord-paris"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 32,
+          "label": "Chapter XXXII: Tender Troubles",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 33,
+      "movement": "surface",
+      "anchor": "Jo in New York",
+      "locationFacts": [
+        "Chapter XXXIII: Jo's Journal is reviewed against the Jo in New York source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segments active for this source unit: concord-new-york, concord-paris."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Jo in New York.",
+      "segmentIds": [
+        "concord-new-york",
+        "concord-paris"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 33,
+          "label": "Chapter XXXIII: Jo's Journal",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 34,
+      "movement": "surface",
+      "anchor": "Jo in New York",
+      "locationFacts": [
+        "Chapter XXXIV: A Friend is reviewed against the Jo in New York source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segments active for this source unit: concord-new-york, concord-paris."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Jo in New York.",
+      "segmentIds": [
+        "concord-new-york",
+        "concord-paris"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 34,
+          "label": "Chapter XXXIV: A Friend",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 35,
+      "movement": "surface",
+      "anchor": "Jo in New York",
+      "locationFacts": [
+        "Chapter XXXV: Heartache is reviewed against the Jo in New York source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segments active for this source unit: concord-new-york, concord-paris."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Jo in New York.",
+      "segmentIds": [
+        "concord-new-york",
+        "concord-paris"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 35,
+          "label": "Chapter XXXV: Heartache",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 36,
+      "movement": "surface",
+      "anchor": "Concord grief and Amy in Europe",
+      "locationFacts": [
+        "Chapter XXXVI: Beth's Secret is reviewed against the Concord grief and Amy in Europe source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: concord-paris."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord grief and Amy in Europe.",
+      "segmentIds": [
+        "concord-paris"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 36,
+          "label": "Chapter XXXVI: Beth's Secret",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 37,
+      "movement": "surface",
+      "anchor": "Concord grief and Amy in Europe",
+      "locationFacts": [
+        "Chapter XXXVII: New Impressions is reviewed against the Concord grief and Amy in Europe source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: concord-paris."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord grief and Amy in Europe.",
+      "segmentIds": [
+        "concord-paris"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 37,
+          "label": "Chapter XXXVII: New Impressions",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 38,
+      "movement": "surface",
+      "anchor": "Concord grief and Amy in Europe",
+      "locationFacts": [
+        "Chapter XXXVIII: On the Shelf is reviewed against the Concord grief and Amy in Europe source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: concord-paris."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord grief and Amy in Europe.",
+      "segmentIds": [
+        "concord-paris"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 38,
+          "label": "Chapter XXXVIII: On the Shelf",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 39,
+      "movement": "surface",
+      "anchor": "Concord grief and Amy in Europe",
+      "locationFacts": [
+        "Chapter XXXIX: Lazy Laurence is reviewed against the Concord grief and Amy in Europe source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: concord-paris."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord grief and Amy in Europe.",
+      "segmentIds": [
+        "concord-paris"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 39,
+          "label": "Chapter XXXIX: Lazy Laurence",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 40,
+      "movement": "surface",
+      "anchor": "Concord grief and Amy in Europe",
+      "locationFacts": [
+        "Chapter XL: The Valley of the Shadow is reviewed against the Concord grief and Amy in Europe source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: concord-paris."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord grief and Amy in Europe.",
+      "segmentIds": [
+        "concord-paris"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 40,
+          "label": "Chapter XL: The Valley of the Shadow",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 41,
+      "movement": "surface",
+      "anchor": "Concord grief and Amy in Europe",
+      "locationFacts": [
+        "Chapter XLI: Learning to Forget is reviewed against the Concord grief and Amy in Europe source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: concord-paris."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord grief and Amy in Europe.",
+      "segmentIds": [
+        "concord-paris"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 41,
+          "label": "Chapter XLI: Learning to Forget",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 42,
+      "movement": "surface",
+      "anchor": "Concord grief and Amy in Europe",
+      "locationFacts": [
+        "Chapter XLII: All Alone is reviewed against the Concord grief and Amy in Europe source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: concord-paris."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord grief and Amy in Europe.",
+      "segmentIds": [
+        "concord-paris"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 42,
+          "label": "Chapter XLII: All Alone",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 43,
+      "movement": "surface",
+      "anchor": "Concord grief and Amy in Europe",
+      "locationFacts": [
+        "Chapter XLIII: Surprises is reviewed against the Concord grief and Amy in Europe source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: concord-paris."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord grief and Amy in Europe.",
+      "segmentIds": [
+        "concord-paris"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 43,
+          "label": "Chapter XLIII: Surprises",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 44,
+      "movement": "surface",
+      "anchor": "Concord grief and Amy in Europe",
+      "locationFacts": [
+        "Chapter XLIV: My Lord and Lady is reviewed against the Concord grief and Amy in Europe source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: concord-paris."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Concord grief and Amy in Europe.",
+      "segmentIds": [
+        "concord-paris"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 44,
+          "label": "Chapter XLIV: My Lord and Lady",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 45,
+      "movement": "surface",
+      "anchor": "Return from Europe to Concord",
+      "locationFacts": [
+        "Chapter XLV: Daisy and Demi is reviewed against the Return from Europe to Concord source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-concord-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Return from Europe to Concord.",
+      "segmentIds": [
+        "paris-concord-return"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 45,
+          "label": "Chapter XLV: Daisy and Demi",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 46,
+      "movement": "surface",
+      "anchor": "Return from Europe to Concord",
+      "locationFacts": [
+        "Chapter XLVI: Under the Umbrella is reviewed against the Return from Europe to Concord source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-concord-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Return from Europe to Concord.",
+      "segmentIds": [
+        "paris-concord-return"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 46,
+          "label": "Chapter XLVI: Under the Umbrella",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 47,
+      "movement": "surface",
+      "anchor": "Plumfield future",
+      "locationFacts": [
+        "Chapter XLVII: Harvest Time is reviewed against the Plumfield future source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: concord-plumfield."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Plumfield future.",
+      "segmentIds": [
+        "concord-plumfield"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 47,
+          "label": "Chapter XLVII: Harvest Time",
+          "url": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm"
+        }
+      ]
+    }
+  ]
+}

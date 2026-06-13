@@ -1,0 +1,760 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "alices-adventures-in-wonderland",
+  "title": "Alice's Adventures in Wonderland",
+  "author": "Lewis Carroll",
+  "source": {
+    "label": "Project Gutenberg #11",
+    "url": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Down the Rabbit-Hole"
+    },
+    {
+      "number": 2,
+      "title": "The Pool of Tears"
+    },
+    {
+      "number": 3,
+      "title": "A Caucus-Race and a Long Tale"
+    },
+    {
+      "number": 4,
+      "title": "The Rabbit Sends in a Little Bill"
+    },
+    {
+      "number": 5,
+      "title": "Advice from a Caterpillar"
+    },
+    {
+      "number": 6,
+      "title": "Pig and Pepper"
+    },
+    {
+      "number": 7,
+      "title": "A Mad Tea-Party"
+    },
+    {
+      "number": 8,
+      "title": "The Queen's Croquet-Ground"
+    },
+    {
+      "number": 9,
+      "title": "The Mock Turtle's Story"
+    },
+    {
+      "number": 10,
+      "title": "The Lobster Quadrille"
+    },
+    {
+      "number": 11,
+      "title": "Who Stole the Tarts?"
+    },
+    {
+      "number": 12,
+      "title": "Alice's Evidence"
+    }
+  ],
+  "media": {
+    "foot": {
+      "label": "Wonderland walk",
+      "color": "#78b159"
+    },
+    "descent": {
+      "label": "Rabbit-hole descent",
+      "color": "#6f5fb5"
+    },
+    "dream": {
+      "label": "Dream return",
+      "color": "#b768b7"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "oxford-riverbank",
+      "name": "Oxford riverbank",
+      "chapter": 1,
+      "position": {
+        "lat": 51.752,
+        "lon": -1.2577
+      },
+      "confidence": "estimated"
+    },
+    {
+      "id": "rabbit-hole",
+      "name": "Rabbit hole",
+      "chapter": 1,
+      "position": {
+        "lat": 51.7525,
+        "lon": -1.255,
+        "depthKm": 0.2
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "wonderland-hall",
+      "name": "Wonderland hall",
+      "chapter": 2,
+      "position": {
+        "lat": 51.753,
+        "lon": -1.25,
+        "depthKm": 1.5
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "pool-of-tears",
+      "name": "Pool of Tears",
+      "chapter": 3,
+      "position": {
+        "lat": 51.754,
+        "lon": -1.245,
+        "depthKm": 1.2
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "white-rabbit-house",
+      "name": "White Rabbit's house",
+      "chapter": 4,
+      "position": {
+        "lat": 51.756,
+        "lon": -1.24,
+        "depthKm": 1
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "caterpillar-mushroom",
+      "name": "Caterpillar mushroom",
+      "chapter": 5,
+      "position": {
+        "lat": 51.758,
+        "lon": -1.235,
+        "depthKm": 0.8
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "duchess-house",
+      "name": "Duchess's house",
+      "chapter": 6,
+      "position": {
+        "lat": 51.76,
+        "lon": -1.23,
+        "depthKm": 0.7
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "mad-tea-party",
+      "name": "Mad tea-party",
+      "chapter": 7,
+      "position": {
+        "lat": 51.762,
+        "lon": -1.225,
+        "depthKm": 0.4
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "queens-croquet-ground",
+      "name": "Queen's croquet-ground",
+      "chapter": 8,
+      "position": {
+        "lat": 51.764,
+        "lon": -1.22,
+        "depthKm": 0.2
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "mock-turtle-shore",
+      "name": "Mock Turtle shore",
+      "chapter": 9,
+      "position": {
+        "lat": 51.766,
+        "lon": -1.216,
+        "depthKm": 0.3
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "wonderland-court",
+      "name": "Wonderland court",
+      "chapter": 11,
+      "position": {
+        "lat": 51.765,
+        "lon": -1.218,
+        "depthKm": 0.2
+      },
+      "confidence": "fictional"
+    }
+  ],
+  "paths": [
+    {
+      "id": "riverbank-rabbit-hole",
+      "title": "Down the rabbit hole",
+      "medium": "descent",
+      "start": {
+        "waypointId": "oxford-riverbank"
+      },
+      "end": {
+        "waypointId": "wonderland-hall"
+      },
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "distanceKm": 1.5,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "Dream descent is schematic; depth marks below-surface fantasy space.",
+      "points": [
+        {
+          "lat": 51.7525,
+          "lon": -1.255,
+          "depthKm": 0.2
+        }
+      ],
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Down the rabbit hole",
+          "url": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "hall-pool-tears",
+      "title": "Hall to Pool of Tears",
+      "medium": "foot",
+      "start": {
+        "waypointId": "wonderland-hall"
+      },
+      "end": {
+        "waypointId": "pool-of-tears"
+      },
+      "chapterStart": 2,
+      "chapterEnd": 3,
+      "distanceKm": 0.8,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "The hall, pool, and caucus-race are modeled as adjacent dream spaces.",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "Hall to Pool of Tears",
+          "url": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "pool-rabbit-house",
+      "title": "Pool shore to White Rabbit house",
+      "medium": "foot",
+      "start": {
+        "waypointId": "pool-of-tears"
+      },
+      "end": {
+        "waypointId": "white-rabbit-house"
+      },
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "distanceKm": 0.7,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "Alice follows the Rabbit into a domestic Wonderland setting.",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "Pool shore to White Rabbit house",
+          "url": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "rabbit-house-mushroom",
+      "title": "Toward the Caterpillar",
+      "medium": "foot",
+      "start": {
+        "waypointId": "white-rabbit-house"
+      },
+      "end": {
+        "waypointId": "caterpillar-mushroom"
+      },
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "distanceKm": 0.6,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "The mushroom clearing is another adjacent dream location.",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Toward the Caterpillar",
+          "url": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "mushroom-duchess-house",
+      "title": "Caterpillar to Duchess's house",
+      "medium": "foot",
+      "start": {
+        "waypointId": "caterpillar-mushroom"
+      },
+      "end": {
+        "waypointId": "duchess-house"
+      },
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "distanceKm": 0.6,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "Fictional transition to the Duchess scene.",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "Caterpillar to Duchess's house",
+          "url": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "duchess-tea-party",
+      "title": "To the mad tea-party",
+      "medium": "foot",
+      "start": {
+        "waypointId": "duchess-house"
+      },
+      "end": {
+        "waypointId": "mad-tea-party"
+      },
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "distanceKm": 0.7,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "The tea table is modeled along the dream path.",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "To the mad tea-party",
+          "url": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "tea-party-croquet",
+      "title": "Tea-party to Queen's grounds",
+      "medium": "foot",
+      "start": {
+        "waypointId": "mad-tea-party"
+      },
+      "end": {
+        "waypointId": "queens-croquet-ground"
+      },
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "distanceKm": 0.7,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "Alice reaches the Queen of Hearts courtly landscape.",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Tea-party to Queen's grounds",
+          "url": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "croquet-mock-turtle",
+      "title": "Croquet ground to Mock Turtle",
+      "medium": "foot",
+      "start": {
+        "waypointId": "queens-croquet-ground"
+      },
+      "end": {
+        "waypointId": "mock-turtle-shore"
+      },
+      "chapterStart": 9,
+      "chapterEnd": 10,
+      "distanceKm": 0.8,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "The shore is a fictional control point for the Mock Turtle chapters.",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "Croquet ground to Mock Turtle",
+          "url": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "mock-turtle-court",
+      "title": "To the trial court",
+      "medium": "foot",
+      "start": {
+        "waypointId": "mock-turtle-shore"
+      },
+      "end": {
+        "waypointId": "wonderland-court"
+      },
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "distanceKm": 0.5,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "The dream route converges at the trial.",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "To the trial court",
+          "url": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "court-riverbank-return",
+      "title": "Wake back on the riverbank",
+      "medium": "dream",
+      "start": {
+        "waypointId": "wonderland-court"
+      },
+      "end": {
+        "waypointId": "oxford-riverbank"
+      },
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "distanceKm": 1.5,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "Return path exits the dream space to the riverbank frame.",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Wake back on the riverbank",
+          "url": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
+        }
+      ]
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 1,
+      "movement": "descent",
+      "anchor": "Oxford riverbank and rabbit hole",
+      "locationFacts": [
+        "Down the Rabbit-Hole is mapped around Oxford riverbank and rabbit hole."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "The mapped route descends below the surface; depth is schematic."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Oxford riverbank and rabbit hole.",
+      "segmentIds": [
+        "riverbank-rabbit-hole"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Down the Rabbit-Hole",
+          "url": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "movement": "subterranean",
+      "anchor": "Hall and pool",
+      "locationFacts": [
+        "The Pool of Tears is mapped around Hall and pool."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Fictional underground movement is modeled with shallow positive depth."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Hall and pool.",
+      "segmentIds": [
+        "hall-pool-tears"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "The Pool of Tears",
+          "url": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "movement": "subterranean",
+      "anchor": "Pool shore",
+      "locationFacts": [
+        "A Caucus-Race and a Long Tale is mapped around Pool shore."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Fictional underground movement is modeled with shallow positive depth."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Pool shore.",
+      "segmentIds": [
+        "hall-pool-tears"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "A Caucus-Race and a Long Tale",
+          "url": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "movement": "subterranean",
+      "anchor": "White Rabbit's house",
+      "locationFacts": [
+        "The Rabbit Sends in a Little Bill is mapped around White Rabbit's house."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Fictional underground movement is modeled with shallow positive depth."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for White Rabbit's house.",
+      "segmentIds": [
+        "pool-rabbit-house"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "The Rabbit Sends in a Little Bill",
+          "url": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "movement": "subterranean",
+      "anchor": "Mushroom clearing",
+      "locationFacts": [
+        "Advice from a Caterpillar is mapped around Mushroom clearing."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Fictional underground movement is modeled with shallow positive depth."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Mushroom clearing.",
+      "segmentIds": [
+        "rabbit-house-mushroom"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Advice from a Caterpillar",
+          "url": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "movement": "subterranean",
+      "anchor": "Duchess's house",
+      "locationFacts": [
+        "Pig and Pepper is mapped around Duchess's house."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Fictional underground movement is modeled with shallow positive depth."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Duchess's house.",
+      "segmentIds": [
+        "mushroom-duchess-house"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "Pig and Pepper",
+          "url": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "movement": "subterranean",
+      "anchor": "Tea table",
+      "locationFacts": [
+        "A Mad Tea-Party is mapped around Tea table."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Fictional underground movement is modeled with shallow positive depth."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Tea table.",
+      "segmentIds": [
+        "duchess-tea-party"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "A Mad Tea-Party",
+          "url": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "movement": "subterranean",
+      "anchor": "Croquet ground",
+      "locationFacts": [
+        "The Queen's Croquet-Ground is mapped around Croquet ground."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Fictional underground movement is modeled with shallow positive depth."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Croquet ground.",
+      "segmentIds": [
+        "tea-party-croquet"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "The Queen's Croquet-Ground",
+          "url": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "movement": "subterranean",
+      "anchor": "Mock Turtle shore",
+      "locationFacts": [
+        "The Mock Turtle's Story is mapped around Mock Turtle shore."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Fictional underground movement is modeled with shallow positive depth."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Mock Turtle shore.",
+      "segmentIds": [
+        "croquet-mock-turtle"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "The Mock Turtle's Story",
+          "url": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "movement": "subterranean",
+      "anchor": "Mock Turtle shore",
+      "locationFacts": [
+        "The Lobster Quadrille is mapped around Mock Turtle shore."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Fictional underground movement is modeled with shallow positive depth."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Mock Turtle shore.",
+      "segmentIds": [
+        "croquet-mock-turtle"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 10,
+          "label": "The Lobster Quadrille",
+          "url": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "movement": "subterranean",
+      "anchor": "Wonderland court",
+      "locationFacts": [
+        "Who Stole the Tarts? is mapped around Wonderland court."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Fictional underground movement is modeled with shallow positive depth."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Wonderland court.",
+      "segmentIds": [
+        "mock-turtle-court"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "Who Stole the Tarts?",
+          "url": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "movement": "return",
+      "anchor": "Oxford riverbank return",
+      "locationFacts": [
+        "Alice's Evidence is mapped around Oxford riverbank return."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Oxford riverbank return.",
+      "segmentIds": [
+        "court-riverbank-return"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Alice's Evidence",
+          "url": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
+        }
+      ]
+    }
+  ]
+}

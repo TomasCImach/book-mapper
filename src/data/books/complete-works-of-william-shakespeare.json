@@ -1,0 +1,207 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "complete-works-of-william-shakespeare",
+  "title": "The Complete Works of William Shakespeare",
+  "author": "William Shakespeare",
+  "source": {
+    "label": "Project Gutenberg #100",
+    "url": "https://www.gutenberg.org/files/100/100-h/100-h.htm"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Comedies"
+    },
+    {
+      "number": 2,
+      "title": "Histories"
+    },
+    {
+      "number": 3,
+      "title": "Tragedies"
+    },
+    {
+      "number": 4,
+      "title": "Poems and sonnets"
+    }
+  ],
+  "media": {
+    "context": {
+      "label": "Literary context",
+      "color": "#6f7c91"
+    },
+    "foot": {
+      "label": "London theatre walk",
+      "color": "#78b159"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "stratford-upon-avon",
+      "name": "Stratford-upon-Avon",
+      "chapter": 1,
+      "position": {
+        "lat": 52.1917,
+        "lon": -1.7083
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "globe-theatre",
+      "name": "Globe Theatre",
+      "chapter": 1,
+      "position": {
+        "lat": 51.5081,
+        "lon": -0.0972
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "blackfriars-theatre",
+      "name": "Blackfriars Theatre area",
+      "chapter": 3,
+      "position": {
+        "lat": 51.512,
+        "lon": -0.103
+      },
+      "confidence": "estimated"
+    }
+  ],
+  "paths": [
+    {
+      "id": "stratford-globe-context",
+      "title": "Stationary collected-works theatre context",
+      "medium": "context",
+      "start": {
+        "waypointId": "globe-theatre"
+      },
+      "end": {
+        "waypointId": "globe-theatre"
+      },
+      "chapterStart": 1,
+      "chapterEnd": 4,
+      "distanceKm": 0,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "The Complete Works is an anthology of many plays and poems, not one route. Stratford and Blackfriars remain as contextual locations, but no anthology-wide travel path is invented.",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Collected works anthology structure",
+          "url": "https://www.gutenberg.org/files/100/100-h/100-h.htm"
+        }
+      ]
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 1,
+      "movement": "stationary",
+      "anchor": "London theatres",
+      "locationFacts": [
+        "Comedies is an anthology grouping, not a single narrated route.",
+        "The map uses the Globe Theatre only as a production-context anchor for the collected works."
+      ],
+      "deltaFacts": [
+        "No anthology-wide character travel is modeled for this source unit."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance context path at the Globe Theatre.",
+      "segmentIds": [
+        "stratford-globe-context"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Comedies",
+          "url": "https://www.gutenberg.org/files/100/100-h/100-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "movement": "stationary",
+      "anchor": "Globe Theatre",
+      "locationFacts": [
+        "Histories is an anthology grouping, not a single narrated route.",
+        "The map uses the Globe Theatre only as a production-context anchor for the collected works."
+      ],
+      "deltaFacts": [
+        "No anthology-wide character travel is modeled for this source unit."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance context path at the Globe Theatre.",
+      "segmentIds": [
+        "stratford-globe-context"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "Histories",
+          "url": "https://www.gutenberg.org/files/100/100-h/100-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "movement": "stationary",
+      "anchor": "Blackfriars and Globe",
+      "locationFacts": [
+        "Tragedies is an anthology grouping, not a single narrated route.",
+        "The map uses the Globe Theatre only as a production-context anchor for the collected works."
+      ],
+      "deltaFacts": [
+        "No anthology-wide character travel is modeled for this source unit."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance context path at the Globe Theatre.",
+      "segmentIds": [
+        "stratford-globe-context"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "Tragedies",
+          "url": "https://www.gutenberg.org/files/100/100-h/100-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "movement": "stationary",
+      "anchor": "Stratford-upon-Avon and London",
+      "locationFacts": [
+        "Poems and sonnets is an anthology grouping, not a single narrated route.",
+        "The map uses the Globe Theatre only as a production-context anchor for the collected works."
+      ],
+      "deltaFacts": [
+        "No anthology-wide character travel is modeled for this source unit."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance context path at the Globe Theatre.",
+      "segmentIds": [
+        "stratford-globe-context"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "Poems and sonnets",
+          "url": "https://www.gutenberg.org/files/100/100-h/100-h.htm"
+        }
+      ]
+    }
+  ]
+}

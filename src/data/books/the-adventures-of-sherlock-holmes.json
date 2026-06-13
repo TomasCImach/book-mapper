@@ -1,0 +1,818 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "the-adventures-of-sherlock-holmes",
+  "title": "The Adventures of Sherlock Holmes",
+  "author": "Arthur Conan Doyle",
+  "source": {
+    "label": "Project Gutenberg #1661",
+    "url": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "A Scandal in Bohemia"
+    },
+    {
+      "number": 2,
+      "title": "The Red-Headed League"
+    },
+    {
+      "number": 3,
+      "title": "A Case of Identity"
+    },
+    {
+      "number": 4,
+      "title": "The Boscombe Valley Mystery"
+    },
+    {
+      "number": 5,
+      "title": "The Five Orange Pips"
+    },
+    {
+      "number": 6,
+      "title": "The Man with the Twisted Lip"
+    },
+    {
+      "number": 7,
+      "title": "The Adventure of the Blue Carbuncle"
+    },
+    {
+      "number": 8,
+      "title": "The Adventure of the Speckled Band"
+    },
+    {
+      "number": 9,
+      "title": "The Adventure of the Engineer's Thumb"
+    },
+    {
+      "number": 10,
+      "title": "The Adventure of the Noble Bachelor"
+    },
+    {
+      "number": 11,
+      "title": "The Adventure of the Beryl Coronet"
+    },
+    {
+      "number": 12,
+      "title": "The Adventure of the Copper Beeches"
+    }
+  ],
+  "media": {
+    "rail": {
+      "label": "Rail case travel",
+      "color": "#4f8fd8"
+    },
+    "foot": {
+      "label": "London footwork",
+      "color": "#78b159"
+    },
+    "road": {
+      "label": "Road case travel",
+      "color": "#9c7a4f"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "baker-street-221b",
+      "name": "221B Baker Street",
+      "chapter": 1,
+      "position": {
+        "lat": 51.5237,
+        "lon": -0.1585
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "briony-lodge",
+      "name": "Briony Lodge, St. Johns Wood",
+      "chapter": 1,
+      "position": {
+        "lat": 51.534,
+        "lon": -0.174
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "saxe-coburg-square",
+      "name": "Saxe-Coburg Square",
+      "chapter": 2,
+      "position": {
+        "lat": 51.514,
+        "lon": -0.094
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "london-sherlock",
+      "name": "London",
+      "chapter": 3,
+      "position": {
+        "lat": 51.5074,
+        "lon": -0.1278
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "boscombe-valley",
+      "name": "Boscombe Valley",
+      "chapter": 4,
+      "position": {
+        "lat": 51.917,
+        "lon": -2.583
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "horsham",
+      "name": "Horsham",
+      "chapter": 5,
+      "position": {
+        "lat": 51.0629,
+        "lon": -0.3259
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "upper-swandam-lane",
+      "name": "Upper Swandam Lane",
+      "chapter": 6,
+      "position": {
+        "lat": 51.511,
+        "lon": -0.055
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "covent-garden",
+      "name": "Covent Garden",
+      "chapter": 7,
+      "position": {
+        "lat": 51.5117,
+        "lon": -0.123
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "stoke-moran",
+      "name": "Stoke Moran",
+      "chapter": 8,
+      "position": {
+        "lat": 51.2,
+        "lon": -0.55
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "eyford",
+      "name": "Eyford",
+      "chapter": 9,
+      "position": {
+        "lat": 51.48,
+        "lon": -0.98
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "streatham",
+      "name": "Streatham",
+      "chapter": 11,
+      "position": {
+        "lat": 51.4279,
+        "lon": -0.1235
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "winchester",
+      "name": "Winchester",
+      "chapter": 12,
+      "position": {
+        "lat": 51.0629,
+        "lon": -1.316
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "camberwell-identity-case",
+      "name": "Camberwell",
+      "chapter": 3,
+      "position": {
+        "lat": 51.4746,
+        "lon": -0.0924
+      },
+      "confidence": "confirmed",
+      "notes": "Mary Sutherland is associated with Camberwell in A Case of Identity."
+    },
+    {
+      "id": "lee-kent",
+      "name": "Lee, Kent",
+      "chapter": 6,
+      "position": {
+        "lat": 51.456,
+        "lon": 0.011
+      },
+      "confidence": "confirmed",
+      "notes": "Neville St. Clair lives at Lee; the case also passes through Upper Swandam Lane by the docks."
+    }
+  ],
+  "paths": [
+    {
+      "id": "baker-briony",
+      "title": "Baker Street to Briony Lodge",
+      "medium": "foot",
+      "start": {
+        "waypointId": "baker-street-221b"
+      },
+      "end": {
+        "waypointId": "briony-lodge"
+      },
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "London case movement for Irene Adler. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Baker Street to Briony Lodge",
+          "url": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "baker-saxe-coburg",
+      "title": "Baker Street to Saxe-Coburg Square",
+      "medium": "foot",
+      "start": {
+        "waypointId": "baker-street-221b"
+      },
+      "end": {
+        "waypointId": "saxe-coburg-square"
+      },
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "London route for the bank-cellar case. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "Baker Street to Saxe-Coburg Square",
+          "url": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "baker-london-identity",
+      "title": "Baker Street to Camberwell identity case",
+      "medium": "foot",
+      "start": {
+        "waypointId": "baker-street-221b"
+      },
+      "end": {
+        "waypointId": "camberwell-identity-case"
+      },
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "A Case of Identity is modeled from Baker Street to Mary Sutherland's Camberwell context rather than a generic London endpoint. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "A Case of Identity: Camberwell case context",
+          "url": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "baker-boscombe",
+      "title": "Rail to Boscombe Valley",
+      "medium": "rail",
+      "start": {
+        "waypointId": "baker-street-221b"
+      },
+      "end": {
+        "waypointId": "boscombe-valley"
+      },
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "Country case route to the fictional Boscombe Valley. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "Rail to Boscombe Valley",
+          "url": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "baker-horsham",
+      "title": "Horsham orange-pips case",
+      "medium": "rail",
+      "start": {
+        "waypointId": "baker-street-221b"
+      },
+      "end": {
+        "waypointId": "horsham"
+      },
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Horsham is named in the case. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Horsham orange-pips case",
+          "url": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "baker-upper-swandam",
+      "title": "Baker Street through Upper Swandam Lane to Lee",
+      "medium": "foot",
+      "start": {
+        "waypointId": "baker-street-221b"
+      },
+      "end": {
+        "waypointId": "lee-kent"
+      },
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The case begins with the dockside Upper Swandam Lane opium-den investigation and resolves around Neville St. Clair at Lee. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "The Man with the Twisted Lip: Upper Swandam Lane and Lee",
+          "url": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
+        }
+      ],
+      "points": [
+        {
+          "lat": 51.511,
+          "lon": -0.055
+        }
+      ]
+    },
+    {
+      "id": "baker-covent-garden",
+      "title": "Blue Carbuncle market route",
+      "medium": "foot",
+      "start": {
+        "waypointId": "baker-street-221b"
+      },
+      "end": {
+        "waypointId": "covent-garden"
+      },
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The goose and stone trail reaches Covent Garden. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "Blue Carbuncle market route",
+          "url": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "baker-stoke-moran",
+      "title": "Rail to Stoke Moran",
+      "medium": "rail",
+      "start": {
+        "waypointId": "baker-street-221b"
+      },
+      "end": {
+        "waypointId": "stoke-moran"
+      },
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "Stoke Moran is represented in Surrey countryside. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Rail to Stoke Moran",
+          "url": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "baker-eyford",
+      "title": "Engineer case to Eyford",
+      "medium": "rail",
+      "start": {
+        "waypointId": "baker-street-221b"
+      },
+      "end": {
+        "waypointId": "eyford"
+      },
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "Eyford is a fictional Berkshire-side case anchor. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "Engineer case to Eyford",
+          "url": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "baker-london-noble-bachelor",
+      "title": "Noble bachelor London circuit",
+      "medium": "foot",
+      "start": {
+        "waypointId": "baker-street-221b"
+      },
+      "end": {
+        "waypointId": "london-sherlock"
+      },
+      "chapterStart": 10,
+      "chapterEnd": 10,
+      "distanceKm": 3,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "General London route for the wedding disappearance.",
+      "sourceRefs": [
+        {
+          "chapter": 10,
+          "label": "Noble bachelor London circuit",
+          "url": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "baker-streatham",
+      "title": "Beryl coronet to Streatham",
+      "medium": "rail",
+      "start": {
+        "waypointId": "baker-street-221b"
+      },
+      "end": {
+        "waypointId": "streatham"
+      },
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Streatham anchors the Holder case geography. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "Beryl coronet to Streatham",
+          "url": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "baker-winchester",
+      "title": "Copper Beeches to Winchester",
+      "medium": "rail",
+      "start": {
+        "waypointId": "baker-street-221b"
+      },
+      "end": {
+        "waypointId": "winchester"
+      },
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The final case travels by rail toward Winchester and the Copper Beeches. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Copper Beeches to Winchester",
+          "url": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
+        }
+      ]
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 1,
+      "movement": "surface",
+      "anchor": "Baker Street and St. Johns Wood",
+      "locationFacts": [
+        "A Scandal in Bohemia is mapped around Baker Street and St. Johns Wood."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Baker Street and St. Johns Wood.",
+      "segmentIds": [
+        "baker-briony"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "A Scandal in Bohemia",
+          "url": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "movement": "surface",
+      "anchor": "Baker Street and Saxe-Coburg Square",
+      "locationFacts": [
+        "The Red-Headed League is mapped around Baker Street and Saxe-Coburg Square."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Baker Street and Saxe-Coburg Square.",
+      "segmentIds": [
+        "baker-saxe-coburg"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "The Red-Headed League",
+          "url": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "movement": "surface",
+      "anchor": "Camberwell identity case",
+      "locationFacts": [
+        "A Case of Identity is tied to Mary Sutherland and her Camberwell home context."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for London.",
+      "segmentIds": [
+        "baker-london-identity"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "A Case of Identity",
+          "url": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "movement": "surface",
+      "anchor": "Boscombe Valley",
+      "locationFacts": [
+        "The Boscombe Valley Mystery is mapped around Boscombe Valley."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Boscombe Valley.",
+      "segmentIds": [
+        "baker-boscombe"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "The Boscombe Valley Mystery",
+          "url": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "movement": "surface",
+      "anchor": "Horsham and London",
+      "locationFacts": [
+        "The Five Orange Pips is mapped around Horsham and London."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Horsham and London.",
+      "segmentIds": [
+        "baker-horsham"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "The Five Orange Pips",
+          "url": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "movement": "surface",
+      "anchor": "Upper Swandam Lane and Lee",
+      "locationFacts": [
+        "The Man with the Twisted Lip moves from the dockside Upper Swandam Lane clue to Neville St. Clair at Lee."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Upper Swandam Lane and Lee.",
+      "segmentIds": [
+        "baker-upper-swandam"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "The Man with the Twisted Lip",
+          "url": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "movement": "surface",
+      "anchor": "Covent Garden",
+      "locationFacts": [
+        "The Adventure of the Blue Carbuncle is mapped around Covent Garden."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Covent Garden.",
+      "segmentIds": [
+        "baker-covent-garden"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "The Adventure of the Blue Carbuncle",
+          "url": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "movement": "surface",
+      "anchor": "Stoke Moran",
+      "locationFacts": [
+        "The Adventure of the Speckled Band is mapped around Stoke Moran."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Stoke Moran.",
+      "segmentIds": [
+        "baker-stoke-moran"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "The Adventure of the Speckled Band",
+          "url": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "movement": "surface",
+      "anchor": "Eyford",
+      "locationFacts": [
+        "The Adventure of the Engineer's Thumb is mapped around Eyford."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Eyford.",
+      "segmentIds": [
+        "baker-eyford"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "The Adventure of the Engineer's Thumb",
+          "url": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "movement": "surface",
+      "anchor": "London",
+      "locationFacts": [
+        "The Adventure of the Noble Bachelor is mapped around London."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for London.",
+      "segmentIds": [
+        "baker-london-noble-bachelor"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 10,
+          "label": "The Adventure of the Noble Bachelor",
+          "url": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "movement": "surface",
+      "anchor": "Streatham",
+      "locationFacts": [
+        "The Adventure of the Beryl Coronet is mapped around Streatham."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Streatham.",
+      "segmentIds": [
+        "baker-streatham"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "The Adventure of the Beryl Coronet",
+          "url": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "movement": "surface",
+      "anchor": "Winchester",
+      "locationFacts": [
+        "The Adventure of the Copper Beeches is mapped around Winchester."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Winchester.",
+      "segmentIds": [
+        "baker-winchester"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "The Adventure of the Copper Beeches",
+          "url": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm"
+        }
+      ]
+    }
+  ]
+}

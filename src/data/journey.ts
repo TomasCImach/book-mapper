@@ -1,7 +1,19 @@
 import aroundWorldJson from './books/around-the-world-in-eighty-days.json'
+import aliceJson from './books/alices-adventures-in-wonderland.json'
+import roomViewJson from './books/a-room-with-a-view.json'
+import crimePunishmentJson from './books/crime-and-punishment.json'
+import draculaJson from './books/dracula.json'
 import forrestGumpJson from './books/forrest-gump.json'
+import frankensteinJson from './books/frankenstein.json'
 import journeyJson from './books/journey-to-the-center-of-the-earth.json'
+import littleWomenJson from './books/little-women.json'
+import memoirsQueenElizabethJson from './books/memoirs-of-the-court-of-queen-elizabeth.json'
+import middlemarchJson from './books/middlemarch.json'
 import mobyDickJson from './books/moby-dick.json'
+import monteCristoJson from './books/the-count-of-monte-cristo.json'
+import myLifeJson from './books/my-life-volume-1.json'
+import pridePrejudiceJson from './books/pride-and-prejudice.json'
+import sherlockHolmesJson from './books/the-adventures-of-sherlock-holmes.json'
 import leaguesJson from './books/twenty-thousand-leagues-under-the-sea.json'
 
 export type TravelMedium = string
@@ -134,6 +146,18 @@ export const availableBooks = [
   leaguesJson as BookMapData,
   mobyDickJson as BookMapData,
   forrestGumpJson as BookMapData,
+  pridePrejudiceJson as BookMapData,
+  roomViewJson as BookMapData,
+  aliceJson as BookMapData,
+  frankensteinJson as BookMapData,
+  crimePunishmentJson as BookMapData,
+  monteCristoJson as BookMapData,
+  sherlockHolmesJson as BookMapData,
+  middlemarchJson as BookMapData,
+  memoirsQueenElizabethJson as BookMapData,
+  littleWomenJson as BookMapData,
+  myLifeJson as BookMapData,
+  draculaJson as BookMapData,
 ]
 
 export const DEFAULT_BOOK_ID = availableBooks[0].id

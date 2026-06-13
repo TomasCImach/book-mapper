@@ -1,0 +1,474 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "the-city-of-god-volume-i",
+  "title": "The City of God, Volume I",
+  "author": "Saint Augustine",
+  "source": {
+    "label": "Project Gutenberg #45304",
+    "url": "https://www.gutenberg.org/files/45304/45304-h/45304-h.htm"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Book 1"
+    },
+    {
+      "number": 2,
+      "title": "Book 2"
+    },
+    {
+      "number": 3,
+      "title": "Book 3"
+    },
+    {
+      "number": 4,
+      "title": "Book 4"
+    },
+    {
+      "number": 5,
+      "title": "Book 5"
+    },
+    {
+      "number": 6,
+      "title": "Book 6"
+    },
+    {
+      "number": 7,
+      "title": "Book 7"
+    },
+    {
+      "number": 8,
+      "title": "Book 8"
+    },
+    {
+      "number": 9,
+      "title": "Book 9"
+    },
+    {
+      "number": 10,
+      "title": "Book 10"
+    },
+    {
+      "number": 11,
+      "title": "Book 11"
+    },
+    {
+      "number": 12,
+      "title": "Book 12"
+    },
+    {
+      "number": 13,
+      "title": "Book 13"
+    }
+  ],
+  "media": {
+    "context": {
+      "label": "Historical context",
+      "color": "#6f7c91"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "rome",
+      "name": "Rome",
+      "chapter": 1,
+      "position": {
+        "lat": 41.8925,
+        "lon": 12.4853
+      },
+      "confidence": "confirmed",
+      "notes": "Rome is the historical crisis point addressed by the opening books."
+    },
+    {
+      "id": "hippo-regius",
+      "name": "Hippo Regius",
+      "chapter": 1,
+      "position": {
+        "lat": 36.8814,
+        "lon": 7.7525
+      },
+      "confidence": "confirmed",
+      "notes": "Augustine served as bishop of Hippo Regius in North Africa."
+    }
+  ],
+  "paths": [
+    {
+      "id": "rome-hippo-context",
+      "title": "Stationary authorial context at Hippo",
+      "medium": "context",
+      "start": {
+        "waypointId": "hippo-regius"
+      },
+      "end": {
+        "waypointId": "hippo-regius"
+      },
+      "chapterStart": 1,
+      "chapterEnd": 13,
+      "distanceKm": 0,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The City of God is not a travel narrative. Rome is retained as the historical subject of the opening argument, while the mapped route remains stationary at Augustine's Hippo Regius authorial context.",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Sack of Rome and Augustine's apologetic frame",
+          "url": "https://www.gutenberg.org/files/45304/45304-h/45304-h.htm"
+        }
+      ]
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 1,
+      "movement": "stationary",
+      "anchor": "Hippo Regius and Rome historical context",
+      "locationFacts": [
+        "Book 1 is part of Augustine's argument rather than a narrated journey.",
+        "Rome is the historical crisis addressed by the work; Hippo Regius is the authorial context retained for the map."
+      ],
+      "deltaFacts": [
+        "No character or narrator travel is modeled for this source unit."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance context path; any Rome-to-Hippo relation is thematic, not route movement.",
+      "segmentIds": [
+        "rome-hippo-context"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Book 1",
+          "url": "https://www.gutenberg.org/files/45304/45304-h/45304-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "movement": "stationary",
+      "anchor": "Hippo Regius and Rome historical context",
+      "locationFacts": [
+        "Book 2 is part of Augustine's argument rather than a narrated journey.",
+        "Rome is the historical crisis addressed by the work; Hippo Regius is the authorial context retained for the map."
+      ],
+      "deltaFacts": [
+        "No character or narrator travel is modeled for this source unit."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance context path; any Rome-to-Hippo relation is thematic, not route movement.",
+      "segmentIds": [
+        "rome-hippo-context"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "Book 2",
+          "url": "https://www.gutenberg.org/files/45304/45304-h/45304-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "movement": "stationary",
+      "anchor": "Hippo Regius and Rome historical context",
+      "locationFacts": [
+        "Book 3 is part of Augustine's argument rather than a narrated journey.",
+        "Rome is the historical crisis addressed by the work; Hippo Regius is the authorial context retained for the map."
+      ],
+      "deltaFacts": [
+        "No character or narrator travel is modeled for this source unit."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance context path; any Rome-to-Hippo relation is thematic, not route movement.",
+      "segmentIds": [
+        "rome-hippo-context"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "Book 3",
+          "url": "https://www.gutenberg.org/files/45304/45304-h/45304-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "movement": "stationary",
+      "anchor": "Hippo Regius and Rome historical context",
+      "locationFacts": [
+        "Book 4 is part of Augustine's argument rather than a narrated journey.",
+        "Rome is the historical crisis addressed by the work; Hippo Regius is the authorial context retained for the map."
+      ],
+      "deltaFacts": [
+        "No character or narrator travel is modeled for this source unit."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance context path; any Rome-to-Hippo relation is thematic, not route movement.",
+      "segmentIds": [
+        "rome-hippo-context"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "Book 4",
+          "url": "https://www.gutenberg.org/files/45304/45304-h/45304-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "movement": "stationary",
+      "anchor": "Hippo Regius and Rome historical context",
+      "locationFacts": [
+        "Book 5 is part of Augustine's argument rather than a narrated journey.",
+        "Rome is the historical crisis addressed by the work; Hippo Regius is the authorial context retained for the map."
+      ],
+      "deltaFacts": [
+        "No character or narrator travel is modeled for this source unit."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance context path; any Rome-to-Hippo relation is thematic, not route movement.",
+      "segmentIds": [
+        "rome-hippo-context"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Book 5",
+          "url": "https://www.gutenberg.org/files/45304/45304-h/45304-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "movement": "stationary",
+      "anchor": "Hippo Regius and Rome historical context",
+      "locationFacts": [
+        "Book 6 is part of Augustine's argument rather than a narrated journey.",
+        "Rome is the historical crisis addressed by the work; Hippo Regius is the authorial context retained for the map."
+      ],
+      "deltaFacts": [
+        "No character or narrator travel is modeled for this source unit."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance context path; any Rome-to-Hippo relation is thematic, not route movement.",
+      "segmentIds": [
+        "rome-hippo-context"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "Book 6",
+          "url": "https://www.gutenberg.org/files/45304/45304-h/45304-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "movement": "stationary",
+      "anchor": "Hippo Regius and Rome historical context",
+      "locationFacts": [
+        "Book 7 is part of Augustine's argument rather than a narrated journey.",
+        "Rome is the historical crisis addressed by the work; Hippo Regius is the authorial context retained for the map."
+      ],
+      "deltaFacts": [
+        "No character or narrator travel is modeled for this source unit."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance context path; any Rome-to-Hippo relation is thematic, not route movement.",
+      "segmentIds": [
+        "rome-hippo-context"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "Book 7",
+          "url": "https://www.gutenberg.org/files/45304/45304-h/45304-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "movement": "stationary",
+      "anchor": "Hippo Regius and Rome historical context",
+      "locationFacts": [
+        "Book 8 is part of Augustine's argument rather than a narrated journey.",
+        "Rome is the historical crisis addressed by the work; Hippo Regius is the authorial context retained for the map."
+      ],
+      "deltaFacts": [
+        "No character or narrator travel is modeled for this source unit."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance context path; any Rome-to-Hippo relation is thematic, not route movement.",
+      "segmentIds": [
+        "rome-hippo-context"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Book 8",
+          "url": "https://www.gutenberg.org/files/45304/45304-h/45304-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "movement": "stationary",
+      "anchor": "Hippo Regius and Rome historical context",
+      "locationFacts": [
+        "Book 9 is part of Augustine's argument rather than a narrated journey.",
+        "Rome is the historical crisis addressed by the work; Hippo Regius is the authorial context retained for the map."
+      ],
+      "deltaFacts": [
+        "No character or narrator travel is modeled for this source unit."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance context path; any Rome-to-Hippo relation is thematic, not route movement.",
+      "segmentIds": [
+        "rome-hippo-context"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "Book 9",
+          "url": "https://www.gutenberg.org/files/45304/45304-h/45304-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "movement": "stationary",
+      "anchor": "Hippo Regius and Rome historical context",
+      "locationFacts": [
+        "Book 10 is part of Augustine's argument rather than a narrated journey.",
+        "Rome is the historical crisis addressed by the work; Hippo Regius is the authorial context retained for the map."
+      ],
+      "deltaFacts": [
+        "No character or narrator travel is modeled for this source unit."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance context path; any Rome-to-Hippo relation is thematic, not route movement.",
+      "segmentIds": [
+        "rome-hippo-context"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 10,
+          "label": "Book 10",
+          "url": "https://www.gutenberg.org/files/45304/45304-h/45304-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "movement": "stationary",
+      "anchor": "Hippo Regius and Rome historical context",
+      "locationFacts": [
+        "Book 11 is part of Augustine's argument rather than a narrated journey.",
+        "Rome is the historical crisis addressed by the work; Hippo Regius is the authorial context retained for the map."
+      ],
+      "deltaFacts": [
+        "No character or narrator travel is modeled for this source unit."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance context path; any Rome-to-Hippo relation is thematic, not route movement.",
+      "segmentIds": [
+        "rome-hippo-context"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "Book 11",
+          "url": "https://www.gutenberg.org/files/45304/45304-h/45304-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "movement": "stationary",
+      "anchor": "Hippo Regius and Rome historical context",
+      "locationFacts": [
+        "Book 12 is part of Augustine's argument rather than a narrated journey.",
+        "Rome is the historical crisis addressed by the work; Hippo Regius is the authorial context retained for the map."
+      ],
+      "deltaFacts": [
+        "No character or narrator travel is modeled for this source unit."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance context path; any Rome-to-Hippo relation is thematic, not route movement.",
+      "segmentIds": [
+        "rome-hippo-context"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Book 12",
+          "url": "https://www.gutenberg.org/files/45304/45304-h/45304-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "movement": "stationary",
+      "anchor": "Hippo Regius and Rome historical context",
+      "locationFacts": [
+        "Book 13 is part of Augustine's argument rather than a narrated journey.",
+        "Rome is the historical crisis addressed by the work; Hippo Regius is the authorial context retained for the map."
+      ],
+      "deltaFacts": [
+        "No character or narrator travel is modeled for this source unit."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance context path; any Rome-to-Hippo relation is thematic, not route movement.",
+      "segmentIds": [
+        "rome-hippo-context"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "Book 13",
+          "url": "https://www.gutenberg.org/files/45304/45304-h/45304-h.htm"
+        }
+      ]
+    }
+  ]
+}

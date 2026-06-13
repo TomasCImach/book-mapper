@@ -1,0 +1,1044 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "memoirs-of-the-court-of-queen-elizabeth",
+  "title": "Memoirs of the Court of Queen Elizabeth",
+  "author": "Lucy Aikin",
+  "source": {
+    "label": "Project Gutenberg #21500",
+    "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Chapter I"
+    },
+    {
+      "number": 2,
+      "title": "Chapter II"
+    },
+    {
+      "number": 3,
+      "title": "Chapter III"
+    },
+    {
+      "number": 4,
+      "title": "Chapter IV"
+    },
+    {
+      "number": 5,
+      "title": "Chapter V"
+    },
+    {
+      "number": 6,
+      "title": "Chapter VI"
+    },
+    {
+      "number": 7,
+      "title": "Chapter VII"
+    },
+    {
+      "number": 8,
+      "title": "Chapter VIII"
+    },
+    {
+      "number": 9,
+      "title": "Chapter IX"
+    },
+    {
+      "number": 10,
+      "title": "Chapter X"
+    },
+    {
+      "number": 11,
+      "title": "Chapter XI"
+    },
+    {
+      "number": 12,
+      "title": "Chapter XII"
+    },
+    {
+      "number": 13,
+      "title": "Chapter XIIIA"
+    },
+    {
+      "number": 14,
+      "title": "Chapter XIIIB"
+    },
+    {
+      "number": 15,
+      "title": "Chapter XIV"
+    },
+    {
+      "number": 16,
+      "title": "Chapter XV"
+    },
+    {
+      "number": 17,
+      "title": "Chapter XVI"
+    },
+    {
+      "number": 18,
+      "title": "Chapter XVII"
+    },
+    {
+      "number": 19,
+      "title": "Chapter XVIII"
+    },
+    {
+      "number": 20,
+      "title": "Chapter XIX"
+    },
+    {
+      "number": 21,
+      "title": "Chapter XX"
+    },
+    {
+      "number": 22,
+      "title": "Chapter XXI"
+    },
+    {
+      "number": 23,
+      "title": "Chapter XXII"
+    },
+    {
+      "number": 24,
+      "title": "Chapter XXIII"
+    },
+    {
+      "number": 25,
+      "title": "Chapter XXIV"
+    },
+    {
+      "number": 26,
+      "title": "Chapter XXV"
+    },
+    {
+      "number": 27,
+      "title": "Chapter XXVI"
+    },
+    {
+      "number": 28,
+      "title": "Chapter XXVII"
+    }
+  ],
+  "media": {
+    "context": {
+      "label": "Historical court context",
+      "color": "#6f7c91"
+    },
+    "road": {
+      "label": "Royal progress road",
+      "color": "#9c7a4f"
+    },
+    "river": {
+      "label": "Thames movement",
+      "color": "#4fa3c6"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "hatfield-house",
+      "name": "Hatfield House",
+      "chapter": 1,
+      "position": {
+        "lat": 51.7606,
+        "lon": -0.2106
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "westminster-palace",
+      "name": "Westminster Palace",
+      "chapter": 2,
+      "position": {
+        "lat": 51.4995,
+        "lon": -0.1248
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "greenwich-palace",
+      "name": "Greenwich Palace",
+      "chapter": 3,
+      "position": {
+        "lat": 51.4834,
+        "lon": -0.0062
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "richmond-palace",
+      "name": "Richmond Palace",
+      "chapter": 3,
+      "position": {
+        "lat": 51.4613,
+        "lon": -0.3064
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "tower-of-london",
+      "name": "Tower of London",
+      "chapter": 4,
+      "position": {
+        "lat": 51.5081,
+        "lon": -0.0759
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "tilbury",
+      "name": "Tilbury",
+      "chapter": 22,
+      "position": {
+        "lat": 51.4625,
+        "lon": 0.3586
+      },
+      "confidence": "confirmed"
+    }
+  ],
+  "paths": [
+    {
+      "id": "hatfield-westminster",
+      "title": "Hatfield to Westminster accession context",
+      "medium": "road",
+      "start": {
+        "waypointId": "hatfield-house"
+      },
+      "end": {
+        "waypointId": "westminster-palace"
+      },
+      "chapterStart": 1,
+      "chapterEnd": 2,
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "Historical court geography, not a single scene-by-scene travel itinerary.",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Hatfield to Westminster accession context",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "westminster-greenwich-richmond",
+      "title": "Thames court palaces",
+      "medium": "river",
+      "start": {
+        "waypointId": "westminster-palace"
+      },
+      "end": {
+        "waypointId": "richmond-palace"
+      },
+      "chapterStart": 3,
+      "chapterEnd": 8,
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "Greenwich is included as a Thames court control point.",
+      "points": [
+        {
+          "lat": 51.4834,
+          "lon": -0.0062
+        }
+      ],
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "Thames court palaces",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "richmond-tower",
+      "title": "Court to Tower state danger",
+      "medium": "river",
+      "start": {
+        "waypointId": "richmond-palace"
+      },
+      "end": {
+        "waypointId": "tower-of-london"
+      },
+      "chapterStart": 9,
+      "chapterEnd": 16,
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "The Tower anchors imprisonment, trial, and state-crisis material.",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "Court to Tower state danger",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "tower-tilbury",
+      "title": "Tilbury Armada context",
+      "medium": "river",
+      "start": {
+        "waypointId": "tower-of-london"
+      },
+      "end": {
+        "waypointId": "tilbury"
+      },
+      "chapterStart": 22,
+      "chapterEnd": 22,
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "Tilbury anchors the Armada speech and martial court geography.",
+      "sourceRefs": [
+        {
+          "chapter": 22,
+          "label": "Tilbury Armada context",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "tilbury-richmond",
+      "title": "Return to late court at Richmond",
+      "medium": "river",
+      "start": {
+        "waypointId": "tilbury"
+      },
+      "end": {
+        "waypointId": "richmond-palace"
+      },
+      "chapterStart": 23,
+      "chapterEnd": 28,
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "The final source unit closes at Richmond, the death-place of Elizabeth I.",
+      "sourceRefs": [
+        {
+          "chapter": 23,
+          "label": "Return to late court at Richmond",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 1,
+      "movement": "surface",
+      "anchor": "Hatfield and Westminster accession context",
+      "locationFacts": [
+        "Chapter I is reviewed against the Hatfield and Westminster accession context source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: hatfield-westminster."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Hatfield and Westminster accession context.",
+      "segmentIds": [
+        "hatfield-westminster"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Chapter I",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "movement": "surface",
+      "anchor": "Hatfield and Westminster accession context",
+      "locationFacts": [
+        "Chapter II is reviewed against the Hatfield and Westminster accession context source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: hatfield-westminster."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Hatfield and Westminster accession context.",
+      "segmentIds": [
+        "hatfield-westminster"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "Chapter II",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "movement": "surface",
+      "anchor": "Greenwich, Richmond, and early Elizabethan court",
+      "locationFacts": [
+        "Chapter III is reviewed against the Greenwich, Richmond, and early Elizabethan court source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: westminster-greenwich-richmond."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Greenwich, Richmond, and early Elizabethan court.",
+      "segmentIds": [
+        "westminster-greenwich-richmond"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "Chapter III",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "movement": "surface",
+      "anchor": "Greenwich, Richmond, and early Elizabethan court",
+      "locationFacts": [
+        "Chapter IV is reviewed against the Greenwich, Richmond, and early Elizabethan court source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: westminster-greenwich-richmond."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Greenwich, Richmond, and early Elizabethan court.",
+      "segmentIds": [
+        "westminster-greenwich-richmond"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "Chapter IV",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "movement": "surface",
+      "anchor": "Greenwich, Richmond, and early Elizabethan court",
+      "locationFacts": [
+        "Chapter V is reviewed against the Greenwich, Richmond, and early Elizabethan court source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: westminster-greenwich-richmond."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Greenwich, Richmond, and early Elizabethan court.",
+      "segmentIds": [
+        "westminster-greenwich-richmond"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Chapter V",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "movement": "surface",
+      "anchor": "Greenwich, Richmond, and early Elizabethan court",
+      "locationFacts": [
+        "Chapter VI is reviewed against the Greenwich, Richmond, and early Elizabethan court source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: westminster-greenwich-richmond."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Greenwich, Richmond, and early Elizabethan court.",
+      "segmentIds": [
+        "westminster-greenwich-richmond"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "Chapter VI",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "movement": "surface",
+      "anchor": "Greenwich, Richmond, and early Elizabethan court",
+      "locationFacts": [
+        "Chapter VII is reviewed against the Greenwich, Richmond, and early Elizabethan court source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: westminster-greenwich-richmond."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Greenwich, Richmond, and early Elizabethan court.",
+      "segmentIds": [
+        "westminster-greenwich-richmond"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "Chapter VII",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "movement": "surface",
+      "anchor": "Greenwich, Richmond, and early Elizabethan court",
+      "locationFacts": [
+        "Chapter VIII is reviewed against the Greenwich, Richmond, and early Elizabethan court source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: westminster-greenwich-richmond."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Greenwich, Richmond, and early Elizabethan court.",
+      "segmentIds": [
+        "westminster-greenwich-richmond"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Chapter VIII",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "movement": "surface",
+      "anchor": "Tower and court crisis context",
+      "locationFacts": [
+        "Chapter IX is reviewed against the Tower and court crisis context source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: richmond-tower."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Tower and court crisis context.",
+      "segmentIds": [
+        "richmond-tower"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "Chapter IX",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "movement": "surface",
+      "anchor": "Tower and court crisis context",
+      "locationFacts": [
+        "Chapter X is reviewed against the Tower and court crisis context source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: richmond-tower."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Tower and court crisis context.",
+      "segmentIds": [
+        "richmond-tower"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 10,
+          "label": "Chapter X",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "movement": "surface",
+      "anchor": "Tower and court crisis context",
+      "locationFacts": [
+        "Chapter XI is reviewed against the Tower and court crisis context source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: richmond-tower."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Tower and court crisis context.",
+      "segmentIds": [
+        "richmond-tower"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "Chapter XI",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "movement": "surface",
+      "anchor": "Tower and court crisis context",
+      "locationFacts": [
+        "Chapter XII is reviewed against the Tower and court crisis context source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: richmond-tower."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Tower and court crisis context.",
+      "segmentIds": [
+        "richmond-tower"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Chapter XII",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "movement": "surface",
+      "anchor": "Tower and court crisis context",
+      "locationFacts": [
+        "Chapter XIIIA is reviewed against the Tower and court crisis context source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: richmond-tower."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Tower and court crisis context.",
+      "segmentIds": [
+        "richmond-tower"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "Chapter XIIIA",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "movement": "surface",
+      "anchor": "Tower and court crisis context",
+      "locationFacts": [
+        "Chapter XIIIB is reviewed against the Tower and court crisis context source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: richmond-tower."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Tower and court crisis context.",
+      "segmentIds": [
+        "richmond-tower"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 14,
+          "label": "Chapter XIIIB",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "movement": "surface",
+      "anchor": "Tower and court crisis context",
+      "locationFacts": [
+        "Chapter XIV is reviewed against the Tower and court crisis context source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: richmond-tower."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Tower and court crisis context.",
+      "segmentIds": [
+        "richmond-tower"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 15,
+          "label": "Chapter XIV",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "movement": "surface",
+      "anchor": "Tower and court crisis context",
+      "locationFacts": [
+        "Chapter XV is reviewed against the Tower and court crisis context source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: richmond-tower."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Tower and court crisis context.",
+      "segmentIds": [
+        "richmond-tower"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 16,
+          "label": "Chapter XV",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "movement": "stationary",
+      "anchor": "Royal progresses and Tilbury Armada context",
+      "locationFacts": [
+        "Chapter XVI is reviewed against the Royal progresses and Tilbury Armada context source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter XVI.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 17,
+          "label": "Chapter XVI",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "movement": "stationary",
+      "anchor": "Royal progresses and Tilbury Armada context",
+      "locationFacts": [
+        "Chapter XVII is reviewed against the Royal progresses and Tilbury Armada context source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter XVII.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 18,
+          "label": "Chapter XVII",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 19,
+      "movement": "stationary",
+      "anchor": "Royal progresses and Tilbury Armada context",
+      "locationFacts": [
+        "Chapter XVIII is reviewed against the Royal progresses and Tilbury Armada context source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter XVIII.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 19,
+          "label": "Chapter XVIII",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 20,
+      "movement": "stationary",
+      "anchor": "Royal progresses and Tilbury Armada context",
+      "locationFacts": [
+        "Chapter XIX is reviewed against the Royal progresses and Tilbury Armada context source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter XIX.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 20,
+          "label": "Chapter XIX",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 21,
+      "movement": "stationary",
+      "anchor": "Royal progresses and Tilbury Armada context",
+      "locationFacts": [
+        "Chapter XX is reviewed against the Royal progresses and Tilbury Armada context source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter XX.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 21,
+          "label": "Chapter XX",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "movement": "surface",
+      "anchor": "Royal progresses and Tilbury Armada context",
+      "locationFacts": [
+        "Chapter XXI is reviewed against the Royal progresses and Tilbury Armada context source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: tower-tilbury."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Royal progresses and Tilbury Armada context.",
+      "segmentIds": [
+        "tower-tilbury"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 22,
+          "label": "Chapter XXI",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 23,
+      "movement": "surface",
+      "anchor": "Late court and Richmond legacy",
+      "locationFacts": [
+        "Chapter XXII is reviewed against the Late court and Richmond legacy source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: tilbury-richmond."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Late court and Richmond legacy.",
+      "segmentIds": [
+        "tilbury-richmond"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 23,
+          "label": "Chapter XXII",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 24,
+      "movement": "surface",
+      "anchor": "Late court and Richmond legacy",
+      "locationFacts": [
+        "Chapter XXIII is reviewed against the Late court and Richmond legacy source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: tilbury-richmond."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Late court and Richmond legacy.",
+      "segmentIds": [
+        "tilbury-richmond"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 24,
+          "label": "Chapter XXIII",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 25,
+      "movement": "surface",
+      "anchor": "Late court and Richmond legacy",
+      "locationFacts": [
+        "Chapter XXIV is reviewed against the Late court and Richmond legacy source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: tilbury-richmond."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Late court and Richmond legacy.",
+      "segmentIds": [
+        "tilbury-richmond"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 25,
+          "label": "Chapter XXIV",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 26,
+      "movement": "surface",
+      "anchor": "Late court and Richmond legacy",
+      "locationFacts": [
+        "Chapter XXV is reviewed against the Late court and Richmond legacy source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: tilbury-richmond."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Late court and Richmond legacy.",
+      "segmentIds": [
+        "tilbury-richmond"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 26,
+          "label": "Chapter XXV",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 27,
+      "movement": "surface",
+      "anchor": "Late court and Richmond legacy",
+      "locationFacts": [
+        "Chapter XXVI is reviewed against the Late court and Richmond legacy source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: tilbury-richmond."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Late court and Richmond legacy.",
+      "segmentIds": [
+        "tilbury-richmond"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 27,
+          "label": "Chapter XXVI",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 28,
+      "movement": "surface",
+      "anchor": "Late court and Richmond legacy",
+      "locationFacts": [
+        "Chapter XXVII is reviewed against the Late court and Richmond legacy source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: tilbury-richmond."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Late court and Richmond legacy.",
+      "segmentIds": [
+        "tilbury-richmond"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 28,
+          "label": "Chapter XXVII",
+          "url": "https://www.gutenberg.org/files/21500/21500-h/21500-h.htm"
+        }
+      ]
+    }
+  ]
+}

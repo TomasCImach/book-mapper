@@ -1,0 +1,330 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "on-the-old-road-vol-2",
+  "title": "On the Old Road, Vol. 2 (of 2)",
+  "author": "John Ruskin",
+  "source": {
+    "label": "Project Gutenberg #21263",
+    "url": "https://www.gutenberg.org/files/21263/21263-h/21263-h.htm"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Picture Galleries"
+    },
+    {
+      "number": 2,
+      "title": "The Cavalli Monuments, Verona"
+    },
+    {
+      "number": 3,
+      "title": "Verona and its Rivers"
+    },
+    {
+      "number": 4,
+      "title": "Natural science: Rhine and Mont Blanc"
+    },
+    {
+      "number": 5,
+      "title": "Literature essays"
+    },
+    {
+      "number": 6,
+      "title": "Theology essays"
+    },
+    {
+      "number": 7,
+      "title": "An Oxford lecture"
+    }
+  ],
+  "media": {
+    "context": {
+      "label": "Essay geography",
+      "color": "#6f7c91"
+    },
+    "rail": {
+      "label": "European art route",
+      "color": "#4f8fd8"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "london-national-gallery",
+      "name": "National Gallery, London",
+      "chapter": 1,
+      "position": {
+        "lat": 51.5089,
+        "lon": -0.1283
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "verona-ruskin",
+      "name": "Verona",
+      "chapter": 2,
+      "position": {
+        "lat": 45.4384,
+        "lon": 10.9916
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "rhine-basel",
+      "name": "Rhine at Basel",
+      "chapter": 4,
+      "position": {
+        "lat": 47.5596,
+        "lon": 7.5886
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "mont-blanc-ruskin",
+      "name": "Mont Blanc",
+      "chapter": 4,
+      "position": {
+        "lat": 45.8326,
+        "lon": 6.8652
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "brantwood",
+      "name": "Brantwood",
+      "chapter": 5,
+      "position": {
+        "lat": 54.352,
+        "lon": -3.074
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "oxford-ruskin",
+      "name": "Oxford",
+      "chapter": 7,
+      "position": {
+        "lat": 51.752,
+        "lon": -1.2577
+      },
+      "confidence": "confirmed"
+    }
+  ],
+  "paths": [
+    {
+      "id": "national-gallery-verona",
+      "title": "Stationary essay-collection context at Brantwood",
+      "medium": "context",
+      "start": {
+        "waypointId": "brantwood"
+      },
+      "end": {
+        "waypointId": "brantwood"
+      },
+      "chapterStart": 1,
+      "chapterEnd": 7,
+      "distanceKm": 0,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "On the Old Road, Vol. 2 is an essay collection. Topic locations such as London, Verona, the Rhine, Mont Blanc, and Oxford are retained as waypoints, but their table-of-contents order is not modeled as Ruskin travel.",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Essay collection contents",
+          "url": "https://www.gutenberg.org/files/21263/21263-h/21263-h.htm"
+        }
+      ]
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 1,
+      "movement": "stationary",
+      "anchor": "London National Gallery",
+      "locationFacts": [
+        "Picture Galleries is an essay or essay grouping with topical geography.",
+        "The waypoint is a topical reference, not evidence of a continuous journey through the collection."
+      ],
+      "deltaFacts": [
+        "No chronological travel segment is modeled for this essay source unit."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance context path; topic waypoints remain for location indexing only.",
+      "segmentIds": [
+        "national-gallery-verona"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Picture Galleries",
+          "url": "https://www.gutenberg.org/files/21263/21263-h/21263-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "movement": "stationary",
+      "anchor": "Verona",
+      "locationFacts": [
+        "The Cavalli Monuments, Verona is an essay or essay grouping with topical geography.",
+        "The waypoint is a topical reference, not evidence of a continuous journey through the collection."
+      ],
+      "deltaFacts": [
+        "No chronological travel segment is modeled for this essay source unit."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance context path; topic waypoints remain for location indexing only.",
+      "segmentIds": [
+        "national-gallery-verona"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "The Cavalli Monuments, Verona",
+          "url": "https://www.gutenberg.org/files/21263/21263-h/21263-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "movement": "stationary",
+      "anchor": "Verona",
+      "locationFacts": [
+        "Verona and its Rivers is an essay or essay grouping with topical geography.",
+        "The waypoint is a topical reference, not evidence of a continuous journey through the collection."
+      ],
+      "deltaFacts": [
+        "No chronological travel segment is modeled for this essay source unit."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance context path; topic waypoints remain for location indexing only.",
+      "segmentIds": [
+        "national-gallery-verona"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "Verona and its Rivers",
+          "url": "https://www.gutenberg.org/files/21263/21263-h/21263-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "movement": "stationary",
+      "anchor": "Rhine and Mont Blanc",
+      "locationFacts": [
+        "Natural science: Rhine and Mont Blanc is an essay or essay grouping with topical geography.",
+        "The waypoint is a topical reference, not evidence of a continuous journey through the collection."
+      ],
+      "deltaFacts": [
+        "No chronological travel segment is modeled for this essay source unit."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance context path; topic waypoints remain for location indexing only.",
+      "segmentIds": [
+        "national-gallery-verona"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "Natural science: Rhine and Mont Blanc",
+          "url": "https://www.gutenberg.org/files/21263/21263-h/21263-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "movement": "stationary",
+      "anchor": "Brantwood",
+      "locationFacts": [
+        "Literature essays is an essay or essay grouping with topical geography.",
+        "The waypoint is a topical reference, not evidence of a continuous journey through the collection."
+      ],
+      "deltaFacts": [
+        "No chronological travel segment is modeled for this essay source unit."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance context path; topic waypoints remain for location indexing only.",
+      "segmentIds": [
+        "national-gallery-verona"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Literature essays",
+          "url": "https://www.gutenberg.org/files/21263/21263-h/21263-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "movement": "stationary",
+      "anchor": "England",
+      "locationFacts": [
+        "Theology essays is an essay or essay grouping with topical geography.",
+        "The waypoint is a topical reference, not evidence of a continuous journey through the collection."
+      ],
+      "deltaFacts": [
+        "No chronological travel segment is modeled for this essay source unit."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance context path; topic waypoints remain for location indexing only.",
+      "segmentIds": [
+        "national-gallery-verona"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "Theology essays",
+          "url": "https://www.gutenberg.org/files/21263/21263-h/21263-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "movement": "stationary",
+      "anchor": "Oxford",
+      "locationFacts": [
+        "An Oxford lecture is an essay or essay grouping with topical geography.",
+        "The waypoint is a topical reference, not evidence of a continuous journey through the collection."
+      ],
+      "deltaFacts": [
+        "No chronological travel segment is modeled for this essay source unit."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance context path; topic waypoints remain for location indexing only.",
+      "segmentIds": [
+        "national-gallery-verona"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "An Oxford lecture",
+          "url": "https://www.gutenberg.org/files/21263/21263-h/21263-h.htm"
+        }
+      ]
+    }
+  ]
+}

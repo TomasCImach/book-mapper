@@ -1,0 +1,2738 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "middlemarch",
+  "title": "Middlemarch",
+  "author": "George Eliot",
+  "source": {
+    "label": "Project Gutenberg #145",
+    "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Book I: MISS BROOKE - Chapter I"
+    },
+    {
+      "number": 2,
+      "title": "Book I: MISS BROOKE - Chapter II"
+    },
+    {
+      "number": 3,
+      "title": "Book I: MISS BROOKE - Chapter III"
+    },
+    {
+      "number": 4,
+      "title": "Book I: MISS BROOKE - Chapter IV"
+    },
+    {
+      "number": 5,
+      "title": "Book I: MISS BROOKE - Chapter V"
+    },
+    {
+      "number": 6,
+      "title": "Book I: MISS BROOKE - Chapter VI"
+    },
+    {
+      "number": 7,
+      "title": "Book I: MISS BROOKE - Chapter VII"
+    },
+    {
+      "number": 8,
+      "title": "Book I: MISS BROOKE - Chapter VIII"
+    },
+    {
+      "number": 9,
+      "title": "Book I: MISS BROOKE - Chapter IX"
+    },
+    {
+      "number": 10,
+      "title": "Book I: MISS BROOKE - Chapter X"
+    },
+    {
+      "number": 11,
+      "title": "Book I: MISS BROOKE - Chapter XI"
+    },
+    {
+      "number": 12,
+      "title": "Book I: MISS BROOKE - Chapter XII"
+    },
+    {
+      "number": 13,
+      "title": "Book II: OLD AND YOUNG - Chapter XIII"
+    },
+    {
+      "number": 14,
+      "title": "Book II: OLD AND YOUNG - Chapter XIV"
+    },
+    {
+      "number": 15,
+      "title": "Book II: OLD AND YOUNG - Chapter XV"
+    },
+    {
+      "number": 16,
+      "title": "Book II: OLD AND YOUNG - Chapter XVI"
+    },
+    {
+      "number": 17,
+      "title": "Book II: OLD AND YOUNG - Chapter XVII"
+    },
+    {
+      "number": 18,
+      "title": "Book II: OLD AND YOUNG - Chapter XVIII"
+    },
+    {
+      "number": 19,
+      "title": "Book II: OLD AND YOUNG - Chapter XIX"
+    },
+    {
+      "number": 20,
+      "title": "Book II: OLD AND YOUNG - Chapter XX"
+    },
+    {
+      "number": 21,
+      "title": "Book II: OLD AND YOUNG - Chapter XXI"
+    },
+    {
+      "number": 22,
+      "title": "Book II: OLD AND YOUNG - Chapter XXII"
+    },
+    {
+      "number": 23,
+      "title": "Book III: WAITING FOR DEATH - Chapter XXIII"
+    },
+    {
+      "number": 24,
+      "title": "Book III: WAITING FOR DEATH - Chapter XXIV"
+    },
+    {
+      "number": 25,
+      "title": "Book III: WAITING FOR DEATH - Chapter XXV"
+    },
+    {
+      "number": 26,
+      "title": "Book III: WAITING FOR DEATH - Chapter XXVI"
+    },
+    {
+      "number": 27,
+      "title": "Book III: WAITING FOR DEATH - Chapter XXVII"
+    },
+    {
+      "number": 28,
+      "title": "Book III: WAITING FOR DEATH - Chapter XXVIII"
+    },
+    {
+      "number": 29,
+      "title": "Book III: WAITING FOR DEATH - Chapter XXIX"
+    },
+    {
+      "number": 30,
+      "title": "Book III: WAITING FOR DEATH - Chapter XXX"
+    },
+    {
+      "number": 31,
+      "title": "Book III: WAITING FOR DEATH - Chapter XXXI"
+    },
+    {
+      "number": 32,
+      "title": "Book III: WAITING FOR DEATH - Chapter XXXII"
+    },
+    {
+      "number": 33,
+      "title": "Book III: WAITING FOR DEATH - Chapter XXXIII"
+    },
+    {
+      "number": 34,
+      "title": "Book IV: THREE LOVE PROBLEMS - Chapter XXXIV"
+    },
+    {
+      "number": 35,
+      "title": "Book IV: THREE LOVE PROBLEMS - Chapter XXXV"
+    },
+    {
+      "number": 36,
+      "title": "Book IV: THREE LOVE PROBLEMS - Chapter XXXVI"
+    },
+    {
+      "number": 37,
+      "title": "Book IV: THREE LOVE PROBLEMS - Chapter XXXVII"
+    },
+    {
+      "number": 38,
+      "title": "Book IV: THREE LOVE PROBLEMS - Chapter XXXVIII"
+    },
+    {
+      "number": 39,
+      "title": "Book IV: THREE LOVE PROBLEMS - Chapter XXXIX"
+    },
+    {
+      "number": 40,
+      "title": "Book IV: THREE LOVE PROBLEMS - Chapter XL"
+    },
+    {
+      "number": 41,
+      "title": "Book IV: THREE LOVE PROBLEMS - Chapter XLI"
+    },
+    {
+      "number": 42,
+      "title": "Book IV: THREE LOVE PROBLEMS - Chapter XLII"
+    },
+    {
+      "number": 43,
+      "title": "Book V: THE DEAD HAND - Chapter XLIII"
+    },
+    {
+      "number": 44,
+      "title": "Book V: THE DEAD HAND - Chapter XLIV"
+    },
+    {
+      "number": 45,
+      "title": "Book V: THE DEAD HAND - Chapter XLV"
+    },
+    {
+      "number": 46,
+      "title": "Book V: THE DEAD HAND - Chapter XLVI"
+    },
+    {
+      "number": 47,
+      "title": "Book V: THE DEAD HAND - Chapter XLVII"
+    },
+    {
+      "number": 48,
+      "title": "Book V: THE DEAD HAND - Chapter XLVIII"
+    },
+    {
+      "number": 49,
+      "title": "Book V: THE DEAD HAND - Chapter XLIX"
+    },
+    {
+      "number": 50,
+      "title": "Book V: THE DEAD HAND - Chapter L"
+    },
+    {
+      "number": 51,
+      "title": "Book V: THE DEAD HAND - Chapter LI"
+    },
+    {
+      "number": 52,
+      "title": "Book V: THE DEAD HAND - Chapter LII"
+    },
+    {
+      "number": 53,
+      "title": "Book V: THE DEAD HAND - Chapter LIII"
+    },
+    {
+      "number": 54,
+      "title": "Book VI: THE WIDOW AND THE WIFE - Chapter LIV"
+    },
+    {
+      "number": 55,
+      "title": "Book VI: THE WIDOW AND THE WIFE - Chapter LV"
+    },
+    {
+      "number": 56,
+      "title": "Book VI: THE WIDOW AND THE WIFE - Chapter LVI"
+    },
+    {
+      "number": 57,
+      "title": "Book VI: THE WIDOW AND THE WIFE - Chapter LVII"
+    },
+    {
+      "number": 58,
+      "title": "Book VI: THE WIDOW AND THE WIFE - Chapter LVIII"
+    },
+    {
+      "number": 59,
+      "title": "Book VI: THE WIDOW AND THE WIFE - Chapter LIX"
+    },
+    {
+      "number": 60,
+      "title": "Book VI: THE WIDOW AND THE WIFE - Chapter LX"
+    },
+    {
+      "number": 61,
+      "title": "Book VI: THE WIDOW AND THE WIFE - Chapter LXI"
+    },
+    {
+      "number": 62,
+      "title": "Book VI: THE WIDOW AND THE WIFE - Chapter LXII"
+    },
+    {
+      "number": 63,
+      "title": "Book VII: TWO TEMPTATIONS - Chapter LXIII"
+    },
+    {
+      "number": 64,
+      "title": "Book VII: TWO TEMPTATIONS - Chapter LXIV"
+    },
+    {
+      "number": 65,
+      "title": "Book VII: TWO TEMPTATIONS - Chapter LXV"
+    },
+    {
+      "number": 66,
+      "title": "Book VII: TWO TEMPTATIONS - Chapter LXVI"
+    },
+    {
+      "number": 67,
+      "title": "Book VII: TWO TEMPTATIONS - Chapter LXVII"
+    },
+    {
+      "number": 68,
+      "title": "Book VII: TWO TEMPTATIONS - Chapter LXVIII"
+    },
+    {
+      "number": 69,
+      "title": "Book VII: TWO TEMPTATIONS - Chapter LXIX"
+    },
+    {
+      "number": 70,
+      "title": "Book VII: TWO TEMPTATIONS - Chapter LXX"
+    },
+    {
+      "number": 71,
+      "title": "Book VII: TWO TEMPTATIONS - Chapter LXXI"
+    },
+    {
+      "number": 72,
+      "title": "Book VIII: SUNSET AND SUNRISE - Chapter LXXII"
+    },
+    {
+      "number": 73,
+      "title": "Book VIII: SUNSET AND SUNRISE - Chapter LXXIII"
+    },
+    {
+      "number": 74,
+      "title": "Book VIII: SUNSET AND SUNRISE - Chapter LXXIV"
+    },
+    {
+      "number": 75,
+      "title": "Book VIII: SUNSET AND SUNRISE - Chapter LXXV"
+    },
+    {
+      "number": 76,
+      "title": "Book VIII: SUNSET AND SUNRISE - Chapter LXXVI"
+    },
+    {
+      "number": 77,
+      "title": "Book VIII: SUNSET AND SUNRISE - Chapter LXXVII"
+    },
+    {
+      "number": 78,
+      "title": "Book VIII: SUNSET AND SUNRISE - Chapter LXXVIII"
+    },
+    {
+      "number": 79,
+      "title": "Book VIII: SUNSET AND SUNRISE - Chapter LXXIX"
+    },
+    {
+      "number": 80,
+      "title": "Book VIII: SUNSET AND SUNRISE - Chapter LXXX"
+    },
+    {
+      "number": 81,
+      "title": "Book VIII: SUNSET AND SUNRISE - Chapter LXXXI"
+    },
+    {
+      "number": 82,
+      "title": "Book VIII: SUNSET AND SUNRISE - Chapter LXXXII"
+    },
+    {
+      "number": 83,
+      "title": "Book VIII: SUNSET AND SUNRISE - Chapter LXXXIII"
+    },
+    {
+      "number": 84,
+      "title": "Book VIII: SUNSET AND SUNRISE - Chapter LXXXIV"
+    },
+    {
+      "number": 85,
+      "title": "Book VIII: SUNSET AND SUNRISE - Chapter LXXXV"
+    },
+    {
+      "number": 86,
+      "title": "Book VIII: SUNSET AND SUNRISE - Chapter LXXXVI"
+    }
+  ],
+  "media": {
+    "carriage": {
+      "label": "Carriage and local road",
+      "color": "#c58b42"
+    },
+    "road": {
+      "label": "Road journey",
+      "color": "#9c7a4f"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "middlemarch-town",
+      "name": "Middlemarch",
+      "chapter": 1,
+      "position": {
+        "lat": 52.408,
+        "lon": -1.51
+      },
+      "confidence": "fictional",
+      "notes": "Fictional Midlands town placed near Coventry/Nuneaton country."
+    },
+    {
+      "id": "tipton-grange",
+      "name": "Tipton Grange",
+      "chapter": 1,
+      "position": {
+        "lat": 52.43,
+        "lon": -1.47
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "lowick",
+      "name": "Lowick",
+      "chapter": 1,
+      "position": {
+        "lat": 52.36,
+        "lon": -1.46
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "rome-middlemarch",
+      "name": "Rome",
+      "chapter": 19,
+      "position": {
+        "lat": 41.9028,
+        "lon": 12.4964
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "london-middlemarch",
+      "name": "London",
+      "chapter": 45,
+      "position": {
+        "lat": 51.5074,
+        "lon": -0.1278
+      },
+      "confidence": "confirmed"
+    }
+  ],
+  "paths": [
+    {
+      "id": "tipton-lowick",
+      "title": "Tipton Grange to Lowick",
+      "medium": "carriage",
+      "start": {
+        "waypointId": "tipton-grange"
+      },
+      "end": {
+        "waypointId": "lowick"
+      },
+      "chapterStart": 1,
+      "chapterEnd": 12,
+      "distanceKm": 8,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "Local estate geography for Dorothea and Casaubon.",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Tipton Grange to Lowick",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "lowick-rome",
+      "title": "Marriage journey to Rome",
+      "medium": "road",
+      "start": {
+        "waypointId": "lowick"
+      },
+      "end": {
+        "waypointId": "rome-middlemarch"
+      },
+      "chapterStart": 19,
+      "chapterEnd": 22,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Dorothea and Casaubon travel to Rome after marriage. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "points": [
+        {
+          "lat": 48.8566,
+          "lon": 2.3522
+        }
+      ],
+      "sourceRefs": [
+        {
+          "chapter": 19,
+          "label": "Marriage journey to Rome",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "rome-middlemarch-return",
+      "title": "Rome back to Middlemarch",
+      "medium": "road",
+      "start": {
+        "waypointId": "rome-middlemarch"
+      },
+      "end": {
+        "waypointId": "middlemarch-town"
+      },
+      "chapterStart": 23,
+      "chapterEnd": 23,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The plot returns from Rome to the Midlands. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "points": [
+        {
+          "lat": 48.8566,
+          "lon": 2.3522
+        }
+      ],
+      "sourceRefs": [
+        {
+          "chapter": 23,
+          "label": "Rome back to Middlemarch",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "middlemarch-london",
+      "title": "Middlemarch to London concerns",
+      "medium": "road",
+      "start": {
+        "waypointId": "middlemarch-town"
+      },
+      "end": {
+        "waypointId": "london-middlemarch"
+      },
+      "chapterStart": 43,
+      "chapterEnd": 53,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Legal, financial, and social business reaches London. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 43,
+          "label": "Middlemarch to London concerns",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "london-lowick-return",
+      "title": "Return to Lowick and Middlemarch",
+      "medium": "road",
+      "start": {
+        "waypointId": "london-middlemarch"
+      },
+      "end": {
+        "waypointId": "lowick"
+      },
+      "chapterStart": 54,
+      "chapterEnd": 86,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "The final books are anchored again in Lowick and Middlemarch. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 54,
+          "label": "Return to Lowick and Middlemarch",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 1,
+      "movement": "surface",
+      "anchor": "Tipton Grange, Lowick, and Middlemarch",
+      "locationFacts": [
+        "Book I: MISS BROOKE - Chapter I is reviewed against the Tipton Grange, Lowick, and Middlemarch source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: tipton-lowick."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Tipton Grange, Lowick, and Middlemarch.",
+      "segmentIds": [
+        "tipton-lowick"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Book I: MISS BROOKE - Chapter I",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "movement": "surface",
+      "anchor": "Tipton Grange, Lowick, and Middlemarch",
+      "locationFacts": [
+        "Book I: MISS BROOKE - Chapter II is reviewed against the Tipton Grange, Lowick, and Middlemarch source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: tipton-lowick."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Tipton Grange, Lowick, and Middlemarch.",
+      "segmentIds": [
+        "tipton-lowick"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "Book I: MISS BROOKE - Chapter II",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "movement": "surface",
+      "anchor": "Tipton Grange, Lowick, and Middlemarch",
+      "locationFacts": [
+        "Book I: MISS BROOKE - Chapter III is reviewed against the Tipton Grange, Lowick, and Middlemarch source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: tipton-lowick."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Tipton Grange, Lowick, and Middlemarch.",
+      "segmentIds": [
+        "tipton-lowick"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "Book I: MISS BROOKE - Chapter III",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "movement": "surface",
+      "anchor": "Tipton Grange, Lowick, and Middlemarch",
+      "locationFacts": [
+        "Book I: MISS BROOKE - Chapter IV is reviewed against the Tipton Grange, Lowick, and Middlemarch source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: tipton-lowick."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Tipton Grange, Lowick, and Middlemarch.",
+      "segmentIds": [
+        "tipton-lowick"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "Book I: MISS BROOKE - Chapter IV",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "movement": "surface",
+      "anchor": "Tipton Grange, Lowick, and Middlemarch",
+      "locationFacts": [
+        "Book I: MISS BROOKE - Chapter V is reviewed against the Tipton Grange, Lowick, and Middlemarch source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: tipton-lowick."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Tipton Grange, Lowick, and Middlemarch.",
+      "segmentIds": [
+        "tipton-lowick"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Book I: MISS BROOKE - Chapter V",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "movement": "surface",
+      "anchor": "Tipton Grange, Lowick, and Middlemarch",
+      "locationFacts": [
+        "Book I: MISS BROOKE - Chapter VI is reviewed against the Tipton Grange, Lowick, and Middlemarch source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: tipton-lowick."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Tipton Grange, Lowick, and Middlemarch.",
+      "segmentIds": [
+        "tipton-lowick"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "Book I: MISS BROOKE - Chapter VI",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "movement": "surface",
+      "anchor": "Tipton Grange, Lowick, and Middlemarch",
+      "locationFacts": [
+        "Book I: MISS BROOKE - Chapter VII is reviewed against the Tipton Grange, Lowick, and Middlemarch source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: tipton-lowick."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Tipton Grange, Lowick, and Middlemarch.",
+      "segmentIds": [
+        "tipton-lowick"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "Book I: MISS BROOKE - Chapter VII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "movement": "surface",
+      "anchor": "Tipton Grange, Lowick, and Middlemarch",
+      "locationFacts": [
+        "Book I: MISS BROOKE - Chapter VIII is reviewed against the Tipton Grange, Lowick, and Middlemarch source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: tipton-lowick."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Tipton Grange, Lowick, and Middlemarch.",
+      "segmentIds": [
+        "tipton-lowick"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Book I: MISS BROOKE - Chapter VIII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "movement": "surface",
+      "anchor": "Tipton Grange, Lowick, and Middlemarch",
+      "locationFacts": [
+        "Book I: MISS BROOKE - Chapter IX is reviewed against the Tipton Grange, Lowick, and Middlemarch source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: tipton-lowick."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Tipton Grange, Lowick, and Middlemarch.",
+      "segmentIds": [
+        "tipton-lowick"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "Book I: MISS BROOKE - Chapter IX",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "movement": "surface",
+      "anchor": "Tipton Grange, Lowick, and Middlemarch",
+      "locationFacts": [
+        "Book I: MISS BROOKE - Chapter X is reviewed against the Tipton Grange, Lowick, and Middlemarch source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: tipton-lowick."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Tipton Grange, Lowick, and Middlemarch.",
+      "segmentIds": [
+        "tipton-lowick"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 10,
+          "label": "Book I: MISS BROOKE - Chapter X",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "movement": "surface",
+      "anchor": "Tipton Grange, Lowick, and Middlemarch",
+      "locationFacts": [
+        "Book I: MISS BROOKE - Chapter XI is reviewed against the Tipton Grange, Lowick, and Middlemarch source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: tipton-lowick."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Tipton Grange, Lowick, and Middlemarch.",
+      "segmentIds": [
+        "tipton-lowick"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "Book I: MISS BROOKE - Chapter XI",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "movement": "surface",
+      "anchor": "Tipton Grange, Lowick, and Middlemarch",
+      "locationFacts": [
+        "Book I: MISS BROOKE - Chapter XII is reviewed against the Tipton Grange, Lowick, and Middlemarch source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: tipton-lowick."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Tipton Grange, Lowick, and Middlemarch.",
+      "segmentIds": [
+        "tipton-lowick"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Book I: MISS BROOKE - Chapter XII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "movement": "stationary",
+      "anchor": "Rome honeymoon and Middlemarch contrast",
+      "locationFacts": [
+        "Book II: OLD AND YOUNG - Chapter XIII is reviewed against the Rome honeymoon and Middlemarch contrast source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book II: OLD AND YOUNG - Chapter XIII.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "Book II: OLD AND YOUNG - Chapter XIII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "movement": "stationary",
+      "anchor": "Rome honeymoon and Middlemarch contrast",
+      "locationFacts": [
+        "Book II: OLD AND YOUNG - Chapter XIV is reviewed against the Rome honeymoon and Middlemarch contrast source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book II: OLD AND YOUNG - Chapter XIV.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 14,
+          "label": "Book II: OLD AND YOUNG - Chapter XIV",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "movement": "stationary",
+      "anchor": "Rome honeymoon and Middlemarch contrast",
+      "locationFacts": [
+        "Book II: OLD AND YOUNG - Chapter XV is reviewed against the Rome honeymoon and Middlemarch contrast source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book II: OLD AND YOUNG - Chapter XV.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 15,
+          "label": "Book II: OLD AND YOUNG - Chapter XV",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "movement": "stationary",
+      "anchor": "Rome honeymoon and Middlemarch contrast",
+      "locationFacts": [
+        "Book II: OLD AND YOUNG - Chapter XVI is reviewed against the Rome honeymoon and Middlemarch contrast source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book II: OLD AND YOUNG - Chapter XVI.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 16,
+          "label": "Book II: OLD AND YOUNG - Chapter XVI",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "movement": "stationary",
+      "anchor": "Rome honeymoon and Middlemarch contrast",
+      "locationFacts": [
+        "Book II: OLD AND YOUNG - Chapter XVII is reviewed against the Rome honeymoon and Middlemarch contrast source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book II: OLD AND YOUNG - Chapter XVII.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 17,
+          "label": "Book II: OLD AND YOUNG - Chapter XVII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "movement": "stationary",
+      "anchor": "Rome honeymoon and Middlemarch contrast",
+      "locationFacts": [
+        "Book II: OLD AND YOUNG - Chapter XVIII is reviewed against the Rome honeymoon and Middlemarch contrast source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book II: OLD AND YOUNG - Chapter XVIII.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 18,
+          "label": "Book II: OLD AND YOUNG - Chapter XVIII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 19,
+      "movement": "surface",
+      "anchor": "Rome honeymoon and Middlemarch contrast",
+      "locationFacts": [
+        "Book II: OLD AND YOUNG - Chapter XIX is reviewed against the Rome honeymoon and Middlemarch contrast source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: lowick-rome."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Rome honeymoon and Middlemarch contrast.",
+      "segmentIds": [
+        "lowick-rome"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 19,
+          "label": "Book II: OLD AND YOUNG - Chapter XIX",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 20,
+      "movement": "surface",
+      "anchor": "Rome honeymoon and Middlemarch contrast",
+      "locationFacts": [
+        "Book II: OLD AND YOUNG - Chapter XX is reviewed against the Rome honeymoon and Middlemarch contrast source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: lowick-rome."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Rome honeymoon and Middlemarch contrast.",
+      "segmentIds": [
+        "lowick-rome"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 20,
+          "label": "Book II: OLD AND YOUNG - Chapter XX",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 21,
+      "movement": "surface",
+      "anchor": "Rome honeymoon and Middlemarch contrast",
+      "locationFacts": [
+        "Book II: OLD AND YOUNG - Chapter XXI is reviewed against the Rome honeymoon and Middlemarch contrast source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: lowick-rome."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Rome honeymoon and Middlemarch contrast.",
+      "segmentIds": [
+        "lowick-rome"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 21,
+          "label": "Book II: OLD AND YOUNG - Chapter XXI",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "movement": "surface",
+      "anchor": "Rome honeymoon and Middlemarch contrast",
+      "locationFacts": [
+        "Book II: OLD AND YOUNG - Chapter XXII is reviewed against the Rome honeymoon and Middlemarch contrast source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: lowick-rome."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Rome honeymoon and Middlemarch contrast.",
+      "segmentIds": [
+        "lowick-rome"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 22,
+          "label": "Book II: OLD AND YOUNG - Chapter XXII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 23,
+      "movement": "surface",
+      "anchor": "Lowick and Middlemarch after Casaubon's decline",
+      "locationFacts": [
+        "Book III: WAITING FOR DEATH - Chapter XXIII is reviewed against the Lowick and Middlemarch after Casaubon's decline source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: rome-middlemarch-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Lowick and Middlemarch after Casaubon's decline.",
+      "segmentIds": [
+        "rome-middlemarch-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 23,
+          "label": "Book III: WAITING FOR DEATH - Chapter XXIII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 24,
+      "movement": "stationary",
+      "anchor": "Lowick and Middlemarch after Casaubon's decline",
+      "locationFacts": [
+        "Book III: WAITING FOR DEATH - Chapter XXIV is reviewed against the Lowick and Middlemarch after Casaubon's decline source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book III: WAITING FOR DEATH - Chapter XXIV.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 24,
+          "label": "Book III: WAITING FOR DEATH - Chapter XXIV",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 25,
+      "movement": "stationary",
+      "anchor": "Lowick and Middlemarch after Casaubon's decline",
+      "locationFacts": [
+        "Book III: WAITING FOR DEATH - Chapter XXV is reviewed against the Lowick and Middlemarch after Casaubon's decline source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book III: WAITING FOR DEATH - Chapter XXV.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 25,
+          "label": "Book III: WAITING FOR DEATH - Chapter XXV",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 26,
+      "movement": "stationary",
+      "anchor": "Lowick and Middlemarch after Casaubon's decline",
+      "locationFacts": [
+        "Book III: WAITING FOR DEATH - Chapter XXVI is reviewed against the Lowick and Middlemarch after Casaubon's decline source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book III: WAITING FOR DEATH - Chapter XXVI.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 26,
+          "label": "Book III: WAITING FOR DEATH - Chapter XXVI",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 27,
+      "movement": "stationary",
+      "anchor": "Lowick and Middlemarch after Casaubon's decline",
+      "locationFacts": [
+        "Book III: WAITING FOR DEATH - Chapter XXVII is reviewed against the Lowick and Middlemarch after Casaubon's decline source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book III: WAITING FOR DEATH - Chapter XXVII.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 27,
+          "label": "Book III: WAITING FOR DEATH - Chapter XXVII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 28,
+      "movement": "stationary",
+      "anchor": "Lowick and Middlemarch after Casaubon's decline",
+      "locationFacts": [
+        "Book III: WAITING FOR DEATH - Chapter XXVIII is reviewed against the Lowick and Middlemarch after Casaubon's decline source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book III: WAITING FOR DEATH - Chapter XXVIII.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 28,
+          "label": "Book III: WAITING FOR DEATH - Chapter XXVIII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 29,
+      "movement": "stationary",
+      "anchor": "Lowick and Middlemarch after Casaubon's decline",
+      "locationFacts": [
+        "Book III: WAITING FOR DEATH - Chapter XXIX is reviewed against the Lowick and Middlemarch after Casaubon's decline source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book III: WAITING FOR DEATH - Chapter XXIX.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 29,
+          "label": "Book III: WAITING FOR DEATH - Chapter XXIX",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 30,
+      "movement": "stationary",
+      "anchor": "Lowick and Middlemarch after Casaubon's decline",
+      "locationFacts": [
+        "Book III: WAITING FOR DEATH - Chapter XXX is reviewed against the Lowick and Middlemarch after Casaubon's decline source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book III: WAITING FOR DEATH - Chapter XXX.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 30,
+          "label": "Book III: WAITING FOR DEATH - Chapter XXX",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 31,
+      "movement": "stationary",
+      "anchor": "Lowick and Middlemarch after Casaubon's decline",
+      "locationFacts": [
+        "Book III: WAITING FOR DEATH - Chapter XXXI is reviewed against the Lowick and Middlemarch after Casaubon's decline source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book III: WAITING FOR DEATH - Chapter XXXI.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 31,
+          "label": "Book III: WAITING FOR DEATH - Chapter XXXI",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 32,
+      "movement": "stationary",
+      "anchor": "Lowick and Middlemarch after Casaubon's decline",
+      "locationFacts": [
+        "Book III: WAITING FOR DEATH - Chapter XXXII is reviewed against the Lowick and Middlemarch after Casaubon's decline source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book III: WAITING FOR DEATH - Chapter XXXII.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 32,
+          "label": "Book III: WAITING FOR DEATH - Chapter XXXII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 33,
+      "movement": "stationary",
+      "anchor": "Lowick and Middlemarch after Casaubon's decline",
+      "locationFacts": [
+        "Book III: WAITING FOR DEATH - Chapter XXXIII is reviewed against the Lowick and Middlemarch after Casaubon's decline source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book III: WAITING FOR DEATH - Chapter XXXIII.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 33,
+          "label": "Book III: WAITING FOR DEATH - Chapter XXXIII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 34,
+      "movement": "stationary",
+      "anchor": "Middlemarch love problems",
+      "locationFacts": [
+        "Book IV: THREE LOVE PROBLEMS - Chapter XXXIV is reviewed against the Middlemarch love problems source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book IV: THREE LOVE PROBLEMS - Chapter XXXIV.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 34,
+          "label": "Book IV: THREE LOVE PROBLEMS - Chapter XXXIV",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 35,
+      "movement": "stationary",
+      "anchor": "Middlemarch love problems",
+      "locationFacts": [
+        "Book IV: THREE LOVE PROBLEMS - Chapter XXXV is reviewed against the Middlemarch love problems source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book IV: THREE LOVE PROBLEMS - Chapter XXXV.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 35,
+          "label": "Book IV: THREE LOVE PROBLEMS - Chapter XXXV",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 36,
+      "movement": "stationary",
+      "anchor": "Middlemarch love problems",
+      "locationFacts": [
+        "Book IV: THREE LOVE PROBLEMS - Chapter XXXVI is reviewed against the Middlemarch love problems source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book IV: THREE LOVE PROBLEMS - Chapter XXXVI.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 36,
+          "label": "Book IV: THREE LOVE PROBLEMS - Chapter XXXVI",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 37,
+      "movement": "stationary",
+      "anchor": "Middlemarch love problems",
+      "locationFacts": [
+        "Book IV: THREE LOVE PROBLEMS - Chapter XXXVII is reviewed against the Middlemarch love problems source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book IV: THREE LOVE PROBLEMS - Chapter XXXVII.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 37,
+          "label": "Book IV: THREE LOVE PROBLEMS - Chapter XXXVII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 38,
+      "movement": "stationary",
+      "anchor": "Middlemarch love problems",
+      "locationFacts": [
+        "Book IV: THREE LOVE PROBLEMS - Chapter XXXVIII is reviewed against the Middlemarch love problems source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book IV: THREE LOVE PROBLEMS - Chapter XXXVIII.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 38,
+          "label": "Book IV: THREE LOVE PROBLEMS - Chapter XXXVIII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 39,
+      "movement": "stationary",
+      "anchor": "Middlemarch love problems",
+      "locationFacts": [
+        "Book IV: THREE LOVE PROBLEMS - Chapter XXXIX is reviewed against the Middlemarch love problems source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book IV: THREE LOVE PROBLEMS - Chapter XXXIX.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 39,
+          "label": "Book IV: THREE LOVE PROBLEMS - Chapter XXXIX",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 40,
+      "movement": "stationary",
+      "anchor": "Middlemarch love problems",
+      "locationFacts": [
+        "Book IV: THREE LOVE PROBLEMS - Chapter XL is reviewed against the Middlemarch love problems source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book IV: THREE LOVE PROBLEMS - Chapter XL.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 40,
+          "label": "Book IV: THREE LOVE PROBLEMS - Chapter XL",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 41,
+      "movement": "stationary",
+      "anchor": "Middlemarch love problems",
+      "locationFacts": [
+        "Book IV: THREE LOVE PROBLEMS - Chapter XLI is reviewed against the Middlemarch love problems source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book IV: THREE LOVE PROBLEMS - Chapter XLI.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 41,
+          "label": "Book IV: THREE LOVE PROBLEMS - Chapter XLI",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 42,
+      "movement": "stationary",
+      "anchor": "Middlemarch love problems",
+      "locationFacts": [
+        "Book IV: THREE LOVE PROBLEMS - Chapter XLII is reviewed against the Middlemarch love problems source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book IV: THREE LOVE PROBLEMS - Chapter XLII.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 42,
+          "label": "Book IV: THREE LOVE PROBLEMS - Chapter XLII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 43,
+      "movement": "surface",
+      "anchor": "Middlemarch and London legal-financial pressure",
+      "locationFacts": [
+        "Book V: THE DEAD HAND - Chapter XLIII is reviewed against the Middlemarch and London legal-financial pressure source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: middlemarch-london."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch and London legal-financial pressure.",
+      "segmentIds": [
+        "middlemarch-london"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 43,
+          "label": "Book V: THE DEAD HAND - Chapter XLIII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 44,
+      "movement": "surface",
+      "anchor": "Middlemarch and London legal-financial pressure",
+      "locationFacts": [
+        "Book V: THE DEAD HAND - Chapter XLIV is reviewed against the Middlemarch and London legal-financial pressure source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: middlemarch-london."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch and London legal-financial pressure.",
+      "segmentIds": [
+        "middlemarch-london"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 44,
+          "label": "Book V: THE DEAD HAND - Chapter XLIV",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 45,
+      "movement": "surface",
+      "anchor": "Middlemarch and London legal-financial pressure",
+      "locationFacts": [
+        "Book V: THE DEAD HAND - Chapter XLV is reviewed against the Middlemarch and London legal-financial pressure source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: middlemarch-london."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch and London legal-financial pressure.",
+      "segmentIds": [
+        "middlemarch-london"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 45,
+          "label": "Book V: THE DEAD HAND - Chapter XLV",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 46,
+      "movement": "surface",
+      "anchor": "Middlemarch and London legal-financial pressure",
+      "locationFacts": [
+        "Book V: THE DEAD HAND - Chapter XLVI is reviewed against the Middlemarch and London legal-financial pressure source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: middlemarch-london."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch and London legal-financial pressure.",
+      "segmentIds": [
+        "middlemarch-london"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 46,
+          "label": "Book V: THE DEAD HAND - Chapter XLVI",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 47,
+      "movement": "surface",
+      "anchor": "Middlemarch and London legal-financial pressure",
+      "locationFacts": [
+        "Book V: THE DEAD HAND - Chapter XLVII is reviewed against the Middlemarch and London legal-financial pressure source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: middlemarch-london."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch and London legal-financial pressure.",
+      "segmentIds": [
+        "middlemarch-london"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 47,
+          "label": "Book V: THE DEAD HAND - Chapter XLVII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 48,
+      "movement": "surface",
+      "anchor": "Middlemarch and London legal-financial pressure",
+      "locationFacts": [
+        "Book V: THE DEAD HAND - Chapter XLVIII is reviewed against the Middlemarch and London legal-financial pressure source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: middlemarch-london."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch and London legal-financial pressure.",
+      "segmentIds": [
+        "middlemarch-london"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 48,
+          "label": "Book V: THE DEAD HAND - Chapter XLVIII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 49,
+      "movement": "surface",
+      "anchor": "Middlemarch and London legal-financial pressure",
+      "locationFacts": [
+        "Book V: THE DEAD HAND - Chapter XLIX is reviewed against the Middlemarch and London legal-financial pressure source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: middlemarch-london."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch and London legal-financial pressure.",
+      "segmentIds": [
+        "middlemarch-london"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 49,
+          "label": "Book V: THE DEAD HAND - Chapter XLIX",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 50,
+      "movement": "surface",
+      "anchor": "Middlemarch and London legal-financial pressure",
+      "locationFacts": [
+        "Book V: THE DEAD HAND - Chapter L is reviewed against the Middlemarch and London legal-financial pressure source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: middlemarch-london."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch and London legal-financial pressure.",
+      "segmentIds": [
+        "middlemarch-london"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 50,
+          "label": "Book V: THE DEAD HAND - Chapter L",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 51,
+      "movement": "surface",
+      "anchor": "Middlemarch and London legal-financial pressure",
+      "locationFacts": [
+        "Book V: THE DEAD HAND - Chapter LI is reviewed against the Middlemarch and London legal-financial pressure source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: middlemarch-london."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch and London legal-financial pressure.",
+      "segmentIds": [
+        "middlemarch-london"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 51,
+          "label": "Book V: THE DEAD HAND - Chapter LI",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 52,
+      "movement": "surface",
+      "anchor": "Middlemarch and London legal-financial pressure",
+      "locationFacts": [
+        "Book V: THE DEAD HAND - Chapter LII is reviewed against the Middlemarch and London legal-financial pressure source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: middlemarch-london."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch and London legal-financial pressure.",
+      "segmentIds": [
+        "middlemarch-london"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 52,
+          "label": "Book V: THE DEAD HAND - Chapter LII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 53,
+      "movement": "surface",
+      "anchor": "Middlemarch and London legal-financial pressure",
+      "locationFacts": [
+        "Book V: THE DEAD HAND - Chapter LIII is reviewed against the Middlemarch and London legal-financial pressure source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: middlemarch-london."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch and London legal-financial pressure.",
+      "segmentIds": [
+        "middlemarch-london"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 53,
+          "label": "Book V: THE DEAD HAND - Chapter LIII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 54,
+      "movement": "surface",
+      "anchor": "Lowick widowhood and marriages",
+      "locationFacts": [
+        "Book VI: THE WIDOW AND THE WIFE - Chapter LIV is reviewed against the Lowick widowhood and marriages source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Lowick widowhood and marriages.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 54,
+          "label": "Book VI: THE WIDOW AND THE WIFE - Chapter LIV",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 55,
+      "movement": "surface",
+      "anchor": "Lowick widowhood and marriages",
+      "locationFacts": [
+        "Book VI: THE WIDOW AND THE WIFE - Chapter LV is reviewed against the Lowick widowhood and marriages source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Lowick widowhood and marriages.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 55,
+          "label": "Book VI: THE WIDOW AND THE WIFE - Chapter LV",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 56,
+      "movement": "surface",
+      "anchor": "Lowick widowhood and marriages",
+      "locationFacts": [
+        "Book VI: THE WIDOW AND THE WIFE - Chapter LVI is reviewed against the Lowick widowhood and marriages source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Lowick widowhood and marriages.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 56,
+          "label": "Book VI: THE WIDOW AND THE WIFE - Chapter LVI",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 57,
+      "movement": "surface",
+      "anchor": "Lowick widowhood and marriages",
+      "locationFacts": [
+        "Book VI: THE WIDOW AND THE WIFE - Chapter LVII is reviewed against the Lowick widowhood and marriages source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Lowick widowhood and marriages.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 57,
+          "label": "Book VI: THE WIDOW AND THE WIFE - Chapter LVII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 58,
+      "movement": "surface",
+      "anchor": "Lowick widowhood and marriages",
+      "locationFacts": [
+        "Book VI: THE WIDOW AND THE WIFE - Chapter LVIII is reviewed against the Lowick widowhood and marriages source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Lowick widowhood and marriages.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 58,
+          "label": "Book VI: THE WIDOW AND THE WIFE - Chapter LVIII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 59,
+      "movement": "surface",
+      "anchor": "Lowick widowhood and marriages",
+      "locationFacts": [
+        "Book VI: THE WIDOW AND THE WIFE - Chapter LIX is reviewed against the Lowick widowhood and marriages source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Lowick widowhood and marriages.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 59,
+          "label": "Book VI: THE WIDOW AND THE WIFE - Chapter LIX",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 60,
+      "movement": "surface",
+      "anchor": "Lowick widowhood and marriages",
+      "locationFacts": [
+        "Book VI: THE WIDOW AND THE WIFE - Chapter LX is reviewed against the Lowick widowhood and marriages source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Lowick widowhood and marriages.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 60,
+          "label": "Book VI: THE WIDOW AND THE WIFE - Chapter LX",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 61,
+      "movement": "surface",
+      "anchor": "Lowick widowhood and marriages",
+      "locationFacts": [
+        "Book VI: THE WIDOW AND THE WIFE - Chapter LXI is reviewed against the Lowick widowhood and marriages source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Lowick widowhood and marriages.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 61,
+          "label": "Book VI: THE WIDOW AND THE WIFE - Chapter LXI",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 62,
+      "movement": "surface",
+      "anchor": "Lowick widowhood and marriages",
+      "locationFacts": [
+        "Book VI: THE WIDOW AND THE WIFE - Chapter LXII is reviewed against the Lowick widowhood and marriages source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Lowick widowhood and marriages.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 62,
+          "label": "Book VI: THE WIDOW AND THE WIFE - Chapter LXII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 63,
+      "movement": "surface",
+      "anchor": "Middlemarch temptations",
+      "locationFacts": [
+        "Book VII: TWO TEMPTATIONS - Chapter LXIII is reviewed against the Middlemarch temptations source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch temptations.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 63,
+          "label": "Book VII: TWO TEMPTATIONS - Chapter LXIII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 64,
+      "movement": "surface",
+      "anchor": "Middlemarch temptations",
+      "locationFacts": [
+        "Book VII: TWO TEMPTATIONS - Chapter LXIV is reviewed against the Middlemarch temptations source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch temptations.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 64,
+          "label": "Book VII: TWO TEMPTATIONS - Chapter LXIV",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 65,
+      "movement": "surface",
+      "anchor": "Middlemarch temptations",
+      "locationFacts": [
+        "Book VII: TWO TEMPTATIONS - Chapter LXV is reviewed against the Middlemarch temptations source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch temptations.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 65,
+          "label": "Book VII: TWO TEMPTATIONS - Chapter LXV",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 66,
+      "movement": "surface",
+      "anchor": "Middlemarch temptations",
+      "locationFacts": [
+        "Book VII: TWO TEMPTATIONS - Chapter LXVI is reviewed against the Middlemarch temptations source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch temptations.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 66,
+          "label": "Book VII: TWO TEMPTATIONS - Chapter LXVI",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 67,
+      "movement": "surface",
+      "anchor": "Middlemarch temptations",
+      "locationFacts": [
+        "Book VII: TWO TEMPTATIONS - Chapter LXVII is reviewed against the Middlemarch temptations source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch temptations.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 67,
+          "label": "Book VII: TWO TEMPTATIONS - Chapter LXVII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 68,
+      "movement": "surface",
+      "anchor": "Middlemarch temptations",
+      "locationFacts": [
+        "Book VII: TWO TEMPTATIONS - Chapter LXVIII is reviewed against the Middlemarch temptations source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch temptations.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 68,
+          "label": "Book VII: TWO TEMPTATIONS - Chapter LXVIII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 69,
+      "movement": "surface",
+      "anchor": "Middlemarch temptations",
+      "locationFacts": [
+        "Book VII: TWO TEMPTATIONS - Chapter LXIX is reviewed against the Middlemarch temptations source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch temptations.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 69,
+          "label": "Book VII: TWO TEMPTATIONS - Chapter LXIX",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 70,
+      "movement": "surface",
+      "anchor": "Middlemarch temptations",
+      "locationFacts": [
+        "Book VII: TWO TEMPTATIONS - Chapter LXX is reviewed against the Middlemarch temptations source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch temptations.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 70,
+          "label": "Book VII: TWO TEMPTATIONS - Chapter LXX",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 71,
+      "movement": "surface",
+      "anchor": "Middlemarch temptations",
+      "locationFacts": [
+        "Book VII: TWO TEMPTATIONS - Chapter LXXI is reviewed against the Middlemarch temptations source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch temptations.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 71,
+          "label": "Book VII: TWO TEMPTATIONS - Chapter LXXI",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 72,
+      "movement": "surface",
+      "anchor": "Middlemarch resolution",
+      "locationFacts": [
+        "Book VIII: SUNSET AND SUNRISE - Chapter LXXII is reviewed against the Middlemarch resolution source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch resolution.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 72,
+          "label": "Book VIII: SUNSET AND SUNRISE - Chapter LXXII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 73,
+      "movement": "surface",
+      "anchor": "Middlemarch resolution",
+      "locationFacts": [
+        "Book VIII: SUNSET AND SUNRISE - Chapter LXXIII is reviewed against the Middlemarch resolution source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch resolution.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 73,
+          "label": "Book VIII: SUNSET AND SUNRISE - Chapter LXXIII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 74,
+      "movement": "surface",
+      "anchor": "Middlemarch resolution",
+      "locationFacts": [
+        "Book VIII: SUNSET AND SUNRISE - Chapter LXXIV is reviewed against the Middlemarch resolution source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch resolution.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 74,
+          "label": "Book VIII: SUNSET AND SUNRISE - Chapter LXXIV",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 75,
+      "movement": "surface",
+      "anchor": "Middlemarch resolution",
+      "locationFacts": [
+        "Book VIII: SUNSET AND SUNRISE - Chapter LXXV is reviewed against the Middlemarch resolution source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch resolution.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 75,
+          "label": "Book VIII: SUNSET AND SUNRISE - Chapter LXXV",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 76,
+      "movement": "surface",
+      "anchor": "Middlemarch resolution",
+      "locationFacts": [
+        "Book VIII: SUNSET AND SUNRISE - Chapter LXXVI is reviewed against the Middlemarch resolution source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch resolution.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 76,
+          "label": "Book VIII: SUNSET AND SUNRISE - Chapter LXXVI",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 77,
+      "movement": "surface",
+      "anchor": "Middlemarch resolution",
+      "locationFacts": [
+        "Book VIII: SUNSET AND SUNRISE - Chapter LXXVII is reviewed against the Middlemarch resolution source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch resolution.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 77,
+          "label": "Book VIII: SUNSET AND SUNRISE - Chapter LXXVII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 78,
+      "movement": "surface",
+      "anchor": "Middlemarch resolution",
+      "locationFacts": [
+        "Book VIII: SUNSET AND SUNRISE - Chapter LXXVIII is reviewed against the Middlemarch resolution source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch resolution.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 78,
+          "label": "Book VIII: SUNSET AND SUNRISE - Chapter LXXVIII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 79,
+      "movement": "surface",
+      "anchor": "Middlemarch resolution",
+      "locationFacts": [
+        "Book VIII: SUNSET AND SUNRISE - Chapter LXXIX is reviewed against the Middlemarch resolution source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch resolution.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 79,
+          "label": "Book VIII: SUNSET AND SUNRISE - Chapter LXXIX",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 80,
+      "movement": "surface",
+      "anchor": "Middlemarch resolution",
+      "locationFacts": [
+        "Book VIII: SUNSET AND SUNRISE - Chapter LXXX is reviewed against the Middlemarch resolution source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch resolution.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 80,
+          "label": "Book VIII: SUNSET AND SUNRISE - Chapter LXXX",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 81,
+      "movement": "surface",
+      "anchor": "Middlemarch resolution",
+      "locationFacts": [
+        "Book VIII: SUNSET AND SUNRISE - Chapter LXXXI is reviewed against the Middlemarch resolution source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch resolution.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 81,
+          "label": "Book VIII: SUNSET AND SUNRISE - Chapter LXXXI",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 82,
+      "movement": "surface",
+      "anchor": "Middlemarch resolution",
+      "locationFacts": [
+        "Book VIII: SUNSET AND SUNRISE - Chapter LXXXII is reviewed against the Middlemarch resolution source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch resolution.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 82,
+          "label": "Book VIII: SUNSET AND SUNRISE - Chapter LXXXII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 83,
+      "movement": "surface",
+      "anchor": "Middlemarch resolution",
+      "locationFacts": [
+        "Book VIII: SUNSET AND SUNRISE - Chapter LXXXIII is reviewed against the Middlemarch resolution source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch resolution.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 83,
+          "label": "Book VIII: SUNSET AND SUNRISE - Chapter LXXXIII",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 84,
+      "movement": "surface",
+      "anchor": "Middlemarch resolution",
+      "locationFacts": [
+        "Book VIII: SUNSET AND SUNRISE - Chapter LXXXIV is reviewed against the Middlemarch resolution source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch resolution.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 84,
+          "label": "Book VIII: SUNSET AND SUNRISE - Chapter LXXXIV",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 85,
+      "movement": "surface",
+      "anchor": "Middlemarch resolution",
+      "locationFacts": [
+        "Book VIII: SUNSET AND SUNRISE - Chapter LXXXV is reviewed against the Middlemarch resolution source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch resolution.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 85,
+          "label": "Book VIII: SUNSET AND SUNRISE - Chapter LXXXV",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 86,
+      "movement": "surface",
+      "anchor": "Middlemarch resolution",
+      "locationFacts": [
+        "Book VIII: SUNSET AND SUNRISE - Chapter LXXXVI is reviewed against the Middlemarch resolution source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: london-lowick-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Middlemarch resolution.",
+      "segmentIds": [
+        "london-lowick-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 86,
+          "label": "Book VIII: SUNSET AND SUNRISE - Chapter LXXXVI",
+          "url": "https://www.gutenberg.org/files/145/145-h/145-h.htm"
+        }
+      ]
+    }
+  ]
+}

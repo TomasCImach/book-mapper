@@ -1,0 +1,1427 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "crime-and-punishment",
+  "title": "Crime and Punishment",
+  "author": "Fyodor Dostoyevsky",
+  "source": {
+    "label": "Project Gutenberg #2554",
+    "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Part I, Chapter I"
+    },
+    {
+      "number": 2,
+      "title": "Part I, Chapter II"
+    },
+    {
+      "number": 3,
+      "title": "Part I, Chapter III"
+    },
+    {
+      "number": 4,
+      "title": "Part I, Chapter IV"
+    },
+    {
+      "number": 5,
+      "title": "Part I, Chapter V"
+    },
+    {
+      "number": 6,
+      "title": "Part I, Chapter VI"
+    },
+    {
+      "number": 7,
+      "title": "Part I, Chapter VII"
+    },
+    {
+      "number": 8,
+      "title": "Part II, Chapter I"
+    },
+    {
+      "number": 9,
+      "title": "Part II, Chapter II"
+    },
+    {
+      "number": 10,
+      "title": "Part II, Chapter III"
+    },
+    {
+      "number": 11,
+      "title": "Part II, Chapter IV"
+    },
+    {
+      "number": 12,
+      "title": "Part II, Chapter V"
+    },
+    {
+      "number": 13,
+      "title": "Part II, Chapter VI"
+    },
+    {
+      "number": 14,
+      "title": "Part II, Chapter VII"
+    },
+    {
+      "number": 15,
+      "title": "Part III, Chapter I"
+    },
+    {
+      "number": 16,
+      "title": "Part III, Chapter II"
+    },
+    {
+      "number": 17,
+      "title": "Part III, Chapter III"
+    },
+    {
+      "number": 18,
+      "title": "Part III, Chapter IV"
+    },
+    {
+      "number": 19,
+      "title": "Part III, Chapter V"
+    },
+    {
+      "number": 20,
+      "title": "Part III, Chapter VI"
+    },
+    {
+      "number": 21,
+      "title": "Part IV, Chapter I"
+    },
+    {
+      "number": 22,
+      "title": "Part IV, Chapter II"
+    },
+    {
+      "number": 23,
+      "title": "Part IV, Chapter III"
+    },
+    {
+      "number": 24,
+      "title": "Part IV, Chapter IV"
+    },
+    {
+      "number": 25,
+      "title": "Part IV, Chapter V"
+    },
+    {
+      "number": 26,
+      "title": "Part IV, Chapter VI"
+    },
+    {
+      "number": 27,
+      "title": "Part V, Chapter I"
+    },
+    {
+      "number": 28,
+      "title": "Part V, Chapter II"
+    },
+    {
+      "number": 29,
+      "title": "Part V, Chapter III"
+    },
+    {
+      "number": 30,
+      "title": "Part V, Chapter IV"
+    },
+    {
+      "number": 31,
+      "title": "Part V, Chapter V"
+    },
+    {
+      "number": 32,
+      "title": "Part VI, Chapter I"
+    },
+    {
+      "number": 33,
+      "title": "Part VI, Chapter II"
+    },
+    {
+      "number": 34,
+      "title": "Part VI, Chapter III"
+    },
+    {
+      "number": 35,
+      "title": "Part VI, Chapter IV"
+    },
+    {
+      "number": 36,
+      "title": "Part VI, Chapter V"
+    },
+    {
+      "number": 37,
+      "title": "Part VI, Chapter VI"
+    },
+    {
+      "number": 38,
+      "title": "Part VI, Chapter VII"
+    },
+    {
+      "number": 39,
+      "title": "Part VI, Chapter VIII"
+    },
+    {
+      "number": 40,
+      "title": "Epilogue, Chapter I"
+    },
+    {
+      "number": 41,
+      "title": "Epilogue, Chapter II"
+    }
+  ],
+  "media": {
+    "foot": {
+      "label": "St. Petersburg foot travel",
+      "color": "#78b159"
+    },
+    "rail": {
+      "label": "Siberian exile route",
+      "color": "#4f8fd8"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "st-petersburg-haymarket",
+      "name": "Haymarket district, St. Petersburg",
+      "chapter": 1,
+      "position": {
+        "lat": 59.925,
+        "lon": 30.32
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "raskolnikov-room",
+      "name": "Raskolnikov's room",
+      "chapter": 1,
+      "position": {
+        "lat": 59.927,
+        "lon": 30.315
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "pawnbroker-apartment",
+      "name": "Pawnbroker's apartment",
+      "chapter": 1,
+      "position": {
+        "lat": 59.929,
+        "lon": 30.31
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "st-petersburg-police-office",
+      "name": "Police office",
+      "chapter": 8,
+      "position": {
+        "lat": 59.932,
+        "lon": 30.314
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "sonya-room",
+      "name": "Sonya's room",
+      "chapter": 21,
+      "position": {
+        "lat": 59.922,
+        "lon": 30.316
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "svidrigailov-hotel",
+      "name": "Svidrigailov's hotel",
+      "chapter": 32,
+      "position": {
+        "lat": 59.935,
+        "lon": 30.318
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "siberian-prison",
+      "name": "Siberian prison",
+      "chapter": 40,
+      "position": {
+        "lat": 54.9885,
+        "lon": 73.3242
+      },
+      "confidence": "estimated",
+      "notes": "Omsk is used as a broad Siberian penal-settlement proxy."
+    }
+  ],
+  "paths": [
+    {
+      "id": "raskolnikov-pawnbroker",
+      "title": "Room to pawnbroker",
+      "medium": "foot",
+      "start": {
+        "waypointId": "raskolnikov-room"
+      },
+      "end": {
+        "waypointId": "pawnbroker-apartment"
+      },
+      "chapterStart": 1,
+      "chapterEnd": 7,
+      "distanceKm": 0.8,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "Compact St. Petersburg route for the murder plot.",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Room to pawnbroker",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "room-police-office",
+      "title": "Room to police office",
+      "medium": "foot",
+      "start": {
+        "waypointId": "raskolnikov-room"
+      },
+      "end": {
+        "waypointId": "st-petersburg-police-office"
+      },
+      "chapterStart": 8,
+      "chapterEnd": 14,
+      "distanceKm": 1,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "Local city movement around investigation pressure.",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Room to police office",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "room-sonya",
+      "title": "Raskolnikov to Sonya's room",
+      "medium": "foot",
+      "start": {
+        "waypointId": "raskolnikov-room"
+      },
+      "end": {
+        "waypointId": "sonya-room"
+      },
+      "chapterStart": 21,
+      "chapterEnd": 26,
+      "distanceKm": 1,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "The moral center of the route shifts to Sonya.",
+      "sourceRefs": [
+        {
+          "chapter": 21,
+          "label": "Raskolnikov to Sonya's room",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "sonya-svidrigailov",
+      "title": "Sonya to Svidrigailov hotel",
+      "medium": "foot",
+      "start": {
+        "waypointId": "sonya-room"
+      },
+      "end": {
+        "waypointId": "svidrigailov-hotel"
+      },
+      "chapterStart": 32,
+      "chapterEnd": 39,
+      "distanceKm": 1.1,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "Late Petersburg crisis locations are modeled as nearby fictional anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 32,
+          "label": "Sonya to Svidrigailov hotel",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "petersburg-siberia",
+      "title": "Exile to Siberia",
+      "medium": "rail",
+      "start": {
+        "waypointId": "st-petersburg-haymarket"
+      },
+      "end": {
+        "waypointId": "siberian-prison"
+      },
+      "chapterStart": 40,
+      "chapterEnd": 41,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "The epilogue is modeled as a broad exile route to Siberia. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 40,
+          "label": "Exile to Siberia",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 1,
+      "movement": "surface",
+      "anchor": "St. Petersburg murder route",
+      "locationFacts": [
+        "Part I, Chapter I is reviewed against the St. Petersburg murder route source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: raskolnikov-pawnbroker."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for St. Petersburg murder route.",
+      "segmentIds": [
+        "raskolnikov-pawnbroker"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Part I, Chapter I",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "movement": "surface",
+      "anchor": "St. Petersburg murder route",
+      "locationFacts": [
+        "Part I, Chapter II is reviewed against the St. Petersburg murder route source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: raskolnikov-pawnbroker."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for St. Petersburg murder route.",
+      "segmentIds": [
+        "raskolnikov-pawnbroker"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "Part I, Chapter II",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "movement": "surface",
+      "anchor": "St. Petersburg murder route",
+      "locationFacts": [
+        "Part I, Chapter III is reviewed against the St. Petersburg murder route source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: raskolnikov-pawnbroker."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for St. Petersburg murder route.",
+      "segmentIds": [
+        "raskolnikov-pawnbroker"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "Part I, Chapter III",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "movement": "surface",
+      "anchor": "St. Petersburg murder route",
+      "locationFacts": [
+        "Part I, Chapter IV is reviewed against the St. Petersburg murder route source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: raskolnikov-pawnbroker."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for St. Petersburg murder route.",
+      "segmentIds": [
+        "raskolnikov-pawnbroker"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "Part I, Chapter IV",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "movement": "surface",
+      "anchor": "St. Petersburg murder route",
+      "locationFacts": [
+        "Part I, Chapter V is reviewed against the St. Petersburg murder route source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: raskolnikov-pawnbroker."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for St. Petersburg murder route.",
+      "segmentIds": [
+        "raskolnikov-pawnbroker"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Part I, Chapter V",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "movement": "surface",
+      "anchor": "St. Petersburg murder route",
+      "locationFacts": [
+        "Part I, Chapter VI is reviewed against the St. Petersburg murder route source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: raskolnikov-pawnbroker."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for St. Petersburg murder route.",
+      "segmentIds": [
+        "raskolnikov-pawnbroker"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "Part I, Chapter VI",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "movement": "surface",
+      "anchor": "St. Petersburg murder route",
+      "locationFacts": [
+        "Part I, Chapter VII is reviewed against the St. Petersburg murder route source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: raskolnikov-pawnbroker."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for St. Petersburg murder route.",
+      "segmentIds": [
+        "raskolnikov-pawnbroker"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "Part I, Chapter VII",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "movement": "surface",
+      "anchor": "St. Petersburg police and illness",
+      "locationFacts": [
+        "Part II, Chapter I is reviewed against the St. Petersburg police and illness source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: room-police-office."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for St. Petersburg police and illness.",
+      "segmentIds": [
+        "room-police-office"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Part II, Chapter I",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "movement": "surface",
+      "anchor": "St. Petersburg police and illness",
+      "locationFacts": [
+        "Part II, Chapter II is reviewed against the St. Petersburg police and illness source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: room-police-office."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for St. Petersburg police and illness.",
+      "segmentIds": [
+        "room-police-office"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "Part II, Chapter II",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "movement": "surface",
+      "anchor": "St. Petersburg police and illness",
+      "locationFacts": [
+        "Part II, Chapter III is reviewed against the St. Petersburg police and illness source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: room-police-office."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for St. Petersburg police and illness.",
+      "segmentIds": [
+        "room-police-office"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 10,
+          "label": "Part II, Chapter III",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "movement": "surface",
+      "anchor": "St. Petersburg police and illness",
+      "locationFacts": [
+        "Part II, Chapter IV is reviewed against the St. Petersburg police and illness source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: room-police-office."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for St. Petersburg police and illness.",
+      "segmentIds": [
+        "room-police-office"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "Part II, Chapter IV",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "movement": "surface",
+      "anchor": "St. Petersburg police and illness",
+      "locationFacts": [
+        "Part II, Chapter V is reviewed against the St. Petersburg police and illness source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: room-police-office."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for St. Petersburg police and illness.",
+      "segmentIds": [
+        "room-police-office"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Part II, Chapter V",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "movement": "surface",
+      "anchor": "St. Petersburg police and illness",
+      "locationFacts": [
+        "Part II, Chapter VI is reviewed against the St. Petersburg police and illness source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: room-police-office."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for St. Petersburg police and illness.",
+      "segmentIds": [
+        "room-police-office"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "Part II, Chapter VI",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "movement": "surface",
+      "anchor": "St. Petersburg police and illness",
+      "locationFacts": [
+        "Part II, Chapter VII is reviewed against the St. Petersburg police and illness source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: room-police-office."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for St. Petersburg police and illness.",
+      "segmentIds": [
+        "room-police-office"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 14,
+          "label": "Part II, Chapter VII",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "movement": "stationary",
+      "anchor": "St. Petersburg family pressure",
+      "locationFacts": [
+        "Part III, Chapter I is reviewed against the St. Petersburg family pressure source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Part III, Chapter I.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 15,
+          "label": "Part III, Chapter I",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "movement": "stationary",
+      "anchor": "St. Petersburg family pressure",
+      "locationFacts": [
+        "Part III, Chapter II is reviewed against the St. Petersburg family pressure source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Part III, Chapter II.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 16,
+          "label": "Part III, Chapter II",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "movement": "stationary",
+      "anchor": "St. Petersburg family pressure",
+      "locationFacts": [
+        "Part III, Chapter III is reviewed against the St. Petersburg family pressure source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Part III, Chapter III.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 17,
+          "label": "Part III, Chapter III",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "movement": "stationary",
+      "anchor": "St. Petersburg family pressure",
+      "locationFacts": [
+        "Part III, Chapter IV is reviewed against the St. Petersburg family pressure source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Part III, Chapter IV.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 18,
+          "label": "Part III, Chapter IV",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 19,
+      "movement": "stationary",
+      "anchor": "St. Petersburg family pressure",
+      "locationFacts": [
+        "Part III, Chapter V is reviewed against the St. Petersburg family pressure source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Part III, Chapter V.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 19,
+          "label": "Part III, Chapter V",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 20,
+      "movement": "stationary",
+      "anchor": "St. Petersburg family pressure",
+      "locationFacts": [
+        "Part III, Chapter VI is reviewed against the St. Petersburg family pressure source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Part III, Chapter VI.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 20,
+          "label": "Part III, Chapter VI",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 21,
+      "movement": "surface",
+      "anchor": "Sonya and confession pressure",
+      "locationFacts": [
+        "Part IV, Chapter I is reviewed against the Sonya and confession pressure source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: room-sonya."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Sonya and confession pressure.",
+      "segmentIds": [
+        "room-sonya"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 21,
+          "label": "Part IV, Chapter I",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "movement": "surface",
+      "anchor": "Sonya and confession pressure",
+      "locationFacts": [
+        "Part IV, Chapter II is reviewed against the Sonya and confession pressure source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: room-sonya."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Sonya and confession pressure.",
+      "segmentIds": [
+        "room-sonya"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 22,
+          "label": "Part IV, Chapter II",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 23,
+      "movement": "surface",
+      "anchor": "Sonya and confession pressure",
+      "locationFacts": [
+        "Part IV, Chapter III is reviewed against the Sonya and confession pressure source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: room-sonya."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Sonya and confession pressure.",
+      "segmentIds": [
+        "room-sonya"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 23,
+          "label": "Part IV, Chapter III",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 24,
+      "movement": "surface",
+      "anchor": "Sonya and confession pressure",
+      "locationFacts": [
+        "Part IV, Chapter IV is reviewed against the Sonya and confession pressure source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: room-sonya."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Sonya and confession pressure.",
+      "segmentIds": [
+        "room-sonya"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 24,
+          "label": "Part IV, Chapter IV",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 25,
+      "movement": "surface",
+      "anchor": "Sonya and confession pressure",
+      "locationFacts": [
+        "Part IV, Chapter V is reviewed against the Sonya and confession pressure source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: room-sonya."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Sonya and confession pressure.",
+      "segmentIds": [
+        "room-sonya"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 25,
+          "label": "Part IV, Chapter V",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 26,
+      "movement": "surface",
+      "anchor": "Sonya and confession pressure",
+      "locationFacts": [
+        "Part IV, Chapter VI is reviewed against the Sonya and confession pressure source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: room-sonya."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Sonya and confession pressure.",
+      "segmentIds": [
+        "room-sonya"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 26,
+          "label": "Part IV, Chapter VI",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 27,
+      "movement": "stationary",
+      "anchor": "Marmeladov funeral and accusation",
+      "locationFacts": [
+        "Part V, Chapter I is reviewed against the Marmeladov funeral and accusation source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Part V, Chapter I.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 27,
+          "label": "Part V, Chapter I",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 28,
+      "movement": "stationary",
+      "anchor": "Marmeladov funeral and accusation",
+      "locationFacts": [
+        "Part V, Chapter II is reviewed against the Marmeladov funeral and accusation source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Part V, Chapter II.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 28,
+          "label": "Part V, Chapter II",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 29,
+      "movement": "stationary",
+      "anchor": "Marmeladov funeral and accusation",
+      "locationFacts": [
+        "Part V, Chapter III is reviewed against the Marmeladov funeral and accusation source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Part V, Chapter III.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 29,
+          "label": "Part V, Chapter III",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 30,
+      "movement": "stationary",
+      "anchor": "Marmeladov funeral and accusation",
+      "locationFacts": [
+        "Part V, Chapter IV is reviewed against the Marmeladov funeral and accusation source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Part V, Chapter IV.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 30,
+          "label": "Part V, Chapter IV",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 31,
+      "movement": "stationary",
+      "anchor": "Marmeladov funeral and accusation",
+      "locationFacts": [
+        "Part V, Chapter V is reviewed against the Marmeladov funeral and accusation source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Part V, Chapter V.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 31,
+          "label": "Part V, Chapter V",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 32,
+      "movement": "surface",
+      "anchor": "Svidrigailov and confession",
+      "locationFacts": [
+        "Part VI, Chapter I is reviewed against the Svidrigailov and confession source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: sonya-svidrigailov."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Svidrigailov and confession.",
+      "segmentIds": [
+        "sonya-svidrigailov"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 32,
+          "label": "Part VI, Chapter I",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 33,
+      "movement": "surface",
+      "anchor": "Svidrigailov and confession",
+      "locationFacts": [
+        "Part VI, Chapter II is reviewed against the Svidrigailov and confession source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: sonya-svidrigailov."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Svidrigailov and confession.",
+      "segmentIds": [
+        "sonya-svidrigailov"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 33,
+          "label": "Part VI, Chapter II",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 34,
+      "movement": "surface",
+      "anchor": "Svidrigailov and confession",
+      "locationFacts": [
+        "Part VI, Chapter III is reviewed against the Svidrigailov and confession source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: sonya-svidrigailov."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Svidrigailov and confession.",
+      "segmentIds": [
+        "sonya-svidrigailov"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 34,
+          "label": "Part VI, Chapter III",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 35,
+      "movement": "surface",
+      "anchor": "Svidrigailov and confession",
+      "locationFacts": [
+        "Part VI, Chapter IV is reviewed against the Svidrigailov and confession source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: sonya-svidrigailov."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Svidrigailov and confession.",
+      "segmentIds": [
+        "sonya-svidrigailov"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 35,
+          "label": "Part VI, Chapter IV",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 36,
+      "movement": "surface",
+      "anchor": "Svidrigailov and confession",
+      "locationFacts": [
+        "Part VI, Chapter V is reviewed against the Svidrigailov and confession source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: sonya-svidrigailov."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Svidrigailov and confession.",
+      "segmentIds": [
+        "sonya-svidrigailov"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 36,
+          "label": "Part VI, Chapter V",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 37,
+      "movement": "surface",
+      "anchor": "Svidrigailov and confession",
+      "locationFacts": [
+        "Part VI, Chapter VI is reviewed against the Svidrigailov and confession source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: sonya-svidrigailov."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Svidrigailov and confession.",
+      "segmentIds": [
+        "sonya-svidrigailov"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 37,
+          "label": "Part VI, Chapter VI",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 38,
+      "movement": "surface",
+      "anchor": "Svidrigailov and confession",
+      "locationFacts": [
+        "Part VI, Chapter VII is reviewed against the Svidrigailov and confession source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: sonya-svidrigailov."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Svidrigailov and confession.",
+      "segmentIds": [
+        "sonya-svidrigailov"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 38,
+          "label": "Part VI, Chapter VII",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 39,
+      "movement": "surface",
+      "anchor": "Svidrigailov and confession",
+      "locationFacts": [
+        "Part VI, Chapter VIII is reviewed against the Svidrigailov and confession source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: sonya-svidrigailov."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Svidrigailov and confession.",
+      "segmentIds": [
+        "sonya-svidrigailov"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 39,
+          "label": "Part VI, Chapter VIII",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 40,
+      "movement": "surface",
+      "anchor": "Siberian prison epilogue",
+      "locationFacts": [
+        "Epilogue, Chapter I is reviewed against the Siberian prison epilogue source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: petersburg-siberia."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Siberian prison epilogue.",
+      "segmentIds": [
+        "petersburg-siberia"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 40,
+          "label": "Epilogue, Chapter I",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 41,
+      "movement": "surface",
+      "anchor": "Siberian prison epilogue",
+      "locationFacts": [
+        "Epilogue, Chapter II is reviewed against the Siberian prison epilogue source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: petersburg-siberia."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Siberian prison epilogue.",
+      "segmentIds": [
+        "petersburg-siberia"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 41,
+          "label": "Epilogue, Chapter II",
+          "url": "https://www.gutenberg.org/files/2554/2554-h/2554-h.htm"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "searchlights-on-health",
+  "title": "Searchlights on Health: Light on Dark Corners",
+  "author": "B. G. Jefferis and J. L. Nichols",
+  "source": {
+    "label": "Project Gutenberg #23609",
+    "url": "https://www.gutenberg.org/files/23609/23609-h/23609-h.htm"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Health and purity manual"
+    },
+    {
+      "number": 2,
+      "title": "Courtship and marriage advice"
+    },
+    {
+      "number": 3,
+      "title": "Home, family, and etiquette"
+    },
+    {
+      "number": 4,
+      "title": "Physiology and medical counsel"
+    },
+    {
+      "number": 5,
+      "title": "Parenthood and child care"
+    },
+    {
+      "number": 6,
+      "title": "Reference tables and miscellany"
+    }
+  ],
+  "media": {
+    "stationary": {
+      "label": "Stationary reference work",
+      "color": "#8a8f98"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "united-states-health-manual",
+      "name": "United States health-manual context",
+      "chapter": 1,
+      "position": {
+        "lat": 39.8283,
+        "lon": -98.5795
+      },
+      "confidence": "estimated",
+      "notes": "No narrative route is present; a neutral continental U.S. anchor is used for the reference work."
+    }
+  ],
+  "paths": [
+    {
+      "id": "searchlights-stationary-anchor",
+      "title": "Stationary reference-work anchor",
+      "medium": "stationary",
+      "start": {
+        "waypointId": "united-states-health-manual"
+      },
+      "end": {
+        "waypointId": "united-states-health-manual"
+      },
+      "chapterStart": 1,
+      "chapterEnd": 6,
+      "distanceKm": 0,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "The book is a health and conduct manual, not a narrative journey; no movement is invented.",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Stationary reference-work anchor",
+          "url": "https://www.gutenberg.org/files/23609/23609-h/23609-h.htm"
+        }
+      ]
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 1,
+      "movement": "stationary",
+      "anchor": "United States health-manual context",
+      "locationFacts": [
+        "Health and purity manual is mapped around United States health-manual context."
+      ],
+      "deltaFacts": [
+        "No narrative travel is present; the section remains on the stationary reference-work anchor."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance reference-work context path.",
+      "segmentIds": [
+        "searchlights-stationary-anchor"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Health and purity manual",
+          "url": "https://www.gutenberg.org/files/23609/23609-h/23609-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "movement": "stationary",
+      "anchor": "United States health-manual context",
+      "locationFacts": [
+        "Courtship and marriage advice is mapped around United States health-manual context."
+      ],
+      "deltaFacts": [
+        "No narrative travel is present; the section remains on the stationary reference-work anchor."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance reference-work context path.",
+      "segmentIds": [
+        "searchlights-stationary-anchor"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "Courtship and marriage advice",
+          "url": "https://www.gutenberg.org/files/23609/23609-h/23609-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "movement": "stationary",
+      "anchor": "United States health-manual context",
+      "locationFacts": [
+        "Home, family, and etiquette is mapped around United States health-manual context."
+      ],
+      "deltaFacts": [
+        "No narrative travel is present; the section remains on the stationary reference-work anchor."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance reference-work context path.",
+      "segmentIds": [
+        "searchlights-stationary-anchor"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "Home, family, and etiquette",
+          "url": "https://www.gutenberg.org/files/23609/23609-h/23609-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "movement": "stationary",
+      "anchor": "United States health-manual context",
+      "locationFacts": [
+        "Physiology and medical counsel is mapped around United States health-manual context."
+      ],
+      "deltaFacts": [
+        "No narrative travel is present; the section remains on the stationary reference-work anchor."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance reference-work context path.",
+      "segmentIds": [
+        "searchlights-stationary-anchor"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "Physiology and medical counsel",
+          "url": "https://www.gutenberg.org/files/23609/23609-h/23609-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "movement": "stationary",
+      "anchor": "United States health-manual context",
+      "locationFacts": [
+        "Parenthood and child care is mapped around United States health-manual context."
+      ],
+      "deltaFacts": [
+        "No narrative travel is present; the section remains on the stationary reference-work anchor."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance reference-work context path.",
+      "segmentIds": [
+        "searchlights-stationary-anchor"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Parenthood and child care",
+          "url": "https://www.gutenberg.org/files/23609/23609-h/23609-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "movement": "stationary",
+      "anchor": "United States health-manual context",
+      "locationFacts": [
+        "Reference tables and miscellany is mapped around United States health-manual context."
+      ],
+      "deltaFacts": [
+        "No narrative travel is present; the section remains on the stationary reference-work anchor."
+      ],
+      "slopeFacts": [
+        "No physical route slope or depth change is modeled."
+      ],
+      "xyzEstimate": "Stationary zero-distance reference-work context path.",
+      "segmentIds": [
+        "searchlights-stationary-anchor"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "Reference tables and miscellany",
+          "url": "https://www.gutenberg.org/files/23609/23609-h/23609-h.htm"
+        }
+      ]
+    }
+  ]
+}

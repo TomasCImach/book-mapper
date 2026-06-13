@@ -1,0 +1,3722 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "the-count-of-monte-cristo",
+  "title": "The Count of Monte Cristo",
+  "author": "Alexandre Dumas and Auguste Maquet",
+  "source": {
+    "label": "Project Gutenberg #1184",
+    "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Chapter 1: Marseilles-The Arrival"
+    },
+    {
+      "number": 2,
+      "title": "Chapter 2: Father and Son"
+    },
+    {
+      "number": 3,
+      "title": "Chapter 3: The Catalans"
+    },
+    {
+      "number": 4,
+      "title": "Chapter 4: Conspiracy"
+    },
+    {
+      "number": 5,
+      "title": "Chapter 5: The Marriage Feast"
+    },
+    {
+      "number": 6,
+      "title": "Chapter 6: The Deputy Procureur du Roi"
+    },
+    {
+      "number": 7,
+      "title": "Chapter 7: The Examination"
+    },
+    {
+      "number": 8,
+      "title": "Chapter 8: The Chateau d'If"
+    },
+    {
+      "number": 9,
+      "title": "Chapter 9: The Evening of the Betrothal"
+    },
+    {
+      "number": 10,
+      "title": "Chapter 10: The King's Closet at theTuileries"
+    },
+    {
+      "number": 11,
+      "title": "Chapter 11: The Corsican Ogre"
+    },
+    {
+      "number": 12,
+      "title": "Chapter 12: Father and Son"
+    },
+    {
+      "number": 13,
+      "title": "Chapter 13: The Hundred Days"
+    },
+    {
+      "number": 14,
+      "title": "Chapter 14: The Two Prisoners"
+    },
+    {
+      "number": 15,
+      "title": "Chapter 15: Number 34 and Number 27"
+    },
+    {
+      "number": 16,
+      "title": "Chapter 16: A Learned Italian"
+    },
+    {
+      "number": 17,
+      "title": "Chapter 17: The Abbe's Chamber"
+    },
+    {
+      "number": 18,
+      "title": "Chapter 18: The Treasure"
+    },
+    {
+      "number": 19,
+      "title": "Chapter 19: The Third Attack"
+    },
+    {
+      "number": 20,
+      "title": "Chapter 20: The Cemetery of the Chateaud'If"
+    },
+    {
+      "number": 21,
+      "title": "Chapter 21: The Island of Tiboulen"
+    },
+    {
+      "number": 22,
+      "title": "Chapter 22: The Smugglers"
+    },
+    {
+      "number": 23,
+      "title": "Chapter 23: The Island of Monte Cristo"
+    },
+    {
+      "number": 24,
+      "title": "Chapter 24: The Secret Cave"
+    },
+    {
+      "number": 25,
+      "title": "Chapter 25: The Unknown"
+    },
+    {
+      "number": 26,
+      "title": "Chapter 26: The Pont du Gard Inn"
+    },
+    {
+      "number": 27,
+      "title": "Chapter 27: The Story"
+    },
+    {
+      "number": 28,
+      "title": "Chapter 28: The Prison Register"
+    },
+    {
+      "number": 29,
+      "title": "Chapter 29: The House of Morrel & Son"
+    },
+    {
+      "number": 30,
+      "title": "Chapter 30: The Fifth of September"
+    },
+    {
+      "number": 31,
+      "title": "Chapter 31: Italy: Sinbad the Sailor"
+    },
+    {
+      "number": 32,
+      "title": "Chapter 32: The Waking"
+    },
+    {
+      "number": 33,
+      "title": "Chapter 33: Roman Bandits"
+    },
+    {
+      "number": 34,
+      "title": "Chapter 34: The Colosseum"
+    },
+    {
+      "number": 35,
+      "title": "Chapter 35: La Mazzolata"
+    },
+    {
+      "number": 36,
+      "title": "Chapter 36: The Carnival at Rome"
+    },
+    {
+      "number": 37,
+      "title": "Chapter 37: The Catacombs of SaintSebastian"
+    },
+    {
+      "number": 38,
+      "title": "Chapter 38: The Rendezvous"
+    },
+    {
+      "number": 39,
+      "title": "Chapter 39: The Guests"
+    },
+    {
+      "number": 40,
+      "title": "Chapter 40: The Breakfast"
+    },
+    {
+      "number": 41,
+      "title": "Chapter 41: The Presentation"
+    },
+    {
+      "number": 42,
+      "title": "Chapter 42: Monsieur Bertuccio"
+    },
+    {
+      "number": 43,
+      "title": "Chapter 43: The House at Auteuil"
+    },
+    {
+      "number": 44,
+      "title": "Chapter 44: The Vendetta"
+    },
+    {
+      "number": 45,
+      "title": "Chapter 45: The Rain of Blood"
+    },
+    {
+      "number": 46,
+      "title": "Chapter 46: Unlimited Credit"
+    },
+    {
+      "number": 47,
+      "title": "Chapter 47: The Dappled Grays"
+    },
+    {
+      "number": 48,
+      "title": "Chapter 48: Ideology"
+    },
+    {
+      "number": 49,
+      "title": "Chapter 49: Haydee"
+    },
+    {
+      "number": 50,
+      "title": "Chapter 50: The Morrel Family"
+    },
+    {
+      "number": 51,
+      "title": "Chapter 51: Pyramus and Thisbe"
+    },
+    {
+      "number": 52,
+      "title": "Chapter 52: Toxicology"
+    },
+    {
+      "number": 53,
+      "title": "Chapter 53: Robert le Diable"
+    },
+    {
+      "number": 54,
+      "title": "Chapter 54: A Flurry in Stocks"
+    },
+    {
+      "number": 55,
+      "title": "Chapter 55: Major Cavalcanti"
+    },
+    {
+      "number": 56,
+      "title": "Chapter 56: Andrea Cavalcanti"
+    },
+    {
+      "number": 57,
+      "title": "Chapter 57: In the Lucern Patch"
+    },
+    {
+      "number": 58,
+      "title": "Chapter 58: M. Noirtier de Villefort"
+    },
+    {
+      "number": 59,
+      "title": "Chapter 59: The Will"
+    },
+    {
+      "number": 60,
+      "title": "Chapter 60: The Telegraph"
+    },
+    {
+      "number": 61,
+      "title": "Chapter 61: How a Gardener May Get Rid of theDormice that Eat His Peaches"
+    },
+    {
+      "number": 62,
+      "title": "Chapter 62: Ghosts"
+    },
+    {
+      "number": 63,
+      "title": "Chapter 63: The Dinner"
+    },
+    {
+      "number": 64,
+      "title": "Chapter 64: The Beggar"
+    },
+    {
+      "number": 65,
+      "title": "Chapter 65: A Conjugal Scene"
+    },
+    {
+      "number": 66,
+      "title": "Chapter 66: Matrimonial Projects"
+    },
+    {
+      "number": 67,
+      "title": "Chapter 67: The Office of the King'sAttorney"
+    },
+    {
+      "number": 68,
+      "title": "Chapter 68: A Summer Ball"
+    },
+    {
+      "number": 69,
+      "title": "Chapter 69: The Inquiry"
+    },
+    {
+      "number": 70,
+      "title": "Chapter 70: The Ball"
+    },
+    {
+      "number": 71,
+      "title": "Chapter 71: Bread and Salt"
+    },
+    {
+      "number": 72,
+      "title": "Chapter 72: Madame de Saint-Meran"
+    },
+    {
+      "number": 73,
+      "title": "Chapter 73: The Promise"
+    },
+    {
+      "number": 74,
+      "title": "Chapter 74: The Villefort Family Vault"
+    },
+    {
+      "number": 75,
+      "title": "Chapter 75: A Signed Statement"
+    },
+    {
+      "number": 76,
+      "title": "Chapter 76: Progress of Cavalcanti theYounger"
+    },
+    {
+      "number": 77,
+      "title": "Chapter 77: Haydee"
+    },
+    {
+      "number": 78,
+      "title": "Chapter 78: We hear From Yanina"
+    },
+    {
+      "number": 79,
+      "title": "Chapter 79: The Lemonade"
+    },
+    {
+      "number": 80,
+      "title": "Chapter 80: The Accusation"
+    },
+    {
+      "number": 81,
+      "title": "Chapter 81: The Room of the Retired Baker"
+    },
+    {
+      "number": 82,
+      "title": "Chapter 82: The Burglary"
+    },
+    {
+      "number": 83,
+      "title": "Chapter 83: The Hand of God"
+    },
+    {
+      "number": 84,
+      "title": "Chapter 84: Beauchamp"
+    },
+    {
+      "number": 85,
+      "title": "Chapter 85: The Journey"
+    },
+    {
+      "number": 86,
+      "title": "Chapter 86: The Trial"
+    },
+    {
+      "number": 87,
+      "title": "Chapter 87: The Challenge"
+    },
+    {
+      "number": 88,
+      "title": "Chapter 88: The Insult"
+    },
+    {
+      "number": 89,
+      "title": "Chapter 89: The Night"
+    },
+    {
+      "number": 90,
+      "title": "Chapter 90: The Meeting"
+    },
+    {
+      "number": 91,
+      "title": "Chapter 91: Mother and Son"
+    },
+    {
+      "number": 92,
+      "title": "Chapter 92: The Suicide"
+    },
+    {
+      "number": 93,
+      "title": "Chapter 93: Valentine"
+    },
+    {
+      "number": 94,
+      "title": "Chapter 94: Maximilian's Avowal"
+    },
+    {
+      "number": 95,
+      "title": "Chapter 95: Father and Daughter"
+    },
+    {
+      "number": 96,
+      "title": "Chapter 96: The Contract"
+    },
+    {
+      "number": 97,
+      "title": "Chapter 97: The Departure for Belgium"
+    },
+    {
+      "number": 98,
+      "title": "Chapter 98: The Bell and Bottle Tavern"
+    },
+    {
+      "number": 99,
+      "title": "Chapter 99: The Law"
+    },
+    {
+      "number": 100,
+      "title": "Chapter 100: The Apparition"
+    },
+    {
+      "number": 101,
+      "title": "Chapter 101: Locusta"
+    },
+    {
+      "number": 102,
+      "title": "Chapter 102: Valentine"
+    },
+    {
+      "number": 103,
+      "title": "Chapter 103: Maximilian"
+    },
+    {
+      "number": 104,
+      "title": "Chapter 104: Danglars' Signature"
+    },
+    {
+      "number": 105,
+      "title": "Chapter 105: The Cemetery ofPere-Lachaise"
+    },
+    {
+      "number": 106,
+      "title": "Chapter 106: Dividing the Proceeds"
+    },
+    {
+      "number": 107,
+      "title": "Chapter 107: The Lions' Den"
+    },
+    {
+      "number": 108,
+      "title": "Chapter 108: The Judge"
+    },
+    {
+      "number": 109,
+      "title": "Chapter 109: The Assizes"
+    },
+    {
+      "number": 110,
+      "title": "Chapter 110: The Indictment"
+    },
+    {
+      "number": 111,
+      "title": "Chapter 111: Expiation"
+    },
+    {
+      "number": 112,
+      "title": "Chapter 112: The Departure"
+    },
+    {
+      "number": 113,
+      "title": "Chapter 113: The Past"
+    },
+    {
+      "number": 114,
+      "title": "Chapter 114: Peppino"
+    },
+    {
+      "number": 115,
+      "title": "Chapter 115: Luigi Vampa's Bill of Fare"
+    },
+    {
+      "number": 116,
+      "title": "Chapter 116: The Pardon"
+    },
+    {
+      "number": 117,
+      "title": "Chapter 117: The Fifth of October"
+    }
+  ],
+  "media": {
+    "sea": {
+      "label": "Mediterranean sea route",
+      "color": "#2aa8a8"
+    },
+    "road": {
+      "label": "Road journey",
+      "color": "#9c7a4f"
+    },
+    "carriage": {
+      "label": "Urban carriage",
+      "color": "#c58b42"
+    },
+    "context": {
+      "label": "Backstory context",
+      "color": "#6f7c91"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "marseille",
+      "name": "Marseille",
+      "chapter": 1,
+      "position": {
+        "lat": 43.2965,
+        "lon": 5.3698
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "chateau-dif",
+      "name": "Chateau d'If",
+      "chapter": 8,
+      "position": {
+        "lat": 43.2799,
+        "lon": 5.325
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "monte-cristo-island",
+      "name": "Monte Cristo island",
+      "chapter": 23,
+      "position": {
+        "lat": 42.333,
+        "lon": 10.31
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "rome-monte-cristo",
+      "name": "Rome",
+      "chapter": 31,
+      "position": {
+        "lat": 41.9028,
+        "lon": 12.4964
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "paris-monte-cristo",
+      "name": "Paris",
+      "chapter": 39,
+      "position": {
+        "lat": 48.8566,
+        "lon": 2.3522
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "auteuil",
+      "name": "Auteuil",
+      "chapter": 43,
+      "position": {
+        "lat": 48.846,
+        "lon": 2.257
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "normandy-monte-cristo",
+      "name": "Normandy coast",
+      "chapter": 63,
+      "position": {
+        "lat": 49.4144,
+        "lon": 0.832
+      },
+      "confidence": "estimated"
+    },
+    {
+      "id": "janina",
+      "name": "Janina",
+      "chapter": 76,
+      "position": {
+        "lat": 39.665,
+        "lon": 20.8537
+      },
+      "confidence": "confirmed"
+    }
+  ],
+  "paths": [
+    {
+      "id": "marseille-chateau-dif",
+      "title": "Marseille to Chateau d'If",
+      "medium": "sea",
+      "start": {
+        "waypointId": "marseille"
+      },
+      "end": {
+        "waypointId": "chateau-dif"
+      },
+      "chapterStart": 1,
+      "chapterEnd": 8,
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "Dantes is carried from Marseille to the island prison.",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Marseille to Chateau d'If",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "if-monte-cristo",
+      "title": "Escape toward Monte Cristo",
+      "medium": "sea",
+      "start": {
+        "waypointId": "chateau-dif"
+      },
+      "end": {
+        "waypointId": "monte-cristo-island"
+      },
+      "chapterStart": 20,
+      "chapterEnd": 24,
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "The treasure island becomes the center of the later identity.",
+      "points": [
+        {
+          "lat": 42.75,
+          "lon": 7.3
+        }
+      ],
+      "sourceRefs": [
+        {
+          "chapter": 20,
+          "label": "Escape toward Monte Cristo",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "monte-cristo-rome",
+      "title": "Monte Cristo to Rome",
+      "medium": "sea",
+      "start": {
+        "waypointId": "monte-cristo-island"
+      },
+      "end": {
+        "waypointId": "rome-monte-cristo"
+      },
+      "chapterStart": 31,
+      "chapterEnd": 38,
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "The Count enters the Roman carnival sequence from his Mediterranean base.",
+      "sourceRefs": [
+        {
+          "chapter": 31,
+          "label": "Monte Cristo to Rome",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "rome-paris-count",
+      "title": "Rome to Paris society",
+      "medium": "road",
+      "start": {
+        "waypointId": "rome-monte-cristo"
+      },
+      "end": {
+        "waypointId": "paris-monte-cristo"
+      },
+      "chapterStart": 39,
+      "chapterEnd": 41,
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "The revenge plot moves into Paris.",
+      "sourceRefs": [
+        {
+          "chapter": 39,
+          "label": "Rome to Paris society",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "paris-auteuil-normandy",
+      "title": "Paris, Auteuil, and Normandy",
+      "medium": "carriage",
+      "start": {
+        "waypointId": "paris-monte-cristo"
+      },
+      "end": {
+        "waypointId": "normandy-monte-cristo"
+      },
+      "chapterStart": 43,
+      "chapterEnd": 85,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "Auteuil is included as a control point for the Paris scandal route. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "points": [
+        {
+          "lat": 48.846,
+          "lon": 2.257
+        }
+      ],
+      "sourceRefs": [
+        {
+          "chapter": 43,
+          "label": "Paris, Auteuil, and Normandy",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "paris-janina-context",
+      "title": "Janina backstory route",
+      "medium": "context",
+      "start": {
+        "waypointId": "paris-monte-cristo"
+      },
+      "end": {
+        "waypointId": "janina"
+      },
+      "chapterStart": 76,
+      "chapterEnd": 77,
+      "distanceSource": "geodesic",
+      "confidence": "textual",
+      "notes": "Contextual route for Haydee and Fernand history, not a contemporaneous Paris journey.",
+      "sourceRefs": [
+        {
+          "chapter": 76,
+          "label": "Janina backstory route",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "paris-monte-cristo-departure",
+      "title": "Final departure to Monte Cristo",
+      "medium": "sea",
+      "start": {
+        "waypointId": "paris-monte-cristo"
+      },
+      "end": {
+        "waypointId": "monte-cristo-island"
+      },
+      "chapterStart": 113,
+      "chapterEnd": 117,
+      "distanceSource": "geodesic",
+      "confidence": "textual",
+      "notes": "The final farewell is represented as a return to the Mediterranean island identity.",
+      "points": [
+        {
+          "lat": 43.2965,
+          "lon": 5.3698
+        },
+        {
+          "lat": 42.75,
+          "lon": 7.3
+        }
+      ],
+      "sourceRefs": [
+        {
+          "chapter": 113,
+          "label": "Final departure to Monte Cristo",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 1,
+      "movement": "sea",
+      "anchor": "Marseille and Chateau d'If",
+      "locationFacts": [
+        "Chapter 1: Marseilles-The Arrival is reviewed against the Marseille and Chateau d'If source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: marseille-chateau-dif."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Marseille and Chateau d'If.",
+      "segmentIds": [
+        "marseille-chateau-dif"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Chapter 1: Marseilles-The Arrival",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "movement": "sea",
+      "anchor": "Marseille and Chateau d'If",
+      "locationFacts": [
+        "Chapter 2: Father and Son is reviewed against the Marseille and Chateau d'If source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: marseille-chateau-dif."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Marseille and Chateau d'If.",
+      "segmentIds": [
+        "marseille-chateau-dif"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "Chapter 2: Father and Son",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "movement": "sea",
+      "anchor": "Marseille and Chateau d'If",
+      "locationFacts": [
+        "Chapter 3: The Catalans is reviewed against the Marseille and Chateau d'If source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: marseille-chateau-dif."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Marseille and Chateau d'If.",
+      "segmentIds": [
+        "marseille-chateau-dif"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "Chapter 3: The Catalans",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "movement": "sea",
+      "anchor": "Marseille and Chateau d'If",
+      "locationFacts": [
+        "Chapter 4: Conspiracy is reviewed against the Marseille and Chateau d'If source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: marseille-chateau-dif."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Marseille and Chateau d'If.",
+      "segmentIds": [
+        "marseille-chateau-dif"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "Chapter 4: Conspiracy",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "movement": "sea",
+      "anchor": "Marseille and Chateau d'If",
+      "locationFacts": [
+        "Chapter 5: The Marriage Feast is reviewed against the Marseille and Chateau d'If source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: marseille-chateau-dif."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Marseille and Chateau d'If.",
+      "segmentIds": [
+        "marseille-chateau-dif"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Chapter 5: The Marriage Feast",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "movement": "sea",
+      "anchor": "Marseille and Chateau d'If",
+      "locationFacts": [
+        "Chapter 6: The Deputy Procureur du Roi is reviewed against the Marseille and Chateau d'If source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: marseille-chateau-dif."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Marseille and Chateau d'If.",
+      "segmentIds": [
+        "marseille-chateau-dif"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "Chapter 6: The Deputy Procureur du Roi",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "movement": "sea",
+      "anchor": "Marseille and Chateau d'If",
+      "locationFacts": [
+        "Chapter 7: The Examination is reviewed against the Marseille and Chateau d'If source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: marseille-chateau-dif."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Marseille and Chateau d'If.",
+      "segmentIds": [
+        "marseille-chateau-dif"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "Chapter 7: The Examination",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "movement": "sea",
+      "anchor": "Marseille and Chateau d'If",
+      "locationFacts": [
+        "Chapter 8: The Chateau d'If is reviewed against the Marseille and Chateau d'If source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: marseille-chateau-dif."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Marseille and Chateau d'If.",
+      "segmentIds": [
+        "marseille-chateau-dif"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Chapter 8: The Chateau d'If",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "movement": "stationary",
+      "anchor": "Chateau d'If imprisonment",
+      "locationFacts": [
+        "Chapter 9: The Evening of the Betrothal is reviewed against the Chateau d'If imprisonment source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 9: The Evening of the Betrothal.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "Chapter 9: The Evening of the Betrothal",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "movement": "stationary",
+      "anchor": "Chateau d'If imprisonment",
+      "locationFacts": [
+        "Chapter 10: The King's Closet at theTuileries is reviewed against the Chateau d'If imprisonment source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 10: The King's Closet at theTuileries.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 10,
+          "label": "Chapter 10: The King's Closet at theTuileries",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "movement": "stationary",
+      "anchor": "Chateau d'If imprisonment",
+      "locationFacts": [
+        "Chapter 11: The Corsican Ogre is reviewed against the Chateau d'If imprisonment source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 11: The Corsican Ogre.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "Chapter 11: The Corsican Ogre",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "movement": "stationary",
+      "anchor": "Chateau d'If imprisonment",
+      "locationFacts": [
+        "Chapter 12: Father and Son is reviewed against the Chateau d'If imprisonment source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 12: Father and Son.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Chapter 12: Father and Son",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "movement": "stationary",
+      "anchor": "Chateau d'If imprisonment",
+      "locationFacts": [
+        "Chapter 13: The Hundred Days is reviewed against the Chateau d'If imprisonment source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 13: The Hundred Days.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "Chapter 13: The Hundred Days",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "movement": "stationary",
+      "anchor": "Chateau d'If imprisonment",
+      "locationFacts": [
+        "Chapter 14: The Two Prisoners is reviewed against the Chateau d'If imprisonment source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 14: The Two Prisoners.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 14,
+          "label": "Chapter 14: The Two Prisoners",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "movement": "stationary",
+      "anchor": "Chateau d'If imprisonment",
+      "locationFacts": [
+        "Chapter 15: Number 34 and Number 27 is reviewed against the Chateau d'If imprisonment source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 15: Number 34 and Number 27.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 15,
+          "label": "Chapter 15: Number 34 and Number 27",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "movement": "stationary",
+      "anchor": "Chateau d'If imprisonment",
+      "locationFacts": [
+        "Chapter 16: A Learned Italian is reviewed against the Chateau d'If imprisonment source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 16: A Learned Italian.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 16,
+          "label": "Chapter 16: A Learned Italian",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "movement": "stationary",
+      "anchor": "Chateau d'If imprisonment",
+      "locationFacts": [
+        "Chapter 17: The Abbe's Chamber is reviewed against the Chateau d'If imprisonment source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 17: The Abbe's Chamber.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 17,
+          "label": "Chapter 17: The Abbe's Chamber",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "movement": "stationary",
+      "anchor": "Chateau d'If imprisonment",
+      "locationFacts": [
+        "Chapter 18: The Treasure is reviewed against the Chateau d'If imprisonment source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 18: The Treasure.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 18,
+          "label": "Chapter 18: The Treasure",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 19,
+      "movement": "stationary",
+      "anchor": "Chateau d'If imprisonment",
+      "locationFacts": [
+        "Chapter 19: The Third Attack is reviewed against the Chateau d'If imprisonment source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 19: The Third Attack.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 19,
+          "label": "Chapter 19: The Third Attack",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 20,
+      "movement": "sea",
+      "anchor": "Escape and Monte Cristo treasure",
+      "locationFacts": [
+        "Chapter 20: The Cemetery of the Chateaud'If is reviewed against the Escape and Monte Cristo treasure source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: if-monte-cristo."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Escape and Monte Cristo treasure.",
+      "segmentIds": [
+        "if-monte-cristo"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 20,
+          "label": "Chapter 20: The Cemetery of the Chateaud'If",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 21,
+      "movement": "sea",
+      "anchor": "Escape and Monte Cristo treasure",
+      "locationFacts": [
+        "Chapter 21: The Island of Tiboulen is reviewed against the Escape and Monte Cristo treasure source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: if-monte-cristo."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Escape and Monte Cristo treasure.",
+      "segmentIds": [
+        "if-monte-cristo"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 21,
+          "label": "Chapter 21: The Island of Tiboulen",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "movement": "sea",
+      "anchor": "Escape and Monte Cristo treasure",
+      "locationFacts": [
+        "Chapter 22: The Smugglers is reviewed against the Escape and Monte Cristo treasure source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: if-monte-cristo."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Escape and Monte Cristo treasure.",
+      "segmentIds": [
+        "if-monte-cristo"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 22,
+          "label": "Chapter 22: The Smugglers",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 23,
+      "movement": "sea",
+      "anchor": "Escape and Monte Cristo treasure",
+      "locationFacts": [
+        "Chapter 23: The Island of Monte Cristo is reviewed against the Escape and Monte Cristo treasure source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: if-monte-cristo."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Escape and Monte Cristo treasure.",
+      "segmentIds": [
+        "if-monte-cristo"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 23,
+          "label": "Chapter 23: The Island of Monte Cristo",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 24,
+      "movement": "sea",
+      "anchor": "Escape and Monte Cristo treasure",
+      "locationFacts": [
+        "Chapter 24: The Secret Cave is reviewed against the Escape and Monte Cristo treasure source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: if-monte-cristo."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Escape and Monte Cristo treasure.",
+      "segmentIds": [
+        "if-monte-cristo"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 24,
+          "label": "Chapter 24: The Secret Cave",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 25,
+      "movement": "sea",
+      "anchor": "Escape and Monte Cristo treasure",
+      "locationFacts": [
+        "Chapter 25: The Unknown is reviewed against the Escape and Monte Cristo treasure source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 25: The Unknown.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 25,
+          "label": "Chapter 25: The Unknown",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 26,
+      "movement": "sea",
+      "anchor": "Escape and Monte Cristo treasure",
+      "locationFacts": [
+        "Chapter 26: The Pont du Gard Inn is reviewed against the Escape and Monte Cristo treasure source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 26: The Pont du Gard Inn.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 26,
+          "label": "Chapter 26: The Pont du Gard Inn",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 27,
+      "movement": "sea",
+      "anchor": "Escape and Monte Cristo treasure",
+      "locationFacts": [
+        "Chapter 27: The Story is reviewed against the Escape and Monte Cristo treasure source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 27: The Story.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 27,
+          "label": "Chapter 27: The Story",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 28,
+      "movement": "sea",
+      "anchor": "Escape and Monte Cristo treasure",
+      "locationFacts": [
+        "Chapter 28: The Prison Register is reviewed against the Escape and Monte Cristo treasure source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 28: The Prison Register.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 28,
+          "label": "Chapter 28: The Prison Register",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 29,
+      "movement": "sea",
+      "anchor": "Escape and Monte Cristo treasure",
+      "locationFacts": [
+        "Chapter 29: The House of Morrel & Son is reviewed against the Escape and Monte Cristo treasure source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 29: The House of Morrel & Son.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 29,
+          "label": "Chapter 29: The House of Morrel & Son",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 30,
+      "movement": "sea",
+      "anchor": "Escape and Monte Cristo treasure",
+      "locationFacts": [
+        "Chapter 30: The Fifth of September is reviewed against the Escape and Monte Cristo treasure source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 30: The Fifth of September.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 30,
+          "label": "Chapter 30: The Fifth of September",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 31,
+      "movement": "surface",
+      "anchor": "Rome carnival and bandit plot",
+      "locationFacts": [
+        "Chapter 31: Italy: Sinbad the Sailor is reviewed against the Rome carnival and bandit plot source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: monte-cristo-rome."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Rome carnival and bandit plot.",
+      "segmentIds": [
+        "monte-cristo-rome"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 31,
+          "label": "Chapter 31: Italy: Sinbad the Sailor",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 32,
+      "movement": "surface",
+      "anchor": "Rome carnival and bandit plot",
+      "locationFacts": [
+        "Chapter 32: The Waking is reviewed against the Rome carnival and bandit plot source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: monte-cristo-rome."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Rome carnival and bandit plot.",
+      "segmentIds": [
+        "monte-cristo-rome"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 32,
+          "label": "Chapter 32: The Waking",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 33,
+      "movement": "surface",
+      "anchor": "Rome carnival and bandit plot",
+      "locationFacts": [
+        "Chapter 33: Roman Bandits is reviewed against the Rome carnival and bandit plot source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: monte-cristo-rome."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Rome carnival and bandit plot.",
+      "segmentIds": [
+        "monte-cristo-rome"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 33,
+          "label": "Chapter 33: Roman Bandits",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 34,
+      "movement": "surface",
+      "anchor": "Rome carnival and bandit plot",
+      "locationFacts": [
+        "Chapter 34: The Colosseum is reviewed against the Rome carnival and bandit plot source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: monte-cristo-rome."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Rome carnival and bandit plot.",
+      "segmentIds": [
+        "monte-cristo-rome"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 34,
+          "label": "Chapter 34: The Colosseum",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 35,
+      "movement": "surface",
+      "anchor": "Rome carnival and bandit plot",
+      "locationFacts": [
+        "Chapter 35: La Mazzolata is reviewed against the Rome carnival and bandit plot source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: monte-cristo-rome."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Rome carnival and bandit plot.",
+      "segmentIds": [
+        "monte-cristo-rome"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 35,
+          "label": "Chapter 35: La Mazzolata",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 36,
+      "movement": "surface",
+      "anchor": "Rome carnival and bandit plot",
+      "locationFacts": [
+        "Chapter 36: The Carnival at Rome is reviewed against the Rome carnival and bandit plot source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: monte-cristo-rome."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Rome carnival and bandit plot.",
+      "segmentIds": [
+        "monte-cristo-rome"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 36,
+          "label": "Chapter 36: The Carnival at Rome",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 37,
+      "movement": "surface",
+      "anchor": "Rome carnival and bandit plot",
+      "locationFacts": [
+        "Chapter 37: The Catacombs of SaintSebastian is reviewed against the Rome carnival and bandit plot source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: monte-cristo-rome."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Rome carnival and bandit plot.",
+      "segmentIds": [
+        "monte-cristo-rome"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 37,
+          "label": "Chapter 37: The Catacombs of SaintSebastian",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 38,
+      "movement": "surface",
+      "anchor": "Rome carnival and bandit plot",
+      "locationFacts": [
+        "Chapter 38: The Rendezvous is reviewed against the Rome carnival and bandit plot source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: monte-cristo-rome."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Rome carnival and bandit plot.",
+      "segmentIds": [
+        "monte-cristo-rome"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 38,
+          "label": "Chapter 38: The Rendezvous",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 39,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 39: The Guests is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: rome-paris-count."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "rome-paris-count"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 39,
+          "label": "Chapter 39: The Guests",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 40,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 40: The Breakfast is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: rome-paris-count."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "rome-paris-count"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 40,
+          "label": "Chapter 40: The Breakfast",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 41,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 41: The Presentation is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: rome-paris-count."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "rome-paris-count"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 41,
+          "label": "Chapter 41: The Presentation",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 42,
+      "movement": "stationary",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 42: Monsieur Bertuccio is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 42: Monsieur Bertuccio.",
+      "segmentIds": [],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 42,
+          "label": "Chapter 42: Monsieur Bertuccio",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 43,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 43: The House at Auteuil is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 43,
+          "label": "Chapter 43: The House at Auteuil",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 44,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 44: The Vendetta is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 44,
+          "label": "Chapter 44: The Vendetta",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 45,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 45: The Rain of Blood is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 45,
+          "label": "Chapter 45: The Rain of Blood",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 46,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 46: Unlimited Credit is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 46,
+          "label": "Chapter 46: Unlimited Credit",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 47,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 47: The Dappled Grays is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 47,
+          "label": "Chapter 47: The Dappled Grays",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 48,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 48: Ideology is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 48,
+          "label": "Chapter 48: Ideology",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 49,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 49: Haydee is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 49,
+          "label": "Chapter 49: Haydee",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 50,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 50: The Morrel Family is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 50,
+          "label": "Chapter 50: The Morrel Family",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 51,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 51: Pyramus and Thisbe is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 51,
+          "label": "Chapter 51: Pyramus and Thisbe",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 52,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 52: Toxicology is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 52,
+          "label": "Chapter 52: Toxicology",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 53,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 53: Robert le Diable is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 53,
+          "label": "Chapter 53: Robert le Diable",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 54,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 54: A Flurry in Stocks is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 54,
+          "label": "Chapter 54: A Flurry in Stocks",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 55,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 55: Major Cavalcanti is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 55,
+          "label": "Chapter 55: Major Cavalcanti",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 56,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 56: Andrea Cavalcanti is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 56,
+          "label": "Chapter 56: Andrea Cavalcanti",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 57,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 57: In the Lucern Patch is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 57,
+          "label": "Chapter 57: In the Lucern Patch",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 58,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 58: M. Noirtier de Villefort is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 58,
+          "label": "Chapter 58: M. Noirtier de Villefort",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 59,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 59: The Will is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 59,
+          "label": "Chapter 59: The Will",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 60,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 60: The Telegraph is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 60,
+          "label": "Chapter 60: The Telegraph",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 61,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 61: How a Gardener May Get Rid of theDormice that Eat His Peaches is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 61,
+          "label": "Chapter 61: How a Gardener May Get Rid of theDormice that Eat His Peaches",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 62,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 62: Ghosts is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 62,
+          "label": "Chapter 62: Ghosts",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 63,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 63: The Dinner is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 63,
+          "label": "Chapter 63: The Dinner",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 64,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 64: The Beggar is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 64,
+          "label": "Chapter 64: The Beggar",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 65,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 65: A Conjugal Scene is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 65,
+          "label": "Chapter 65: A Conjugal Scene",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 66,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 66: Matrimonial Projects is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 66,
+          "label": "Chapter 66: Matrimonial Projects",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 67,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 67: The Office of the King'sAttorney is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 67,
+          "label": "Chapter 67: The Office of the King'sAttorney",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 68,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 68: A Summer Ball is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 68,
+          "label": "Chapter 68: A Summer Ball",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 69,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 69: The Inquiry is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 69,
+          "label": "Chapter 69: The Inquiry",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 70,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 70: The Ball is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 70,
+          "label": "Chapter 70: The Ball",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 71,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 71: Bread and Salt is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 71,
+          "label": "Chapter 71: Bread and Salt",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 72,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 72: Madame de Saint-Meran is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 72,
+          "label": "Chapter 72: Madame de Saint-Meran",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 73,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 73: The Promise is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 73,
+          "label": "Chapter 73: The Promise",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 74,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 74: The Villefort Family Vault is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 74,
+          "label": "Chapter 74: The Villefort Family Vault",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 75,
+      "movement": "surface",
+      "anchor": "Paris revenge network",
+      "locationFacts": [
+        "Chapter 75: A Signed Statement is reviewed against the Paris revenge network source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris revenge network.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "confirmed",
+      "sourceRefs": [
+        {
+          "chapter": 75,
+          "label": "Chapter 75: A Signed Statement",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 76,
+      "movement": "surface",
+      "anchor": "Janina backstory",
+      "locationFacts": [
+        "Chapter 76: Progress of Cavalcanti theYounger is reviewed against the Janina backstory source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segments active for this source unit: paris-auteuil-normandy, paris-janina-context."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Janina backstory.",
+      "segmentIds": [
+        "paris-auteuil-normandy",
+        "paris-janina-context"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 76,
+          "label": "Chapter 76: Progress of Cavalcanti theYounger",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 77,
+      "movement": "surface",
+      "anchor": "Janina backstory",
+      "locationFacts": [
+        "Chapter 77: Haydee is reviewed against the Janina backstory source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segments active for this source unit: paris-auteuil-normandy, paris-janina-context."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Janina backstory.",
+      "segmentIds": [
+        "paris-auteuil-normandy",
+        "paris-janina-context"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 77,
+          "label": "Chapter 77: Haydee",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 78,
+      "movement": "surface",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 78: We hear From Yanina is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris and provincial reckonings.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 78,
+          "label": "Chapter 78: We hear From Yanina",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 79,
+      "movement": "surface",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 79: The Lemonade is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris and provincial reckonings.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 79,
+          "label": "Chapter 79: The Lemonade",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 80,
+      "movement": "surface",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 80: The Accusation is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris and provincial reckonings.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 80,
+          "label": "Chapter 80: The Accusation",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 81,
+      "movement": "surface",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 81: The Room of the Retired Baker is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris and provincial reckonings.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 81,
+          "label": "Chapter 81: The Room of the Retired Baker",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 82,
+      "movement": "surface",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 82: The Burglary is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris and provincial reckonings.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 82,
+          "label": "Chapter 82: The Burglary",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 83,
+      "movement": "surface",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 83: The Hand of God is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris and provincial reckonings.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 83,
+          "label": "Chapter 83: The Hand of God",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 84,
+      "movement": "surface",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 84: Beauchamp is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris and provincial reckonings.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 84,
+          "label": "Chapter 84: Beauchamp",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 85,
+      "movement": "surface",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 85: The Journey is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-auteuil-normandy."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Paris and provincial reckonings.",
+      "segmentIds": [
+        "paris-auteuil-normandy"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 85,
+          "label": "Chapter 85: The Journey",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 86,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 86: The Trial is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 86: The Trial.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 86,
+          "label": "Chapter 86: The Trial",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 87,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 87: The Challenge is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 87: The Challenge.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 87,
+          "label": "Chapter 87: The Challenge",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 88,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 88: The Insult is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 88: The Insult.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 88,
+          "label": "Chapter 88: The Insult",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 89,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 89: The Night is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 89: The Night.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 89,
+          "label": "Chapter 89: The Night",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 90,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 90: The Meeting is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 90: The Meeting.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 90,
+          "label": "Chapter 90: The Meeting",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 91,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 91: Mother and Son is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 91: Mother and Son.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 91,
+          "label": "Chapter 91: Mother and Son",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 92,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 92: The Suicide is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 92: The Suicide.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 92,
+          "label": "Chapter 92: The Suicide",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 93,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 93: Valentine is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 93: Valentine.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 93,
+          "label": "Chapter 93: Valentine",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 94,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 94: Maximilian's Avowal is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 94: Maximilian's Avowal.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 94,
+          "label": "Chapter 94: Maximilian's Avowal",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 95,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 95: Father and Daughter is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 95: Father and Daughter.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 95,
+          "label": "Chapter 95: Father and Daughter",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 96,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 96: The Contract is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 96: The Contract.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 96,
+          "label": "Chapter 96: The Contract",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 97,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 97: The Departure for Belgium is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 97: The Departure for Belgium.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 97,
+          "label": "Chapter 97: The Departure for Belgium",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 98,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 98: The Bell and Bottle Tavern is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 98: The Bell and Bottle Tavern.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 98,
+          "label": "Chapter 98: The Bell and Bottle Tavern",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 99,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 99: The Law is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 99: The Law.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 99,
+          "label": "Chapter 99: The Law",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 100,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 100: The Apparition is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 100: The Apparition.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 100,
+          "label": "Chapter 100: The Apparition",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 101,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 101: Locusta is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 101: Locusta.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 101,
+          "label": "Chapter 101: Locusta",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 102,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 102: Valentine is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 102: Valentine.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 102,
+          "label": "Chapter 102: Valentine",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 103,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 103: Maximilian is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 103: Maximilian.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 103,
+          "label": "Chapter 103: Maximilian",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 104,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 104: Danglars' Signature is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 104: Danglars' Signature.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 104,
+          "label": "Chapter 104: Danglars' Signature",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 105,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 105: The Cemetery ofPere-Lachaise is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 105: The Cemetery ofPere-Lachaise.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 105,
+          "label": "Chapter 105: The Cemetery ofPere-Lachaise",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 106,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 106: Dividing the Proceeds is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 106: Dividing the Proceeds.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 106,
+          "label": "Chapter 106: Dividing the Proceeds",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 107,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 107: The Lions' Den is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 107: The Lions' Den.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 107,
+          "label": "Chapter 107: The Lions' Den",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 108,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 108: The Judge is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 108: The Judge.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 108,
+          "label": "Chapter 108: The Judge",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 109,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 109: The Assizes is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 109: The Assizes.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 109,
+          "label": "Chapter 109: The Assizes",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 110,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 110: The Indictment is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 110: The Indictment.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 110,
+          "label": "Chapter 110: The Indictment",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 111,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 111: Expiation is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 111: Expiation.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 111,
+          "label": "Chapter 111: Expiation",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 112,
+      "movement": "stationary",
+      "anchor": "Paris and provincial reckonings",
+      "locationFacts": [
+        "Chapter 112: The Departure is reviewed against the Paris and provincial reckonings source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter 112: The Departure.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 112,
+          "label": "Chapter 112: The Departure",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 113,
+      "movement": "sea",
+      "anchor": "Mediterranean departure and Monte Cristo identity",
+      "locationFacts": [
+        "Chapter 113: The Past is reviewed against the Mediterranean departure and Monte Cristo identity source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-monte-cristo-departure."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Mediterranean departure and Monte Cristo identity.",
+      "segmentIds": [
+        "paris-monte-cristo-departure"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 113,
+          "label": "Chapter 113: The Past",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 114,
+      "movement": "sea",
+      "anchor": "Mediterranean departure and Monte Cristo identity",
+      "locationFacts": [
+        "Chapter 114: Peppino is reviewed against the Mediterranean departure and Monte Cristo identity source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-monte-cristo-departure."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Mediterranean departure and Monte Cristo identity.",
+      "segmentIds": [
+        "paris-monte-cristo-departure"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 114,
+          "label": "Chapter 114: Peppino",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 115,
+      "movement": "sea",
+      "anchor": "Mediterranean departure and Monte Cristo identity",
+      "locationFacts": [
+        "Chapter 115: Luigi Vampa's Bill of Fare is reviewed against the Mediterranean departure and Monte Cristo identity source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-monte-cristo-departure."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Mediterranean departure and Monte Cristo identity.",
+      "segmentIds": [
+        "paris-monte-cristo-departure"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 115,
+          "label": "Chapter 115: Luigi Vampa's Bill of Fare",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 116,
+      "movement": "sea",
+      "anchor": "Mediterranean departure and Monte Cristo identity",
+      "locationFacts": [
+        "Chapter 116: The Pardon is reviewed against the Mediterranean departure and Monte Cristo identity source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-monte-cristo-departure."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Mediterranean departure and Monte Cristo identity.",
+      "segmentIds": [
+        "paris-monte-cristo-departure"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 116,
+          "label": "Chapter 116: The Pardon",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 117,
+      "movement": "sea",
+      "anchor": "Mediterranean departure and Monte Cristo identity",
+      "locationFacts": [
+        "Chapter 117: The Fifth of October is reviewed against the Mediterranean departure and Monte Cristo identity source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: paris-monte-cristo-departure."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Mediterranean departure and Monte Cristo identity.",
+      "segmentIds": [
+        "paris-monte-cristo-departure"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 117,
+          "label": "Chapter 117: The Fifth of October",
+          "url": "https://www.gutenberg.org/files/1184/1184-h/1184-h.htm"
+        }
+      ]
+    }
+  ]
+}

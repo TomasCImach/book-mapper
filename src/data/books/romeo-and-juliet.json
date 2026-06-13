@@ -1,0 +1,347 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "romeo-and-juliet",
+  "title": "Romeo and Juliet",
+  "author": "William Shakespeare",
+  "source": {
+    "label": "Project Gutenberg #1513",
+    "url": "https://www.gutenberg.org/files/1513/1513-h/1513-h.htm"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Act I: Feud, street, and Capulet feast"
+    },
+    {
+      "number": 2,
+      "title": "Act II: Balcony, friar, and secret marriage"
+    },
+    {
+      "number": 3,
+      "title": "Act III: Duel, banishment, and Mantua"
+    },
+    {
+      "number": 4,
+      "title": "Act IV: Friar Lawrence plan"
+    },
+    {
+      "number": 5,
+      "title": "Act V: Mantua return and tomb"
+    }
+  ],
+  "media": {
+    "foot": {
+      "label": "Verona foot travel",
+      "color": "#78b159"
+    },
+    "road": {
+      "label": "Exile road",
+      "color": "#9c7a4f"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "verona",
+      "name": "Verona",
+      "chapter": 1,
+      "position": {
+        "lat": 45.4384,
+        "lon": 10.9916
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "capulet-house",
+      "name": "Capulet house",
+      "chapter": 1,
+      "position": {
+        "lat": 45.442,
+        "lon": 10.998
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "friar-lawrence-cell",
+      "name": "Friar Lawrence cell",
+      "chapter": 2,
+      "position": {
+        "lat": 45.44,
+        "lon": 10.99
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "mantua",
+      "name": "Mantua",
+      "chapter": 3,
+      "position": {
+        "lat": 45.1564,
+        "lon": 10.7914
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "id": "capulet-tomb",
+      "name": "Capulet tomb",
+      "chapter": 5,
+      "position": {
+        "lat": 45.444,
+        "lon": 10.997
+      },
+      "confidence": "fictional"
+    }
+  ],
+  "paths": [
+    {
+      "id": "verona-capulet-feast",
+      "title": "Verona streets to Capulet feast",
+      "medium": "foot",
+      "start": {
+        "waypointId": "verona"
+      },
+      "end": {
+        "waypointId": "capulet-house"
+      },
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "distanceKm": 1.1,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "Compact Verona movement for the street brawl and feast.",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Verona streets to Capulet feast",
+          "url": "https://www.gutenberg.org/files/1513/1513-h/1513-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "capulet-friar-cell",
+      "title": "Secret marriage circuit",
+      "medium": "foot",
+      "start": {
+        "waypointId": "capulet-house"
+      },
+      "end": {
+        "waypointId": "friar-lawrence-cell"
+      },
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "distanceKm": 0.9,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "Juliet, Romeo, and the Friar are kept within a compact Verona model.",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "Secret marriage circuit",
+          "url": "https://www.gutenberg.org/files/1513/1513-h/1513-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "verona-mantua-exile",
+      "title": "Romeo banished to Mantua",
+      "medium": "road",
+      "start": {
+        "waypointId": "verona"
+      },
+      "end": {
+        "waypointId": "mantua"
+      },
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "distanceSource": "geodesic",
+      "confidence": "confirmed",
+      "notes": "The text names Mantua as Romeo's place of exile.",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "Romeo banished to Mantua",
+          "url": "https://www.gutenberg.org/files/1513/1513-h/1513-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "friar-capulet-plan",
+      "title": "Friar plan to Capulet house",
+      "medium": "foot",
+      "start": {
+        "waypointId": "friar-lawrence-cell"
+      },
+      "end": {
+        "waypointId": "capulet-house"
+      },
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "distanceKm": 0.9,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "The potion plan remains a local Verona movement.",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "Friar plan to Capulet house",
+          "url": "https://www.gutenberg.org/files/1513/1513-h/1513-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "mantua-capulet-tomb",
+      "title": "Mantua return to the tomb",
+      "medium": "road",
+      "start": {
+        "waypointId": "mantua"
+      },
+      "end": {
+        "waypointId": "capulet-tomb"
+      },
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Romeo returns from Mantua to the Capulet tomb. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Mantua return to the tomb",
+          "url": "https://www.gutenberg.org/files/1513/1513-h/1513-h.htm"
+        }
+      ]
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 1,
+      "movement": "surface",
+      "anchor": "Verona",
+      "locationFacts": [
+        "The opening act is modeled inside Verona, from public streets to the Capulet house."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Verona.",
+      "segmentIds": [
+        "verona-capulet-feast"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Act I: Feud, street, and Capulet feast",
+          "url": "https://www.gutenberg.org/files/1513/1513-h/1513-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "movement": "surface",
+      "anchor": "Capulet house and Friar Lawrence cell",
+      "locationFacts": [
+        "The map stays within Verona as Romeo moves between Juliet and Friar Lawrence."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Capulet house and Friar Lawrence cell.",
+      "segmentIds": [
+        "capulet-friar-cell"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "Act II: Balcony, friar, and secret marriage",
+          "url": "https://www.gutenberg.org/files/1513/1513-h/1513-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "movement": "surface",
+      "anchor": "Verona to Mantua",
+      "locationFacts": [
+        "Romeo is banished from Verona to Mantua after the duel."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Verona to Mantua.",
+      "segmentIds": [
+        "verona-mantua-exile"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "Act III: Duel, banishment, and Mantua",
+          "url": "https://www.gutenberg.org/files/1513/1513-h/1513-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "movement": "surface",
+      "anchor": "Verona",
+      "locationFacts": [
+        "Juliet and the Friar remain in Verona while the sleeping-potion plan is made."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Verona.",
+      "segmentIds": [
+        "friar-capulet-plan"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "Act IV: Friar Lawrence plan",
+          "url": "https://www.gutenberg.org/files/1513/1513-h/1513-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "movement": "surface",
+      "anchor": "Mantua to Verona",
+      "locationFacts": [
+        "The closing act brings Romeo from Mantua back to the Capulet tomb in Verona."
+      ],
+      "deltaFacts": [
+        "Mapped segment update the route state for this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth change is modeled."
+      ],
+      "xyzEstimate": "XYZ delta is derived from the 1 mapped segment set for Mantua to Verona.",
+      "segmentIds": [
+        "mantua-capulet-tomb"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Act V: Mantua return and tomb",
+          "url": "https://www.gutenberg.org/files/1513/1513-h/1513-h.htm"
+        }
+      ]
+    }
+  ]
+}

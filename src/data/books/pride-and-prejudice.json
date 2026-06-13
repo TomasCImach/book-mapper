@@ -1,0 +1,2142 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "pride-and-prejudice",
+  "title": "Pride and Prejudice",
+  "author": "Jane Austen",
+  "source": {
+    "label": "Project Gutenberg #1342",
+    "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Chapter I"
+    },
+    {
+      "number": 2,
+      "title": "Chapter II"
+    },
+    {
+      "number": 3,
+      "title": "Chapter III"
+    },
+    {
+      "number": 4,
+      "title": "Chapter IV"
+    },
+    {
+      "number": 5,
+      "title": "Chapter V"
+    },
+    {
+      "number": 6,
+      "title": "Chapter VI"
+    },
+    {
+      "number": 7,
+      "title": "Chapter VII"
+    },
+    {
+      "number": 8,
+      "title": "Chapter VIII"
+    },
+    {
+      "number": 9,
+      "title": "Chapter IX"
+    },
+    {
+      "number": 10,
+      "title": "Chapter X"
+    },
+    {
+      "number": 11,
+      "title": "Chapter XI"
+    },
+    {
+      "number": 12,
+      "title": "Chapter XII"
+    },
+    {
+      "number": 13,
+      "title": "Chapter XIII"
+    },
+    {
+      "number": 14,
+      "title": "Chapter XIV"
+    },
+    {
+      "number": 15,
+      "title": "Chapter XV"
+    },
+    {
+      "number": 16,
+      "title": "Chapter XVI"
+    },
+    {
+      "number": 17,
+      "title": "Chapter XVII"
+    },
+    {
+      "number": 18,
+      "title": "Chapter XVIII"
+    },
+    {
+      "number": 19,
+      "title": "Chapter XIX"
+    },
+    {
+      "number": 20,
+      "title": "Chapter XX"
+    },
+    {
+      "number": 21,
+      "title": "Chapter XXI"
+    },
+    {
+      "number": 22,
+      "title": "Chapter XXII"
+    },
+    {
+      "number": 23,
+      "title": "Chapter XXIII"
+    },
+    {
+      "number": 24,
+      "title": "Chapter XXIV"
+    },
+    {
+      "number": 25,
+      "title": "Chapter XXV"
+    },
+    {
+      "number": 26,
+      "title": "Chapter XXVI"
+    },
+    {
+      "number": 27,
+      "title": "Chapter XXVII"
+    },
+    {
+      "number": 28,
+      "title": "Chapter XXVIII"
+    },
+    {
+      "number": 29,
+      "title": "Chapter XXIX"
+    },
+    {
+      "number": 30,
+      "title": "Chapter XXX"
+    },
+    {
+      "number": 31,
+      "title": "Chapter XXXI"
+    },
+    {
+      "number": 32,
+      "title": "Chapter XXXII"
+    },
+    {
+      "number": 33,
+      "title": "Chapter XXXIII"
+    },
+    {
+      "number": 34,
+      "title": "Chapter XXXIV"
+    },
+    {
+      "number": 35,
+      "title": "Chapter XXXV"
+    },
+    {
+      "number": 36,
+      "title": "Chapter XXXVI"
+    },
+    {
+      "number": 37,
+      "title": "Chapter XXXVII"
+    },
+    {
+      "number": 38,
+      "title": "Chapter XXXVIII"
+    },
+    {
+      "number": 39,
+      "title": "Chapter XXXIX"
+    },
+    {
+      "number": 40,
+      "title": "Chapter XL"
+    },
+    {
+      "number": 41,
+      "title": "Chapter XLI"
+    },
+    {
+      "number": 42,
+      "title": "Chapter XLII"
+    },
+    {
+      "number": 43,
+      "title": "Chapter XLIII"
+    },
+    {
+      "number": 44,
+      "title": "Chapter XLIV"
+    },
+    {
+      "number": 45,
+      "title": "Chapter XLV"
+    },
+    {
+      "number": 46,
+      "title": "Chapter XLVI"
+    },
+    {
+      "number": 47,
+      "title": "Chapter XLVII"
+    },
+    {
+      "number": 48,
+      "title": "Chapter XLVIII"
+    },
+    {
+      "number": 49,
+      "title": "Chapter XLIX"
+    },
+    {
+      "number": 50,
+      "title": "Chapter L"
+    },
+    {
+      "number": 51,
+      "title": "Chapter LI"
+    },
+    {
+      "number": 52,
+      "title": "Chapter LII"
+    },
+    {
+      "number": 53,
+      "title": "Chapter LIII"
+    },
+    {
+      "number": 54,
+      "title": "Chapter LIV"
+    },
+    {
+      "number": 55,
+      "title": "Chapter LV"
+    },
+    {
+      "number": 56,
+      "title": "Chapter LVI"
+    },
+    {
+      "number": 57,
+      "title": "Chapter LVII"
+    },
+    {
+      "number": 58,
+      "title": "Chapter LVIII"
+    },
+    {
+      "number": 59,
+      "title": "Chapter LIX"
+    },
+    {
+      "number": 60,
+      "title": "Chapter LX"
+    },
+    {
+      "number": 61,
+      "title": "Chapter LXI"
+    }
+  ],
+  "media": {
+    "carriage": {
+      "label": "Carriage and post-chaise",
+      "color": "#c58b42"
+    },
+    "foot": {
+      "label": "Local walks",
+      "color": "#78b159"
+    },
+    "road": {
+      "label": "Road journey",
+      "color": "#9c7a4f"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "longbourn",
+      "name": "Longbourn",
+      "chapter": 1,
+      "position": {
+        "lat": 51.809,
+        "lon": -0.206
+      },
+      "confidence": "fictional",
+      "notes": "Fictional Bennet estate, placed near a Hertfordshire Meryton cluster."
+    },
+    {
+      "id": "netherfield-park",
+      "name": "Netherfield Park",
+      "chapter": 1,
+      "position": {
+        "lat": 51.83,
+        "lon": -0.18
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "meryton",
+      "name": "Meryton",
+      "chapter": 7,
+      "position": {
+        "lat": 51.807,
+        "lon": -0.188
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "hunsford",
+      "name": "Hunsford",
+      "chapter": 27,
+      "position": {
+        "lat": 51.226,
+        "lon": 0.071
+      },
+      "confidence": "fictional",
+      "notes": "Kent parsonage location is estimated from the Rosings/Hunsford setting."
+    },
+    {
+      "id": "rosings-park",
+      "name": "Rosings Park",
+      "chapter": 29,
+      "position": {
+        "lat": 51.23,
+        "lon": 0.05
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "london-gardiner-house",
+      "name": "Gardiners in London",
+      "chapter": 25,
+      "position": {
+        "lat": 51.514,
+        "lon": -0.149
+      },
+      "confidence": "estimated"
+    },
+    {
+      "id": "brighton",
+      "name": "Brighton",
+      "chapter": 41,
+      "position": {
+        "lat": 50.8225,
+        "lon": -0.1372
+      },
+      "confidence": "geocoded"
+    },
+    {
+      "id": "pemberley",
+      "name": "Pemberley",
+      "chapter": 43,
+      "position": {
+        "lat": 53.1934,
+        "lon": -1.6116
+      },
+      "confidence": "fictional",
+      "notes": "A Derbyshire estate proxy near Chatsworth is used for Pemberley."
+    },
+    {
+      "id": "lambton",
+      "name": "Lambton",
+      "chapter": 44,
+      "position": {
+        "lat": 53.16,
+        "lon": -1.58
+      },
+      "confidence": "fictional"
+    }
+  ],
+  "paths": [
+    {
+      "id": "longbourn-netherfield",
+      "title": "Longbourn and Netherfield visits",
+      "medium": "carriage",
+      "start": {
+        "waypointId": "longbourn"
+      },
+      "end": {
+        "waypointId": "netherfield-park"
+      },
+      "chapterStart": 3,
+      "chapterEnd": 18,
+      "distanceKm": 5,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "Short fictional neighborhood travel for early Bennet and Bingley visits.",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "Longbourn and Netherfield visits",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "netherfield-meryton",
+      "title": "Meryton and militia circuit",
+      "medium": "foot",
+      "start": {
+        "waypointId": "netherfield-park"
+      },
+      "end": {
+        "waypointId": "meryton"
+      },
+      "chapterStart": 7,
+      "chapterEnd": 21,
+      "distanceKm": 4,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "The route keeps militia, shops, and assemblies close to the Meryton cluster.",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "Meryton and militia circuit",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "longbourn-hunsford",
+      "title": "Elizabeth goes to Hunsford",
+      "medium": "road",
+      "start": {
+        "waypointId": "longbourn"
+      },
+      "end": {
+        "waypointId": "hunsford"
+      },
+      "chapterStart": 27,
+      "chapterEnd": 28,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "Longbourn and Hunsford are fictional, so the geodesic distance uses estimated anchors. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "points": [
+        {
+          "lat": 51.5074,
+          "lon": -0.1278
+        }
+      ],
+      "sourceRefs": [
+        {
+          "chapter": 27,
+          "label": "Elizabeth goes to Hunsford",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "hunsford-rosings",
+      "title": "Hunsford to Rosings",
+      "medium": "carriage",
+      "start": {
+        "waypointId": "hunsford"
+      },
+      "end": {
+        "waypointId": "rosings-park"
+      },
+      "chapterStart": 29,
+      "chapterEnd": 33,
+      "distanceKm": 3,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "A nearby estate call rather than a long route.",
+      "sourceRefs": [
+        {
+          "chapter": 29,
+          "label": "Hunsford to Rosings",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "longbourn-london-brighton",
+      "title": "Lydia goes to Brighton",
+      "medium": "road",
+      "start": {
+        "waypointId": "longbourn"
+      },
+      "end": {
+        "waypointId": "brighton"
+      },
+      "chapterStart": 41,
+      "chapterEnd": 41,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Lydia is allowed to go to Brighton with the Forsters; this is a source-supported family route, not the later London search. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 41,
+          "label": "Lydia goes to Brighton",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "longbourn-pemberley",
+      "title": "Derbyshire tour to Pemberley",
+      "medium": "road",
+      "start": {
+        "waypointId": "longbourn"
+      },
+      "end": {
+        "waypointId": "pemberley"
+      },
+      "chapterStart": 42,
+      "chapterEnd": 43,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "The Gardiners and Elizabeth travel north to Derbyshire. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 42,
+          "label": "Derbyshire tour to Pemberley",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "pemberley-lambton",
+      "title": "Pemberley to Lambton",
+      "medium": "carriage",
+      "start": {
+        "waypointId": "pemberley"
+      },
+      "end": {
+        "waypointId": "lambton"
+      },
+      "chapterStart": 43,
+      "chapterEnd": 46,
+      "distanceKm": 6,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "Short local move between the Derbyshire estate and the inn village.",
+      "sourceRefs": [
+        {
+          "chapter": 43,
+          "label": "Pemberley to Lambton",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "pemberley-longbourn-return",
+      "title": "Return to Longbourn",
+      "medium": "road",
+      "start": {
+        "waypointId": "pemberley"
+      },
+      "end": {
+        "waypointId": "longbourn"
+      },
+      "chapterStart": 46,
+      "chapterEnd": 47,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "The final chapter unit returns the map to Hertfordshire for the resolution. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 46,
+          "label": "Return to Longbourn",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "longbourn-london-search",
+      "title": "Longbourn to London search for Lydia",
+      "medium": "road",
+      "start": {
+        "waypointId": "longbourn"
+      },
+      "end": {
+        "waypointId": "london-gardiner-house"
+      },
+      "chapterStart": 47,
+      "chapterEnd": 52,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Mr. Bennet and Mr. Gardiner search from Longbourn/London after Lydia and Wickham elope. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 47,
+          "label": "Longbourn to London search for Lydia",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 1,
+      "movement": "stationary",
+      "anchor": "Longbourn and Netherfield setup",
+      "locationFacts": [
+        "Chapter I is reviewed against the Longbourn and Netherfield setup source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter I.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Chapter I",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "movement": "stationary",
+      "anchor": "Longbourn and Netherfield setup",
+      "locationFacts": [
+        "Chapter II is reviewed against the Longbourn and Netherfield setup source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter II.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "Chapter II",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "movement": "surface",
+      "anchor": "Longbourn and Netherfield setup",
+      "locationFacts": [
+        "Chapter III is reviewed against the Longbourn and Netherfield setup source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: longbourn-netherfield."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Longbourn and Netherfield setup.",
+      "segmentIds": [
+        "longbourn-netherfield"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "Chapter III",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "movement": "surface",
+      "anchor": "Longbourn and Netherfield setup",
+      "locationFacts": [
+        "Chapter IV is reviewed against the Longbourn and Netherfield setup source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: longbourn-netherfield."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Longbourn and Netherfield setup.",
+      "segmentIds": [
+        "longbourn-netherfield"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "Chapter IV",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "movement": "surface",
+      "anchor": "Longbourn and Netherfield setup",
+      "locationFacts": [
+        "Chapter V is reviewed against the Longbourn and Netherfield setup source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: longbourn-netherfield."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Longbourn and Netherfield setup.",
+      "segmentIds": [
+        "longbourn-netherfield"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Chapter V",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "movement": "surface",
+      "anchor": "Longbourn and Netherfield setup",
+      "locationFacts": [
+        "Chapter VI is reviewed against the Longbourn and Netherfield setup source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: longbourn-netherfield."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Longbourn and Netherfield setup.",
+      "segmentIds": [
+        "longbourn-netherfield"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "Chapter VI",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "movement": "surface",
+      "anchor": "Meryton, Netherfield, and Longbourn",
+      "locationFacts": [
+        "Chapter VII is reviewed against the Meryton, Netherfield, and Longbourn source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segments active for this source unit: longbourn-netherfield, netherfield-meryton."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Meryton, Netherfield, and Longbourn.",
+      "segmentIds": [
+        "longbourn-netherfield",
+        "netherfield-meryton"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "Chapter VII",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "movement": "surface",
+      "anchor": "Meryton, Netherfield, and Longbourn",
+      "locationFacts": [
+        "Chapter VIII is reviewed against the Meryton, Netherfield, and Longbourn source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segments active for this source unit: longbourn-netherfield, netherfield-meryton."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Meryton, Netherfield, and Longbourn.",
+      "segmentIds": [
+        "longbourn-netherfield",
+        "netherfield-meryton"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Chapter VIII",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "movement": "surface",
+      "anchor": "Meryton, Netherfield, and Longbourn",
+      "locationFacts": [
+        "Chapter IX is reviewed against the Meryton, Netherfield, and Longbourn source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segments active for this source unit: longbourn-netherfield, netherfield-meryton."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Meryton, Netherfield, and Longbourn.",
+      "segmentIds": [
+        "longbourn-netherfield",
+        "netherfield-meryton"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "Chapter IX",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "movement": "surface",
+      "anchor": "Meryton, Netherfield, and Longbourn",
+      "locationFacts": [
+        "Chapter X is reviewed against the Meryton, Netherfield, and Longbourn source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segments active for this source unit: longbourn-netherfield, netherfield-meryton."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Meryton, Netherfield, and Longbourn.",
+      "segmentIds": [
+        "longbourn-netherfield",
+        "netherfield-meryton"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 10,
+          "label": "Chapter X",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "movement": "surface",
+      "anchor": "Meryton, Netherfield, and Longbourn",
+      "locationFacts": [
+        "Chapter XI is reviewed against the Meryton, Netherfield, and Longbourn source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segments active for this source unit: longbourn-netherfield, netherfield-meryton."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Meryton, Netherfield, and Longbourn.",
+      "segmentIds": [
+        "longbourn-netherfield",
+        "netherfield-meryton"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "Chapter XI",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "movement": "surface",
+      "anchor": "Meryton, Netherfield, and Longbourn",
+      "locationFacts": [
+        "Chapter XII is reviewed against the Meryton, Netherfield, and Longbourn source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segments active for this source unit: longbourn-netherfield, netherfield-meryton."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Meryton, Netherfield, and Longbourn.",
+      "segmentIds": [
+        "longbourn-netherfield",
+        "netherfield-meryton"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Chapter XII",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "movement": "surface",
+      "anchor": "Meryton, Netherfield, and Longbourn",
+      "locationFacts": [
+        "Chapter XIII is reviewed against the Meryton, Netherfield, and Longbourn source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segments active for this source unit: longbourn-netherfield, netherfield-meryton."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Meryton, Netherfield, and Longbourn.",
+      "segmentIds": [
+        "longbourn-netherfield",
+        "netherfield-meryton"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "Chapter XIII",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "movement": "surface",
+      "anchor": "Meryton, Netherfield, and Longbourn",
+      "locationFacts": [
+        "Chapter XIV is reviewed against the Meryton, Netherfield, and Longbourn source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segments active for this source unit: longbourn-netherfield, netherfield-meryton."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Meryton, Netherfield, and Longbourn.",
+      "segmentIds": [
+        "longbourn-netherfield",
+        "netherfield-meryton"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 14,
+          "label": "Chapter XIV",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "movement": "surface",
+      "anchor": "Meryton, Netherfield, and Longbourn",
+      "locationFacts": [
+        "Chapter XV is reviewed against the Meryton, Netherfield, and Longbourn source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segments active for this source unit: longbourn-netherfield, netherfield-meryton."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Meryton, Netherfield, and Longbourn.",
+      "segmentIds": [
+        "longbourn-netherfield",
+        "netherfield-meryton"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 15,
+          "label": "Chapter XV",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "movement": "surface",
+      "anchor": "Meryton, Netherfield, and Longbourn",
+      "locationFacts": [
+        "Chapter XVI is reviewed against the Meryton, Netherfield, and Longbourn source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segments active for this source unit: longbourn-netherfield, netherfield-meryton."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Meryton, Netherfield, and Longbourn.",
+      "segmentIds": [
+        "longbourn-netherfield",
+        "netherfield-meryton"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 16,
+          "label": "Chapter XVI",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "movement": "surface",
+      "anchor": "Meryton, Netherfield, and Longbourn",
+      "locationFacts": [
+        "Chapter XVII is reviewed against the Meryton, Netherfield, and Longbourn source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segments active for this source unit: longbourn-netherfield, netherfield-meryton."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Meryton, Netherfield, and Longbourn.",
+      "segmentIds": [
+        "longbourn-netherfield",
+        "netherfield-meryton"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 17,
+          "label": "Chapter XVII",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "movement": "surface",
+      "anchor": "Meryton, Netherfield, and Longbourn",
+      "locationFacts": [
+        "Chapter XVIII is reviewed against the Meryton, Netherfield, and Longbourn source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segments active for this source unit: longbourn-netherfield, netherfield-meryton."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Meryton, Netherfield, and Longbourn.",
+      "segmentIds": [
+        "longbourn-netherfield",
+        "netherfield-meryton"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 18,
+          "label": "Chapter XVIII",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 19,
+      "movement": "surface",
+      "anchor": "Meryton, Netherfield, and Longbourn",
+      "locationFacts": [
+        "Chapter XIX is reviewed against the Meryton, Netherfield, and Longbourn source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: netherfield-meryton."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Meryton, Netherfield, and Longbourn.",
+      "segmentIds": [
+        "netherfield-meryton"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 19,
+          "label": "Chapter XIX",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 20,
+      "movement": "surface",
+      "anchor": "Meryton, Netherfield, and Longbourn",
+      "locationFacts": [
+        "Chapter XX is reviewed against the Meryton, Netherfield, and Longbourn source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: netherfield-meryton."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Meryton, Netherfield, and Longbourn.",
+      "segmentIds": [
+        "netherfield-meryton"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 20,
+          "label": "Chapter XX",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 21,
+      "movement": "surface",
+      "anchor": "Meryton, Netherfield, and Longbourn",
+      "locationFacts": [
+        "Chapter XXI is reviewed against the Meryton, Netherfield, and Longbourn source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: netherfield-meryton."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Meryton, Netherfield, and Longbourn.",
+      "segmentIds": [
+        "netherfield-meryton"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 21,
+          "label": "Chapter XXI",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "movement": "stationary",
+      "anchor": "Meryton, Netherfield, and Longbourn",
+      "locationFacts": [
+        "Chapter XXII is reviewed against the Meryton, Netherfield, and Longbourn source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter XXII.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 22,
+          "label": "Chapter XXII",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 23,
+      "movement": "stationary",
+      "anchor": "Meryton, Netherfield, and Longbourn",
+      "locationFacts": [
+        "Chapter XXIII is reviewed against the Meryton, Netherfield, and Longbourn source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter XXIII.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 23,
+          "label": "Chapter XXIII",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 24,
+      "movement": "stationary",
+      "anchor": "Longbourn and London family correspondence",
+      "locationFacts": [
+        "Chapter XXIV is reviewed against the Longbourn and London family correspondence source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter XXIV.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 24,
+          "label": "Chapter XXIV",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 25,
+      "movement": "stationary",
+      "anchor": "Longbourn and London family correspondence",
+      "locationFacts": [
+        "Chapter XXV is reviewed against the Longbourn and London family correspondence source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter XXV.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 25,
+          "label": "Chapter XXV",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 26,
+      "movement": "stationary",
+      "anchor": "Longbourn and London family correspondence",
+      "locationFacts": [
+        "Chapter XXVI is reviewed against the Longbourn and London family correspondence source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter XXVI.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 26,
+          "label": "Chapter XXVI",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 27,
+      "movement": "surface",
+      "anchor": "Hunsford and Rosings in Kent",
+      "locationFacts": [
+        "Chapter XXVII is reviewed against the Hunsford and Rosings in Kent source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: longbourn-hunsford."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Hunsford and Rosings in Kent.",
+      "segmentIds": [
+        "longbourn-hunsford"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 27,
+          "label": "Chapter XXVII",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 28,
+      "movement": "surface",
+      "anchor": "Hunsford and Rosings in Kent",
+      "locationFacts": [
+        "Chapter XXVIII is reviewed against the Hunsford and Rosings in Kent source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: longbourn-hunsford."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Hunsford and Rosings in Kent.",
+      "segmentIds": [
+        "longbourn-hunsford"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 28,
+          "label": "Chapter XXVIII",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 29,
+      "movement": "surface",
+      "anchor": "Hunsford and Rosings in Kent",
+      "locationFacts": [
+        "Chapter XXIX is reviewed against the Hunsford and Rosings in Kent source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: hunsford-rosings."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Hunsford and Rosings in Kent.",
+      "segmentIds": [
+        "hunsford-rosings"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 29,
+          "label": "Chapter XXIX",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 30,
+      "movement": "surface",
+      "anchor": "Hunsford and Rosings in Kent",
+      "locationFacts": [
+        "Chapter XXX is reviewed against the Hunsford and Rosings in Kent source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: hunsford-rosings."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Hunsford and Rosings in Kent.",
+      "segmentIds": [
+        "hunsford-rosings"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 30,
+          "label": "Chapter XXX",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 31,
+      "movement": "surface",
+      "anchor": "Hunsford and Rosings in Kent",
+      "locationFacts": [
+        "Chapter XXXI is reviewed against the Hunsford and Rosings in Kent source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: hunsford-rosings."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Hunsford and Rosings in Kent.",
+      "segmentIds": [
+        "hunsford-rosings"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 31,
+          "label": "Chapter XXXI",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 32,
+      "movement": "surface",
+      "anchor": "Hunsford and Rosings in Kent",
+      "locationFacts": [
+        "Chapter XXXII is reviewed against the Hunsford and Rosings in Kent source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: hunsford-rosings."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Hunsford and Rosings in Kent.",
+      "segmentIds": [
+        "hunsford-rosings"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 32,
+          "label": "Chapter XXXII",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 33,
+      "movement": "surface",
+      "anchor": "Hunsford and Rosings in Kent",
+      "locationFacts": [
+        "Chapter XXXIII is reviewed against the Hunsford and Rosings in Kent source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: hunsford-rosings."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Hunsford and Rosings in Kent.",
+      "segmentIds": [
+        "hunsford-rosings"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 33,
+          "label": "Chapter XXXIII",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 34,
+      "movement": "stationary",
+      "anchor": "Hunsford and Rosings in Kent",
+      "locationFacts": [
+        "Chapter XXXIV is reviewed against the Hunsford and Rosings in Kent source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter XXXIV.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 34,
+          "label": "Chapter XXXIV",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 35,
+      "movement": "stationary",
+      "anchor": "Hunsford and Rosings in Kent",
+      "locationFacts": [
+        "Chapter XXXV is reviewed against the Hunsford and Rosings in Kent source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter XXXV.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 35,
+          "label": "Chapter XXXV",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 36,
+      "movement": "stationary",
+      "anchor": "Hunsford and Rosings in Kent",
+      "locationFacts": [
+        "Chapter XXXVI is reviewed against the Hunsford and Rosings in Kent source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter XXXVI.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 36,
+          "label": "Chapter XXXVI",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 37,
+      "movement": "stationary",
+      "anchor": "Hunsford and Rosings in Kent",
+      "locationFacts": [
+        "Chapter XXXVII is reviewed against the Hunsford and Rosings in Kent source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter XXXVII.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 37,
+          "label": "Chapter XXXVII",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 38,
+      "movement": "stationary",
+      "anchor": "Hunsford and Rosings in Kent",
+      "locationFacts": [
+        "Chapter XXXVIII is reviewed against the Hunsford and Rosings in Kent source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter XXXVIII.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 38,
+          "label": "Chapter XXXVIII",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 39,
+      "movement": "stationary",
+      "anchor": "Longbourn and Brighton",
+      "locationFacts": [
+        "Chapter XXXIX is reviewed against the Longbourn and Brighton source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter XXXIX.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 39,
+          "label": "Chapter XXXIX",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 40,
+      "movement": "stationary",
+      "anchor": "Longbourn and Brighton",
+      "locationFacts": [
+        "Chapter XL is reviewed against the Longbourn and Brighton source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter XL.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 40,
+          "label": "Chapter XL",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 41,
+      "movement": "surface",
+      "anchor": "Longbourn and Brighton",
+      "locationFacts": [
+        "Chapter XLI is reviewed against the Longbourn and Brighton source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: longbourn-london-brighton."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Longbourn and Brighton.",
+      "segmentIds": [
+        "longbourn-london-brighton"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 41,
+          "label": "Chapter XLI",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 42,
+      "movement": "surface",
+      "anchor": "Derbyshire, Pemberley, and Lambton",
+      "locationFacts": [
+        "Chapter XLII is reviewed against the Derbyshire, Pemberley, and Lambton source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: longbourn-pemberley."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Derbyshire, Pemberley, and Lambton.",
+      "segmentIds": [
+        "longbourn-pemberley"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 42,
+          "label": "Chapter XLII",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 43,
+      "movement": "surface",
+      "anchor": "Derbyshire, Pemberley, and Lambton",
+      "locationFacts": [
+        "Chapter XLIII is reviewed against the Derbyshire, Pemberley, and Lambton source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segments active for this source unit: longbourn-pemberley, pemberley-lambton."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Derbyshire, Pemberley, and Lambton.",
+      "segmentIds": [
+        "longbourn-pemberley",
+        "pemberley-lambton"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 43,
+          "label": "Chapter XLIII",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 44,
+      "movement": "surface",
+      "anchor": "Derbyshire, Pemberley, and Lambton",
+      "locationFacts": [
+        "Chapter XLIV is reviewed against the Derbyshire, Pemberley, and Lambton source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: pemberley-lambton."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Derbyshire, Pemberley, and Lambton.",
+      "segmentIds": [
+        "pemberley-lambton"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 44,
+          "label": "Chapter XLIV",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 45,
+      "movement": "surface",
+      "anchor": "Derbyshire, Pemberley, and Lambton",
+      "locationFacts": [
+        "Chapter XLV is reviewed against the Derbyshire, Pemberley, and Lambton source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: pemberley-lambton."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Derbyshire, Pemberley, and Lambton.",
+      "segmentIds": [
+        "pemberley-lambton"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 45,
+          "label": "Chapter XLV",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 46,
+      "movement": "surface",
+      "anchor": "Derbyshire, Pemberley, and Lambton",
+      "locationFacts": [
+        "Chapter XLVI is reviewed against the Derbyshire, Pemberley, and Lambton source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segments active for this source unit: pemberley-lambton, pemberley-longbourn-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Derbyshire, Pemberley, and Lambton.",
+      "segmentIds": [
+        "pemberley-lambton",
+        "pemberley-longbourn-return"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 46,
+          "label": "Chapter XLVI",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 47,
+      "movement": "surface",
+      "anchor": "Longbourn and London search",
+      "locationFacts": [
+        "Chapter XLVII is reviewed against the Longbourn and London search source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segments active for this source unit: pemberley-longbourn-return, longbourn-london-search."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Longbourn and London search.",
+      "segmentIds": [
+        "pemberley-longbourn-return",
+        "longbourn-london-search"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 47,
+          "label": "Chapter XLVII",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 48,
+      "movement": "surface",
+      "anchor": "Longbourn and London search",
+      "locationFacts": [
+        "Chapter XLVIII is reviewed against the Longbourn and London search source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: longbourn-london-search."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Longbourn and London search.",
+      "segmentIds": [
+        "longbourn-london-search"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 48,
+          "label": "Chapter XLVIII",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 49,
+      "movement": "surface",
+      "anchor": "Longbourn and London search",
+      "locationFacts": [
+        "Chapter XLIX is reviewed against the Longbourn and London search source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: longbourn-london-search."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Longbourn and London search.",
+      "segmentIds": [
+        "longbourn-london-search"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 49,
+          "label": "Chapter XLIX",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 50,
+      "movement": "surface",
+      "anchor": "Longbourn and London search",
+      "locationFacts": [
+        "Chapter L is reviewed against the Longbourn and London search source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: longbourn-london-search."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Longbourn and London search.",
+      "segmentIds": [
+        "longbourn-london-search"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 50,
+          "label": "Chapter L",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 51,
+      "movement": "surface",
+      "anchor": "Longbourn and London search",
+      "locationFacts": [
+        "Chapter LI is reviewed against the Longbourn and London search source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: longbourn-london-search."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Longbourn and London search.",
+      "segmentIds": [
+        "longbourn-london-search"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 51,
+          "label": "Chapter LI",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 52,
+      "movement": "surface",
+      "anchor": "Longbourn and London search",
+      "locationFacts": [
+        "Chapter LII is reviewed against the Longbourn and London search source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: longbourn-london-search."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Longbourn and London search.",
+      "segmentIds": [
+        "longbourn-london-search"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 52,
+          "label": "Chapter LII",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 53,
+      "movement": "stationary",
+      "anchor": "Longbourn resolution",
+      "locationFacts": [
+        "Chapter LIII is reviewed against the Longbourn resolution source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter LIII.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 53,
+          "label": "Chapter LIII",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 54,
+      "movement": "stationary",
+      "anchor": "Longbourn resolution",
+      "locationFacts": [
+        "Chapter LIV is reviewed against the Longbourn resolution source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter LIV.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 54,
+          "label": "Chapter LIV",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 55,
+      "movement": "stationary",
+      "anchor": "Longbourn resolution",
+      "locationFacts": [
+        "Chapter LV is reviewed against the Longbourn resolution source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter LV.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 55,
+          "label": "Chapter LV",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 56,
+      "movement": "stationary",
+      "anchor": "Longbourn resolution",
+      "locationFacts": [
+        "Chapter LVI is reviewed against the Longbourn resolution source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter LVI.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 56,
+          "label": "Chapter LVI",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 57,
+      "movement": "stationary",
+      "anchor": "Longbourn resolution",
+      "locationFacts": [
+        "Chapter LVII is reviewed against the Longbourn resolution source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter LVII.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 57,
+          "label": "Chapter LVII",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 58,
+      "movement": "stationary",
+      "anchor": "Longbourn resolution",
+      "locationFacts": [
+        "Chapter LVIII is reviewed against the Longbourn resolution source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter LVIII.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 58,
+          "label": "Chapter LVIII",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 59,
+      "movement": "stationary",
+      "anchor": "Longbourn resolution",
+      "locationFacts": [
+        "Chapter LIX is reviewed against the Longbourn resolution source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter LIX.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 59,
+          "label": "Chapter LIX",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 60,
+      "movement": "stationary",
+      "anchor": "Longbourn resolution",
+      "locationFacts": [
+        "Chapter LX is reviewed against the Longbourn resolution source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter LX.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 60,
+          "label": "Chapter LX",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 61,
+      "movement": "stationary",
+      "anchor": "Longbourn resolution",
+      "locationFacts": [
+        "Chapter LXI is reviewed against the Longbourn resolution source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Chapter LXI.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 61,
+          "label": "Chapter LXI",
+          "url": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm"
+        }
+      ]
+    }
+  ]
+}

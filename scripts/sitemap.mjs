@@ -16,6 +16,18 @@ export const bookFiles = [
   'twenty-thousand-leagues-under-the-sea.json',
   'moby-dick.json',
   'forrest-gump.json',
+  'pride-and-prejudice.json',
+  'a-room-with-a-view.json',
+  'alices-adventures-in-wonderland.json',
+  'frankenstein.json',
+  'crime-and-punishment.json',
+  'the-count-of-monte-cristo.json',
+  'the-adventures-of-sherlock-holmes.json',
+  'middlemarch.json',
+  'memoirs-of-the-court-of-queen-elizabeth.json',
+  'little-women.json',
+  'my-life-volume-1.json',
+  'dracula.json',
 ]
 
 export function normalizeSiteUrl(siteUrl = process.env.SITE_URL ?? DEFAULT_SITE_URL) {

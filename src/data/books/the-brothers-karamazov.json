@@ -1,0 +1,594 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "the-brothers-karamazov",
+  "title": "The Brothers Karamazov",
+  "author": "Fyodor Dostoyevsky",
+  "source": {
+    "label": "Project Gutenberg #28054",
+    "url": "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Book I: The History Of A Family"
+    },
+    {
+      "number": 2,
+      "title": "Book II: An Unfortunate Gathering"
+    },
+    {
+      "number": 3,
+      "title": "Book III: The Sensualists"
+    },
+    {
+      "number": 4,
+      "title": "Book IV: Lacerations"
+    },
+    {
+      "number": 5,
+      "title": "Book V: Pro And Contra"
+    },
+    {
+      "number": 6,
+      "title": "Book VI: The Russian Monk"
+    },
+    {
+      "number": 7,
+      "title": "Book VII: Alyosha"
+    },
+    {
+      "number": 8,
+      "title": "Book VIII: Mitya"
+    },
+    {
+      "number": 9,
+      "title": "Book IX: The Preliminary Investigation"
+    },
+    {
+      "number": 10,
+      "title": "Book X: The Boys"
+    },
+    {
+      "number": 11,
+      "title": "Book XI: Ivan"
+    },
+    {
+      "number": 12,
+      "title": "Book XII: A Judicial Error"
+    },
+    {
+      "number": 13,
+      "title": "Epilogue"
+    }
+  ],
+  "media": {
+    "foot": {
+      "label": "Town foot travel",
+      "color": "#78b159"
+    },
+    "road": {
+      "label": "Road journey",
+      "color": "#9c7a4f"
+    },
+    "context": {
+      "label": "Epilogue context",
+      "color": "#6f7c91"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "skotoprigonyevsk",
+      "name": "Skotoprigonyevsk",
+      "chapter": 1,
+      "position": {
+        "lat": 57.9944,
+        "lon": 31.3544
+      },
+      "confidence": "fictional",
+      "notes": "Fictional town modeled with Staraya Russa as a common geographic proxy."
+    },
+    {
+      "id": "karamazov-monastery",
+      "name": "Monastery",
+      "chapter": 1,
+      "position": {
+        "lat": 58.005,
+        "lon": 31.36
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "fyodor-house",
+      "name": "Fyodor Pavlovich's house",
+      "chapter": 1,
+      "position": {
+        "lat": 57.99,
+        "lon": 31.35
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "mokroye",
+      "name": "Mokroye",
+      "chapter": 8,
+      "position": {
+        "lat": 57.82,
+        "lon": 31.1
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "karamazov-court",
+      "name": "Town court",
+      "chapter": 12,
+      "position": {
+        "lat": 57.996,
+        "lon": 31.352
+      },
+      "confidence": "fictional"
+    },
+    {
+      "id": "siberian-road-karamazov",
+      "name": "Siberian exile road",
+      "chapter": 13,
+      "position": {
+        "lat": 55,
+        "lon": 73
+      },
+      "confidence": "estimated"
+    }
+  ],
+  "paths": [
+    {
+      "id": "town-monastery",
+      "title": "Town to monastery",
+      "medium": "foot",
+      "start": {
+        "waypointId": "skotoprigonyevsk"
+      },
+      "end": {
+        "waypointId": "karamazov-monastery"
+      },
+      "chapterStart": 1,
+      "chapterEnd": 2,
+      "distanceKm": 2,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "The opening movement links the Karamazov town and monastic world.",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Town to monastery",
+          "url": "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "monastery-fyodor-house",
+      "title": "Monastery to Fyodor house",
+      "medium": "foot",
+      "start": {
+        "waypointId": "karamazov-monastery"
+      },
+      "end": {
+        "waypointId": "fyodor-house"
+      },
+      "chapterStart": 2,
+      "chapterEnd": 4,
+      "distanceKm": 2.5,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "The family conflict returns from the monastery to the town household.",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "Monastery to Fyodor house",
+          "url": "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "town-mokroye",
+      "title": "Dmitri to Mokroye",
+      "medium": "road",
+      "start": {
+        "waypointId": "skotoprigonyevsk"
+      },
+      "end": {
+        "waypointId": "mokroye"
+      },
+      "chapterStart": 8,
+      "chapterEnd": 9,
+      "distanceKm": 25,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "Mokroye is a fictional roadhouse/village anchor for Dmitri's flight.",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Dmitri to Mokroye",
+          "url": "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "mokroye-court",
+      "title": "Mokroye back to trial",
+      "medium": "road",
+      "start": {
+        "waypointId": "mokroye"
+      },
+      "end": {
+        "waypointId": "karamazov-court"
+      },
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "distanceKm": 25,
+      "distanceSource": "estimated",
+      "confidence": "fictional",
+      "notes": "The mapped route returns to the town court for trial.",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Mokroye back to trial",
+          "url": "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm"
+        }
+      ]
+    },
+    {
+      "id": "court-siberian-road",
+      "title": "Projected Siberian road",
+      "medium": "context",
+      "start": {
+        "waypointId": "karamazov-court"
+      },
+      "end": {
+        "waypointId": "siberian-road-karamazov"
+      },
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "Epilogue context for the proposed exile/escape future; not a completed narrated journey. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "Projected Siberian road",
+          "url": "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm"
+        }
+      ]
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 1,
+      "movement": "surface",
+      "anchor": "Skotoprigonyevsk family and monastery",
+      "locationFacts": [
+        "Book I: The History Of A Family is reviewed against the Skotoprigonyevsk family and monastery source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: town-monastery."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Skotoprigonyevsk family and monastery.",
+      "segmentIds": [
+        "town-monastery"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Book I: The History Of A Family",
+          "url": "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "movement": "surface",
+      "anchor": "Skotoprigonyevsk family and monastery",
+      "locationFacts": [
+        "Book II: An Unfortunate Gathering is reviewed against the Skotoprigonyevsk family and monastery source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segments active for this source unit: town-monastery, monastery-fyodor-house."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Skotoprigonyevsk family and monastery.",
+      "segmentIds": [
+        "town-monastery",
+        "monastery-fyodor-house"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "Book II: An Unfortunate Gathering",
+          "url": "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "movement": "surface",
+      "anchor": "Skotoprigonyevsk family and monastery",
+      "locationFacts": [
+        "Book III: The Sensualists is reviewed against the Skotoprigonyevsk family and monastery source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: monastery-fyodor-house."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Skotoprigonyevsk family and monastery.",
+      "segmentIds": [
+        "monastery-fyodor-house"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "Book III: The Sensualists",
+          "url": "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "movement": "surface",
+      "anchor": "Town, monastery, and Katerina/Grushenka circles",
+      "locationFacts": [
+        "Book IV: Lacerations is reviewed against the Town, monastery, and Katerina/Grushenka circles source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: monastery-fyodor-house."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Town, monastery, and Katerina/Grushenka circles.",
+      "segmentIds": [
+        "monastery-fyodor-house"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "Book IV: Lacerations",
+          "url": "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "movement": "stationary",
+      "anchor": "Town, monastery, and Katerina/Grushenka circles",
+      "locationFacts": [
+        "Book V: Pro And Contra is reviewed against the Town, monastery, and Katerina/Grushenka circles source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book V: Pro And Contra.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Book V: Pro And Contra",
+          "url": "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "movement": "stationary",
+      "anchor": "Town, monastery, and Katerina/Grushenka circles",
+      "locationFacts": [
+        "Book VI: The Russian Monk is reviewed against the Town, monastery, and Katerina/Grushenka circles source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book VI: The Russian Monk.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "Book VI: The Russian Monk",
+          "url": "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "movement": "stationary",
+      "anchor": "Town, monastery, and Katerina/Grushenka circles",
+      "locationFacts": [
+        "Book VII: Alyosha is reviewed against the Town, monastery, and Katerina/Grushenka circles source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book VII: Alyosha.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "Book VII: Alyosha",
+          "url": "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "movement": "surface",
+      "anchor": "Mokroye and Dmitri crisis",
+      "locationFacts": [
+        "Book VIII: Mitya is reviewed against the Mokroye and Dmitri crisis source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: town-mokroye."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Mokroye and Dmitri crisis.",
+      "segmentIds": [
+        "town-mokroye"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Book VIII: Mitya",
+          "url": "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "movement": "surface",
+      "anchor": "Mokroye and Dmitri crisis",
+      "locationFacts": [
+        "Book IX: The Preliminary Investigation is reviewed against the Mokroye and Dmitri crisis source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: town-mokroye."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Mokroye and Dmitri crisis.",
+      "segmentIds": [
+        "town-mokroye"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "Book IX: The Preliminary Investigation",
+          "url": "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "movement": "stationary",
+      "anchor": "Town investigation and trial",
+      "locationFacts": [
+        "Book X: The Boys is reviewed against the Town investigation and trial source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book X: The Boys.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 10,
+          "label": "Book X: The Boys",
+          "url": "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "movement": "stationary",
+      "anchor": "Town investigation and trial",
+      "locationFacts": [
+        "Book XI: Ivan is reviewed against the Town investigation and trial source-unit range."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this source unit."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Book XI: Ivan.",
+      "segmentIds": [],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "Book XI: Ivan",
+          "url": "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "movement": "surface",
+      "anchor": "Town investigation and trial",
+      "locationFacts": [
+        "Book XII: A Judicial Error is reviewed against the Town investigation and trial source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: mokroye-court."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Town investigation and trial.",
+      "segmentIds": [
+        "mokroye-court"
+      ],
+      "confidence": "fictional",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Book XII: A Judicial Error",
+          "url": "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "movement": "surface",
+      "anchor": "Projected Siberian exile context",
+      "locationFacts": [
+        "Epilogue is reviewed against the Projected Siberian exile context source-unit range."
+      ],
+      "deltaFacts": [
+        "Mapped segment active for this source unit: court-siberian-road."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from the active segment endpoint and control-point set for Projected Siberian exile context.",
+      "segmentIds": [
+        "court-siberian-road"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "Epilogue",
+          "url": "https://www.gutenberg.org/files/28054/28054-h/28054-h.htm"
+        }
+      ]
+    }
+  ]
+}
