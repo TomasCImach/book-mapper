@@ -33,6 +33,62 @@
   cursor: all-scroll;
 }
 
+.map-stage canvas.surface-touch {
+  cursor: grabbing;
+}
+
+.map-camera-controls {
+  position: fixed;
+  right: 14px;
+  bottom: calc(env(safe-area-inset-bottom, 0px) + 18px);
+  z-index: 5;
+  display: grid;
+  justify-items: end;
+  gap: 8px;
+  pointer-events: auto;
+}
+
+.map-control-stack {
+  padding: 1px;
+  border: 1px solid rgba(239, 230, 208, 0.16);
+  border-radius: 8px;
+  display: grid;
+  gap: 1px;
+  overflow: hidden;
+  background: rgba(239, 230, 208, 0.18);
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.34);
+  backdrop-filter: blur(14px);
+}
+
+.map-orbit-controls {
+  grid-template-columns: repeat(3, 42px);
+}
+
+.map-control-button {
+  width: 42px;
+  height: 42px;
+  border: 0;
+  display: inline-grid;
+  place-items: center;
+  background: rgba(20, 19, 17, 0.9);
+  color: #efe6d0;
+  cursor: pointer;
+}
+
+.map-control-button:hover {
+  background: rgba(31, 29, 25, 0.96);
+  color: #68c6b5;
+}
+
+.map-control-button.prominent {
+  background: #fff7df;
+  color: #17120b;
+}
+
+.map-control-button.prominent:hover {
+  color: #0b5c52;
+}
+
 .map-ui {
   position: relative;
   z-index: 5;
@@ -859,6 +915,12 @@
 }
 
 @media (max-width: 900px) {
+  .map-camera-controls {
+    top: calc(env(safe-area-inset-top, 0px) + 58px);
+    right: 10px;
+    bottom: auto;
+  }
+
   .context-panel {
     top: 10px;
     right: 10px;
@@ -930,6 +992,21 @@
 }
 
 @media (max-width: 560px) {
+  .map-camera-controls {
+    top: calc(env(safe-area-inset-top, 0px) + 54px);
+    right: 8px;
+    gap: 7px;
+  }
+
+  .map-orbit-controls {
+    grid-template-columns: repeat(3, 40px);
+  }
+
+  .map-control-button {
+    width: 40px;
+    height: 40px;
+  }
+
   .context-panel {
     left: 8px;
     right: 8px;

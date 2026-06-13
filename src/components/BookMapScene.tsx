@@ -1,6 +1,15 @@
 import { Canvas, useFrame, useLoader, useThree } from '@react-three/fiber'
 import { Html, OrbitControls, Stars } from '@react-three/drei'
 import {
+  ArrowDown,
+  ArrowUp,
+  Compass,
+  RotateCcw,
+  RotateCw,
+  ZoomIn,
+  ZoomOut,
+} from 'lucide-react'
+import {
   Suspense,
   useEffect,
   useMemo,
@@ -8,6 +17,7 @@ import {
   useState,
   type Dispatch,
   type RefObject,
+  type ReactNode,
   type SetStateAction,
 } from 'react'
 import * as THREE from 'three'
@@ -44,6 +54,17 @@ const ROUTE_SCALE_FAR = 1.1
 const TAG_SCALE_CLOSE = 0.86
 const TAG_SCALE_FAR = 1.06
 const INITIAL_CAMERA_DISTANCE = new THREE.Vector3(9, 5.4, 9).length()
+const INITIAL_CAMERA_POSITION = new THREE.Vector3(9, 5.4, 9)
+const MAP_CAMERA_COMMAND_EVENT = 'book-map-camera-command'
+
+type MapCameraCommand =
+  | 'zoom-in'
+  | 'zoom-out'
+  | 'tilt-up'
+  | 'tilt-down'
+  | 'rotate-left'
+  | 'rotate-right'
+  | 'reset'
 
 type ZoomFeatureScale = {
   route: number
@@ -136,7 +157,94 @@ export function BookMapScene() {
         />
         </Suspense>
       </Canvas>
+      <MapCameraControls />
     </section>
+  )
+}
+
+function MapCameraControls() {
+  function dispatchCameraCommand(command: MapCameraCommand) {
+    window.dispatchEvent(
+      new CustomEvent<MapCameraCommand>(MAP_CAMERA_COMMAND_EVENT, {
+        detail: command,
+      }),
+    )
+  }
+
+  return (
+    <div className="map-camera-controls" aria-label="Map camera controls">
+      <div className="map-control-stack">
+        <MapControlButton
+          label="Zoom in"
+          onClick={() => dispatchCameraCommand('zoom-in')}
+        >
+          <ZoomIn size={21} strokeWidth={2.1} />
+        </MapControlButton>
+        <MapControlButton
+          label="Zoom out"
+          onClick={() => dispatchCameraCommand('zoom-out')}
+        >
+          <ZoomOut size={21} strokeWidth={2.1} />
+        </MapControlButton>
+      </div>
+      <div className="map-control-stack map-orbit-controls">
+        <MapControlButton
+          label="Rotate left"
+          onClick={() => dispatchCameraCommand('rotate-left')}
+        >
+          <RotateCcw size={20} strokeWidth={2.1} />
+        </MapControlButton>
+        <MapControlButton
+          label="Reset compass"
+          prominent
+          onClick={() => dispatchCameraCommand('reset')}
+        >
+          <Compass size={21} strokeWidth={2.1} />
+        </MapControlButton>
+        <MapControlButton
+          label="Rotate right"
+          onClick={() => dispatchCameraCommand('rotate-right')}
+        >
+          <RotateCw size={20} strokeWidth={2.1} />
+        </MapControlButton>
+        <MapControlButton
+          label="Tilt up"
+          onClick={() => dispatchCameraCommand('tilt-up')}
+        >
+          <ArrowUp size={20} strokeWidth={2.1} />
+        </MapControlButton>
+        <MapControlButton
+          label="Tilt down"
+          onClick={() => dispatchCameraCommand('tilt-down')}
+        >
+          <ArrowDown size={20} strokeWidth={2.1} />
+        </MapControlButton>
+      </div>
+    </div>
+  )
+}
+
+function MapControlButton({
+  label,
+  children,
+  prominent = false,
+  onClick,
+}: {
+  label: string
+  children: ReactNode
+  prominent?: boolean
+  onClick: () => void
+}) {
+  return (
+    <button
+      type="button"
+      className={prominent ? 'map-control-button prominent' : 'map-control-button'}
+      aria-label={label}
+      title={label}
+      onClick={onClick}
+    >
+      {children}
+    </button>
   )
 }
 
@@ -150,14 +258,26 @@ function SurfaceDragControls({
   useEffect(() => {
     const canvas = gl.domElement
     const orbitControls = controls as OrbitControlsLike | null
+    const activePointers = new Map<
+      number,
+      {
+        clientX: number
+        clientY: number
+        startX: number
+        startY: number
+        startedAt: number
+      }
+    >()
     const raycaster = new THREE.Raycaster()
     const pointer = new THREE.Vector2()
     const surface = new THREE.Sphere(new THREE.Vector3(), EARTH_RENDER_RADIUS)
     const startDirection = new THREE.Vector3()
     const currentDirection = new THREE.Vector3()
     const initialQuaternion = new THREE.Quaternion()
+    const homeQuaternion = new THREE.Quaternion()
     const deltaQuaternion = new THREE.Quaternion()
     const closestPoint = new THREE.Vector3()
+    const pointerStart = new THREE.Vector2()
     const shiftDragStart = new THREE.Vector2()
     const spinStart = new THREE.Vector2()
     const orbitPivot = new THREE.Vector3()
@@ -176,11 +296,35 @@ function SurfaceDragControls({
     const focusDragStart = new THREE.Vector2()
     const focusDirection = new THREE.Vector3()
     const nextFocusTarget = new THREE.Vector3()
+    const touchStartCenter = new THREE.Vector2()
+    const touchCurrentCenter = new THREE.Vector2()
+    const touchTwistAxis = new THREE.Vector3()
+    const touchTwist = new THREE.Quaternion()
     const origin = new THREE.Vector3()
     let activePointerId: number | null = null
-    let dragMode: 'none' | 'focus' | 'orbit' | 'spin' | 'surface' = 'none'
+    let dragMode: 'none' | 'focus' | 'orbit' | 'spin' | 'surface' | 'tapZoom' | 'touch' = 'none'
     let focusRadius = EARTH_RENDER_RADIUS
     let focusStartRadius = EARTH_RENDER_RADIUS
+    let tapZoomStartDistance = INITIAL_CAMERA_DISTANCE
+    let tapZoomStartY = 0
+    let tapZoomMoved = false
+    let lastTapTime = 0
+    let lastTapX = 0
+    let lastTapY = 0
+    let touchStartDistance = 1
+    let touchStartAngle = 0
+    let touchStartCameraDistance = INITIAL_CAMERA_DISTANCE
+    let touchGestureStartedAt = 0
+    let touchGestureMoved = false
+
+    if (targetRef.current) {
+      homeQuaternion.copy(targetRef.current.quaternion)
+    }
+
+    function claimEvent(event: PointerEvent | MouseEvent) {
+      event.preventDefault()
+      event.stopImmediatePropagation()
+    }
 
     function setSurfacePivotZoomLimits() {
       if (!orbitControls) {
@@ -191,14 +335,23 @@ function SurfaceDragControls({
       orbitControls.maxDistance = SURFACE_PIVOT_MAX_DISTANCE
     }
 
-    function zoomFromActivePivot(delta: number) {
+    function setDefaultZoomLimits() {
+      if (!orbitControls) {
+        return
+      }
+
+      orbitControls.minDistance = MIN_CAMERA_DISTANCE
+      orbitControls.maxDistance = MAX_CAMERA_DISTANCE
+    }
+
+    function setDistanceFromActivePivot(distance: number) {
       const target = orbitControls?.target ?? origin
       const minDistance = orbitControls?.minDistance ?? MIN_CAMERA_DISTANCE
       const maxDistance = orbitControls?.maxDistance ?? MAX_CAMERA_DISTANCE
 
       zoomOffset.copy(camera.position).sub(target)
       const nextDistance = THREE.MathUtils.clamp(
-        zoomOffset.length() + delta,
+        distance,
         minDistance,
         maxDistance,
       )
@@ -211,6 +364,67 @@ function SurfaceDragControls({
       camera.position.copy(target).add(zoomOffset)
       camera.lookAt(target)
       orbitControls?.update()
+    }
+
+    function zoomFromActivePivot(delta: number) {
+      const target = orbitControls?.target ?? origin
+
+      zoomOffset.copy(camera.position).sub(target)
+      setDistanceFromActivePivot(zoomOffset.length() + delta)
+    }
+
+    function prepareOrbitFromPivot(pivot: THREE.Vector3) {
+      orbitPivot.copy(pivot)
+      orbitStartOffset.copy(camera.position).sub(orbitPivot)
+      orbitStartUpAxis.copy(camera.up).normalize()
+      orbitForward.copy(orbitPivot).sub(camera.position).normalize()
+      orbitStartRightAxis.copy(orbitForward).cross(orbitStartUpAxis).normalize()
+
+      if (orbitStartRightAxis.lengthSq() < 0.0001) {
+        orbitStartRightAxis.set(1, 0, 0)
+      }
+    }
+
+    function applyOrbitFromStart(
+      deltaX: number,
+      deltaY: number,
+      nextDistance = orbitStartOffset.length(),
+    ) {
+      orbitYaw.setFromAxisAngle(orbitStartUpAxis, -deltaX)
+      orbitPitch.setFromAxisAngle(orbitStartRightAxis, deltaY)
+      orbitCombined.copy(orbitYaw).multiply(orbitPitch)
+      orbitNextOffset.copy(orbitStartOffset).applyQuaternion(orbitCombined)
+
+      if (orbitNextOffset.lengthSq() > 0.0001) {
+        orbitNextOffset.setLength(nextDistance)
+      }
+
+      camera.position.copy(orbitPivot).add(orbitNextOffset)
+      camera.lookAt(orbitPivot)
+      orbitControls?.target.copy(orbitPivot)
+      orbitControls?.update()
+    }
+
+    function orbitCameraBy(deltaX: number, deltaY: number) {
+      prepareOrbitFromPivot(orbitControls?.target ?? origin)
+      applyOrbitFromStart(deltaX, deltaY)
+    }
+
+    function resetMapCamera() {
+      if (targetRef.current) {
+        targetRef.current.quaternion.copy(homeQuaternion)
+      }
+
+      focusRadius = EARTH_RENDER_RADIUS
+      camera.position.copy(INITIAL_CAMERA_POSITION)
+      camera.up.set(0, 1, 0)
+      camera.lookAt(origin)
+      setDefaultZoomLimits()
+
+      if (orbitControls) {
+        orbitControls.target.copy(origin)
+        orbitControls.update()
+      }
     }
 
     function readFocusDirection(
@@ -282,10 +496,19 @@ function SurfaceDragControls({
       setFocusTarget(getCurrentFocusRadius() + deltaRadius, focusDirection)
     }
 
-    function readSurfaceDirection(event: PointerEvent, target: THREE.Vector3) {
+    function readSurfaceDirectionFromClient(
+      clientX: number,
+      clientY: number,
+      target: THREE.Vector3,
+    ) {
       const rect = canvas.getBoundingClientRect()
-      pointer.x = ((event.clientX - rect.left) / rect.width) * 2 - 1
-      pointer.y = -((event.clientY - rect.top) / rect.height) * 2 + 1
+
+      if (rect.width <= 0 || rect.height <= 0) {
+        return false
+      }
+
+      pointer.x = ((clientX - rect.left) / rect.width) * 2 - 1
+      pointer.y = -((clientY - rect.top) / rect.height) * 2 + 1
       raycaster.setFromCamera(pointer, camera)
 
       if (raycaster.ray.intersectSphere(surface, target)) {
@@ -310,9 +533,27 @@ function SurfaceDragControls({
       return true
     }
 
-    function finishDrag() {
+    function readSurfaceDirection(event: PointerEvent, target: THREE.Vector3) {
+      return readSurfaceDirectionFromClient(event.clientX, event.clientY, target)
+    }
+
+    function releasePointer(pointerId: number) {
+      if (canvas.hasPointerCapture(pointerId)) {
+        canvas.releasePointerCapture(pointerId)
+      }
+    }
+
+    function finishDrag(clearPointers = false) {
       if (activePointerId !== null && canvas.hasPointerCapture(activePointerId)) {
         canvas.releasePointerCapture(activePointerId)
+      }
+
+      if (clearPointers) {
+        for (const pointerId of activePointers.keys()) {
+          releasePointer(pointerId)
+        }
+
+        activePointers.clear()
       }
 
       activePointerId = null
@@ -321,10 +562,205 @@ function SurfaceDragControls({
       canvas.classList.remove('surface-depth')
       canvas.classList.remove('surface-tilt')
       canvas.classList.remove('surface-spin')
+      canvas.classList.remove('surface-touch')
+    }
+
+    function handleLostPointerCapture() {
+      finishDrag()
+    }
+
+    function pointerDistance(
+      first: { clientX: number; clientY: number },
+      second: { clientX: number; clientY: number },
+    ) {
+      return Math.hypot(first.clientX - second.clientX, first.clientY - second.clientY)
+    }
+
+    function pointerAngle(
+      first: { clientX: number; clientY: number },
+      second: { clientX: number; clientY: number },
+    ) {
+      return Math.atan2(second.clientY - first.clientY, second.clientX - first.clientX)
+    }
+
+    function pointerMoved(snapshot: {
+      clientX: number
+      clientY: number
+      startX: number
+      startY: number
+    }) {
+      return Math.hypot(snapshot.clientX - snapshot.startX, snapshot.clientY - snapshot.startY)
+    }
+
+    function setPointerSnapshot(event: PointerEvent) {
+      activePointers.set(event.pointerId, {
+        clientX: event.clientX,
+        clientY: event.clientY,
+        startX: event.clientX,
+        startY: event.clientY,
+        startedAt: performance.now(),
+      })
+    }
+
+    function updatePointerSnapshot(event: PointerEvent) {
+      const snapshot = activePointers.get(event.pointerId)
+
+      if (!snapshot) {
+        return
+      }
+
+      snapshot.clientX = event.clientX
+      snapshot.clientY = event.clientY
+    }
+
+    function getTouchPair() {
+      const snapshots = Array.from(activePointers.values())
+
+      if (snapshots.length < 2) {
+        return null
+      }
+
+      return [snapshots[0], snapshots[1]] as const
+    }
+
+    function startTouchGesture(event: PointerEvent) {
+      const pair = getTouchPair()
+
+      if (!pair || !targetRef.current) {
+        return
+      }
+
+      const [first, second] = pair
+      const centerX = (first.clientX + second.clientX) / 2
+      const centerY = (first.clientY + second.clientY) / 2
+
+      if (!readSurfaceDirectionFromClient(centerX, centerY, startDirection)) {
+        startDirection.copy(camera.position).normalize()
+      }
+
+      orbitPivot.copy(startDirection).multiplyScalar(getCurrentFocusRadius())
+      prepareOrbitFromPivot(orbitPivot)
+      setSurfacePivotZoomLimits()
+      orbitControls?.target.copy(orbitPivot)
+      orbitControls?.update()
+
+      touchStartCenter.set(centerX, centerY)
+      touchStartDistance = Math.max(24, pointerDistance(first, second))
+      touchStartAngle = pointerAngle(first, second)
+      touchStartCameraDistance = Math.max(
+        SURFACE_PIVOT_MIN_DISTANCE,
+        orbitStartOffset.length(),
+      )
+      touchGestureStartedAt = performance.now()
+      touchGestureMoved = false
+      spinStartQuaternion.copy(targetRef.current.quaternion)
+      touchTwistAxis.copy(orbitPivot).sub(camera.position)
+
+      if (touchTwistAxis.lengthSq() < 0.0001) {
+        camera.getWorldDirection(touchTwistAxis)
+      }
+
+      touchTwistAxis.normalize()
+      activePointerId = null
+      dragMode = 'touch'
+      canvas.classList.remove('surface-dragging')
+      canvas.classList.remove('surface-depth')
+      canvas.classList.add('surface-touch')
+      claimEvent(event)
+    }
+
+    function handleTouchGestureMove(event: PointerEvent) {
+      const pair = getTouchPair()
+
+      if (!pair || !targetRef.current) {
+        return
+      }
+
+      const [first, second] = pair
+      const centerX = (first.clientX + second.clientX) / 2
+      const centerY = (first.clientY + second.clientY) / 2
+      const distance = Math.max(24, pointerDistance(first, second))
+      const angleDelta = Math.atan2(
+        Math.sin(pointerAngle(first, second) - touchStartAngle),
+        Math.cos(pointerAngle(first, second) - touchStartAngle),
+      )
+
+      touchCurrentCenter.set(centerX, centerY)
+
+      const deltaX = (touchCurrentCenter.x - touchStartCenter.x) * 0.0022
+      const deltaY = (touchCurrentCenter.y - touchStartCenter.y) * 0.0048
+      const nextDistance = THREE.MathUtils.clamp(
+        touchStartCameraDistance * (touchStartDistance / distance),
+        orbitControls?.minDistance ?? SURFACE_PIVOT_MIN_DISTANCE,
+        orbitControls?.maxDistance ?? SURFACE_PIVOT_MAX_DISTANCE,
+      )
+
+      applyOrbitFromStart(deltaX, deltaY, nextDistance)
+      touchTwist.setFromAxisAngle(touchTwistAxis, -angleDelta)
+      targetRef.current.quaternion.copy(touchTwist.multiply(spinStartQuaternion))
+
+      if (
+        Math.abs(distance - touchStartDistance) > 8 ||
+        Math.abs(angleDelta) > 0.08 ||
+        touchCurrentCenter.distanceTo(touchStartCenter) > 8
+      ) {
+        touchGestureMoved = true
+      }
+
+      claimEvent(event)
+    }
+
+    function startSurfaceDrag(event: PointerEvent) {
+      if (!targetRef.current || !readSurfaceDirection(event, startDirection)) {
+        return
+      }
+
+      activePointerId = event.pointerId
+      dragMode = 'surface'
+      pointerStart.set(event.clientX, event.clientY)
+      initialQuaternion.copy(targetRef.current.quaternion)
+      canvas.setPointerCapture(event.pointerId)
+      canvas.classList.add('surface-dragging')
+      claimEvent(event)
     }
 
     function handlePointerDown(event: PointerEvent) {
       if (!targetRef.current) {
+        return
+      }
+
+      if (event.pointerType === 'touch') {
+        setPointerSnapshot(event)
+        canvas.setPointerCapture(event.pointerId)
+
+        if (activePointers.size >= 2) {
+          startTouchGesture(event)
+          return
+        }
+
+        const now = performance.now()
+        const isSecondTap =
+          now - lastTapTime < 320 &&
+          Math.hypot(event.clientX - lastTapX, event.clientY - lastTapY) < 34
+
+        if (isSecondTap) {
+          activePointerId = event.pointerId
+          dragMode = 'tapZoom'
+          pointerStart.set(event.clientX, event.clientY)
+          tapZoomStartY = event.clientY
+          tapZoomMoved = false
+          zoomOffset.copy(camera.position).sub(orbitControls?.target ?? origin)
+          tapZoomStartDistance = zoomOffset.length()
+          canvas.classList.add('surface-depth')
+          claimEvent(event)
+          return
+        }
+
+        startSurfaceDrag(event)
+        return
+      }
+
+      if (activePointerId !== null || activePointers.size > 0) {
         return
       }
 
@@ -349,21 +785,13 @@ function SurfaceDragControls({
         dragMode = 'orbit'
         shiftDragStart.set(event.clientX, event.clientY)
         orbitPivot.copy(startDirection).multiplyScalar(focusRadius)
-        orbitStartOffset.copy(camera.position).sub(orbitPivot)
-        orbitStartUpAxis.copy(camera.up).normalize()
-        orbitForward.copy(orbitPivot).sub(camera.position).normalize()
-        orbitStartRightAxis.copy(orbitForward).cross(orbitStartUpAxis).normalize()
-
-        if (orbitStartRightAxis.lengthSq() < 0.0001) {
-          orbitStartRightAxis.set(1, 0, 0)
-        }
-
+        prepareOrbitFromPivot(orbitPivot)
         setSurfacePivotZoomLimits()
         orbitControls?.target.copy(orbitPivot)
         orbitControls?.update()
         canvas.setPointerCapture(event.pointerId)
         canvas.classList.add('surface-tilt')
-        event.preventDefault()
+        claimEvent(event)
         return
       }
 
@@ -378,7 +806,7 @@ function SurfaceDragControls({
         focusStartRadius = getCurrentFocusRadius()
         canvas.setPointerCapture(event.pointerId)
         canvas.classList.add('surface-depth')
-        event.preventDefault()
+        claimEvent(event)
         return
       }
 
@@ -401,23 +829,23 @@ function SurfaceDragControls({
 
         canvas.setPointerCapture(event.pointerId)
         canvas.classList.add('surface-spin')
-        event.preventDefault()
+        claimEvent(event)
         return
       }
 
-      if (!readSurfaceDirection(event, startDirection)) {
-        return
-      }
-
-      activePointerId = event.pointerId
-      dragMode = 'surface'
-      initialQuaternion.copy(targetRef.current.quaternion)
-      canvas.setPointerCapture(event.pointerId)
-      canvas.classList.add('surface-dragging')
-      event.preventDefault()
+      startSurfaceDrag(event)
     }
 
     function handlePointerMove(event: PointerEvent) {
+      if (event.pointerType === 'touch') {
+        updatePointerSnapshot(event)
+
+        if (dragMode === 'touch') {
+          handleTouchGestureMove(event)
+          return
+        }
+      }
+
       if (activePointerId !== event.pointerId || !targetRef.current) {
         return
       }
@@ -426,15 +854,8 @@ function SurfaceDragControls({
         const deltaX = (event.clientX - shiftDragStart.x) * 0.0055
         const deltaY = (event.clientY - shiftDragStart.y) * 0.0055
 
-        orbitYaw.setFromAxisAngle(orbitStartUpAxis, -deltaX)
-        orbitPitch.setFromAxisAngle(orbitStartRightAxis, deltaY)
-        orbitCombined.copy(orbitYaw).multiply(orbitPitch)
-        orbitNextOffset.copy(orbitStartOffset).applyQuaternion(orbitCombined)
-        camera.position.copy(orbitPivot).add(orbitNextOffset)
-        camera.lookAt(orbitPivot)
-        orbitControls?.target.copy(orbitPivot)
-        orbitControls?.update()
-        event.preventDefault()
+        applyOrbitFromStart(deltaX, deltaY)
+        claimEvent(event)
         return
       }
 
@@ -443,7 +864,19 @@ function SurfaceDragControls({
           focusStartRadius - (event.clientY - focusDragStart.y) * FOCUS_TARGET_DRAG_SCALE,
           focusDirection,
         )
-        event.preventDefault()
+        claimEvent(event)
+        return
+      }
+
+      if (dragMode === 'tapZoom') {
+        const deltaY = event.clientY - tapZoomStartY
+
+        if (Math.abs(deltaY) > 5) {
+          tapZoomMoved = true
+        }
+
+        setDistanceFromActivePivot(tapZoomStartDistance - deltaY * 0.026)
+        claimEvent(event)
         return
       }
 
@@ -458,7 +891,7 @@ function SurfaceDragControls({
         targetRef.current.quaternion.copy(
           yaw.multiply(pitch).multiply(spinStartQuaternion),
         )
-        event.preventDefault()
+        claimEvent(event)
         return
       }
 
@@ -472,10 +905,66 @@ function SurfaceDragControls({
 
       deltaQuaternion.setFromUnitVectors(startDirection, currentDirection)
       targetRef.current.quaternion.copy(deltaQuaternion.multiply(initialQuaternion))
-      event.preventDefault()
+      claimEvent(event)
     }
 
     function handlePointerUp(event: PointerEvent) {
+      if (event.pointerType === 'touch') {
+        const snapshot = activePointers.get(event.pointerId)
+        const now = performance.now()
+
+        updatePointerSnapshot(event)
+
+        if (dragMode === 'touch') {
+          if (!touchGestureMoved && now - touchGestureStartedAt < 320) {
+            zoomFromActivePivot(0.9)
+          }
+
+          finishDrag(true)
+          lastTapTime = 0
+          claimEvent(event)
+          return
+        }
+
+        if (dragMode === 'tapZoom' && activePointerId === event.pointerId) {
+          if (!tapZoomMoved && snapshot && pointerMoved(snapshot) < 8) {
+            zoomFromActivePivot(-0.9)
+          }
+
+          finishDrag(true)
+          lastTapTime = 0
+          claimEvent(event)
+          return
+        }
+
+        if (activePointerId === event.pointerId) {
+          const isTap =
+            snapshot &&
+            pointerMoved(snapshot) < 8 &&
+            now - snapshot.startedAt < 280
+
+          finishDrag(true)
+
+          if (isTap) {
+            if (
+              now - lastTapTime < 320 &&
+              Math.hypot(event.clientX - lastTapX, event.clientY - lastTapY) < 34
+            ) {
+              zoomFromActivePivot(-0.9)
+              lastTapTime = 0
+            } else {
+              lastTapTime = now
+              lastTapX = event.clientX
+              lastTapY = event.clientY
+            }
+          }
+
+          claimEvent(event)
+        }
+
+        return
+      }
+
       if (activePointerId === event.pointerId) {
         finishDrag()
       }
@@ -494,26 +983,27 @@ function SurfaceDragControls({
       const rotateStep = event.shiftKey ? 0.14 : 0.08
       const zoomStep = event.shiftKey ? 0.5 : 0.25
       const focusStep = event.shiftKey ? FOCUS_TARGET_KEY_STEP * 2 : FOCUS_TARGET_KEY_STEP
+      const normalizedKey = event.key.toLowerCase()
 
-      if (event.key === 'ArrowLeft' || event.key.toLowerCase() === 'a') {
+      if (event.key === 'ArrowLeft' || normalizedKey === 'a') {
         targetRef.current.rotateY(rotateStep)
         event.preventDefault()
         return
       }
 
-      if (event.key === 'ArrowRight' || event.key.toLowerCase() === 'd') {
+      if (event.key === 'ArrowRight' || normalizedKey === 'd') {
         targetRef.current.rotateY(-rotateStep)
         event.preventDefault()
         return
       }
 
-      if (event.key === 'ArrowUp' || event.key.toLowerCase() === 'w') {
+      if (event.key === 'ArrowUp' || normalizedKey === 'w') {
         targetRef.current.rotateX(rotateStep)
         event.preventDefault()
         return
       }
 
-      if (event.key === 'ArrowDown' || event.key.toLowerCase() === 's') {
+      if (event.key === 'ArrowDown' || normalizedKey === 's') {
         targetRef.current.rotateX(-rotateStep)
         event.preventDefault()
         return
@@ -540,7 +1030,18 @@ function SurfaceDragControls({
       if (event.key === ']' || event.code === 'BracketRight' || event.key === 'PageUp') {
         moveFocusTarget(focusStep, null)
         event.preventDefault()
+        return
       }
+
+      if (normalizedKey === 'n' || normalizedKey === 'r') {
+        resetMapCamera()
+        event.preventDefault()
+      }
+    }
+
+    function handleDoubleClick(event: MouseEvent) {
+      zoomFromActivePivot(-0.9)
+      claimEvent(event)
     }
 
     function handleWheel(event: WheelEvent) {
@@ -557,23 +1058,67 @@ function SurfaceDragControls({
       event.preventDefault()
     }
 
+    function handleCameraCommand(event: Event) {
+      const command = (event as CustomEvent<MapCameraCommand>).detail
+
+      if (!targetRef.current) {
+        return
+      }
+
+      if (command === 'zoom-in') {
+        zoomFromActivePivot(-0.9)
+        return
+      }
+
+      if (command === 'zoom-out') {
+        zoomFromActivePivot(0.9)
+        return
+      }
+
+      if (command === 'tilt-up') {
+        orbitCameraBy(0, -0.18)
+        return
+      }
+
+      if (command === 'tilt-down') {
+        orbitCameraBy(0, 0.18)
+        return
+      }
+
+      if (command === 'rotate-left') {
+        targetRef.current.rotateY(0.18)
+        return
+      }
+
+      if (command === 'rotate-right') {
+        targetRef.current.rotateY(-0.18)
+        return
+      }
+
+      resetMapCamera()
+    }
+
     canvas.addEventListener('pointerdown', handlePointerDown)
     canvas.addEventListener('pointermove', handlePointerMove)
     canvas.addEventListener('pointerup', handlePointerUp)
     canvas.addEventListener('pointercancel', handlePointerUp)
-    canvas.addEventListener('lostpointercapture', finishDrag)
+    canvas.addEventListener('lostpointercapture', handleLostPointerCapture)
     window.addEventListener('keydown', handleKeyDown)
+    window.addEventListener(MAP_CAMERA_COMMAND_EVENT, handleCameraCommand)
+    canvas.addEventListener('dblclick', handleDoubleClick, { capture: true })
     canvas.addEventListener('wheel', handleWheel, { capture: true, passive: false })
     canvas.addEventListener('contextmenu', handleContextMenu)
 
     return () => {
-      finishDrag()
+      finishDrag(true)
       canvas.removeEventListener('pointerdown', handlePointerDown)
       canvas.removeEventListener('pointermove', handlePointerMove)
       canvas.removeEventListener('pointerup', handlePointerUp)
       canvas.removeEventListener('pointercancel', handlePointerUp)
-      canvas.removeEventListener('lostpointercapture', finishDrag)
+      canvas.removeEventListener('lostpointercapture', handleLostPointerCapture)
       window.removeEventListener('keydown', handleKeyDown)
+      window.removeEventListener(MAP_CAMERA_COMMAND_EVENT, handleCameraCommand)
+      canvas.removeEventListener('dblclick', handleDoubleClick, { capture: true })
       canvas.removeEventListener('wheel', handleWheel, { capture: true })
       canvas.removeEventListener('contextmenu', handleContextMenu)
     }
