@@ -214,6 +214,16 @@
       "distanceSource": "geodesic",
       "confidence": "confirmed",
       "notes": "Historical court geography, not a single scene-by-scene travel itinerary.",
+      "points": [
+        {
+          "lat": 51.67,
+          "lon": -0.185
+        },
+        {
+          "lat": 51.545,
+          "lon": -0.16
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 1,
@@ -241,6 +251,14 @@
         {
           "lat": 51.4834,
           "lon": -0.0062
+        },
+        {
+          "lat": 51.489,
+          "lon": -0.11
+        },
+        {
+          "lat": 51.476,
+          "lon": -0.2
         }
       ],
       "sourceRefs": [
@@ -266,6 +284,20 @@
       "distanceSource": "geodesic",
       "confidence": "confirmed",
       "notes": "The Tower anchors imprisonment, trial, and state-crisis material.",
+      "points": [
+        {
+          "lat": 51.486,
+          "lon": -0.287
+        },
+        {
+          "lat": 51.491,
+          "lon": -0.225
+        },
+        {
+          "lat": 51.4995,
+          "lon": -0.1248
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 9,
@@ -289,6 +321,20 @@
       "distanceSource": "geodesic",
       "confidence": "confirmed",
       "notes": "Tilbury anchors the Armada speech and martial court geography.",
+      "points": [
+        {
+          "lat": 51.488,
+          "lon": 0.03
+        },
+        {
+          "lat": 51.495,
+          "lon": 0.15
+        },
+        {
+          "lat": 51.48,
+          "lon": 0.275
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 22,
@@ -312,6 +358,20 @@
       "distanceSource": "geodesic",
       "confidence": "confirmed",
       "notes": "The final source unit closes at Richmond, the death-place of Elizabeth I.",
+      "points": [
+        {
+          "lat": 51.49,
+          "lon": 0.2
+        },
+        {
+          "lat": 51.5,
+          "lon": -0.02
+        },
+        {
+          "lat": 51.49,
+          "lon": -0.18
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 23,

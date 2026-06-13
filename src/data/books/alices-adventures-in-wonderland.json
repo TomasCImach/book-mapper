@@ -216,6 +216,11 @@
           "lat": 51.7525,
           "lon": -1.255,
           "depthKm": 0.2
+        },
+        {
+          "lat": 51.7528,
+          "lon": -1.2528,
+          "depthKm": 0.2
         }
       ],
       "sourceRefs": [
@@ -242,6 +247,13 @@
       "distanceSource": "estimated",
       "confidence": "fictional",
       "notes": "The hall, pool, and caucus-race are modeled as adjacent dream spaces.",
+      "points": [
+        {
+          "lat": 51.7538,
+          "lon": -1.2476,
+          "depthKm": 0.2
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 2,
@@ -266,6 +278,13 @@
       "distanceSource": "estimated",
       "confidence": "fictional",
       "notes": "Alice follows the Rabbit into a domestic Wonderland setting.",
+      "points": [
+        {
+          "lat": 51.7554,
+          "lon": -1.243,
+          "depthKm": 0.2
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 4,
@@ -290,6 +309,13 @@
       "distanceSource": "estimated",
       "confidence": "fictional",
       "notes": "The mushroom clearing is another adjacent dream location.",
+      "points": [
+        {
+          "lat": 51.7572,
+          "lon": -1.2373,
+          "depthKm": 0.2
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 5,
@@ -314,6 +340,13 @@
       "distanceSource": "estimated",
       "confidence": "fictional",
       "notes": "Fictional transition to the Duchess scene.",
+      "points": [
+        {
+          "lat": 51.7594,
+          "lon": -1.2322,
+          "depthKm": 0.2
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 6,
@@ -338,6 +371,13 @@
       "distanceSource": "estimated",
       "confidence": "fictional",
       "notes": "The tea table is modeled along the dream path.",
+      "points": [
+        {
+          "lat": 51.7613,
+          "lon": -1.2278,
+          "depthKm": 0.2
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 7,
@@ -362,6 +402,13 @@
       "distanceSource": "estimated",
       "confidence": "fictional",
       "notes": "Alice reaches the Queen of Hearts courtly landscape.",
+      "points": [
+        {
+          "lat": 51.7634,
+          "lon": -1.2225,
+          "depthKm": 0.2
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 8,
@@ -386,6 +433,13 @@
       "distanceSource": "estimated",
       "confidence": "fictional",
       "notes": "The shore is a fictional control point for the Mock Turtle chapters.",
+      "points": [
+        {
+          "lat": 51.7652,
+          "lon": -1.2178,
+          "depthKm": 0.2
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 9,
@@ -410,6 +464,13 @@
       "distanceSource": "estimated",
       "confidence": "fictional",
       "notes": "The dream route converges at the trial.",
+      "points": [
+        {
+          "lat": 51.7663,
+          "lon": -1.217,
+          "depthKm": 0.2
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 11,
@@ -434,6 +495,23 @@
       "distanceSource": "estimated",
       "confidence": "fictional",
       "notes": "Return path exits the dream space to the riverbank frame.",
+      "points": [
+        {
+          "lat": 51.762,
+          "lon": -1.224,
+          "depthKm": 0.2
+        },
+        {
+          "lat": 51.756,
+          "lon": -1.244,
+          "depthKm": 0.2
+        },
+        {
+          "lat": 51.7525,
+          "lon": -1.255,
+          "depthKm": 0.2
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 12,

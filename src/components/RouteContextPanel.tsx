@@ -1,5 +1,5 @@
 import { Info, X } from 'lucide-react'
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import {
   availableBooks,
   bookModels,
@@ -35,6 +35,20 @@ export function RouteContextPanel() {
       ? true
       : window.matchMedia('(min-width: 720px)').matches,
   )
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(min-width: 720px)')
+
+    function handleViewportChange(event: MediaQueryListEvent) {
+      if (!event.matches) {
+        setIsOpen(false)
+      }
+    }
+
+    mediaQuery.addEventListener('change', handleViewportChange)
+
+    return () => mediaQuery.removeEventListener('change', handleViewportChange)
+  }, [])
 
   if (route.kind === 'home' || route.kind === 'catalog' || route.kind === 'author') {
     return null

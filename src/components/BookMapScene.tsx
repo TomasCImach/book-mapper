@@ -10,6 +10,7 @@ import {
   ZoomOut,
 } from 'lucide-react'
 import {
+  lazy,
   Suspense,
   useEffect,
   useMemo,
@@ -33,11 +34,21 @@ import {
 import {
   EARTH_RENDER_RADIUS,
   getSegmentDistanceKm,
-  getSegmentRenderPoints,
-  positionToVector3,
 } from '../lib/geo'
+import {
+  getRouteViewportProfile,
+  getViewportSegmentRenderPoints,
+  projectRoutePosition,
+  type RouteViewportProfile,
+} from '../lib/routeViewport'
 import { trackEvent } from '../lib/analytics'
 import { useMapStore } from '../store/mapStore'
+
+const LocalRouteMapScene = lazy(() =>
+  import('./LocalRouteMapScene').then((module) => ({
+    default: module.LocalRouteMapScene,
+  })),
+)
 
 const DEPTH_SCALE_TRUE = 1
 const DEPTH_SCALE_EXAGGERATED = 24
@@ -109,9 +120,13 @@ type OrbitControlsLike = THREE.EventDispatcher & {
   update: () => void
 }
 
-function getRouteZoomScale(distance: number) {
+function getRouteZoomScale(
+  distance: number,
+  minDistance = MIN_CAMERA_DISTANCE,
+  maxDistance = MAX_CAMERA_DISTANCE,
+) {
   const t = THREE.MathUtils.clamp(
-    (distance - MIN_CAMERA_DISTANCE) / (MAX_CAMERA_DISTANCE - MIN_CAMERA_DISTANCE),
+    (distance - minDistance) / (maxDistance - minDistance),
     0,
     1,
   )
@@ -119,9 +134,13 @@ function getRouteZoomScale(distance: number) {
   return THREE.MathUtils.lerp(ROUTE_SCALE_CLOSE, ROUTE_SCALE_FAR, t)
 }
 
-function getTagZoomScale(distance: number) {
+function getTagZoomScale(
+  distance: number,
+  minDistance = MIN_CAMERA_DISTANCE,
+  maxDistance = MAX_CAMERA_DISTANCE,
+) {
   const t = THREE.MathUtils.clamp(
-    (distance - MIN_CAMERA_DISTANCE) / (MAX_CAMERA_DISTANCE - MIN_CAMERA_DISTANCE),
+    (distance - minDistance) / (maxDistance - minDistance),
     0,
     1,
   )
@@ -129,11 +148,36 @@ function getTagZoomScale(distance: number) {
   return THREE.MathUtils.lerp(TAG_SCALE_CLOSE, TAG_SCALE_FAR, t)
 }
 
-function getZoomFeatureScale(distance: number): ZoomFeatureScale {
+function getZoomFeatureScale(
+  distance: number,
+  minDistance = MIN_CAMERA_DISTANCE,
+  maxDistance = MAX_CAMERA_DISTANCE,
+): ZoomFeatureScale {
   return {
-    route: getRouteZoomScale(distance),
-    tag: getTagZoomScale(distance),
+    route: getRouteZoomScale(distance, minDistance, maxDistance),
+    tag: getTagZoomScale(distance, minDistance, maxDistance),
   }
+}
+
+function getWaypointRenderScale(
+  featureScale: ZoomFeatureScale,
+  viewportProfile: RouteViewportProfile,
+): ZoomFeatureScale {
+  if (viewportProfile.mode === 'city') {
+    return {
+      route: Math.min(featureScale.route, 0.17),
+      tag: Math.min(featureScale.tag, 0.9),
+    }
+  }
+
+  if (viewportProfile.mode === 'country') {
+    return {
+      route: Math.min(featureScale.route, 0.26),
+      tag: Math.min(featureScale.tag, 0.94),
+    }
+  }
+
+  return featureScale
 }
 
 function getDepthScale(depthExaggerated: boolean) {
@@ -161,9 +205,16 @@ function getChapterRouteFocus(
   chapter: number,
   bookModel: BookModel,
   depthScale: number,
+  viewportProfile: RouteViewportProfile,
 ): ChapterRouteFocus | null {
   const points = getChapterFocusSegments(chapter, bookModel.routeSegments).flatMap(
-    (segment) => getSegmentRenderPoints(segment, depthScale, bookModel.waypointById),
+    (segment) =>
+      getViewportSegmentRenderPoints(
+        segment,
+        depthScale,
+        bookModel.waypointById,
+        viewportProfile,
+      ),
   )
 
   if (points.length === 0) {
@@ -246,9 +297,13 @@ function getSafeFocusFrame(canvas: HTMLCanvasElement): ChapterFocusFrame {
       cameraControlsRect.top < canvasRect.top + canvasRect.height * 0.42
 
     if (intersectsCanvas && controlsSitInMobileMapArea) {
+      const controlClearance = canvasRect.width <= 560
+        ? CHAPTER_FOCUS_FRAME_MARGIN_PX * 3
+        : CHAPTER_FOCUS_FRAME_MARGIN_PX
+
       right = Math.min(
         right,
-        cameraControlsRect.left - canvasRect.left - CHAPTER_FOCUS_FRAME_MARGIN_PX,
+        cameraControlsRect.left - canvasRect.left - controlClearance,
       )
     }
   }
@@ -286,6 +341,43 @@ export function BookMapScene() {
   const selectedSegmentId = useMapStore((state) => state.selectedSegmentId)
   const depthExaggerated = useMapStore((state) => state.depthExaggerated)
   const bookModel = useMemo(() => getBookModel(selectedBookId), [selectedBookId])
+  const viewportProfile = useMemo(
+    () => getRouteViewportProfile(bookModel),
+    [bookModel],
+  )
+
+  if (viewportProfile.isLocal) {
+    return (
+      <Suspense fallback={<section className="map-stage local-map-stage" />}>
+        <LocalRouteMapScene />
+      </Suspense>
+    )
+  }
+
+  return (
+    <GlobalBookMapScene
+      bookModel={bookModel}
+      selectedChapter={selectedChapter}
+      selectedSegmentId={selectedSegmentId}
+      depthScale={getDepthScale(depthExaggerated)}
+      viewportProfile={viewportProfile}
+    />
+  )
+}
+
+function GlobalBookMapScene({
+  bookModel,
+  selectedChapter,
+  selectedSegmentId,
+  depthScale,
+  viewportProfile,
+}: {
+  bookModel: BookModel
+  selectedChapter: number
+  selectedSegmentId: string
+  depthScale: number
+  viewportProfile: RouteViewportProfile
+}) {
   const globeRef = useRef<THREE.Group>(null)
   const [featureScale, setFeatureScale] = useState(() =>
     getZoomFeatureScale(INITIAL_CAMERA_DISTANCE),
@@ -307,30 +399,38 @@ export function BookMapScene() {
         <Stars radius={45} depth={20} count={1600} factor={2.4} fade speed={0.15} />
         <group ref={globeRef} rotation={[0.04, -0.24, 0.01]}>
           <Earth />
-          <CutawayDisk />
+          {!viewportProfile.isLocal && <CutawayDisk />}
           <RouteLayer
             bookModel={bookModel}
             selectedChapter={selectedChapter}
             selectedSegmentId={selectedSegmentId}
-            depthScale={getDepthScale(depthExaggerated)}
+            depthScale={depthScale}
             featureScale={featureScale}
+            viewportProfile={viewportProfile}
           />
         </group>
-        <SurfaceDragControls targetRef={globeRef} />
-        <FeatureScaleController setFeatureScale={setFeatureScale} />
+        <SurfaceDragControls
+          targetRef={globeRef}
+          viewportProfile={viewportProfile}
+        />
+        <FeatureScaleController
+          setFeatureScale={setFeatureScale}
+          viewportProfile={viewportProfile}
+        />
         <OrbitControls
           makeDefault
           enableRotate={false}
           enablePan={false}
-          minDistance={MIN_CAMERA_DISTANCE}
-          maxDistance={MAX_CAMERA_DISTANCE}
+          minDistance={viewportProfile.minCameraDistance}
+          maxDistance={viewportProfile.maxCameraDistance}
           zoomSpeed={0.75}
         />
         <ChapterFocusController
           bookModel={bookModel}
           selectedChapter={selectedChapter}
-          depthScale={getDepthScale(depthExaggerated)}
+          depthScale={depthScale}
           targetRef={globeRef}
+          viewportProfile={viewportProfile}
         />
         </Suspense>
       </Canvas>
@@ -430,17 +530,19 @@ function ChapterFocusController({
   selectedChapter,
   depthScale,
   targetRef,
+  viewportProfile,
 }: {
   bookModel: BookModel
   selectedChapter: number
   depthScale: number
   targetRef: RefObject<THREE.Group | null>
+  viewportProfile: RouteViewportProfile
 }) {
   const { camera, controls, gl } = useThree()
   const animationRef = useRef<ChapterFocusAnimation | null>(null)
   const focus = useMemo(
-    () => getChapterRouteFocus(selectedChapter, bookModel, depthScale),
-    [bookModel, depthScale, selectedChapter],
+    () => getChapterRouteFocus(selectedChapter, bookModel, depthScale, viewportProfile),
+    [bookModel, depthScale, selectedChapter, viewportProfile],
   )
 
   useEffect(() => {
@@ -493,8 +595,8 @@ function ChapterFocusController({
         : CHAPTER_FOCUS_DISTANCE_PADDING
     const endDistance = THREE.MathUtils.clamp(
       (focus.radius * distancePadding) / fitFactor,
-      MIN_CAMERA_DISTANCE,
-      CHAPTER_FOCUS_MAX_DISTANCE,
+      viewportProfile.minCameraDistance,
+      Math.min(CHAPTER_FOCUS_MAX_DISTANCE, viewportProfile.focusMaxDistance),
     )
     const desiredNdcX = (frame.centerX / frame.canvasWidth) * 2 - 1
     const desiredNdcY = -((frame.centerY / frame.canvasHeight) * 2 - 1)
@@ -530,7 +632,7 @@ function ChapterFocusController({
       startQuaternion: target.quaternion.clone(),
       endQuaternion,
     }
-  }, [camera, controls, focus, gl, targetRef])
+  }, [camera, controls, focus, gl, targetRef, viewportProfile])
 
   useFrame((_, delta) => {
     const animation = animationRef.current
@@ -582,8 +684,10 @@ function ChapterFocusController({
 
 function SurfaceDragControls({
   targetRef,
+  viewportProfile,
 }: {
   targetRef: RefObject<THREE.Group | null>
+  viewportProfile: RouteViewportProfile
 }) {
   const { camera, gl, controls } = useThree()
 
@@ -633,6 +737,8 @@ function SurfaceDragControls({
     const touchTwistAxis = new THREE.Vector3()
     const touchTwist = new THREE.Quaternion()
     const origin = new THREE.Vector3()
+    const homeTarget = new THREE.Vector3()
+    const homePosition = new THREE.Vector3()
     let activePointerId: number | null = null
     let dragMode: 'none' | 'focus' | 'orbit' | 'spin' | 'surface' | 'tapZoom' | 'touch' = 'none'
     let focusRadius = EARTH_RENDER_RADIUS
@@ -663,8 +769,12 @@ function SurfaceDragControls({
         return
       }
 
-      orbitControls.minDistance = SURFACE_PIVOT_MIN_DISTANCE
-      orbitControls.maxDistance = SURFACE_PIVOT_MAX_DISTANCE
+      orbitControls.minDistance = viewportProfile.isLocal
+        ? viewportProfile.minCameraDistance
+        : SURFACE_PIVOT_MIN_DISTANCE
+      orbitControls.maxDistance = viewportProfile.isLocal
+        ? viewportProfile.maxCameraDistance
+        : SURFACE_PIVOT_MAX_DISTANCE
     }
 
     function setDefaultZoomLimits() {
@@ -672,8 +782,30 @@ function SurfaceDragControls({
         return
       }
 
-      orbitControls.minDistance = MIN_CAMERA_DISTANCE
-      orbitControls.maxDistance = MAX_CAMERA_DISTANCE
+      orbitControls.minDistance = viewportProfile.minCameraDistance
+      orbitControls.maxDistance = viewportProfile.maxCameraDistance
+    }
+
+    function setHomeCameraVectors() {
+      if (!viewportProfile.isLocal) {
+        homeTarget.copy(origin)
+        homePosition.copy(INITIAL_CAMERA_POSITION)
+        return
+      }
+
+      const homeQuaternion = targetRef.current?.quaternion ?? new THREE.Quaternion()
+      const worldTarget = viewportProfile.centerVector
+        .clone()
+        .applyQuaternion(homeQuaternion)
+      const worldDirection = viewportProfile.surfaceNormal
+        .clone()
+        .applyQuaternion(homeQuaternion)
+        .normalize()
+
+      homeTarget.copy(worldTarget)
+      homePosition
+        .copy(worldTarget)
+        .add(worldDirection.multiplyScalar(viewportProfile.homeCameraDistance))
     }
 
     function setDistanceFromActivePivot(distance: number) {
@@ -747,14 +879,17 @@ function SurfaceDragControls({
         targetRef.current.quaternion.copy(homeQuaternion)
       }
 
-      focusRadius = EARTH_RENDER_RADIUS
-      camera.position.copy(INITIAL_CAMERA_POSITION)
+      setHomeCameraVectors()
+      focusRadius = viewportProfile.isLocal
+        ? viewportProfile.centerVector.length()
+        : EARTH_RENDER_RADIUS
+      camera.position.copy(homePosition)
       camera.up.set(0, 1, 0)
-      camera.lookAt(origin)
+      camera.lookAt(homeTarget)
       setDefaultZoomLimits()
 
       if (orbitControls) {
-        orbitControls.target.copy(origin)
+        orbitControls.target.copy(homeTarget)
         orbitControls.update()
       }
     }
@@ -1454,23 +1589,32 @@ function SurfaceDragControls({
       canvas.removeEventListener('wheel', handleWheel, { capture: true })
       canvas.removeEventListener('contextmenu', handleContextMenu)
     }
-    }, [camera, controls, gl, targetRef])
+    }, [camera, controls, gl, targetRef, viewportProfile])
 
   return null
 }
 
 function FeatureScaleController({
   setFeatureScale,
+  viewportProfile,
 }: {
   setFeatureScale: Dispatch<SetStateAction<ZoomFeatureScale>>
+  viewportProfile: RouteViewportProfile
 }) {
-  const { camera } = useThree()
+  const { camera, controls } = useThree()
   const lastRouteScale = useRef(0)
   const lastTagScale = useRef(0)
 
   useFrame(() => {
-    const distance = Math.max(MIN_CAMERA_DISTANCE, camera.position.length())
-    const nextScale = getZoomFeatureScale(distance)
+    const orbitControls = controls as OrbitControlsLike | null
+    const distance = orbitControls
+      ? camera.position.distanceTo(orbitControls.target)
+      : camera.position.length()
+    const nextScale = getZoomFeatureScale(
+      Math.max(viewportProfile.minCameraDistance, distance),
+      viewportProfile.minCameraDistance,
+      viewportProfile.maxCameraDistance,
+    )
 
     if (
       Math.abs(nextScale.route - lastRouteScale.current) < 0.005 &&
@@ -1551,16 +1695,22 @@ function RouteLayer({
   selectedSegmentId,
   depthScale,
   featureScale,
+  viewportProfile,
 }: {
   bookModel: BookModel
   selectedChapter: number
   selectedSegmentId: string
   depthScale: number
   featureScale: ZoomFeatureScale
+  viewportProfile: RouteViewportProfile
 }) {
   const setSelectedSegmentId = useMapStore((state) => state.setSelectedSegmentId)
   const visibleSegments = useMemo(
     () => getVisibleSegments(selectedChapter, bookModel.routeSegments),
+    [bookModel.routeSegments, selectedChapter],
+  )
+  const currentSegments = useMemo(
+    () => getCurrentChapterSegments(selectedChapter, bookModel.routeSegments),
     [bookModel.routeSegments, selectedChapter],
   )
   const visibleWaypointIds = useMemo(() => {
@@ -1573,6 +1723,16 @@ function RouteLayer({
 
     return ids
   }, [visibleSegments])
+  const currentWaypointIds = useMemo(() => {
+    const ids = new Set<string>()
+
+    for (const segment of currentSegments) {
+      ids.add(segment.from)
+      ids.add(segment.to)
+    }
+
+    return ids
+  }, [currentSegments])
 
   const selectedSegment =
     visibleSegments.find((segment) => segment.id === selectedSegmentId) ??
@@ -1595,6 +1755,29 @@ function RouteLayer({
     })
   }
 
+  function isActiveWaypoint(waypoint: Waypoint) {
+    return (
+      selectedSegment?.from === waypoint.id ||
+      selectedSegment?.to === waypoint.id ||
+      (!viewportProfile.isLocal &&
+        (waypoint.id === 'scartaris-crater' || waypoint.id === 'stromboli'))
+    )
+  }
+
+  function shouldLabelWaypoint(waypoint: Waypoint) {
+    const active = isActiveWaypoint(waypoint)
+
+    if (viewportProfile.mode === 'city') {
+      return visibleWaypointIds.size <= 4 || active || currentWaypointIds.has(waypoint.id)
+    }
+
+    if (viewportProfile.mode === 'country') {
+      return active || currentWaypointIds.has(waypoint.id)
+    }
+
+    return active
+  }
+
   return (
     <group>
       {visibleSegments.map((segment) => (
@@ -1606,6 +1789,7 @@ function RouteLayer({
           featureScale={featureScale.route}
           mediumColors={bookModel.mediumColors}
           onSelect={() => handleSegmentSelect(segment)}
+          viewportProfile={viewportProfile}
           waypointById={bookModel.waypointById}
         />
       ))}
@@ -1615,20 +1799,11 @@ function RouteLayer({
           <WaypointMarker
             key={waypoint.id}
             waypoint={waypoint}
-            active={
-              selectedSegment?.from === waypoint.id ||
-              selectedSegment?.to === waypoint.id ||
-              waypoint.id === 'scartaris-crater' ||
-              waypoint.id === 'stromboli'
-            }
-            label={
-              selectedSegment?.from === waypoint.id ||
-              selectedSegment?.to === waypoint.id ||
-              waypoint.id === 'scartaris-crater' ||
-              waypoint.id === 'stromboli'
-            }
+            active={isActiveWaypoint(waypoint)}
+            label={shouldLabelWaypoint(waypoint)}
             depthScale={depthScale}
             featureScale={featureScale}
+            viewportProfile={viewportProfile}
           />
         ))}
     </group>
@@ -1642,6 +1817,7 @@ function RouteTube({
   featureScale,
   mediumColors,
   onSelect,
+  viewportProfile,
   waypointById,
 }: {
   segment: RouteSegment
@@ -1650,14 +1826,20 @@ function RouteTube({
   featureScale: number
   mediumColors: BookModel['mediumColors']
   onSelect: () => void
+  viewportProfile: RouteViewportProfile
   waypointById: BookModel['waypointById']
 }) {
   const geometry = useMemo(() => {
-    const points = getSegmentRenderPoints(segment, depthScale, waypointById)
+    const points = getViewportSegmentRenderPoints(
+      segment,
+      depthScale,
+      waypointById,
+      viewportProfile,
+    )
     const curve = new THREE.CatmullRomCurve3(points, false, 'centripetal', 0.45)
     const radius = (active ? 0.045 : 0.026) * featureScale
     return new THREE.TubeGeometry(curve, Math.max(points.length * 4, 24), radius, 8)
-  }, [active, depthScale, featureScale, segment, waypointById])
+  }, [active, depthScale, featureScale, segment, viewportProfile, waypointById])
 
   return (
     <mesh geometry={geometry} onClick={onSelect}>
@@ -1680,19 +1862,22 @@ function WaypointMarker({
   label,
   depthScale,
   featureScale,
+  viewportProfile,
 }: {
   waypoint: Waypoint
   active: boolean
   label: boolean
   depthScale: number
   featureScale: ZoomFeatureScale
+  viewportProfile: RouteViewportProfile
 }) {
   const position = useMemo(
-    () => positionToVector3(waypoint.position, depthScale),
-    [depthScale, waypoint.position],
+    () => projectRoutePosition(waypoint.position, depthScale, viewportProfile),
+    [depthScale, viewportProfile, waypoint.position],
   )
   const color = active ? '#ffcf5a' : '#efe6d0'
-  const markerRadius = (active ? 0.085 : 0.052) * featureScale.route
+  const markerScale = getWaypointRenderScale(featureScale, viewportProfile)
+  const markerRadius = (active ? 0.085 : 0.052) * markerScale.route
 
   return (
     <group position={position}>
@@ -1709,7 +1894,7 @@ function WaypointMarker({
         <Html center>
           <div
             style={{
-              transform: `scale(${featureScale.tag})`,
+              transform: `scale(${markerScale.tag})`,
               transformOrigin: 'center',
             }}
           >

@@ -380,6 +380,12 @@
       "distanceSource": "estimated",
       "confidence": "fictional",
       "notes": "Short fictional neighborhood travel for early Bennet and Bingley visits.",
+      "points": [
+        {
+          "lat": 51.822,
+          "lon": -0.198
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 3,
@@ -404,6 +410,12 @@
       "distanceSource": "estimated",
       "confidence": "fictional",
       "notes": "The route keeps militia, shops, and assemblies close to the Meryton cluster.",
+      "points": [
+        {
+          "lat": 51.818,
+          "lon": -0.172
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 7,
@@ -429,8 +441,16 @@
       "notes": "Longbourn and Hunsford are fictional, so the geodesic distance uses estimated anchors. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
       "points": [
         {
+          "lat": 51.68,
+          "lon": -0.18
+        },
+        {
           "lat": 51.5074,
           "lon": -0.1278
+        },
+        {
+          "lat": 51.39,
+          "lon": -0.03
         }
       ],
       "sourceRefs": [
@@ -457,6 +477,12 @@
       "distanceSource": "estimated",
       "confidence": "fictional",
       "notes": "A nearby estate call rather than a long route.",
+      "points": [
+        {
+          "lat": 51.228,
+          "lon": 0.061
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 29,
@@ -480,6 +506,20 @@
       "distanceSource": "estimated",
       "confidence": "textual",
       "notes": "Lydia is allowed to go to Brighton with the Forsters; this is a source-supported family route, not the later London search. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "points": [
+        {
+          "lat": 51.64,
+          "lon": -0.19
+        },
+        {
+          "lat": 51.514,
+          "lon": -0.149
+        },
+        {
+          "lat": 51.13,
+          "lon": -0.15
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 41,
@@ -503,6 +543,20 @@
       "distanceSource": "estimated",
       "confidence": "fictional",
       "notes": "The Gardiners and Elizabeth travel north to Derbyshire. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "points": [
+        {
+          "lat": 52.05,
+          "lon": -0.45
+        },
+        {
+          "lat": 52.48,
+          "lon": -1.89
+        },
+        {
+          "lat": 52.91,
+          "lon": -1.48
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 42,
@@ -527,6 +581,12 @@
       "distanceSource": "estimated",
       "confidence": "fictional",
       "notes": "Short local move between the Derbyshire estate and the inn village.",
+      "points": [
+        {
+          "lat": 53.178,
+          "lon": -1.596
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 43,
@@ -550,6 +610,20 @@
       "distanceSource": "estimated",
       "confidence": "fictional",
       "notes": "The final chapter unit returns the map to Hertfordshire for the resolution. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "points": [
+        {
+          "lat": 52.91,
+          "lon": -1.48
+        },
+        {
+          "lat": 52.48,
+          "lon": -1.89
+        },
+        {
+          "lat": 52.05,
+          "lon": -0.45
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 46,
@@ -573,6 +647,16 @@
       "distanceSource": "estimated",
       "confidence": "textual",
       "notes": "Mr. Bennet and Mr. Gardiner search from Longbourn/London after Lydia and Wickham elope. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "points": [
+        {
+          "lat": 51.7,
+          "lon": -0.2
+        },
+        {
+          "lat": 51.6,
+          "lon": -0.18
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 47,

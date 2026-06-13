@@ -232,6 +232,12 @@
       "distanceSource": "estimated",
       "confidence": "fictional",
       "notes": "London case movement for Irene Adler. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "points": [
+        {
+          "lat": 51.527,
+          "lon": -0.166
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 1,
@@ -255,6 +261,16 @@
       "distanceSource": "estimated",
       "confidence": "fictional",
       "notes": "London route for the bank-cellar case. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "points": [
+        {
+          "lat": 51.521,
+          "lon": -0.135
+        },
+        {
+          "lat": 51.518,
+          "lon": -0.112
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 2,
@@ -278,6 +294,16 @@
       "distanceSource": "estimated",
       "confidence": "textual",
       "notes": "A Case of Identity is modeled from Baker Street to Mary Sutherland's Camberwell context rather than a generic London endpoint. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "points": [
+        {
+          "lat": 51.514,
+          "lon": -0.145
+        },
+        {
+          "lat": 51.497,
+          "lon": -0.118
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 3,
@@ -301,6 +327,20 @@
       "distanceSource": "estimated",
       "confidence": "fictional",
       "notes": "Country case route to the fictional Boscombe Valley. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "points": [
+        {
+          "lat": 51.516,
+          "lon": -0.176
+        },
+        {
+          "lat": 51.454,
+          "lon": -0.978
+        },
+        {
+          "lat": 51.865,
+          "lon": -2.238
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 4,
@@ -324,6 +364,20 @@
       "distanceSource": "estimated",
       "confidence": "textual",
       "notes": "Horsham is named in the case. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "points": [
+        {
+          "lat": 51.515,
+          "lon": -0.19
+        },
+        {
+          "lat": 51.47,
+          "lon": -0.16
+        },
+        {
+          "lat": 51.236,
+          "lon": -0.335
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 5,
@@ -358,6 +412,14 @@
         {
           "lat": 51.511,
           "lon": -0.055
+        },
+        {
+          "lat": 51.5,
+          "lon": -0.03
+        },
+        {
+          "lat": 51.48,
+          "lon": -0.01
         }
       ]
     },
@@ -376,6 +438,16 @@
       "distanceSource": "estimated",
       "confidence": "textual",
       "notes": "The goose and stone trail reaches Covent Garden. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "points": [
+        {
+          "lat": 51.518,
+          "lon": -0.148
+        },
+        {
+          "lat": 51.513,
+          "lon": -0.135
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 7,
@@ -399,6 +471,16 @@
       "distanceSource": "estimated",
       "confidence": "fictional",
       "notes": "Stoke Moran is represented in Surrey countryside. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "points": [
+        {
+          "lat": 51.516,
+          "lon": -0.176
+        },
+        {
+          "lat": 51.347,
+          "lon": -0.47
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 8,
@@ -422,6 +504,16 @@
       "distanceSource": "estimated",
       "confidence": "fictional",
       "notes": "Eyford is a fictional Berkshire-side case anchor. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "points": [
+        {
+          "lat": 51.516,
+          "lon": -0.176
+        },
+        {
+          "lat": 51.455,
+          "lon": -0.65
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 9,
@@ -446,6 +538,12 @@
       "distanceSource": "estimated",
       "confidence": "textual",
       "notes": "General London route for the wedding disappearance.",
+      "points": [
+        {
+          "lat": 51.517,
+          "lon": -0.145
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 10,
@@ -469,6 +567,16 @@
       "distanceSource": "estimated",
       "confidence": "textual",
       "notes": "Streatham anchors the Holder case geography. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "points": [
+        {
+          "lat": 51.508,
+          "lon": -0.151
+        },
+        {
+          "lat": 51.462,
+          "lon": -0.136
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 11,
@@ -492,6 +600,20 @@
       "distanceSource": "estimated",
       "confidence": "textual",
       "notes": "The final case travels by rail toward Winchester and the Copper Beeches. Distance uses proxy coordinates for one or more fictional or estimated route anchors.",
+      "points": [
+        {
+          "lat": 51.516,
+          "lon": -0.176
+        },
+        {
+          "lat": 51.406,
+          "lon": -0.306
+        },
+        {
+          "lat": 51.21,
+          "lon": -0.78
+        }
+      ],
       "sourceRefs": [
         {
           "chapter": 12,
