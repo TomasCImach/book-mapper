@@ -29,6 +29,16 @@ describe('route viewport profiles', () => {
     ).toBe('global')
   })
 
+  it('renders regional Genesis routes as MapLibre local maps', () => {
+    for (const bookId of ['genesis-abraham', 'genesis-jacob', 'genesis-joseph']) {
+      const profile = getRouteViewportProfile(bookModels[bookId])
+
+      expect(profile.mode).toBe('country')
+      expect(profile.isLocal).toBe(true)
+      expect(profile.extentKm).toBeGreaterThan(350)
+    }
+  })
+
   it('keeps concentrated route geometry anchored to the globe surface', () => {
     const model = bookModels['memoirs-of-the-court-of-queen-elizabeth']
     const segment = model.routeSegments[0]

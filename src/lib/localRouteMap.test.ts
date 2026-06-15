@@ -41,4 +41,19 @@ describe('local route map data', () => {
       ),
     ).toBeNull()
   })
+
+  it('builds MapLibre data for the regional Genesis routes', () => {
+    for (const bookId of ['genesis-abraham', 'genesis-jacob', 'genesis-joseph']) {
+      const model = bookModels[bookId]
+      const data = getLocalRouteMapData(
+        model,
+        model.chapters.at(-1)!.number,
+        model.routeSegments.at(-1)!.id,
+      )
+
+      expect(data?.mode).toBe('country')
+      expect(data?.routeFeatures.features.length).toBe(model.routeSegments.length)
+      expect(data?.bounds).not.toBeNull()
+    }
+  })
 })

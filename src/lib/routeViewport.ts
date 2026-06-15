@@ -33,6 +33,11 @@ export type RouteViewportProfile = {
 const CITY_EXTENT_KM = 80
 const COUNTRY_EXTENT_KM = 350
 const LOCAL_SURFACE_OFFSET = 0.045
+const MAPLIBRE_REGIONAL_BOOK_IDS = new Set([
+  'genesis-abraham',
+  'genesis-jacob',
+  'genesis-joseph',
+])
 
 type WaypointLookup = Record<string, Waypoint>
 
@@ -71,6 +76,14 @@ function classifyRouteExtent(extentKm: number): RouteViewportMode {
   }
 
   return 'global'
+}
+
+function getBookViewportModeOverride(model: BookModel): RouteViewportMode | null {
+  if (MAPLIBRE_REGIONAL_BOOK_IDS.has(model.book.id)) {
+    return 'country'
+  }
+
+  return null
 }
 
 function vectorToPosition(vector: THREE.Vector3): Position {
@@ -112,7 +125,7 @@ function getLocalAxes(center: Position) {
 export function getRouteViewportProfile(model: BookModel): RouteViewportProfile {
   const positions = getRoutePositions(model)
   const extentKm = getRouteExtentKm(positions)
-  const mode = classifyRouteExtent(extentKm)
+  const mode = getBookViewportModeOverride(model) ?? classifyRouteExtent(extentKm)
   const isLocal = mode !== 'global'
   const center = getRouteCenter(positions)
   const axes = getLocalAxes(center)
