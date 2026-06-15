@@ -29,8 +29,13 @@ describe('route viewport profiles', () => {
     ).toBe('global')
   })
 
-  it('renders regional Genesis routes as MapLibre local maps', () => {
-    for (const bookId of ['genesis-abraham', 'genesis-jacob', 'genesis-joseph']) {
+  it('renders regional biblical routes as MapLibre local maps', () => {
+    for (const bookId of [
+      'genesis-abraham',
+      'genesis-jacob',
+      'genesis-joseph',
+      'exodus-to-promised-land',
+    ]) {
       const profile = getRouteViewportProfile(bookModels[bookId])
 
       expect(profile.mode).toBe('country')

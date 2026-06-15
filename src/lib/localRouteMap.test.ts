@@ -42,8 +42,13 @@ describe('local route map data', () => {
     ).toBeNull()
   })
 
-  it('builds MapLibre data for the regional Genesis routes', () => {
-    for (const bookId of ['genesis-abraham', 'genesis-jacob', 'genesis-joseph']) {
+  it('builds MapLibre data for the regional biblical routes', () => {
+    for (const bookId of [
+      'genesis-abraham',
+      'genesis-jacob',
+      'genesis-joseph',
+      'exodus-to-promised-land',
+    ]) {
       const model = bookModels[bookId]
       const data = getLocalRouteMapData(
         model,

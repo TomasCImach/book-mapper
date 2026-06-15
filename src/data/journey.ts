@@ -8,6 +8,7 @@ import frankensteinJson from './books/frankenstein.json'
 import genesisAbrahamJson from './books/genesis-abraham.json'
 import genesisJacobJson from './books/genesis-jacob.json'
 import genesisJosephJson from './books/genesis-joseph.json'
+import exodusToPromisedLandJson from './books/exodus-to-promised-land.json'
 import journeyJson from './books/journey-to-the-center-of-the-earth.json'
 import littleWomenJson from './books/little-women.json'
 import memoirsQueenElizabethJson from './books/memoirs-of-the-court-of-queen-elizabeth.json'
@@ -164,6 +165,7 @@ export const availableBooks = [
   genesisAbrahamJson as BookMapData,
   genesisJacobJson as BookMapData,
   genesisJosephJson as BookMapData,
+  exodusToPromisedLandJson as BookMapData,
 ]
 
 export const DEFAULT_BOOK_ID = availableBooks[0].id

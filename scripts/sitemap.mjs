@@ -31,6 +31,7 @@ export const bookFiles = [
   'genesis-abraham.json',
   'genesis-jacob.json',
   'genesis-joseph.json',
+  'exodus-to-promised-land.json',
 ]
 
 export function normalizeSiteUrl(siteUrl = process.env.SITE_URL ?? DEFAULT_SITE_URL) {

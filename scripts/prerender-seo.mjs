@@ -29,6 +29,7 @@ const bookFiles = [
   'genesis-abraham.json',
   'genesis-jacob.json',
   'genesis-joseph.json',
+  'exodus-to-promised-land.json',
 ]
 
 const books = bookFiles.map((file) =>

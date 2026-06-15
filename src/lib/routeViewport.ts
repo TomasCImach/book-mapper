@@ -37,6 +37,7 @@ const MAPLIBRE_REGIONAL_BOOK_IDS = new Set([
   'genesis-abraham',
   'genesis-jacob',
   'genesis-joseph',
+  'exodus-to-promised-land',
 ])
 
 type WaypointLookup = Record<string, Waypoint>

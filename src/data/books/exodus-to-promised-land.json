@@ -1,0 +1,1805 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "exodus-to-promised-land",
+  "title": "The Exodus to the Promised Land",
+  "author": "Anonymous",
+  "source": {
+    "label": "Project Gutenberg KJV: Exodus, Numbers, Deuteronomy, and Joshua",
+    "url": "https://www.gutenberg.org/cache/epub/8002/pg8002-images.html"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Exodus 12 and Numbers 33: Rameses to Succoth"
+    },
+    {
+      "number": 2,
+      "title": "Exodus 13 and Numbers 33: Succoth to Etham"
+    },
+    {
+      "number": 3,
+      "title": "Exodus 14 and Numbers 33: Pi-hahiroth and the sea"
+    },
+    {
+      "number": 4,
+      "title": "Exodus 15 and Numbers 33: Three days to Marah"
+    },
+    {
+      "number": 5,
+      "title": "Exodus 15 and Numbers 33: Elim and the Red Sea camp"
+    },
+    {
+      "number": 6,
+      "title": "Exodus 16 and Numbers 33: Wilderness of Sin"
+    },
+    {
+      "number": 7,
+      "title": "Exodus 17 and Numbers 33: Rephidim"
+    },
+    {
+      "number": 8,
+      "title": "Exodus 19 and Numbers 33: Mount Sinai"
+    },
+    {
+      "number": 9,
+      "title": "Numbers 10-12 and 33: Sinai to Paran"
+    },
+    {
+      "number": 10,
+      "title": "Numbers 13-14 and Deuteronomy 1: Kadesh-barnea"
+    },
+    {
+      "number": 11,
+      "title": "Numbers 14 and Deuteronomy 2: The long wilderness turn"
+    },
+    {
+      "number": 12,
+      "title": "Numbers 20 and 33: Kadesh to Mount Hor"
+    },
+    {
+      "number": 13,
+      "title": "Numbers 21 and 33: Around Edom by the Red Sea road"
+    },
+    {
+      "number": 14,
+      "title": "Numbers 21 and 33: Oboth, Ije-abarim, and Arnon"
+    },
+    {
+      "number": 15,
+      "title": "Numbers 21 and 33: Arnon to Pisgah"
+    },
+    {
+      "number": 16,
+      "title": "Numbers 22 and 33: Plains of Moab by Jericho"
+    },
+    {
+      "number": 17,
+      "title": "Deuteronomy 34: Moses ascends Nebo"
+    },
+    {
+      "number": 18,
+      "title": "Joshua 3-4: Jordan crossing to Gilgal"
+    }
+  ],
+  "media": {
+    "departure": {
+      "label": "Departure march",
+      "color": "#c58c4a"
+    },
+    "camp": {
+      "label": "Camp-to-camp march",
+      "color": "#6f9f7a"
+    },
+    "turn": {
+      "label": "Commanded turn",
+      "color": "#7c88d1"
+    },
+    "sea": {
+      "label": "Sea crossing",
+      "color": "#3f9fc6"
+    },
+    "wilderness": {
+      "label": "Wilderness route",
+      "color": "#b79852"
+    },
+    "detour": {
+      "label": "Edom detour",
+      "color": "#d06f45"
+    },
+    "ascent": {
+      "label": "Mountain ascent",
+      "color": "#8e79bd"
+    },
+    "crossing": {
+      "label": "Jordan crossing",
+      "color": "#4c9a8a"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "rameses-egypt",
+      "name": "Rameses / Goshen",
+      "chapter": 1,
+      "position": {
+        "lat": 30.79,
+        "lon": 31.83
+      },
+      "confidence": "estimated",
+      "notes": "Placed near the eastern Nile Delta and Qantir/Pi-Ramesses area as a common proxy; the biblical route's exact starting point is debated."
+    },
+    {
+      "id": "succoth-egypt",
+      "name": "Succoth in Egypt",
+      "chapter": 1,
+      "position": {
+        "lat": 30.57,
+        "lon": 32.12
+      },
+      "confidence": "estimated",
+      "notes": "Modeled in the Wadi Tumilat corridor; this is not the Succoth near the Jordan in Genesis."
+    },
+    {
+      "id": "etham-edge-wilderness",
+      "name": "Etham",
+      "chapter": 2,
+      "position": {
+        "lat": 30.43,
+        "lon": 32.45
+      },
+      "confidence": "estimated",
+      "notes": "Regional proxy for Etham at the edge of the wilderness."
+    },
+    {
+      "id": "pi-hahiroth",
+      "name": "Pi-hahiroth",
+      "chapter": 3,
+      "position": {
+        "lat": 30.183638,
+        "lon": 32.401623
+      },
+      "confidence": "estimated",
+      "notes": "Uses an OpenBible-listed Jabal Jinayfah plain candidate as a northern Gulf of Suez proxy; proposed Pi-hahiroth sites vary widely."
+    },
+    {
+      "id": "yam-suph-crossing",
+      "name": "Sea crossing proxy",
+      "chapter": 3,
+      "position": {
+        "lat": 30.02,
+        "lon": 32.52
+      },
+      "confidence": "estimated",
+      "notes": "Schematic midpoint for the Yam Suph / Red Sea crossing near the Pi-hahiroth proxy; not an archaeological claim."
+    },
+    {
+      "id": "wilderness-shur-exodus",
+      "name": "Wilderness of Shur / Etham",
+      "chapter": 3,
+      "position": {
+        "lat": 29.72,
+        "lon": 32.72
+      },
+      "confidence": "estimated",
+      "notes": "Regional proxy for the wilderness reached after the sea crossing, held west of Marah to keep the post-crossing route schematic."
+    },
+    {
+      "id": "marah",
+      "name": "Marah",
+      "chapter": 4,
+      "position": {
+        "lat": 29.34604,
+        "lon": 32.94284
+      },
+      "confidence": "estimated",
+      "notes": "Placed at the Ain Hawarah candidate listed by OpenBible; the exact spring remains uncertain."
+    },
+    {
+      "id": "elim",
+      "name": "Elim",
+      "chapter": 5,
+      "position": {
+        "lat": 29.254722,
+        "lon": 32.915833
+      },
+      "confidence": "estimated",
+      "notes": "Placed on an OpenBible Wadi Gharandel candidate for Elim."
+    },
+    {
+      "id": "red-sea-camp",
+      "name": "Red Sea camp",
+      "chapter": 5,
+      "position": {
+        "lat": 28.95,
+        "lon": 33
+      },
+      "confidence": "estimated",
+      "notes": "Numbers 33 lists a camp by the Red Sea after Elim; this is a schematic coastal waypoint."
+    },
+    {
+      "id": "wilderness-sin",
+      "name": "Wilderness of Sin",
+      "chapter": 6,
+      "position": {
+        "lat": 28.9,
+        "lon": 33.25
+      },
+      "confidence": "estimated",
+      "notes": "Regional proxy for the wilderness between Elim and Sinai."
+    },
+    {
+      "id": "rephidim",
+      "name": "Rephidim",
+      "chapter": 7,
+      "position": {
+        "lat": 28.72,
+        "lon": 33.62
+      },
+      "confidence": "estimated",
+      "notes": "Placed near the Wadi Feiran tradition; the site remains debated."
+    },
+    {
+      "id": "mount-sinai-horeb",
+      "name": "Mount Sinai / Horeb",
+      "chapter": 8,
+      "position": {
+        "lat": 28.539,
+        "lon": 33.974
+      },
+      "confidence": "estimated",
+      "notes": "Uses the traditional Jebel Musa proxy for Sinai/Horeb; other identifications exist."
+    },
+    {
+      "id": "kibroth-hattaavah",
+      "name": "Kibroth-hattaavah",
+      "chapter": 9,
+      "position": {
+        "lat": 28.788667,
+        "lon": 34.275439
+      },
+      "confidence": "estimated",
+      "notes": "Placed near the Erweis el Ebeirig candidate listed by OpenBible; Numbers names the station but not exact coordinates."
+    },
+    {
+      "id": "hazeroth",
+      "name": "Hazeroth",
+      "chapter": 9,
+      "position": {
+        "lat": 28.896944,
+        "lon": 34.421667
+      },
+      "confidence": "estimated",
+      "notes": "Placed at the Ain el Khadra candidate listed by OpenBible; the exact location is uncertain."
+    },
+    {
+      "id": "wilderness-paran",
+      "name": "Wilderness of Paran",
+      "chapter": 9,
+      "position": {
+        "lat": 30.27913,
+        "lon": 34.63596
+      },
+      "confidence": "estimated",
+      "notes": "Regional desert proxy using OpenBible's high-confidence Paran isoband; this is not a precise campsite."
+    },
+    {
+      "id": "kadesh-barnea",
+      "name": "Kadesh-barnea",
+      "chapter": 10,
+      "position": {
+        "lat": 30.65,
+        "lon": 34.42
+      },
+      "confidence": "estimated",
+      "notes": "Placed near the Ein el-Qudeirat / northeast Sinai tradition; the identification is debated."
+    },
+    {
+      "id": "wilderness-zin",
+      "name": "Wilderness of Zin",
+      "chapter": 11,
+      "position": {
+        "lat": 30.73587,
+        "lon": 34.58894
+      },
+      "confidence": "estimated",
+      "notes": "Regional proxy using OpenBible's high-confidence Zin isoband near Kadesh; this is not a precise campsite."
+    },
+    {
+      "id": "mount-seir-edom",
+      "name": "Mount Seir / Edom",
+      "chapter": 11,
+      "position": {
+        "lat": 30.55,
+        "lon": 35.35
+      },
+      "confidence": "estimated",
+      "notes": "Regional proxy for the Edomite highlands and the Seir detour remembered in Deuteronomy."
+    },
+    {
+      "id": "mount-hor",
+      "name": "Mount Hor",
+      "chapter": 12,
+      "position": {
+        "lat": 30.316,
+        "lon": 35.407
+      },
+      "confidence": "estimated",
+      "notes": "Uses the Jebel Harun / Petra-region tradition for Mount Hor."
+    },
+    {
+      "id": "ezion-geber-red-sea",
+      "name": "Ezion-geber / Red Sea road",
+      "chapter": 13,
+      "position": {
+        "lat": 29.55,
+        "lon": 34.97
+      },
+      "confidence": "estimated",
+      "notes": "Aqaba/Eilat-area proxy for the Red Sea route around Edom."
+    },
+    {
+      "id": "zalmonah",
+      "name": "Zalmonah",
+      "chapter": 13,
+      "position": {
+        "lat": 30.1,
+        "lon": 35.08
+      },
+      "confidence": "estimated",
+      "notes": "Schematic stop from Numbers 33 after Mount Hor."
+    },
+    {
+      "id": "punon",
+      "name": "Punon",
+      "chapter": 13,
+      "position": {
+        "lat": 30.63,
+        "lon": 35.45
+      },
+      "confidence": "estimated",
+      "notes": "Placed near the Faynan region as a common proxy for Punon."
+    },
+    {
+      "id": "oboth",
+      "name": "Oboth",
+      "chapter": 14,
+      "position": {
+        "lat": 30.715067,
+        "lon": 35.655084
+      },
+      "confidence": "estimated",
+      "notes": "Placed at the OpenBible Gharandal candidate for Oboth; the station remains approximate."
+    },
+    {
+      "id": "ije-abarim",
+      "name": "Ije-abarim",
+      "chapter": 14,
+      "position": {
+        "lat": 30.955999,
+        "lon": 35.77948
+      },
+      "confidence": "estimated",
+      "notes": "Placed at the OpenBible Medeineh candidate, east of Moab as described by Numbers."
+    },
+    {
+      "id": "zered-valley",
+      "name": "Zered Valley",
+      "chapter": 14,
+      "position": {
+        "lat": 31.02701,
+        "lon": 35.48533
+      },
+      "confidence": "estimated",
+      "notes": "Uses an OpenBible Wadi al Hasa candidate for Zered, treated as an approximate crossing proxy."
+    },
+    {
+      "id": "arnon-valley",
+      "name": "Arnon Valley",
+      "chapter": 14,
+      "position": {
+        "lat": 31.421044,
+        "lon": 35.828903
+      },
+      "confidence": "geocoded",
+      "notes": "Uses the Wadi Mujib / Arnon corridor as the named Moab-Amorite border region."
+    },
+    {
+      "id": "beer-mattanah",
+      "name": "Beer and Mattanah",
+      "chapter": 15,
+      "position": {
+        "lat": 31.62,
+        "lon": 35.7
+      },
+      "confidence": "estimated",
+      "notes": "Combined schematic waypoint for the Beer and Mattanah itinerary in Numbers 21."
+    },
+    {
+      "id": "bamoth-moab",
+      "name": "Bamoth in Moab",
+      "chapter": 15,
+      "position": {
+        "lat": 31.72,
+        "lon": 35.75
+      },
+      "confidence": "estimated",
+      "notes": "Regional high-place proxy in Moab."
+    },
+    {
+      "id": "mount-nebo-pisgah",
+      "name": "Mount Nebo / Pisgah",
+      "chapter": 15,
+      "position": {
+        "lat": 31.765,
+        "lon": 35.725
+      },
+      "confidence": "geocoded",
+      "notes": "Traditional Nebo/Pisgah proxy overlooking the Jordan valley and Jericho."
+    },
+    {
+      "id": "plains-moab-shittim",
+      "name": "Plains of Moab / Shittim",
+      "chapter": 16,
+      "position": {
+        "lat": 31.85055,
+        "lon": 35.65296
+      },
+      "confidence": "estimated",
+      "notes": "Placed at the OpenBible Tall Kafrayn candidate for Abel-shittim/Shittim near the plains of Moab."
+    },
+    {
+      "id": "jordan-crossing-jericho",
+      "name": "Jordan crossing by Jericho",
+      "chapter": 18,
+      "position": {
+        "lat": 31.85,
+        "lon": 35.55
+      },
+      "confidence": "estimated",
+      "notes": "Modeled opposite Jericho as Joshua 3-4 describes; the exact crossing point is not identified."
+    },
+    {
+      "id": "gilgal-jericho",
+      "name": "Gilgal near Jericho",
+      "chapter": 18,
+      "position": {
+        "lat": 31.881883,
+        "lon": 35.459969
+      },
+      "confidence": "estimated",
+      "notes": "Placed at the OpenBible Khirbet el Mefjir candidate for Gilgal near Jericho."
+    }
+  ],
+  "paths": [
+    {
+      "id": "rameses-succoth",
+      "title": "Rameses to Succoth",
+      "medium": "departure",
+      "start": {
+        "waypointId": "rameses-egypt"
+      },
+      "end": {
+        "waypointId": "succoth-egypt"
+      },
+      "chapterStart": 1,
+      "chapterEnd": 1,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The first march out of Egypt is named in Exodus 12 and repeated in the Numbers 33 itinerary.",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Exodus 12:37: Rameses to Succoth",
+          "url": "https://www.gutenberg.org/cache/epub/8002/pg8002-images.html"
+        },
+        {
+          "chapter": 1,
+          "label": "Numbers 33:5: Rameses to Succoth",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        },
+        {
+          "chapter": 1,
+          "label": "TheTorah: Egyptian toponyms for Ramesses and Sukkot",
+          "url": "https://www.thetorah.com/article/what-we-know-about-the-egyptian-places-mentioned-in-exodus"
+        },
+        {
+          "chapter": 1,
+          "label": "OpenBible Atlas: Exodus place candidates",
+          "url": "https://www.openbible.info/geo/preview/exod"
+        }
+      ]
+    },
+    {
+      "id": "succoth-etham",
+      "title": "Succoth to Etham",
+      "medium": "camp",
+      "start": {
+        "waypointId": "succoth-egypt"
+      },
+      "end": {
+        "waypointId": "etham-edge-wilderness"
+      },
+      "chapterStart": 2,
+      "chapterEnd": 2,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The camp moves from Succoth to Etham on the edge of the wilderness.",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "Exodus 13:20: Succoth to Etham",
+          "url": "https://www.gutenberg.org/cache/epub/8002/pg8002-images.html"
+        },
+        {
+          "chapter": 2,
+          "label": "Numbers 33:6: Succoth to Etham",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        },
+        {
+          "chapter": 2,
+          "label": "TheTorah: Sukkot, Pithom, and Etham in the Wadi Tumilat discussion",
+          "url": "https://www.thetorah.com/article/what-we-know-about-the-egyptian-places-mentioned-in-exodus"
+        }
+      ]
+    },
+    {
+      "id": "etham-pihahiroth",
+      "title": "Etham to Pi-hahiroth",
+      "medium": "turn",
+      "start": {
+        "waypointId": "etham-edge-wilderness"
+      },
+      "end": {
+        "waypointId": "pi-hahiroth"
+      },
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The route turns back toward Pi-hahiroth before the sea, following the textual turn rather than a shortest path.",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "Exodus 14:2: turn to Pi-hahiroth",
+          "url": "https://www.gutenberg.org/cache/epub/8002/pg8002-images.html"
+        },
+        {
+          "chapter": 3,
+          "label": "Numbers 33:7: Etham to Pi-hahiroth",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        },
+        {
+          "chapter": 3,
+          "label": "TheTorah: Pi-hahiroth, Migdol, Baal-zephon, and Yam Suf",
+          "url": "https://www.thetorah.com/article/what-we-know-about-the-egyptian-places-mentioned-in-exodus"
+        },
+        {
+          "chapter": 3,
+          "label": "OpenBible Atlas: Pi-hahiroth candidates",
+          "url": "https://www.openbible.info/geo/preview/exod"
+        }
+      ]
+    },
+    {
+      "id": "pihahiroth-sea-shur",
+      "title": "Sea crossing to the wilderness",
+      "medium": "sea",
+      "start": {
+        "waypointId": "pi-hahiroth"
+      },
+      "end": {
+        "waypointId": "wilderness-shur-exodus"
+      },
+      "chapterStart": 3,
+      "chapterEnd": 3,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The sea crossing is schematic. The map shows the narrative passage through the sea and arrival in the wilderness, not a claim for a specific crossing site.",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "Exodus 14: crossing the sea",
+          "url": "https://www.gutenberg.org/cache/epub/8002/pg8002-images.html"
+        },
+        {
+          "chapter": 3,
+          "label": "Numbers 33:8: through the midst of the sea",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        },
+        {
+          "chapter": 3,
+          "label": "LDS Bible Map 2: Pi-hahiroth and Red Sea crossing",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-2?lang=eng"
+        },
+        {
+          "chapter": 3,
+          "label": "TheTorah: Yam Suf and eastern frontier toponyms",
+          "url": "https://www.thetorah.com/article/what-we-know-about-the-egyptian-places-mentioned-in-exodus"
+        }
+      ],
+      "points": [
+        {
+          "lat": 30.02,
+          "lon": 32.52
+        },
+        {
+          "lat": 29.88,
+          "lon": 32.63
+        }
+      ]
+    },
+    {
+      "id": "shur-marah",
+      "title": "Wilderness of Shur to Marah",
+      "medium": "wilderness",
+      "start": {
+        "waypointId": "wilderness-shur-exodus"
+      },
+      "end": {
+        "waypointId": "marah"
+      },
+      "chapterStart": 4,
+      "chapterEnd": 4,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Exodus describes three days in the wilderness before Marah; the endpoint is traditional and approximate.",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "Exodus 15:22-23: three days to Marah",
+          "url": "https://www.gutenberg.org/cache/epub/8002/pg8002-images.html"
+        },
+        {
+          "chapter": 4,
+          "label": "Numbers 33:8: Etham wilderness to Marah",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        },
+        {
+          "chapter": 4,
+          "label": "LDS Bible Map 2: Marah on the possible route",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-2?lang=eng"
+        },
+        {
+          "chapter": 4,
+          "label": "OpenBible Atlas: Marah candidates",
+          "url": "https://www.openbible.info/geo/preview/exod"
+        }
+      ]
+    },
+    {
+      "id": "marah-elim",
+      "title": "Marah to Elim",
+      "medium": "camp",
+      "start": {
+        "waypointId": "marah"
+      },
+      "end": {
+        "waypointId": "elim"
+      },
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The route reaches Elim, described as a water-rich camp.",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Exodus 15:27: arrival at Elim",
+          "url": "https://www.gutenberg.org/cache/epub/8002/pg8002-images.html"
+        },
+        {
+          "chapter": 5,
+          "label": "Numbers 33:9: Marah to Elim",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        },
+        {
+          "chapter": 5,
+          "label": "LDS Bible Map 2: Elim on the possible route",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-2?lang=eng"
+        },
+        {
+          "chapter": 5,
+          "label": "OpenBible Atlas: Elim candidates",
+          "url": "https://www.openbible.info/geo/preview/exod"
+        }
+      ]
+    },
+    {
+      "id": "elim-red-sea-camp",
+      "title": "Elim to the Red Sea camp",
+      "medium": "camp",
+      "start": {
+        "waypointId": "elim"
+      },
+      "end": {
+        "waypointId": "red-sea-camp"
+      },
+      "chapterStart": 5,
+      "chapterEnd": 5,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Numbers 33 adds a camp by the Red Sea between Elim and the Wilderness of Sin.",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Numbers 33:10: Elim to the Red Sea camp",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        }
+      ]
+    },
+    {
+      "id": "red-sea-camp-wilderness-sin",
+      "title": "Red Sea camp to the Wilderness of Sin",
+      "medium": "wilderness",
+      "start": {
+        "waypointId": "red-sea-camp"
+      },
+      "end": {
+        "waypointId": "wilderness-sin"
+      },
+      "chapterStart": 6,
+      "chapterEnd": 6,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Exodus places the Wilderness of Sin between Elim and Sinai; Numbers gives the camp sequence.",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "Exodus 16:1: Wilderness of Sin",
+          "url": "https://www.gutenberg.org/cache/epub/8002/pg8002-images.html"
+        },
+        {
+          "chapter": 6,
+          "label": "Numbers 33:11: Red Sea camp to Wilderness of Sin",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        },
+        {
+          "chapter": 6,
+          "label": "Bible Mapper Atlas: route timing to the Wilderness of Sin",
+          "url": "https://biblemapper.com/blog/index.php/2023/05/30/the-route-of-the-exodus/"
+        },
+        {
+          "chapter": 6,
+          "label": "LDS Bible Map 2: Wilderness of Sin",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-2?lang=eng"
+        }
+      ]
+    },
+    {
+      "id": "wilderness-sin-rephidim",
+      "title": "Wilderness of Sin to Rephidim",
+      "medium": "wilderness",
+      "start": {
+        "waypointId": "wilderness-sin"
+      },
+      "end": {
+        "waypointId": "rephidim"
+      },
+      "chapterStart": 7,
+      "chapterEnd": 7,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The path follows the Numbers 33 sequence through Dophkah and Alush before Rephidim; those minor stops are modeled as curve points.",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "Exodus 17:1: journey to Rephidim",
+          "url": "https://www.gutenberg.org/cache/epub/8002/pg8002-images.html"
+        },
+        {
+          "chapter": 7,
+          "label": "Numbers 33:12-14: Dophkah, Alush, Rephidim",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        }
+      ],
+      "points": [
+        {
+          "lat": 28.83,
+          "lon": 33.38
+        },
+        {
+          "lat": 28.78,
+          "lon": 33.5
+        }
+      ]
+    },
+    {
+      "id": "rephidim-sinai",
+      "title": "Rephidim to Mount Sinai",
+      "medium": "camp",
+      "start": {
+        "waypointId": "rephidim"
+      },
+      "end": {
+        "waypointId": "mount-sinai-horeb"
+      },
+      "chapterStart": 8,
+      "chapterEnd": 8,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The people leave Rephidim and camp in the wilderness of Sinai.",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Exodus 19:2: Rephidim to Sinai",
+          "url": "https://www.gutenberg.org/cache/epub/8002/pg8002-images.html"
+        },
+        {
+          "chapter": 8,
+          "label": "Numbers 33:15: Rephidim to Sinai",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        },
+        {
+          "chapter": 8,
+          "label": "OpenBible Atlas: Rephidim and Sinai candidates",
+          "url": "https://www.openbible.info/geo/preview/exod"
+        },
+        {
+          "chapter": 8,
+          "label": "Bible Mapper Atlas: Sinai route criteria and alternate Sinai placement",
+          "url": "https://biblemapper.com/blog/index.php/2023/05/30/the-route-of-the-exodus/"
+        }
+      ]
+    },
+    {
+      "id": "sinai-paran",
+      "title": "Sinai to the Wilderness of Paran",
+      "medium": "camp",
+      "start": {
+        "waypointId": "mount-sinai-horeb"
+      },
+      "end": {
+        "waypointId": "wilderness-paran"
+      },
+      "chapterStart": 9,
+      "chapterEnd": 9,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Numbers carries the camp from Sinai through Kibroth-hattaavah and Hazeroth before the Wilderness of Paran.",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "Numbers 10:12: Sinai to Paran",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        },
+        {
+          "chapter": 9,
+          "label": "Numbers 11:35 and 12:16: Hazeroth and Paran",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        },
+        {
+          "chapter": 9,
+          "label": "Numbers 33:16-18: Kibroth-hattaavah, Hazeroth, Rithmah",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        },
+        {
+          "chapter": 9,
+          "label": "OpenBible Atlas: Kibroth-hattaavah, Hazeroth, and Paran candidates",
+          "url": "https://www.openbible.info/geo/preview/num"
+        }
+      ],
+      "points": [
+        {
+          "lat": 28.788667,
+          "lon": 34.275439
+        },
+        {
+          "lat": 28.896944,
+          "lon": 34.421667
+        }
+      ]
+    },
+    {
+      "id": "paran-kadesh",
+      "title": "Paran to Kadesh-barnea",
+      "medium": "wilderness",
+      "start": {
+        "waypointId": "wilderness-paran"
+      },
+      "end": {
+        "waypointId": "kadesh-barnea"
+      },
+      "chapterStart": 10,
+      "chapterEnd": 10,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The spies return to Kadesh after searching the land; Deuteronomy remembers the march from Horeb to Kadesh-barnea.",
+      "sourceRefs": [
+        {
+          "chapter": 10,
+          "label": "Numbers 13:26: return to Kadesh",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        },
+        {
+          "chapter": 10,
+          "label": "Deuteronomy 1:19: Horeb to Kadesh-barnea",
+          "url": "https://www.gutenberg.org/cache/epub/8005/pg8005-images.html"
+        },
+        {
+          "chapter": 10,
+          "label": "OpenBible Atlas: Kadesh-barnea candidates",
+          "url": "https://www.openbible.info/geo/preview/num"
+        },
+        {
+          "chapter": 10,
+          "label": "Bible Mapper Atlas: Horeb to Kadesh-barnea distance criterion",
+          "url": "https://biblemapper.com/blog/index.php/2023/05/30/the-route-of-the-exodus/"
+        }
+      ]
+    },
+    {
+      "id": "kadesh-wilderness-turn",
+      "title": "The long wilderness turn",
+      "medium": "detour",
+      "start": {
+        "waypointId": "kadesh-barnea"
+      },
+      "end": {
+        "waypointId": "kadesh-barnea"
+      },
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The forty-year period cannot be mapped as a precise route. This loop shows the commanded turn toward the wilderness and the long Seir/Edom orbit remembered by Deuteronomy.",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "Numbers 14:25: turn into the wilderness by the Red Sea",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        },
+        {
+          "chapter": 11,
+          "label": "Deuteronomy 2:1 and 2:14: Seir and the thirty-eight years",
+          "url": "https://www.gutenberg.org/cache/epub/8005/pg8005-images.html"
+        }
+      ],
+      "points": [
+        {
+          "lat": 30.73587,
+          "lon": 34.58894
+        },
+        {
+          "lat": 29.8,
+          "lon": 35.05
+        },
+        {
+          "lat": 30.55,
+          "lon": 35.35
+        },
+        {
+          "lat": 30.25,
+          "lon": 34.95
+        }
+      ]
+    },
+    {
+      "id": "kadesh-mount-hor",
+      "title": "Kadesh to Mount Hor",
+      "medium": "detour",
+      "start": {
+        "waypointId": "kadesh-barnea"
+      },
+      "end": {
+        "waypointId": "mount-hor"
+      },
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "After Edom refuses passage, the congregation journeys from Kadesh to Mount Hor.",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Numbers 20:14-22: Kadesh, Edom, and Mount Hor",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        },
+        {
+          "chapter": 12,
+          "label": "Numbers 33:37: Kadesh to Mount Hor",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        },
+        {
+          "chapter": 12,
+          "label": "LDS Bible Map 2: Kadesh-barnea and Mount Hor",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-2?lang=eng"
+        },
+        {
+          "chapter": 12,
+          "label": "OpenBible Atlas: Mount Hor candidates",
+          "url": "https://www.openbible.info/geo/preview/num"
+        }
+      ],
+      "points": [
+        {
+          "lat": 30.35,
+          "lon": 34.95
+        },
+        {
+          "lat": 30.45,
+          "lon": 35.25
+        }
+      ]
+    },
+    {
+      "id": "mount-hor-red-sea-road",
+      "title": "Mount Hor by the Red Sea road",
+      "medium": "detour",
+      "start": {
+        "waypointId": "mount-hor"
+      },
+      "end": {
+        "waypointId": "ezion-geber-red-sea"
+      },
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Numbers says Israel traveled from Mount Hor by the way of the Red Sea to compass Edom; this follows the Arabah toward the Gulf of Aqaba proxy.",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "Numbers 21:4: Mount Hor by the way of the Red Sea",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        },
+        {
+          "chapter": 13,
+          "label": "Deuteronomy 2:8: Elath and Ezion-geber",
+          "url": "https://www.gutenberg.org/cache/epub/8005/pg8005-images.html"
+        },
+        {
+          "chapter": 13,
+          "label": "LDS Bible Map 2: Ezion-geber and Edom detour",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-2?lang=eng"
+        },
+        {
+          "chapter": 13,
+          "label": "OpenBible Atlas: Ezion-geber candidates",
+          "url": "https://www.openbible.info/geo/preview/num"
+        }
+      ],
+      "points": [
+        {
+          "lat": 30.0,
+          "lon": 35.15
+        },
+        {
+          "lat": 29.7,
+          "lon": 35.05
+        }
+      ]
+    },
+    {
+      "id": "red-sea-road-oboth",
+      "title": "Red Sea road to Oboth",
+      "medium": "detour",
+      "start": {
+        "waypointId": "ezion-geber-red-sea"
+      },
+      "end": {
+        "waypointId": "oboth"
+      },
+      "chapterStart": 13,
+      "chapterEnd": 14,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The Numbers 33 itinerary resumes northward through Zalmonah and Punon before Oboth.",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "Numbers 33:41-43: Zalmonah, Punon, Oboth",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        }
+      ],
+      "points": [
+        {
+          "lat": 30.1,
+          "lon": 35.08
+        },
+        {
+          "lat": 30.63,
+          "lon": 35.45
+        }
+      ]
+    },
+    {
+      "id": "oboth-ije-abarim",
+      "title": "Oboth to Ije-abarim",
+      "medium": "camp",
+      "start": {
+        "waypointId": "oboth"
+      },
+      "end": {
+        "waypointId": "ije-abarim"
+      },
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The camp moves from Oboth to Ije-abarim, before Moab toward the sunrise.",
+      "sourceRefs": [
+        {
+          "chapter": 14,
+          "label": "Numbers 21:10-11: Oboth to Ije-abarim",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        },
+        {
+          "chapter": 14,
+          "label": "Numbers 33:43-44: Oboth to Ije-abarim",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        }
+      ]
+    },
+    {
+      "id": "ije-abarim-arnon",
+      "title": "Ije-abarim to the Arnon",
+      "medium": "camp",
+      "start": {
+        "waypointId": "ije-abarim"
+      },
+      "end": {
+        "waypointId": "arnon-valley"
+      },
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Numbers moves from Ije-abarim toward the brook Zered and then the Arnon border region.",
+      "sourceRefs": [
+        {
+          "chapter": 14,
+          "label": "Numbers 21:12-13: Zered and Arnon",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        },
+        {
+          "chapter": 14,
+          "label": "OpenBible Atlas: Zered and Arnon candidates",
+          "url": "https://www.openbible.info/geo/preview/num"
+        },
+        {
+          "chapter": 14,
+          "label": "LDS Bible Map 2: Arnon River",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-2?lang=eng"
+        }
+      ],
+      "points": [
+        {
+          "lat": 31.02701,
+          "lon": 35.48533
+        }
+      ]
+    },
+    {
+      "id": "arnon-pisgah",
+      "title": "Arnon to Pisgah",
+      "medium": "camp",
+      "start": {
+        "waypointId": "arnon-valley"
+      },
+      "end": {
+        "waypointId": "mount-nebo-pisgah"
+      },
+      "chapterStart": 15,
+      "chapterEnd": 15,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Numbers 21 lists Beer, Mattanah, Nahaliel, Bamoth, and a valley in Moab toward Pisgah; the middle stops are modeled schematically.",
+      "sourceRefs": [
+        {
+          "chapter": 15,
+          "label": "Numbers 21:16-20: Beer to Pisgah",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        },
+        {
+          "chapter": 15,
+          "label": "Numbers 33:45-47: Dibon-gad to Abarim before Nebo",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        },
+        {
+          "chapter": 15,
+          "label": "OpenBible Atlas: Bamoth, Nebo, and Pisgah candidates",
+          "url": "https://www.openbible.info/geo/preview/num"
+        }
+      ],
+      "points": [
+        {
+          "lat": 31.62,
+          "lon": 35.7
+        },
+        {
+          "lat": 31.72,
+          "lon": 35.75
+        }
+      ]
+    },
+    {
+      "id": "pisgah-plains-moab",
+      "title": "Pisgah to the Plains of Moab",
+      "medium": "camp",
+      "start": {
+        "waypointId": "mount-nebo-pisgah"
+      },
+      "end": {
+        "waypointId": "plains-moab-shittim"
+      },
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The itinerary ends in the plains of Moab by Jordan near Jericho, from Beth-jesimoth to Abel-shittim.",
+      "sourceRefs": [
+        {
+          "chapter": 16,
+          "label": "Numbers 33:48-49: Plains of Moab by Jordan near Jericho",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        },
+        {
+          "chapter": 16,
+          "label": "Numbers 22:1: Plains of Moab by Jordan near Jericho",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        },
+        {
+          "chapter": 16,
+          "label": "LDS Bible Map 2: Plains of Moab",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-2?lang=eng"
+        },
+        {
+          "chapter": 16,
+          "label": "OpenBible Atlas: Abel-shittim candidates",
+          "url": "https://www.openbible.info/geo/preview/num"
+        }
+      ]
+    },
+    {
+      "id": "plains-moab-nebo",
+      "title": "Moses ascends Nebo",
+      "medium": "ascent",
+      "start": {
+        "waypointId": "plains-moab-shittim"
+      },
+      "end": {
+        "waypointId": "mount-nebo-pisgah"
+      },
+      "chapterStart": 17,
+      "chapterEnd": 17,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "This is a Moses-focused branch from the plains of Moab up to Nebo/Pisgah; it is part of the journey's narrative closure rather than the whole camp's movement.",
+      "sourceRefs": [
+        {
+          "chapter": 17,
+          "label": "Deuteronomy 34:1: Moses goes from Moab to Nebo/Pisgah",
+          "url": "https://www.gutenberg.org/cache/epub/8005/pg8005-images.html"
+        },
+        {
+          "chapter": 17,
+          "label": "LDS Bible Map 2: Mount Nebo",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-2?lang=eng"
+        },
+        {
+          "chapter": 17,
+          "label": "OpenBible Atlas: Deuteronomy Nebo and Pisgah candidates",
+          "url": "https://www.openbible.info/geo/preview/deut"
+        }
+      ]
+    },
+    {
+      "id": "plains-moab-jordan-gilgal",
+      "title": "Jordan crossing to Gilgal",
+      "medium": "crossing",
+      "start": {
+        "waypointId": "plains-moab-shittim"
+      },
+      "end": {
+        "waypointId": "gilgal-jericho"
+      },
+      "chapterStart": 18,
+      "chapterEnd": 18,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Joshua moves the people from Shittim to the Jordan and then to Gilgal on the east border of Jericho. The crossing point is schematic.",
+      "sourceRefs": [
+        {
+          "chapter": 18,
+          "label": "Joshua 3:1 and 3:14-17: Shittim to Jordan crossing",
+          "url": "https://www.gutenberg.org/cache/epub/8006/pg8006-images.html"
+        },
+        {
+          "chapter": 18,
+          "label": "Joshua 4:19-20: camp at Gilgal",
+          "url": "https://www.gutenberg.org/cache/epub/8006/pg8006-images.html"
+        },
+        {
+          "chapter": 18,
+          "label": "LDS Bible Map 2: Jordan crossing and Gilgal",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-2?lang=eng"
+        },
+        {
+          "chapter": 18,
+          "label": "OpenBible Atlas: Joshua Jordan, Gilgal, and Jericho candidates",
+          "url": "https://www.openbible.info/geo/preview/josh"
+        }
+      ],
+      "points": [
+        {
+          "lat": 31.85,
+          "lon": 35.55
+        }
+      ]
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 1,
+      "movement": "surface",
+      "anchor": "Rameses and Succoth",
+      "locationFacts": [
+        "Israel departs from Rameses and reaches Succoth at the beginning of the Exodus route."
+      ],
+      "deltaFacts": [
+        "Mapped displacement: rameses-succoth."
+      ],
+      "slopeFacts": [
+        "Surface geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment id: rameses-succoth.",
+      "segmentIds": [
+        "rameses-succoth"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 1,
+          "label": "Exodus 12 and Numbers 33",
+          "url": "https://www.gutenberg.org/cache/epub/8002/pg8002-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "movement": "surface",
+      "anchor": "Succoth and Etham",
+      "locationFacts": [
+        "The route continues from Succoth to Etham at the edge of the wilderness."
+      ],
+      "deltaFacts": [
+        "Mapped displacement: succoth-etham."
+      ],
+      "slopeFacts": [
+        "Surface geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment id: succoth-etham.",
+      "segmentIds": [
+        "succoth-etham"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 2,
+          "label": "Exodus 13 and Numbers 33",
+          "url": "https://www.gutenberg.org/cache/epub/8002/pg8002-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "movement": "sea",
+      "anchor": "Pi-hahiroth and the sea",
+      "locationFacts": [
+        "The route turns to Pi-hahiroth and then crosses the sea into the wilderness."
+      ],
+      "deltaFacts": [
+        "Mapped displacements: etham-pihahiroth and pihahiroth-sea-shur."
+      ],
+      "slopeFacts": [
+        "The sea crossing is modeled as a surface path through water geography; no depth movement is assigned."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: etham-pihahiroth, pihahiroth-sea-shur.",
+      "segmentIds": [
+        "etham-pihahiroth",
+        "pihahiroth-sea-shur"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 3,
+          "label": "Exodus 14 and Numbers 33",
+          "url": "https://www.gutenberg.org/cache/epub/8002/pg8002-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "movement": "surface",
+      "anchor": "Wilderness of Shur and Marah",
+      "locationFacts": [
+        "After the sea crossing, the people travel through the wilderness to Marah."
+      ],
+      "deltaFacts": [
+        "Mapped displacement: shur-marah."
+      ],
+      "slopeFacts": [
+        "Surface geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment id: shur-marah.",
+      "segmentIds": [
+        "shur-marah"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 4,
+          "label": "Exodus 15 and Numbers 33",
+          "url": "https://www.gutenberg.org/cache/epub/8002/pg8002-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "movement": "surface",
+      "anchor": "Marah, Elim, and the Red Sea camp",
+      "locationFacts": [
+        "The route reaches Elim and then the Numbers 33 Red Sea camp."
+      ],
+      "deltaFacts": [
+        "Mapped displacements: marah-elim and elim-red-sea-camp."
+      ],
+      "slopeFacts": [
+        "Surface geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: marah-elim, elim-red-sea-camp.",
+      "segmentIds": [
+        "marah-elim",
+        "elim-red-sea-camp"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 5,
+          "label": "Exodus 15 and Numbers 33",
+          "url": "https://www.gutenberg.org/cache/epub/8002/pg8002-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "movement": "surface",
+      "anchor": "Wilderness of Sin",
+      "locationFacts": [
+        "The camp moves from the Red Sea camp into the Wilderness of Sin between Elim and Sinai."
+      ],
+      "deltaFacts": [
+        "Mapped displacement: red-sea-camp-wilderness-sin."
+      ],
+      "slopeFacts": [
+        "Surface geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment id: red-sea-camp-wilderness-sin.",
+      "segmentIds": [
+        "red-sea-camp-wilderness-sin"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 6,
+          "label": "Exodus 16 and Numbers 33",
+          "url": "https://www.gutenberg.org/cache/epub/8002/pg8002-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "movement": "surface",
+      "anchor": "Rephidim",
+      "locationFacts": [
+        "The route reaches Rephidim after the Wilderness of Sin sequence."
+      ],
+      "deltaFacts": [
+        "Mapped displacement: wilderness-sin-rephidim."
+      ],
+      "slopeFacts": [
+        "Surface geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment id: wilderness-sin-rephidim.",
+      "segmentIds": [
+        "wilderness-sin-rephidim"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 7,
+          "label": "Exodus 17 and Numbers 33",
+          "url": "https://www.gutenberg.org/cache/epub/8002/pg8002-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "movement": "surface",
+      "anchor": "Mount Sinai / Horeb",
+      "locationFacts": [
+        "The people leave Rephidim and camp in the wilderness of Sinai."
+      ],
+      "deltaFacts": [
+        "Mapped displacement: rephidim-sinai."
+      ],
+      "slopeFacts": [
+        "Surface geography; no depth movement is modeled for the camp route."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment id: rephidim-sinai.",
+      "segmentIds": [
+        "rephidim-sinai"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 8,
+          "label": "Exodus 19 and Numbers 33",
+          "url": "https://www.gutenberg.org/cache/epub/8002/pg8002-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "movement": "surface",
+      "anchor": "Sinai, Hazeroth, and Paran",
+      "locationFacts": [
+        "Numbers moves the camp from Sinai toward Paran through Kibroth-hattaavah and Hazeroth."
+      ],
+      "deltaFacts": [
+        "Mapped displacement: sinai-paran."
+      ],
+      "slopeFacts": [
+        "Surface geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment id: sinai-paran.",
+      "segmentIds": [
+        "sinai-paran"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 9,
+          "label": "Numbers 10-12 and Numbers 33",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "movement": "surface",
+      "anchor": "Kadesh-barnea",
+      "locationFacts": [
+        "The map reaches Kadesh-barnea, the southern approach point connected with the spy episode."
+      ],
+      "deltaFacts": [
+        "Mapped displacement: paran-kadesh."
+      ],
+      "slopeFacts": [
+        "Surface geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment id: paran-kadesh.",
+      "segmentIds": [
+        "paran-kadesh"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 10,
+          "label": "Numbers 13-14 and Deuteronomy 1",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "movement": "return",
+      "anchor": "Kadesh and the wilderness turn",
+      "locationFacts": [
+        "After the failed entry, the route turns back into the wilderness and is summarized as a long period before the next approach."
+      ],
+      "deltaFacts": [
+        "Mapped displacement: kadesh-wilderness-turn."
+      ],
+      "slopeFacts": [
+        "Schematic surface loop; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment id: kadesh-wilderness-turn.",
+      "segmentIds": [
+        "kadesh-wilderness-turn"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "Numbers 14 and Deuteronomy 2",
+          "url": "https://www.gutenberg.org/cache/epub/8005/pg8005-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "movement": "surface",
+      "anchor": "Kadesh and Mount Hor",
+      "locationFacts": [
+        "The congregation moves from Kadesh to Mount Hor after Edom refuses passage."
+      ],
+      "deltaFacts": [
+        "Mapped displacement: kadesh-mount-hor."
+      ],
+      "slopeFacts": [
+        "Surface geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment id: kadesh-mount-hor.",
+      "segmentIds": [
+        "kadesh-mount-hor"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Numbers 20 and Numbers 33",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "movement": "surface",
+      "anchor": "Mount Hor and the Red Sea road",
+      "locationFacts": [
+        "The route goes from Mount Hor by the Red Sea road around Edom and then turns north through itinerary stops."
+      ],
+      "deltaFacts": [
+        "Mapped displacements: mount-hor-red-sea-road and red-sea-road-oboth."
+      ],
+      "slopeFacts": [
+        "Surface geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: mount-hor-red-sea-road, red-sea-road-oboth.",
+      "segmentIds": [
+        "mount-hor-red-sea-road",
+        "red-sea-road-oboth"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "Numbers 21 and Numbers 33",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "movement": "surface",
+      "anchor": "Oboth, Ije-abarim, and Arnon",
+      "locationFacts": [
+        "The route continues through Oboth and Ije-abarim toward the Zered and Arnon border region."
+      ],
+      "deltaFacts": [
+        "Mapped displacements: oboth-ije-abarim and ije-abarim-arnon."
+      ],
+      "slopeFacts": [
+        "Surface geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: oboth-ije-abarim, ije-abarim-arnon.",
+      "segmentIds": [
+        "oboth-ije-abarim",
+        "ije-abarim-arnon"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 14,
+          "label": "Numbers 21 and Numbers 33",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "movement": "surface",
+      "anchor": "Arnon and Pisgah",
+      "locationFacts": [
+        "The route follows the Moab-side itinerary from the Arnon region toward Pisgah before Nebo."
+      ],
+      "deltaFacts": [
+        "Mapped displacement: arnon-pisgah."
+      ],
+      "slopeFacts": [
+        "Surface geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment id: arnon-pisgah.",
+      "segmentIds": [
+        "arnon-pisgah"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 15,
+          "label": "Numbers 21 and Numbers 33",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "movement": "surface",
+      "anchor": "Plains of Moab",
+      "locationFacts": [
+        "The camp reaches the plains of Moab by Jordan near Jericho."
+      ],
+      "deltaFacts": [
+        "Mapped displacement: pisgah-plains-moab."
+      ],
+      "slopeFacts": [
+        "Surface geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment id: pisgah-plains-moab.",
+      "segmentIds": [
+        "pisgah-plains-moab"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 16,
+          "label": "Numbers 22 and Numbers 33",
+          "url": "https://www.gutenberg.org/cache/epub/8004/pg8004-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "movement": "ascent",
+      "anchor": "Mount Nebo / Pisgah",
+      "locationFacts": [
+        "Moses ascends from the plains of Moab to Nebo/Pisgah and views the land."
+      ],
+      "deltaFacts": [
+        "Mapped displacement: plains-moab-nebo."
+      ],
+      "slopeFacts": [
+        "Modeled as an ascent branch from the plains to the mountain proxy."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment id: plains-moab-nebo.",
+      "segmentIds": [
+        "plains-moab-nebo"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 17,
+          "label": "Deuteronomy 34",
+          "url": "https://www.gutenberg.org/cache/epub/8005/pg8005-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "movement": "surface",
+      "anchor": "Jordan crossing and Gilgal",
+      "locationFacts": [
+        "Joshua leads the people from Shittim to the Jordan crossing and into Gilgal near Jericho."
+      ],
+      "deltaFacts": [
+        "Mapped displacement: plains-moab-jordan-gilgal."
+      ],
+      "slopeFacts": [
+        "The river crossing is modeled as a surface path on dry ground; no depth movement is assigned."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment id: plains-moab-jordan-gilgal.",
+      "segmentIds": [
+        "plains-moab-jordan-gilgal"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 18,
+          "label": "Joshua 3-4",
+          "url": "https://www.gutenberg.org/cache/epub/8006/pg8006-images.html"
+        }
+      ]
+    }
+  ]
+}
