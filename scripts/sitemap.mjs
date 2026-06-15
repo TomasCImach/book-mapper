@@ -28,6 +28,9 @@ export const bookFiles = [
   'little-women.json',
   'my-life-volume-1.json',
   'dracula.json',
+  'genesis-abraham.json',
+  'genesis-jacob.json',
+  'genesis-joseph.json',
 ]
 
 export function normalizeSiteUrl(siteUrl = process.env.SITE_URL ?? DEFAULT_SITE_URL) {

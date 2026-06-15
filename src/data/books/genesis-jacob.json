@@ -1,0 +1,832 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "genesis-jacob",
+  "title": "Genesis: Jacob",
+  "author": "Anonymous",
+  "source": {
+    "label": "Project Gutenberg #8001: Genesis (KJV)",
+    "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+  },
+  "chapters": [
+    {
+      "number": 25,
+      "title": "Jacob, Esau, and the birthright"
+    },
+    {
+      "number": 26,
+      "title": "Isaac in Gerar and Beersheba"
+    },
+    {
+      "number": 27,
+      "title": "Jacob receives the blessing"
+    },
+    {
+      "number": 28,
+      "title": "Jacob flees to Haran"
+    },
+    {
+      "number": 29,
+      "title": "Jacob reaches Haran"
+    },
+    {
+      "number": 30,
+      "title": "Jacob prospers in Paddan-aram"
+    },
+    {
+      "number": 31,
+      "title": "Jacob flees from Laban"
+    },
+    {
+      "number": 32,
+      "title": "Jacob prepares to meet Esau"
+    },
+    {
+      "number": 33,
+      "title": "Jacob and Esau reconciled"
+    },
+    {
+      "number": 34,
+      "title": "Dinah and Shechem"
+    },
+    {
+      "number": 35,
+      "title": "Jacob returns to Bethel and Hebron"
+    },
+    {
+      "number": 36,
+      "title": "The generations of Esau"
+    }
+  ],
+  "media": {
+    "flight": {
+      "label": "Flight",
+      "color": "#d26a5c"
+    },
+    "caravan": {
+      "label": "Family caravan",
+      "color": "#c08a3e"
+    },
+    "return": {
+      "label": "Return route",
+      "color": "#6fa8dc"
+    },
+    "local": {
+      "label": "Local movement",
+      "color": "#77aa59"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "beersheba",
+      "name": "Beersheba",
+      "chapter": 26,
+      "position": {
+        "lat": 31.252,
+        "lon": 34.7915
+      },
+      "confidence": "geocoded",
+      "notes": "Isaac reaches Beersheba in Genesis 26; Jacob later leaves from Beersheba in Genesis 28."
+    },
+    {
+      "id": "gerar",
+      "name": "Gerar",
+      "chapter": 26,
+      "position": {
+        "lat": 31.38,
+        "lon": 34.6
+      },
+      "confidence": "estimated",
+      "notes": "Isaac context waypoint for Genesis 26; included to place Jacob's family before the Beersheba departure."
+    },
+    {
+      "id": "bethel",
+      "name": "Bethel",
+      "chapter": 28,
+      "position": {
+        "lat": 31.9306,
+        "lon": 35.2214
+      },
+      "confidence": "geocoded",
+      "notes": "Placed near Beitin, a common proxy for biblical Bethel."
+    },
+    {
+      "id": "haran",
+      "name": "Haran / Paddan-aram",
+      "chapter": 29,
+      "position": {
+        "lat": 36.865,
+        "lon": 39.0314
+      },
+      "confidence": "geocoded",
+      "notes": "Modern Harran is used as the proxy for Haran/Paddan-aram."
+    },
+    {
+      "id": "gilead",
+      "name": "Hill country of Gilead",
+      "chapter": 31,
+      "position": {
+        "lat": 32.45,
+        "lon": 35.75
+      },
+      "confidence": "estimated",
+      "notes": "Regional proxy for Jacob and Laban's covenant in Gilead."
+    },
+    {
+      "id": "mahanaim",
+      "name": "Mahanaim",
+      "chapter": 32,
+      "position": {
+        "lat": 32.2,
+        "lon": 35.7
+      },
+      "confidence": "estimated",
+      "notes": "Estimated Transjordan waypoint near the Jabbok region."
+    },
+    {
+      "id": "peniel",
+      "name": "Peniel / Jabbok crossing",
+      "chapter": 32,
+      "position": {
+        "lat": 32.18,
+        "lon": 35.75
+      },
+      "confidence": "estimated",
+      "notes": "Estimated Jabbok crossing proxy for Peniel/Penuel."
+    },
+    {
+      "id": "succoth",
+      "name": "Succoth",
+      "chapter": 33,
+      "position": {
+        "lat": 32.2,
+        "lon": 35.62
+      },
+      "confidence": "estimated",
+      "notes": "Estimated east-Jordan proxy for Succoth."
+    },
+    {
+      "id": "shechem",
+      "name": "Shechem",
+      "chapter": 33,
+      "position": {
+        "lat": 32.2133,
+        "lon": 35.2819
+      },
+      "confidence": "geocoded",
+      "notes": "Placed near Tell Balata/Nablus."
+    },
+    {
+      "id": "bethlehem",
+      "name": "Ephrath / Bethlehem",
+      "chapter": 35,
+      "position": {
+        "lat": 31.7054,
+        "lon": 35.2024
+      },
+      "confidence": "geocoded",
+      "notes": "Bethlehem proxy for Ephrath."
+    },
+    {
+      "id": "hebron",
+      "name": "Hebron / Mamre",
+      "chapter": 35,
+      "position": {
+        "lat": 31.5326,
+        "lon": 35.0998
+      },
+      "confidence": "geocoded",
+      "notes": "Jacob comes to Isaac at Mamre, Kiriath-arba/Hebron."
+    },
+    {
+      "id": "seir-edom",
+      "name": "Seir / Edom",
+      "chapter": 36,
+      "position": {
+        "lat": 30.7,
+        "lon": 35.6
+      },
+      "confidence": "estimated",
+      "notes": "Regional proxy for Esau's Edomite genealogy."
+    },
+    {
+      "id": "beer-lahai-roi",
+      "name": "Beer-lahai-roi",
+      "chapter": 25,
+      "position": {
+        "lat": 30.75,
+        "lon": 34.7
+      },
+      "confidence": "estimated",
+      "notes": "Estimated Negev/wilderness proxy for Isaac dwelling by Beer-lahai-roi before the Gerar and Beersheba context."
+    }
+  ],
+  "paths": [
+    {
+      "id": "beersheba-bethel-jacob",
+      "title": "Jacob flees from Beersheba to Bethel",
+      "medium": "flight",
+      "start": {
+        "waypointId": "beersheba"
+      },
+      "end": {
+        "waypointId": "bethel"
+      },
+      "chapterStart": 28,
+      "chapterEnd": 28,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Jacob leaves Beersheba for Haran and stops at the Bethel dream site.",
+      "sourceRefs": [
+        {
+          "chapter": 28,
+          "label": "Jacob flees from Beersheba to Bethel",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "bethel-haran-jacob",
+      "title": "Bethel to Haran",
+      "medium": "flight",
+      "start": {
+        "waypointId": "bethel"
+      },
+      "end": {
+        "waypointId": "haran"
+      },
+      "chapterStart": 28,
+      "chapterEnd": 29,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Jacob continues east to the land of the people of the east and reaches Haran.",
+      "sourceRefs": [
+        {
+          "chapter": 28,
+          "label": "Bethel to Haran",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ],
+      "points": [
+        {
+          "lat": 33.9,
+          "lon": 36.3
+        },
+        {
+          "lat": 35.7,
+          "lon": 37
+        }
+      ]
+    },
+    {
+      "id": "haran-gilead-jacob",
+      "title": "Flight from Haran to Gilead",
+      "medium": "return",
+      "start": {
+        "waypointId": "haran"
+      },
+      "end": {
+        "waypointId": "gilead"
+      },
+      "chapterStart": 31,
+      "chapterEnd": 31,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Jacob secretly leaves Laban and is overtaken in the hill country of Gilead.",
+      "sourceRefs": [
+        {
+          "chapter": 31,
+          "label": "Flight from Haran to Gilead",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ],
+      "points": [
+        {
+          "lat": 35.7,
+          "lon": 37
+        },
+        {
+          "lat": 33.5,
+          "lon": 36.1
+        }
+      ]
+    },
+    {
+      "id": "gilead-mahanaim-jacob",
+      "title": "Gilead to Mahanaim",
+      "medium": "return",
+      "start": {
+        "waypointId": "gilead"
+      },
+      "end": {
+        "waypointId": "mahanaim"
+      },
+      "chapterStart": 32,
+      "chapterEnd": 32,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "After parting from Laban, Jacob meets messengers of God at Mahanaim.",
+      "sourceRefs": [
+        {
+          "chapter": 32,
+          "label": "Gilead to Mahanaim",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "mahanaim-peniel-jacob",
+      "title": "Mahanaim to Peniel",
+      "medium": "local",
+      "start": {
+        "waypointId": "mahanaim"
+      },
+      "end": {
+        "waypointId": "peniel"
+      },
+      "chapterStart": 32,
+      "chapterEnd": 32,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Jacob moves through the Jabbok crossing setting where the Peniel encounter occurs.",
+      "sourceRefs": [
+        {
+          "chapter": 32,
+          "label": "Mahanaim to Peniel",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "peniel-succoth-jacob",
+      "title": "Peniel to Succoth",
+      "medium": "return",
+      "start": {
+        "waypointId": "peniel"
+      },
+      "end": {
+        "waypointId": "succoth"
+      },
+      "chapterStart": 33,
+      "chapterEnd": 33,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "After meeting Esau, Jacob journeys to Succoth.",
+      "sourceRefs": [
+        {
+          "chapter": 33,
+          "label": "Peniel to Succoth",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "succoth-shechem-jacob",
+      "title": "Succoth to Shechem",
+      "medium": "return",
+      "start": {
+        "waypointId": "succoth"
+      },
+      "end": {
+        "waypointId": "shechem"
+      },
+      "chapterStart": 33,
+      "chapterEnd": 33,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Jacob comes safely to the city of Shechem in Canaan.",
+      "sourceRefs": [
+        {
+          "chapter": 33,
+          "label": "Succoth to Shechem",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "shechem-bethel-jacob",
+      "title": "Shechem to Bethel",
+      "medium": "return",
+      "start": {
+        "waypointId": "shechem"
+      },
+      "end": {
+        "waypointId": "bethel"
+      },
+      "chapterStart": 35,
+      "chapterEnd": 35,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "God tells Jacob to go up to Bethel; the family leaves Shechem.",
+      "sourceRefs": [
+        {
+          "chapter": 35,
+          "label": "Shechem to Bethel",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "bethel-bethlehem-jacob",
+      "title": "Bethel to Ephrath",
+      "medium": "return",
+      "start": {
+        "waypointId": "bethel"
+      },
+      "end": {
+        "waypointId": "bethlehem"
+      },
+      "chapterStart": 35,
+      "chapterEnd": 35,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Jacob journeys from Bethel toward Ephrath/Bethlehem, where Rachel dies.",
+      "sourceRefs": [
+        {
+          "chapter": 35,
+          "label": "Bethel to Ephrath",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "bethlehem-hebron-jacob",
+      "title": "Bethlehem to Hebron",
+      "medium": "return",
+      "start": {
+        "waypointId": "bethlehem"
+      },
+      "end": {
+        "waypointId": "hebron"
+      },
+      "chapterStart": 35,
+      "chapterEnd": 35,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Jacob comes to Isaac at Mamre near Hebron.",
+      "sourceRefs": [
+        {
+          "chapter": 35,
+          "label": "Bethlehem to Hebron",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "beer-lahai-roi-gerar-isaac",
+      "title": "Isaac goes to Gerar",
+      "medium": "local",
+      "start": {
+        "waypointId": "beer-lahai-roi"
+      },
+      "end": {
+        "waypointId": "gerar"
+      },
+      "chapterStart": 26,
+      "chapterEnd": 26,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "Genesis says Isaac went to Gerar during famine; the start is inferred from the prior note that Isaac dwelt by Beer-lahai-roi.",
+      "sourceRefs": [
+        {
+          "chapter": 26,
+          "label": "Isaac goes to Gerar",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "gerar-beersheba-isaac",
+      "title": "Isaac goes up to Beersheba",
+      "medium": "local",
+      "start": {
+        "waypointId": "gerar"
+      },
+      "end": {
+        "waypointId": "beersheba"
+      },
+      "chapterStart": 26,
+      "chapterEnd": 26,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Genesis 26 explicitly moves Isaac from the Gerar well disputes up to Beersheba.",
+      "sourceRefs": [
+        {
+          "chapter": 26,
+          "label": "Isaac goes up to Beersheba",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 25,
+      "movement": "stationary",
+      "anchor": "Beer-lahai-roi family setting",
+      "locationFacts": [
+        "Jacob and Esau are introduced after Genesis notes Isaac dwelling by Beer-lahai-roi; no Jacob travel is mapped yet."
+      ],
+      "deltaFacts": [
+        "No mapped displacement is assigned to Jacob in this chapter."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Genesis 25.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 25,
+          "label": "Genesis 25",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 26,
+      "movement": "surface",
+      "anchor": "Beer-lahai-roi, Gerar, and Beersheba",
+      "locationFacts": [
+        "Isaac goes to Gerar during famine, then moves through the Gerar well disputes and up to Beersheba."
+      ],
+      "deltaFacts": [
+        "Mapped context displacements: beer-lahai-roi-gerar-isaac and gerar-beersheba-isaac."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: beer-lahai-roi-gerar-isaac, gerar-beersheba-isaac.",
+      "segmentIds": [
+        "beer-lahai-roi-gerar-isaac",
+        "gerar-beersheba-isaac"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 26,
+          "label": "Genesis 26",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 27,
+      "movement": "stationary",
+      "anchor": "Isaac's Beersheba household",
+      "locationFacts": [
+        "Jacob receives the blessing in Isaac's household after the Beersheba setting established in Genesis 26."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned until Jacob leaves in Genesis 28."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Genesis 27.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 27,
+          "label": "Genesis 27",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 28,
+      "movement": "surface",
+      "anchor": "Beersheba, Bethel, and Haran",
+      "locationFacts": [
+        "Jacob leaves Beersheba, stops at Bethel, and continues toward Haran."
+      ],
+      "deltaFacts": [
+        "Mapped displacements: beersheba-bethel-jacob and bethel-haran-jacob."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: beersheba-bethel-jacob, bethel-haran-jacob.",
+      "segmentIds": [
+        "beersheba-bethel-jacob",
+        "bethel-haran-jacob"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 28,
+          "label": "Genesis 28",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 29,
+      "movement": "surface",
+      "anchor": "Haran / Paddan-aram",
+      "locationFacts": [
+        "Jacob reaches the well near Haran and enters Laban's household."
+      ],
+      "deltaFacts": [
+        "Mapped displacement remains active from the Bethel-to-Haran arrival segment."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: bethel-haran-jacob.",
+      "segmentIds": [
+        "bethel-haran-jacob"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 29,
+          "label": "Genesis 29",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 30,
+      "movement": "stationary",
+      "anchor": "Haran / Paddan-aram",
+      "locationFacts": [
+        "Jacob's family and flocks grow in Laban's region."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this chapter."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Genesis 30.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 30,
+          "label": "Genesis 30",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 31,
+      "movement": "return",
+      "anchor": "Haran to Gilead",
+      "locationFacts": [
+        "Jacob leaves Laban and is pursued to the hill country of Gilead."
+      ],
+      "deltaFacts": [
+        "Mapped displacement: haran-gilead-jacob."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: haran-gilead-jacob.",
+      "segmentIds": [
+        "haran-gilead-jacob"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 31,
+          "label": "Genesis 31",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 32,
+      "movement": "return",
+      "anchor": "Mahanaim and Peniel",
+      "locationFacts": [
+        "Jacob moves through Mahanaim and the Jabbok/Peniel encounter before meeting Esau."
+      ],
+      "deltaFacts": [
+        "Mapped displacements: gilead-mahanaim-jacob and mahanaim-peniel-jacob."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: gilead-mahanaim-jacob, mahanaim-peniel-jacob.",
+      "segmentIds": [
+        "gilead-mahanaim-jacob",
+        "mahanaim-peniel-jacob"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 32,
+          "label": "Genesis 32",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 33,
+      "movement": "return",
+      "anchor": "Peniel, Succoth, and Shechem",
+      "locationFacts": [
+        "After reconciliation with Esau, Jacob goes to Succoth and then Shechem."
+      ],
+      "deltaFacts": [
+        "Mapped displacements: peniel-succoth-jacob and succoth-shechem-jacob."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: peniel-succoth-jacob, succoth-shechem-jacob.",
+      "segmentIds": [
+        "peniel-succoth-jacob",
+        "succoth-shechem-jacob"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 33,
+          "label": "Genesis 33",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 34,
+      "movement": "stationary",
+      "anchor": "Shechem",
+      "locationFacts": [
+        "The Dinah and Shechem episode is located at Shechem; no travel leg is modeled."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this chapter."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Genesis 34.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 34,
+          "label": "Genesis 34",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 35,
+      "movement": "return",
+      "anchor": "Shechem, Bethel, Bethlehem, and Hebron",
+      "locationFacts": [
+        "Jacob goes to Bethel, continues past Ephrath/Bethlehem, and comes to Isaac at Hebron."
+      ],
+      "deltaFacts": [
+        "Mapped displacements: shechem-bethel-jacob, bethel-bethlehem-jacob, and bethlehem-hebron-jacob."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: shechem-bethel-jacob, bethel-bethlehem-jacob, bethlehem-hebron-jacob.",
+      "segmentIds": [
+        "shechem-bethel-jacob",
+        "bethel-bethlehem-jacob",
+        "bethlehem-hebron-jacob"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 35,
+          "label": "Genesis 35",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 36,
+      "movement": "surface",
+      "anchor": "Seir / Edom",
+      "locationFacts": [
+        "Esau's genealogy is anchored to Seir/Edom, and the chapter reports Esau moving from Canaan away from Jacob."
+      ],
+      "deltaFacts": [
+        "No Esau route segment is drawn because the chapter gives no exact Canaan start point for the move to Seir."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Genesis 36.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 36,
+          "label": "Genesis 36",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    }
+  ]
+}

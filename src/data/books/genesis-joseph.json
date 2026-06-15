@@ -1,0 +1,1003 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "genesis-joseph",
+  "title": "Genesis: Joseph",
+  "author": "Anonymous",
+  "source": {
+    "label": "Project Gutenberg #8001: Genesis (KJV)",
+    "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+  },
+  "chapters": [
+    {
+      "number": 37,
+      "title": "Joseph sold into Egypt"
+    },
+    {
+      "number": 38,
+      "title": "Judah and Tamar in Canaan"
+    },
+    {
+      "number": 39,
+      "title": "Joseph in Potiphar's house"
+    },
+    {
+      "number": 40,
+      "title": "Joseph in prison"
+    },
+    {
+      "number": 41,
+      "title": "Joseph before Pharaoh"
+    },
+    {
+      "number": 42,
+      "title": "Joseph's brothers go to Egypt"
+    },
+    {
+      "number": 43,
+      "title": "Benjamin brought to Egypt"
+    },
+    {
+      "number": 44,
+      "title": "The cup and Judah's plea"
+    },
+    {
+      "number": 45,
+      "title": "Joseph reveals himself"
+    },
+    {
+      "number": 46,
+      "title": "Jacob goes down to Egypt"
+    },
+    {
+      "number": 47,
+      "title": "Israel settles in Goshen"
+    },
+    {
+      "number": 48,
+      "title": "Jacob blesses Joseph's sons"
+    },
+    {
+      "number": 49,
+      "title": "Jacob blesses his sons"
+    },
+    {
+      "number": 50,
+      "title": "Jacob buried in Canaan and Joseph dies"
+    }
+  ],
+  "media": {
+    "caravan": {
+      "label": "Caravan",
+      "color": "#c08a3e"
+    },
+    "grain": {
+      "label": "Grain journey",
+      "color": "#d0a24f"
+    },
+    "return": {
+      "label": "Return route",
+      "color": "#6fa8dc"
+    },
+    "migration": {
+      "label": "Family migration",
+      "color": "#7d73c8"
+    },
+    "court": {
+      "label": "Court movement",
+      "color": "#5aa6a6"
+    },
+    "burial": {
+      "label": "Burial procession",
+      "color": "#8f6b55"
+    },
+    "judahBranch": {
+      "label": "Judah interlude",
+      "color": "#a56b4f"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "hebron",
+      "name": "Hebron / Canaan",
+      "chapter": 37,
+      "position": {
+        "lat": 31.5326,
+        "lon": 35.0998
+      },
+      "confidence": "geocoded",
+      "notes": "Jacob's family base in the Joseph cycle."
+    },
+    {
+      "id": "shechem",
+      "name": "Shechem",
+      "chapter": 37,
+      "position": {
+        "lat": 32.2133,
+        "lon": 35.2819
+      },
+      "confidence": "geocoded",
+      "notes": "Joseph first seeks his brothers at Shechem."
+    },
+    {
+      "id": "dothan",
+      "name": "Dothan",
+      "chapter": 37,
+      "position": {
+        "lat": 32.412,
+        "lon": 35.238
+      },
+      "confidence": "geocoded",
+      "notes": "Placed near Tel Dothan."
+    },
+    {
+      "id": "egypt-court",
+      "name": "Egyptian court",
+      "chapter": 39,
+      "position": {
+        "lat": 29.85,
+        "lon": 31.25
+      },
+      "confidence": "estimated",
+      "notes": "Proxy near Memphis/Lower Egypt for Potiphar, prison, Pharaoh, and Joseph's administration."
+    },
+    {
+      "id": "adullam",
+      "name": "Adullam",
+      "chapter": 38,
+      "position": {
+        "lat": 31.65,
+        "lon": 34.99
+      },
+      "confidence": "geocoded",
+      "notes": "Judah turns aside to an Adullamite; placed near Tel Adullam."
+    },
+    {
+      "id": "timnath-judah",
+      "name": "Timnath",
+      "chapter": 38,
+      "position": {
+        "lat": 31.78,
+        "lon": 34.97
+      },
+      "confidence": "estimated",
+      "notes": "Estimated Shephelah proxy for the Timnath/Timnah setting in the Judah and Tamar interlude."
+    },
+    {
+      "id": "beersheba",
+      "name": "Beersheba",
+      "chapter": 46,
+      "position": {
+        "lat": 31.252,
+        "lon": 34.7915
+      },
+      "confidence": "geocoded",
+      "notes": "Jacob sacrifices at Beersheba before going down to Egypt."
+    },
+    {
+      "id": "egypt-goshen",
+      "name": "Goshen / Rameses region",
+      "chapter": 46,
+      "position": {
+        "lat": 30.8,
+        "lon": 31.8
+      },
+      "confidence": "estimated",
+      "notes": "Nile Delta proxy for Goshen/Rameses; exact extent is debated."
+    }
+  ],
+  "paths": [
+    {
+      "id": "hebron-dothan-joseph",
+      "title": "Joseph sent from Hebron to Dothan",
+      "medium": "caravan",
+      "start": {
+        "waypointId": "hebron"
+      },
+      "end": {
+        "waypointId": "dothan"
+      },
+      "chapterStart": 37,
+      "chapterEnd": 37,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Joseph is sent from the Hebron valley to seek his brothers, first at Shechem and then Dothan.",
+      "sourceRefs": [
+        {
+          "chapter": 37,
+          "label": "Joseph sent from Hebron to Dothan",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ],
+      "points": [
+        {
+          "lat": 32.2133,
+          "lon": 35.2819
+        }
+      ]
+    },
+    {
+      "id": "dothan-egypt-joseph",
+      "title": "Joseph carried down to Egypt",
+      "medium": "caravan",
+      "start": {
+        "waypointId": "dothan"
+      },
+      "end": {
+        "waypointId": "egypt-court"
+      },
+      "chapterStart": 37,
+      "chapterEnd": 37,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The merchants take Joseph down to Egypt in Genesis 37; Genesis 39 resumes with Joseph already brought down and sold to Potiphar.",
+      "sourceRefs": [
+        {
+          "chapter": 37,
+          "label": "Joseph carried down to Egypt",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ],
+      "points": [
+        {
+          "lat": 31.5,
+          "lon": 34.47
+        },
+        {
+          "lat": 30.9,
+          "lon": 33.8
+        },
+        {
+          "lat": 31,
+          "lon": 31.5
+        }
+      ]
+    },
+    {
+      "id": "hebron-adullam-judah",
+      "title": "Judah turns aside to Adullam",
+      "medium": "judahBranch",
+      "start": {
+        "waypointId": "hebron"
+      },
+      "end": {
+        "waypointId": "adullam"
+      },
+      "chapterStart": 38,
+      "chapterEnd": 38,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Genesis 38 is a Canaan-side Judah interlude. Hebron is used as the prior family-region proxy before Judah turns aside to an Adullamite.",
+      "sourceRefs": [
+        {
+          "chapter": 38,
+          "label": "Judah turns aside to Adullam",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "adullam-timnath-judah",
+      "title": "Judah goes up to Timnath",
+      "medium": "judahBranch",
+      "start": {
+        "waypointId": "adullam"
+      },
+      "end": {
+        "waypointId": "timnath-judah"
+      },
+      "chapterStart": 38,
+      "chapterEnd": 38,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Judah goes up to his sheepshearers at Timnath; the endpoint is an estimated Timnah proxy.",
+      "sourceRefs": [
+        {
+          "chapter": 38,
+          "label": "Judah goes up to Timnath",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "canaan-egypt-first-grain",
+      "title": "First grain journey to Egypt",
+      "medium": "grain",
+      "start": {
+        "waypointId": "hebron"
+      },
+      "end": {
+        "waypointId": "egypt-court"
+      },
+      "chapterStart": 42,
+      "chapterEnd": 42,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Joseph's brothers go from Canaan to Egypt to buy grain; route uses proxy points through the south and Sinai.",
+      "sourceRefs": [
+        {
+          "chapter": 42,
+          "label": "First grain journey to Egypt",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ],
+      "points": [
+        {
+          "lat": 31.252,
+          "lon": 34.7915
+        },
+        {
+          "lat": 31.5,
+          "lon": 34.47
+        },
+        {
+          "lat": 30.9,
+          "lon": 33.8
+        },
+        {
+          "lat": 31,
+          "lon": 31.5
+        }
+      ]
+    },
+    {
+      "id": "egypt-canaan-first-return",
+      "title": "Return from the first grain journey",
+      "medium": "return",
+      "start": {
+        "waypointId": "egypt-court"
+      },
+      "end": {
+        "waypointId": "hebron"
+      },
+      "chapterStart": 42,
+      "chapterEnd": 42,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The brothers return to Jacob in Canaan after the first audience with Joseph.",
+      "sourceRefs": [
+        {
+          "chapter": 42,
+          "label": "Return from the first grain journey",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ],
+      "points": [
+        {
+          "lat": 31,
+          "lon": 31.5
+        },
+        {
+          "lat": 30.9,
+          "lon": 33.8
+        },
+        {
+          "lat": 31.5,
+          "lon": 34.47
+        },
+        {
+          "lat": 31.252,
+          "lon": 34.7915
+        }
+      ]
+    },
+    {
+      "id": "canaan-egypt-benjamin",
+      "title": "Benjamin brought to Egypt",
+      "medium": "grain",
+      "start": {
+        "waypointId": "hebron"
+      },
+      "end": {
+        "waypointId": "egypt-court"
+      },
+      "chapterStart": 43,
+      "chapterEnd": 43,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The brothers return to Egypt with Benjamin under famine pressure.",
+      "sourceRefs": [
+        {
+          "chapter": 43,
+          "label": "Benjamin brought to Egypt",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ],
+      "points": [
+        {
+          "lat": 31.252,
+          "lon": 34.7915
+        },
+        {
+          "lat": 31.5,
+          "lon": 34.47
+        },
+        {
+          "lat": 30.9,
+          "lon": 33.8
+        },
+        {
+          "lat": 31,
+          "lon": 31.5
+        }
+      ]
+    },
+    {
+      "id": "egypt-canaan-invitation",
+      "title": "Brothers return with Joseph's invitation",
+      "medium": "return",
+      "start": {
+        "waypointId": "egypt-court"
+      },
+      "end": {
+        "waypointId": "hebron"
+      },
+      "chapterStart": 45,
+      "chapterEnd": 45,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "After Joseph reveals himself, the brothers return to Canaan with Pharaoh's wagons and Joseph's invitation.",
+      "sourceRefs": [
+        {
+          "chapter": 45,
+          "label": "Brothers return with Joseph's invitation",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ],
+      "points": [
+        {
+          "lat": 31,
+          "lon": 31.5
+        },
+        {
+          "lat": 30.9,
+          "lon": 33.8
+        },
+        {
+          "lat": 31.5,
+          "lon": 34.47
+        },
+        {
+          "lat": 31.252,
+          "lon": 34.7915
+        }
+      ]
+    },
+    {
+      "id": "hebron-beersheba-goshen",
+      "title": "Jacob migrates to Goshen",
+      "medium": "migration",
+      "start": {
+        "waypointId": "hebron"
+      },
+      "end": {
+        "waypointId": "egypt-goshen"
+      },
+      "chapterStart": 46,
+      "chapterEnd": 46,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Jacob leaves Canaan, sacrifices at Beersheba, and goes down to Egypt with his household.",
+      "sourceRefs": [
+        {
+          "chapter": 46,
+          "label": "Jacob migrates to Goshen",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ],
+      "points": [
+        {
+          "lat": 31.252,
+          "lon": 34.7915
+        },
+        {
+          "lat": 31.5,
+          "lon": 34.47
+        },
+        {
+          "lat": 30.9,
+          "lon": 33.8
+        },
+        {
+          "lat": 31,
+          "lon": 31.5
+        }
+      ]
+    },
+    {
+      "id": "egypt-court-goshen-meeting",
+      "title": "Joseph meets Jacob in Goshen",
+      "medium": "court",
+      "start": {
+        "waypointId": "egypt-court"
+      },
+      "end": {
+        "waypointId": "egypt-goshen"
+      },
+      "chapterStart": 46,
+      "chapterEnd": 46,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Joseph makes ready his chariot and goes up to Goshen to meet Israel.",
+      "sourceRefs": [
+        {
+          "chapter": 46,
+          "label": "Joseph meets Jacob in Goshen",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "goshen-egypt-court-pharaoh",
+      "title": "Jacob before Pharaoh",
+      "medium": "court",
+      "start": {
+        "waypointId": "egypt-goshen"
+      },
+      "end": {
+        "waypointId": "egypt-court"
+      },
+      "chapterStart": 47,
+      "chapterEnd": 47,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Joseph presents his father and brothers before Pharaoh; this is a local Lower Egypt movement.",
+      "sourceRefs": [
+        {
+          "chapter": 47,
+          "label": "Jacob before Pharaoh",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "egypt-court-goshen-rameses",
+      "title": "Family settled in Rameses / Goshen",
+      "medium": "court",
+      "start": {
+        "waypointId": "egypt-court"
+      },
+      "end": {
+        "waypointId": "egypt-goshen"
+      },
+      "chapterStart": 47,
+      "chapterEnd": 47,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "After the audience before Pharaoh, Joseph places his father and brothers in the best of the land, in the land of Rameses/Goshen.",
+      "sourceRefs": [
+        {
+          "chapter": 47,
+          "label": "Family settled in Rameses",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "goshen-hebron-burial",
+      "title": "Jacob's burial procession to Machpelah",
+      "medium": "burial",
+      "start": {
+        "waypointId": "egypt-goshen"
+      },
+      "end": {
+        "waypointId": "hebron"
+      },
+      "chapterStart": 50,
+      "chapterEnd": 50,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Joseph carries Jacob up from Egypt to bury him in the cave of Machpelah; Atad beyond Jordan is modeled as a control point.",
+      "sourceRefs": [
+        {
+          "chapter": 50,
+          "label": "Jacob's burial procession to Machpelah",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ],
+      "points": [
+        {
+          "lat": 31,
+          "lon": 31.5
+        },
+        {
+          "lat": 31.85,
+          "lon": 35.5
+        }
+      ]
+    },
+    {
+      "id": "hebron-goshen-return",
+      "title": "Return to Egypt after the burial",
+      "medium": "return",
+      "start": {
+        "waypointId": "hebron"
+      },
+      "end": {
+        "waypointId": "egypt-goshen"
+      },
+      "chapterStart": 50,
+      "chapterEnd": 50,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "After Jacob's burial, Joseph and the company return to Egypt.",
+      "sourceRefs": [
+        {
+          "chapter": 50,
+          "label": "Return to Egypt after the burial",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ],
+      "points": [
+        {
+          "lat": 31.85,
+          "lon": 35.5
+        },
+        {
+          "lat": 31,
+          "lon": 31.5
+        }
+      ]
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 37,
+      "movement": "surface",
+      "anchor": "Hebron, Shechem, Dothan, and Egypt",
+      "locationFacts": [
+        "Joseph travels from Hebron toward Dothan and is then carried down to Egypt."
+      ],
+      "deltaFacts": [
+        "Mapped displacements: hebron-dothan-joseph and dothan-egypt-joseph."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: hebron-dothan-joseph, dothan-egypt-joseph.",
+      "segmentIds": [
+        "hebron-dothan-joseph",
+        "dothan-egypt-joseph"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 37,
+          "label": "Genesis 37",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 38,
+      "movement": "surface",
+      "anchor": "Adullam and Timnath",
+      "locationFacts": [
+        "Genesis 38 is a Judah and Tamar interlude in Canaan: Judah turns aside to an Adullamite and later goes up to Timnath."
+      ],
+      "deltaFacts": [
+        "Mapped branch displacements: hebron-adullam-judah and adullam-timnath-judah."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: hebron-adullam-judah, adullam-timnath-judah.",
+      "segmentIds": [
+        "hebron-adullam-judah",
+        "adullam-timnath-judah"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 38,
+          "label": "Genesis 38",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 39,
+      "movement": "stationary",
+      "anchor": "Egyptian court proxy",
+      "locationFacts": [
+        "Joseph is already in Egypt in Genesis 39, first in Potiphar's house and then under custody."
+      ],
+      "deltaFacts": [
+        "The Dothan-to-Egypt route is mapped in Genesis 37; no new route leg is drawn in Genesis 39."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Genesis 39.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 39,
+          "label": "Genesis 39",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 40,
+      "movement": "stationary",
+      "anchor": "Egyptian prison proxy",
+      "locationFacts": [
+        "The cupbearer and baker episode is located within Joseph's Egyptian custody setting."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this chapter."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Genesis 40.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 40,
+          "label": "Genesis 40",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 41,
+      "movement": "surface",
+      "anchor": "Egyptian court proxy",
+      "locationFacts": [
+        "Joseph is brought before Pharaoh, elevated over Egypt, and the chapter says he goes out over and throughout all the land of Egypt."
+      ],
+      "deltaFacts": [
+        "No route segment is drawn for the administrative circuit because Genesis gives no named endpoints inside Egypt."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Genesis 41.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 41,
+          "label": "Genesis 41",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 42,
+      "movement": "return",
+      "anchor": "Canaan and Egypt",
+      "locationFacts": [
+        "Joseph's brothers go from Canaan to Egypt for grain and return to Jacob."
+      ],
+      "deltaFacts": [
+        "Mapped displacements: canaan-egypt-first-grain and egypt-canaan-first-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: canaan-egypt-first-grain, egypt-canaan-first-return.",
+      "segmentIds": [
+        "canaan-egypt-first-grain",
+        "egypt-canaan-first-return"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 42,
+          "label": "Genesis 42",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 43,
+      "movement": "surface",
+      "anchor": "Canaan to Egypt with Benjamin",
+      "locationFacts": [
+        "The brothers return to Egypt with Benjamin."
+      ],
+      "deltaFacts": [
+        "Mapped displacement: canaan-egypt-benjamin."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: canaan-egypt-benjamin.",
+      "segmentIds": [
+        "canaan-egypt-benjamin"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 43,
+          "label": "Genesis 43",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 44,
+      "movement": "surface",
+      "anchor": "Egyptian court proxy",
+      "locationFacts": [
+        "The cup episode sends the brothers away from Joseph's city and then brings them back to Joseph's house."
+      ],
+      "deltaFacts": [
+        "No separate route segment is drawn because the movement is local to the Egyptian court/city setting."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Genesis 44.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 44,
+          "label": "Genesis 44",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 45,
+      "movement": "return",
+      "anchor": "Egypt to Canaan invitation",
+      "locationFacts": [
+        "After Joseph reveals himself, the brothers return to Canaan with wagons and an invitation for Jacob."
+      ],
+      "deltaFacts": [
+        "Mapped displacement: egypt-canaan-invitation."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: egypt-canaan-invitation.",
+      "segmentIds": [
+        "egypt-canaan-invitation"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 45,
+          "label": "Genesis 45",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 46,
+      "movement": "surface",
+      "anchor": "Canaan, Beersheba, and Goshen",
+      "locationFacts": [
+        "Jacob's household migrates to Egypt, and Joseph goes to Goshen to meet him."
+      ],
+      "deltaFacts": [
+        "Mapped displacements: hebron-beersheba-goshen and egypt-court-goshen-meeting."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: hebron-beersheba-goshen, egypt-court-goshen-meeting.",
+      "segmentIds": [
+        "hebron-beersheba-goshen",
+        "egypt-court-goshen-meeting"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 46,
+          "label": "Genesis 46",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 47,
+      "movement": "surface",
+      "anchor": "Goshen and Pharaoh's court",
+      "locationFacts": [
+        "Joseph presents his family to Pharaoh and then places them in the land of Rameses/Goshen."
+      ],
+      "deltaFacts": [
+        "Mapped displacements: goshen-egypt-court-pharaoh and egypt-court-goshen-rameses."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: goshen-egypt-court-pharaoh, egypt-court-goshen-rameses.",
+      "segmentIds": [
+        "goshen-egypt-court-pharaoh",
+        "egypt-court-goshen-rameses"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 47,
+          "label": "Genesis 47",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 48,
+      "movement": "stationary",
+      "anchor": "Goshen / Egypt",
+      "locationFacts": [
+        "Jacob blesses Ephraim and Manasseh in Egypt."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this chapter."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Genesis 48.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 48,
+          "label": "Genesis 48",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 49,
+      "movement": "stationary",
+      "anchor": "Goshen / Egypt",
+      "locationFacts": [
+        "Jacob blesses his sons and charges them concerning burial in Machpelah."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned until the burial procession in Genesis 50."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Genesis 49.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 49,
+          "label": "Genesis 49",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 50,
+      "movement": "return",
+      "anchor": "Goshen, Atad, Machpelah, and Egypt",
+      "locationFacts": [
+        "Joseph carries Jacob to Machpelah for burial and returns to Egypt, where Joseph later dies."
+      ],
+      "deltaFacts": [
+        "Mapped displacements: goshen-hebron-burial and hebron-goshen-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: goshen-hebron-burial, hebron-goshen-return.",
+      "segmentIds": [
+        "goshen-hebron-burial",
+        "hebron-goshen-return"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 50,
+          "label": "Genesis 50",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    }
+  ]
+}

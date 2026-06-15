@@ -1,0 +1,1265 @@
+{
+  "$schema": "../book-map.schema.json",
+  "schemaVersion": 1,
+  "id": "genesis-abraham",
+  "title": "Genesis: Abraham",
+  "author": "Anonymous",
+  "source": {
+    "label": "Project Gutenberg #8001: Genesis (KJV)",
+    "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+  },
+  "chapters": [
+    {
+      "number": 11,
+      "title": "Terah's line and the move to Haran"
+    },
+    {
+      "number": 12,
+      "title": "Abram called to Canaan and Egypt"
+    },
+    {
+      "number": 13,
+      "title": "Abram and Lot separate"
+    },
+    {
+      "number": 14,
+      "title": "Abram rescues Lot"
+    },
+    {
+      "number": 15,
+      "title": "Covenant promise at Mamre"
+    },
+    {
+      "number": 16,
+      "title": "Hagar flees toward Shur"
+    },
+    {
+      "number": 17,
+      "title": "Covenant of circumcision"
+    },
+    {
+      "number": 18,
+      "title": "Visitors at Mamre"
+    },
+    {
+      "number": 19,
+      "title": "Lot escapes Sodom"
+    },
+    {
+      "number": 20,
+      "title": "Abraham in Gerar"
+    },
+    {
+      "number": 21,
+      "title": "Beersheba and Hagar's wilderness departure"
+    },
+    {
+      "number": 22,
+      "title": "The binding of Isaac"
+    },
+    {
+      "number": 23,
+      "title": "Sarah buried in Machpelah"
+    },
+    {
+      "number": 24,
+      "title": "Rebekah brought from Mesopotamia"
+    },
+    {
+      "number": 25,
+      "title": "Abraham's death and burial"
+    }
+  ],
+  "media": {
+    "caravan": {
+      "label": "Family caravan",
+      "color": "#c08a3e"
+    },
+    "famine": {
+      "label": "Famine journey",
+      "color": "#d46a4c"
+    },
+    "return": {
+      "label": "Return route",
+      "color": "#6fa8dc"
+    },
+    "pursuit": {
+      "label": "Armed pursuit",
+      "color": "#d34f45"
+    },
+    "branch": {
+      "label": "Family branch",
+      "color": "#7cae54"
+    },
+    "servant": {
+      "label": "Servant caravan",
+      "color": "#7d73c8"
+    },
+    "wilderness": {
+      "label": "Wilderness route",
+      "color": "#b79852"
+    }
+  },
+  "waypoints": [
+    {
+      "id": "ur",
+      "name": "Ur of the Chaldees",
+      "chapter": 11,
+      "position": {
+        "lat": 30.9625,
+        "lon": 46.1033
+      },
+      "confidence": "estimated",
+      "notes": "Placed at Tell el-Muqayyar, the common southern Mesopotamian proxy for biblical Ur; identification is debated."
+    },
+    {
+      "id": "haran",
+      "name": "Haran",
+      "chapter": 11,
+      "position": {
+        "lat": 36.865,
+        "lon": 39.0314
+      },
+      "confidence": "geocoded",
+      "notes": "Modern Harran in southeastern Turkiye is used as the proxy for biblical Haran."
+    },
+    {
+      "id": "shechem",
+      "name": "Shechem",
+      "chapter": 12,
+      "position": {
+        "lat": 32.2133,
+        "lon": 35.2819
+      },
+      "confidence": "geocoded",
+      "notes": "Placed near Tell Balata/Nablus."
+    },
+    {
+      "id": "bethel",
+      "name": "Bethel",
+      "chapter": 12,
+      "position": {
+        "lat": 31.9306,
+        "lon": 35.2214
+      },
+      "confidence": "geocoded",
+      "notes": "Placed near Beitin, a common proxy for biblical Bethel."
+    },
+    {
+      "id": "negev",
+      "name": "Negev",
+      "chapter": 12,
+      "position": {
+        "lat": 30.8,
+        "lon": 34.8
+      },
+      "confidence": "estimated",
+      "notes": "Regional waypoint for the south country named in the text."
+    },
+    {
+      "id": "egypt-lower",
+      "name": "Egypt",
+      "chapter": 12,
+      "position": {
+        "lat": 30.6,
+        "lon": 31
+      },
+      "confidence": "estimated",
+      "notes": "Lower Egypt proxy; Genesis does not name Abram's Egyptian stopping place."
+    },
+    {
+      "id": "hebron",
+      "name": "Hebron / Mamre",
+      "chapter": 13,
+      "position": {
+        "lat": 31.5326,
+        "lon": 35.0998
+      },
+      "confidence": "geocoded",
+      "notes": "Hebron is used for Mamre, Kiriath-arba, and Machpelah context in this map."
+    },
+    {
+      "id": "dan",
+      "name": "Dan",
+      "chapter": 14,
+      "position": {
+        "lat": 33.2486,
+        "lon": 35.6525
+      },
+      "confidence": "geocoded",
+      "notes": "Northern pursuit waypoint named in Genesis 14."
+    },
+    {
+      "id": "hobah",
+      "name": "Hobah near Damascus",
+      "chapter": 14,
+      "position": {
+        "lat": 33.7,
+        "lon": 36.3
+      },
+      "confidence": "estimated",
+      "notes": "Hobah is placed schematically north of Damascus; the exact site is uncertain."
+    },
+    {
+      "id": "salem",
+      "name": "Salem",
+      "chapter": 14,
+      "position": {
+        "lat": 31.778,
+        "lon": 35.235
+      },
+      "confidence": "textual",
+      "notes": "Salem is modeled at Jerusalem, following a traditional identification."
+    },
+    {
+      "id": "wilderness-shur",
+      "name": "Wilderness of Shur",
+      "chapter": 16,
+      "position": {
+        "lat": 30.6,
+        "lon": 33.3
+      },
+      "confidence": "estimated",
+      "notes": "Regional proxy for Hagar's flight toward Shur."
+    },
+    {
+      "id": "beer-lahai-roi",
+      "name": "Beer-lahai-roi",
+      "chapter": 16,
+      "position": {
+        "lat": 30.75,
+        "lon": 34.7
+      },
+      "confidence": "estimated",
+      "notes": "Estimated Negev/wilderness proxy for the well Beer-lahai-roi, described as between Kadesh and Bered and later associated with Isaac."
+    },
+    {
+      "id": "sodom-plain",
+      "name": "Sodom / Plain of Jordan",
+      "chapter": 19,
+      "position": {
+        "lat": 31.2,
+        "lon": 35.5
+      },
+      "confidence": "estimated",
+      "notes": "Debated Sodom location; this uses a Dead Sea plain proxy."
+    },
+    {
+      "id": "zoar",
+      "name": "Zoar",
+      "chapter": 19,
+      "position": {
+        "lat": 30.94,
+        "lon": 35.37
+      },
+      "confidence": "estimated",
+      "notes": "Southern Dead Sea proxy for Zoar."
+    },
+    {
+      "id": "lot-mountain-cave",
+      "name": "Lot's mountain cave",
+      "chapter": 19,
+      "position": {
+        "lat": 31.15,
+        "lon": 35.65
+      },
+      "confidence": "estimated",
+      "notes": "Schematic mountain/cave east of the Dead Sea after Lot leaves Zoar; Genesis does not name the exact site."
+    },
+    {
+      "id": "gerar",
+      "name": "Gerar",
+      "chapter": 20,
+      "position": {
+        "lat": 31.38,
+        "lon": 34.6
+      },
+      "confidence": "estimated",
+      "notes": "Placed near a common Negev proxy for Gerar; the archaeological identification is debated."
+    },
+    {
+      "id": "beersheba",
+      "name": "Beersheba",
+      "chapter": 21,
+      "position": {
+        "lat": 31.252,
+        "lon": 34.7915
+      },
+      "confidence": "geocoded",
+      "notes": "Modern Beersheba/Tel Beersheba region."
+    },
+    {
+      "id": "moriah",
+      "name": "Moriah",
+      "chapter": 22,
+      "position": {
+        "lat": 31.778,
+        "lon": 35.235
+      },
+      "confidence": "textual",
+      "notes": "Modeled at Jerusalem as a traditional Moriah proxy; Genesis itself leaves the exact mountain unspecified."
+    },
+    {
+      "id": "wilderness-paran",
+      "name": "Wilderness of Paran",
+      "chapter": 21,
+      "position": {
+        "lat": 29.7,
+        "lon": 34.8
+      },
+      "confidence": "estimated",
+      "notes": "Regional desert proxy for Ishmael's later wilderness setting."
+    }
+  ],
+  "paths": [
+    {
+      "id": "ur-haran-abraham",
+      "title": "Ur to Haran",
+      "medium": "caravan",
+      "start": {
+        "waypointId": "ur"
+      },
+      "end": {
+        "waypointId": "haran"
+      },
+      "chapterStart": 11,
+      "chapterEnd": 11,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Terah takes Abram, Sarai, and Lot from Ur toward Canaan and settles at Haran; route is schematic across Mesopotamia.",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "Ur to Haran",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ],
+      "points": [
+        {
+          "lat": 32.5,
+          "lon": 44.4
+        },
+        {
+          "lat": 35,
+          "lon": 40.5
+        }
+      ]
+    },
+    {
+      "id": "haran-shechem-abraham",
+      "title": "Haran to Shechem",
+      "medium": "caravan",
+      "start": {
+        "waypointId": "haran"
+      },
+      "end": {
+        "waypointId": "shechem"
+      },
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Abram leaves Haran for Canaan and reaches the place of Shechem.",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Haran to Shechem",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ],
+      "points": [
+        {
+          "lat": 35.7,
+          "lon": 37
+        },
+        {
+          "lat": 33.9,
+          "lon": 36.3
+        }
+      ]
+    },
+    {
+      "id": "shechem-bethel-abraham",
+      "title": "Shechem to Bethel",
+      "medium": "caravan",
+      "start": {
+        "waypointId": "shechem"
+      },
+      "end": {
+        "waypointId": "bethel"
+      },
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Abram moves from Shechem to the mountain east of Bethel.",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Shechem to Bethel",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "bethel-negev-abraham",
+      "title": "Bethel toward the Negev",
+      "medium": "caravan",
+      "start": {
+        "waypointId": "bethel"
+      },
+      "end": {
+        "waypointId": "negev"
+      },
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Abram journeys southward by stages; the Negev waypoint is regional.",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Bethel toward the Negev",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "negev-egypt-abraham",
+      "title": "Famine descent to Egypt",
+      "medium": "famine",
+      "start": {
+        "waypointId": "negev"
+      },
+      "end": {
+        "waypointId": "egypt-lower"
+      },
+      "chapterStart": 12,
+      "chapterEnd": 12,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The famine journey into Egypt is source-supported but the Egyptian destination is not named.",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Famine descent to Egypt",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ],
+      "points": [
+        {
+          "lat": 31.5,
+          "lon": 34.5
+        },
+        {
+          "lat": 30.9,
+          "lon": 33.8
+        }
+      ]
+    },
+    {
+      "id": "egypt-bethel-abraham",
+      "title": "Return from Egypt to Bethel",
+      "medium": "return",
+      "start": {
+        "waypointId": "egypt-lower"
+      },
+      "end": {
+        "waypointId": "bethel"
+      },
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Abram returns from Egypt through the south to the earlier Bethel altar area.",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "Return from Egypt to Bethel",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ],
+      "points": [
+        {
+          "lat": 30.9,
+          "lon": 33.8
+        },
+        {
+          "lat": 30.8,
+          "lon": 34.8
+        }
+      ]
+    },
+    {
+      "id": "bethel-hebron-abraham",
+      "title": "Bethel to Mamre at Hebron",
+      "medium": "caravan",
+      "start": {
+        "waypointId": "bethel"
+      },
+      "end": {
+        "waypointId": "hebron"
+      },
+      "chapterStart": 13,
+      "chapterEnd": 13,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "After separating from Lot, Abram dwells by the oaks of Mamre near Hebron.",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "Bethel to Mamre at Hebron",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "hebron-hobah-rescue",
+      "title": "Pursuit to Dan and Hobah",
+      "medium": "pursuit",
+      "start": {
+        "waypointId": "hebron"
+      },
+      "end": {
+        "waypointId": "hobah"
+      },
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Abram pursues the captors north as far as Dan and Hobah; the Hobah point is estimated.",
+      "sourceRefs": [
+        {
+          "chapter": 14,
+          "label": "Pursuit to Dan and Hobah",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ],
+      "points": [
+        {
+          "lat": 33.2486,
+          "lon": 35.6525
+        }
+      ]
+    },
+    {
+      "id": "hobah-salem-hebron",
+      "title": "Return through Salem",
+      "medium": "return",
+      "start": {
+        "waypointId": "hobah"
+      },
+      "end": {
+        "waypointId": "hebron"
+      },
+      "chapterStart": 14,
+      "chapterEnd": 14,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The return from the rescue is modeled through Salem for the Melchizedek encounter.",
+      "sourceRefs": [
+        {
+          "chapter": 14,
+          "label": "Return through Salem",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ],
+      "points": [
+        {
+          "lat": 31.778,
+          "lon": 35.235
+        }
+      ]
+    },
+    {
+      "id": "hebron-shur-hagar",
+      "title": "Hagar flees toward Shur",
+      "medium": "wilderness",
+      "start": {
+        "waypointId": "hebron"
+      },
+      "end": {
+        "waypointId": "wilderness-shur"
+      },
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "Hagar's flight is a branch route in the Abraham cycle; the well on the way to Shur is modeled regionally.",
+      "sourceRefs": [
+        {
+          "chapter": 16,
+          "label": "Hagar by the fountain on the way to Shur",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "shur-hebron-hagar-return",
+      "title": "Hagar returns to Sarai",
+      "medium": "return",
+      "start": {
+        "waypointId": "wilderness-shur"
+      },
+      "end": {
+        "waypointId": "hebron"
+      },
+      "chapterStart": 16,
+      "chapterEnd": 16,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "The angel tells Hagar to return; this reverse route is inferred from the command.",
+      "sourceRefs": [
+        {
+          "chapter": 16,
+          "label": "Hagar told to return",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "sodom-zoar-lot",
+      "title": "Lot escapes Sodom to Zoar",
+      "medium": "branch",
+      "start": {
+        "waypointId": "sodom-plain"
+      },
+      "end": {
+        "waypointId": "zoar"
+      },
+      "chapterStart": 19,
+      "chapterEnd": 19,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "Lot's first escape leg is modeled from Sodom to Zoar. Both Sodom and Zoar coordinates are debated proxies; Genesis then continues Lot's movement to an unnamed mountain cave.",
+      "sourceRefs": [
+        {
+          "chapter": 19,
+          "label": "Lot escapes Sodom to Zoar",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "zoar-mountain-cave-lot",
+      "title": "Lot leaves Zoar for the mountain cave",
+      "medium": "branch",
+      "start": {
+        "waypointId": "zoar"
+      },
+      "end": {
+        "waypointId": "lot-mountain-cave"
+      },
+      "chapterStart": 19,
+      "chapterEnd": 19,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "Genesis continues Lot's escape after Zoar: he leaves Zoar and dwells in a mountain cave with his daughters. The cave location is unnamed and modeled schematically.",
+      "sourceRefs": [
+        {
+          "chapter": 19,
+          "label": "Lot leaves Zoar for the mountain cave",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "hebron-gerar-abraham",
+      "title": "Abraham sojourns in Gerar",
+      "medium": "caravan",
+      "start": {
+        "waypointId": "hebron"
+      },
+      "end": {
+        "waypointId": "gerar"
+      },
+      "chapterStart": 20,
+      "chapterEnd": 20,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "Abraham journeys toward the south country and dwells between Kadesh and Shur, then sojourns in Gerar.",
+      "sourceRefs": [
+        {
+          "chapter": 20,
+          "label": "Abraham sojourns in Gerar",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "gerar-beersheba-abraham",
+      "title": "Gerar to Beersheba",
+      "medium": "caravan",
+      "start": {
+        "waypointId": "gerar"
+      },
+      "end": {
+        "waypointId": "beersheba"
+      },
+      "chapterStart": 21,
+      "chapterEnd": 21,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The covenant at Beersheba anchors Abraham in the Negev after the Gerar episode.",
+      "sourceRefs": [
+        {
+          "chapter": 21,
+          "label": "Gerar to Beersheba",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "beersheba-paran-hagar",
+      "title": "Hagar and Ishmael toward Paran",
+      "medium": "wilderness",
+      "start": {
+        "waypointId": "beersheba"
+      },
+      "end": {
+        "waypointId": "wilderness-paran"
+      },
+      "chapterStart": 21,
+      "chapterEnd": 21,
+      "distanceSource": "estimated",
+      "confidence": "estimated",
+      "notes": "This branch follows Hagar and Ishmael from Beersheba into the wilderness, ending at a Paran regional proxy.",
+      "sourceRefs": [
+        {
+          "chapter": 21,
+          "label": "Hagar and Ishmael toward Paran",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "beersheba-moriah-abraham",
+      "title": "Beersheba to Moriah",
+      "medium": "caravan",
+      "start": {
+        "waypointId": "beersheba"
+      },
+      "end": {
+        "waypointId": "moriah"
+      },
+      "chapterStart": 22,
+      "chapterEnd": 22,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The binding of Isaac route is modeled from Beersheba to a traditional Jerusalem/Moriah proxy.",
+      "sourceRefs": [
+        {
+          "chapter": 22,
+          "label": "Beersheba to Moriah",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "moriah-beersheba-abraham",
+      "title": "Return to Beersheba",
+      "medium": "return",
+      "start": {
+        "waypointId": "moriah"
+      },
+      "end": {
+        "waypointId": "beersheba"
+      },
+      "chapterStart": 22,
+      "chapterEnd": 22,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Genesis reports Abraham returning to Beersheba after the Moriah episode.",
+      "sourceRefs": [
+        {
+          "chapter": 22,
+          "label": "Return to Beersheba",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "beersheba-hebron-sarah",
+      "title": "Beersheba to Hebron for Sarah",
+      "medium": "caravan",
+      "start": {
+        "waypointId": "beersheba"
+      },
+      "end": {
+        "waypointId": "hebron"
+      },
+      "chapterStart": 23,
+      "chapterEnd": 23,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Sarah dies at Kiriath-arba/Hebron; the move from Abraham's prior Beersheba setting is inferred.",
+      "sourceRefs": [
+        {
+          "chapter": 23,
+          "label": "Beersheba to Hebron for Sarah",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "id": "hebron-haran-servant",
+      "title": "Servant sent to Mesopotamia",
+      "medium": "servant",
+      "start": {
+        "waypointId": "hebron"
+      },
+      "end": {
+        "waypointId": "haran"
+      },
+      "chapterStart": 24,
+      "chapterEnd": 24,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "Abraham's servant travels to the city of Nahor in Mesopotamia; Haran is used as the proxy and Abraham's exact household location in the chapter is not named.",
+      "sourceRefs": [
+        {
+          "chapter": 24,
+          "label": "Servant sent to Mesopotamia",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ],
+      "points": [
+        {
+          "lat": 33.9,
+          "lon": 36.3
+        },
+        {
+          "lat": 35.7,
+          "lon": 37
+        }
+      ]
+    },
+    {
+      "id": "haran-beer-lahai-roi-rebekah",
+      "title": "Rebekah brought to Isaac in the south country",
+      "medium": "servant",
+      "start": {
+        "waypointId": "haran"
+      },
+      "end": {
+        "waypointId": "beer-lahai-roi"
+      },
+      "chapterStart": 24,
+      "chapterEnd": 24,
+      "distanceSource": "estimated",
+      "confidence": "textual",
+      "notes": "The servant returns with Rebekah; Genesis places Isaac coming from the way of Beer-lahai-roi and dwelling in the south country, so this endpoint is a schematic Negev proxy rather than Hebron.",
+      "sourceRefs": [
+        {
+          "chapter": 24,
+          "label": "Rebekah brought to Isaac in the south country",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ],
+      "points": [
+        {
+          "lat": 35.7,
+          "lon": 37
+        },
+        {
+          "lat": 33.9,
+          "lon": 36.3
+        }
+      ]
+    }
+  ],
+  "chapterFacts": [
+    {
+      "chapter": 11,
+      "movement": "surface",
+      "anchor": "Ur to Haran",
+      "locationFacts": [
+        "Terah takes Abram, Sarai, and Lot from Ur toward Canaan, stopping at Haran."
+      ],
+      "deltaFacts": [
+        "Mapped displacement: ur-haran-abraham."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: ur-haran-abraham.",
+      "segmentIds": [
+        "ur-haran-abraham"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 11,
+          "label": "Genesis 11",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "movement": "surface",
+      "anchor": "Haran, Canaan, Negev, and Egypt",
+      "locationFacts": [
+        "Abram leaves Haran, enters Canaan at Shechem and Bethel, then goes south and down to Egypt during famine."
+      ],
+      "deltaFacts": [
+        "Mapped displacements: haran-shechem-abraham, shechem-bethel-abraham, bethel-negev-abraham, negev-egypt-abraham."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: haran-shechem-abraham, shechem-bethel-abraham, bethel-negev-abraham, negev-egypt-abraham.",
+      "segmentIds": [
+        "haran-shechem-abraham",
+        "shechem-bethel-abraham",
+        "bethel-negev-abraham",
+        "negev-egypt-abraham"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 12,
+          "label": "Genesis 12",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "movement": "return",
+      "anchor": "Bethel and Mamre",
+      "locationFacts": [
+        "Abram returns from Egypt to the Bethel altar area and later dwells by Mamre at Hebron."
+      ],
+      "deltaFacts": [
+        "Mapped displacements: egypt-bethel-abraham and bethel-hebron-abraham."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: egypt-bethel-abraham, bethel-hebron-abraham.",
+      "segmentIds": [
+        "egypt-bethel-abraham",
+        "bethel-hebron-abraham"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 13,
+          "label": "Genesis 13",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "movement": "surface",
+      "anchor": "Hebron, Dan, Hobah, and Salem",
+      "locationFacts": [
+        "Abram pursues the captors north to Dan and Hobah, then returns through the Salem encounter."
+      ],
+      "deltaFacts": [
+        "Mapped displacements: hebron-hobah-rescue and hobah-salem-hebron."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: hebron-hobah-rescue, hobah-salem-hebron.",
+      "segmentIds": [
+        "hebron-hobah-rescue",
+        "hobah-salem-hebron"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 14,
+          "label": "Genesis 14",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "movement": "stationary",
+      "anchor": "Mamre / Hebron",
+      "locationFacts": [
+        "The covenant vision is placed at Abram's Mamre-Hebron setting."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this covenant chapter."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Genesis 15.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 15,
+          "label": "Genesis 15",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "movement": "surface",
+      "anchor": "Mamre and the way to Shur",
+      "locationFacts": [
+        "Hagar flees from Sarai toward Shur and is told to return."
+      ],
+      "deltaFacts": [
+        "Mapped branch displacements: hebron-shur-hagar and shur-hebron-hagar-return."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: hebron-shur-hagar, shur-hebron-hagar-return.",
+      "segmentIds": [
+        "hebron-shur-hagar",
+        "shur-hebron-hagar-return"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 16,
+          "label": "Genesis 16",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "movement": "stationary",
+      "anchor": "Mamre / Hebron",
+      "locationFacts": [
+        "The covenant of circumcision is mapped as Abraham's Hebron-area setting."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this chapter."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Genesis 17.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 17,
+          "label": "Genesis 17",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "movement": "stationary",
+      "anchor": "Oaks of Mamre",
+      "locationFacts": [
+        "The visitors appear to Abraham by the oaks of Mamre; the Sodom discussion is not modeled as Abraham travel."
+      ],
+      "deltaFacts": [
+        "No new mapped displacement is assigned to this chapter."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Genesis 18.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 18,
+          "label": "Genesis 18",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 19,
+      "movement": "surface",
+      "anchor": "Sodom, Zoar, and the mountain cave",
+      "locationFacts": [
+        "Lot escapes from Sodom to Zoar, then leaves Zoar and dwells in an unnamed mountain cave."
+      ],
+      "deltaFacts": [
+        "Mapped branch displacements: sodom-zoar-lot and zoar-mountain-cave-lot."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: sodom-zoar-lot, zoar-mountain-cave-lot.",
+      "segmentIds": [
+        "sodom-zoar-lot",
+        "zoar-mountain-cave-lot"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 19,
+          "label": "Genesis 19",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 20,
+      "movement": "surface",
+      "anchor": "Gerar",
+      "locationFacts": [
+        "Abraham sojourns in Gerar after traveling in the south country."
+      ],
+      "deltaFacts": [
+        "Mapped displacement: hebron-gerar-abraham."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: hebron-gerar-abraham.",
+      "segmentIds": [
+        "hebron-gerar-abraham"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 20,
+          "label": "Genesis 20",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 21,
+      "movement": "surface",
+      "anchor": "Beersheba and Paran",
+      "locationFacts": [
+        "The chapter anchors Abraham at Beersheba and follows Hagar and Ishmael into the wilderness."
+      ],
+      "deltaFacts": [
+        "Mapped displacements: gerar-beersheba-abraham and beersheba-paran-hagar."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: gerar-beersheba-abraham, beersheba-paran-hagar.",
+      "segmentIds": [
+        "gerar-beersheba-abraham",
+        "beersheba-paran-hagar"
+      ],
+      "confidence": "estimated",
+      "sourceRefs": [
+        {
+          "chapter": 21,
+          "label": "Genesis 21",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "movement": "return",
+      "anchor": "Beersheba and Moriah",
+      "locationFacts": [
+        "Abraham travels from Beersheba to the land of Moriah and returns to Beersheba."
+      ],
+      "deltaFacts": [
+        "Mapped displacements: beersheba-moriah-abraham and moriah-beersheba-abraham."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: beersheba-moriah-abraham, moriah-beersheba-abraham.",
+      "segmentIds": [
+        "beersheba-moriah-abraham",
+        "moriah-beersheba-abraham"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 22,
+          "label": "Genesis 22",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 23,
+      "movement": "surface",
+      "anchor": "Hebron / Machpelah",
+      "locationFacts": [
+        "Sarah dies at Kiriath-arba/Hebron and is buried in Machpelah."
+      ],
+      "deltaFacts": [
+        "Mapped displacement: beersheba-hebron-sarah."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: beersheba-hebron-sarah.",
+      "segmentIds": [
+        "beersheba-hebron-sarah"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 23,
+          "label": "Genesis 23",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 24,
+      "movement": "return",
+      "anchor": "City of Nahor and Beer-lahai-roi",
+      "locationFacts": [
+        "Abraham's servant travels to Mesopotamia, to the city of Nahor, and returns with Rebekah to Isaac near the south-country / Beer-lahai-roi setting."
+      ],
+      "deltaFacts": [
+        "Mapped displacements: hebron-haran-servant and haran-beer-lahai-roi-rebekah."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "Route geometry comes from mapped segment ids: hebron-haran-servant, haran-beer-lahai-roi-rebekah.",
+      "segmentIds": [
+        "hebron-haran-servant",
+        "haran-beer-lahai-roi-rebekah"
+      ],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 24,
+          "label": "Genesis 24",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    },
+    {
+      "chapter": 25,
+      "movement": "stationary",
+      "anchor": "Machpelah and Beer-lahai-roi",
+      "locationFacts": [
+        "Abraham is buried in Machpelah before Mamre, while the chapter also notes Isaac dwelling by Beer-lahai-roi and Abraham sending other sons eastward."
+      ],
+      "deltaFacts": [
+        "No mapped route segment is added because the eastward sending has no named start or endpoint in the chapter."
+      ],
+      "slopeFacts": [
+        "Surface or contextual geography; no depth movement is modeled."
+      ],
+      "xyzEstimate": "No XYZ route delta is modeled for Genesis 25.",
+      "segmentIds": [],
+      "confidence": "textual",
+      "sourceRefs": [
+        {
+          "chapter": 25,
+          "label": "Genesis 25",
+          "url": "https://www.gutenberg.org/cache/epub/8001/pg8001-images.html"
+        }
+      ]
+    }
+  ]
+}
