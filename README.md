@@ -12,6 +12,20 @@ VITE_GTM_ID=GTM-XXXXXXX npm run build
 
 See `docs/analytics-tracking-plan.md` for the event contract and GTM/GA4 setup notes.
 
+## AdSense
+
+Mapped Fiction loads Google AdSense Auto Ads when a valid AdSense publisher ID is
+available at build time:
+
+```sh
+VITE_ADSENSE_CLIENT_ID=ca-pub-0000000000000000 npm run build
+```
+
+Use the publisher ID from AdSense account settings. The value must start with
+`ca-pub-`. Auto Ads placements and formats are controlled from the AdSense
+dashboard after the site is connected and approved. Production builds with this
+environment variable also generate `/ads.txt` for AdSense authorization.
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
