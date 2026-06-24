@@ -103,6 +103,55 @@ export function getSitemapRoutes(books = readBooks()) {
   ])
 }
 
+export function getSitemapRouteGroups(routes) {
+  const canonicalRoutes = assertUniqueRoutes(routes)
+
+  return [
+    {
+      fileName: 'sitemap-titles.xml',
+      label: 'titles',
+      routes: canonicalRoutes.filter(isTitleRoute),
+    },
+    {
+      fileName: 'sitemap-support.xml',
+      label: 'support',
+      routes: canonicalRoutes.filter((route) => !isTitleRoute(route)),
+    },
+  ].filter((group) => group.routes.length > 0)
+}
+
+export function isTitleRoute(route) {
+  return route === '/titles/' || route.startsWith('/titles/')
+}
+
+export function routePriority(route) {
+  if (route === '/' || route === '/titles/') {
+    return '1.0'
+  }
+
+  if (route.startsWith('/titles/')) {
+    if (/\/chapter-\d+\/$/.test(route)) {
+      return '0.8'
+    }
+
+    return '0.9'
+  }
+
+  if (route === '/authors/' || route === '/locations/') {
+    return '0.6'
+  }
+
+  if (route.startsWith('/authors/')) {
+    return '0.5'
+  }
+
+  if (route.startsWith('/locations/')) {
+    return '0.4'
+  }
+
+  return '0.5'
+}
+
 export function assertUniqueRoutes(routes) {
   const seen = new Set()
   const duplicates = new Set()
@@ -125,19 +174,42 @@ export function assertUniqueRoutes(routes) {
 export function renderSitemap(routes, options = {}) {
   const siteUrl = normalizeSiteUrl(options.siteUrl)
   const lastmod = options.lastmod ?? defaultLastmod
+  const priorityForRoute = options.priorityForRoute ?? routePriority
   const urls = assertUniqueRoutes(routes)
-    .map(
-      (route) => `
+    .map((route) => {
+      const priority = priorityForRoute(route)
+
+      return `
   <url>
     <loc>${escapeXml(`${siteUrl}${route}`)}</loc>
     <lastmod>${escapeXml(lastmod)}</lastmod>
-  </url>`,
-    )
+    ${priority ? `<priority>${escapeXml(priority)}</priority>` : ''}
+  </url>`
+    })
     .join('')
 
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls}
 </urlset>
+`
+}
+
+export function renderSitemapIndex(groups, options = {}) {
+  const siteUrl = normalizeSiteUrl(options.siteUrl)
+  const lastmod = options.lastmod ?? defaultLastmod
+  const sitemaps = groups
+    .map(
+      (group) => `
+  <sitemap>
+    <loc>${escapeXml(`${siteUrl}/${group.fileName}`)}</loc>
+    <lastmod>${escapeXml(lastmod)}</lastmod>
+  </sitemap>`,
+    )
+    .join('')
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${sitemaps}
+</sitemapindex>
 `
 }
 
@@ -155,16 +227,26 @@ export function writeSitemapFiles(options = {}) {
   const siteUrl = normalizeSiteUrl(options.siteUrl)
   const lastmod = options.lastmod ?? process.env.SITEMAP_LASTMOD ?? defaultLastmod
   const routes = options.routes ?? getSitemapRoutes()
+  const groups = getSitemapRouteGroups(routes)
+  const sitemapIndexPath = path.join(outDir, 'sitemap.xml')
 
   fs.mkdirSync(outDir, { recursive: true })
-  fs.writeFileSync(path.join(outDir, 'sitemap.xml'), renderSitemap(routes, { siteUrl, lastmod }))
+  for (const group of groups) {
+    fs.writeFileSync(
+      path.join(outDir, group.fileName),
+      renderSitemap(group.routes, { siteUrl, lastmod }),
+    )
+  }
+
+  fs.writeFileSync(sitemapIndexPath, renderSitemapIndex(groups, { siteUrl, lastmod }))
   fs.writeFileSync(path.join(outDir, 'robots.txt'), renderRobots({ siteUrl }))
 
   return {
+    groups,
     outDir,
     routeCount: routes.length,
     robotsPath: path.join(outDir, 'robots.txt'),
-    sitemapPath: path.join(outDir, 'sitemap.xml'),
+    sitemapPath: sitemapIndexPath,
   }
 }
 
@@ -184,6 +266,8 @@ function isCliEntrypoint() {
 if (isCliEntrypoint()) {
   const result = writeSitemapFiles()
 
-  console.log(`Wrote ${result.routeCount} sitemap URLs to ${result.sitemapPath}`)
+  console.log(
+    `Wrote ${result.routeCount} sitemap URLs across ${result.groups.length} sitemap files to ${result.sitemapPath}`,
+  )
   console.log(`Wrote robots.txt to ${result.robotsPath}`)
 }

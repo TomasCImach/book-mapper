@@ -50,7 +50,6 @@ const pages = [
   ]),
   ...authorPages(models),
   ...locationPages(models),
-  ...legacyBookRedirectPages(models),
 ]
 
 for (const page of pages) {
@@ -785,51 +784,6 @@ function locationPages(activeModels) {
   })
 }
 
-function legacyBookRedirectPages(activeModels) {
-  return [
-    legacyRedirectPage('/books/', '/titles/', 'Mapped titles'),
-    ...activeModels.flatMap((model) => [
-      legacyRedirectPage(
-        `/books/${model.book.id}/`,
-        bookPath(model.book),
-        model.book.title,
-      ),
-      legacyRedirectPage(
-        `/books/${model.book.id}/route/`,
-        routePath(model.book),
-        `${model.book.title} route table`,
-      ),
-      ...model.book.chapters.map((chapter) =>
-        legacyRedirectPage(
-          `/books/${model.book.id}/chapter-${chapter.number}/`,
-          chapterPath(model.book, chapter.number),
-          `${model.book.title} chapter ${chapter.number}`,
-        ),
-      ),
-    ]),
-  ]
-}
-
-function legacyRedirectPage(route, redirectTo, label) {
-  return {
-    route,
-    canonicalRoute: redirectTo,
-    redirectTo,
-    title: `${label} moved to titles | Mapped Fiction`,
-    description: `${label} now lives under the Mapped Fiction titles catalog.`,
-    body: `
-      ${breadcrumb([
-        { label: 'Home', href: '/' },
-        { label: 'Titles', href: '/titles/' },
-        { label, href: redirectTo },
-      ])}
-      <p class="seo-kicker">Route moved</p>
-      <h1>${escapeHtml(label)} moved to titles</h1>
-      <p>This page has moved to <a href="${escapeAttr(redirectTo)}">${escapeHtml(redirectTo)}</a>.</p>`,
-    jsonLd: [],
-  }
-}
-
 function writePage(page) {
   const html = renderHtml(page)
   const file = outputFileForRoute(page.route)
@@ -842,11 +796,6 @@ function renderHtml(page) {
   const canonical = `${siteUrl}${page.canonicalRoute ?? page.route}`
   const isCatalogRoute = isCatalogPageRoute(page.route)
   const bodyClass = isCatalogRoute ? 'seo-catalog-page' : 'seo-map-page'
-  const redirectHead = page.redirectTo
-    ? `
-    <meta http-equiv="refresh" content="0; url=${escapeAttr(page.redirectTo)}" />
-    <meta name="robots" content="noindex,follow" />`
-    : ''
   const jsonLd = page.jsonLd
     .map((item) => {
       const json = JSON.stringify(item).replace(/</g, '\\u003c')
@@ -863,7 +812,6 @@ function renderHtml(page) {
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="${escapeAttr(page.title)}" />
     <meta name="twitter:description" content="${escapeAttr(page.description)}" />
-    ${redirectHead}
     ${jsonLd}`
   const article = `
     <article class="seo-document">
@@ -895,7 +843,6 @@ function outputFileForRoute(route) {
 function isCatalogPageRoute(route) {
   return (
     route === '/titles/' ||
-    route === '/books/' ||
     route === '/authors/' ||
     route === '/locations/' ||
     route.startsWith('/authors/')
